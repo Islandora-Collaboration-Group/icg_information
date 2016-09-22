@@ -61,7 +61,7 @@
 * [Mark McFate](https://github.com/McFateM) (Grinnell College, Digital Library Applications Developer)
 * [Martha Tenney](https://github.com/MarthaTenney) (Barnard College, Digital Archivist)
 * [Noah Smith](https://github.com/noahwsmith) (Common Media Inc., CEO)
-* [Patrick Dunlavey](https://github.com/patdunlavey) (Common Media Interactive)
+* [Patrick Dunlavey](https://github.com/patdunlavey) (Common Media Inc., Senior Drupal & Islandora Developer)
 * [Peter MacDonald](https://github.com/dhinitiative) (Hamilton College, Library Information Systems Specialist)
 * Rebecca Ciota (Grinnell College, Discovery and Systems Librarian)
 * Shay Foley (Hamilton College, Director, Metadata and Digital Strategies)
