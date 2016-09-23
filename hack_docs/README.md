@@ -1,13 +1,23 @@
-# Hack/Docs
+# ICG Hack/Docs
 
-## TODO
+## Purpose
+
+* A hack/doc combines the form of a hackathon -- bringing coders together to work on a predetermined problem in a large block of time -- with a substantial documentation component. 
+* This is a much more inclusive and open way to conduct a hackathon, incorporating multiple perspectives and insights into the problems at hand.
+* Typically, each project is broken into small chunks and worked on by groups of 2-3 people.
+* Discussions are an important by-product of working together.
+
+## How to participate
+
+* Send a request to the ICG (islandora-consortium-group@googlegroups.com)
+
+## Events (location rotates between members)
+
+* [01_Vassar_2016](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/01_Vassar_2016.md)
+* [02_Wesleyan_2016](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
+* [03_Williams_2017](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
+
+## Template Folder: How to Run a Hack/Doc
 
 * [Template: How to run a hack/doc](https://github.com/Islandora-Collaboration-Group/icg_information/hack_docs/template_how_to_run_a_hack_doc)
-* [Wesleyan-hack-doc-2016](https://github.com/Islandora-Collaboration-Group/icg_information/hack_docs/20160921-Wesleyan-hack-doc)
-* [Vassar-hack-doc-2016](https://github.com/Islandora-Collaboration-Group/icg_information/hack_docs/20160331-Vassar-hack-doc)
-
-
-## TODO
-
-* todo
 
