@@ -20,22 +20,6 @@ General communication and meeting announcements happen via the islandora-consort
 
 * Send a request to the ICG (islandora-consortium-group@googlegroups.com)
 
-## Links
-
-### Github Repos
-
-* [Islandora Collaboration Group](https://github.com/Islandora-Collaboration-Group)
-* [obsolete? - Islandora Liberal Arts College Core](https://github.com/islandora-liberal-arts-college-core)
-* [obsolete? - googlesite](https://sites.google.com/site/islandoraconsortiagroup/home/useful-links)
-
-### Islandora Support
-* [For Developers](http://islandora.ca/developers)
-* [Resources: modules, forms, logos, tools, beta, etc.](http://islandora.ca/resources)
-* [User/Developer Articles](https://github.com/islandora/islandora/wiki)
-
-### Repository Utilities
-* [EULfedora - python library for creating and managing Fedora digital objects](http://eulfedora.readthedocs.io/en/1.7.2/)
-
 
 ## Membership
 
@@ -65,9 +49,9 @@ General communication and meeting announcements happen via the islandora-consort
 * [Steve Young](https://github.com/hamhpc) (Hamilton College, Unix/HPC System Administrator)
 
 
-## [What is Islandora](http://islandora.ca)
+## What is Islandora
 
-* todo
+* [Islandora](http://islandora.ca)
 
 ## ICG Involvement in the Islandora Community
 
@@ -85,3 +69,20 @@ General communication and meeting announcements happen via the islandora-consort
 
 * [Summary of Steps for Creating an Islandora Webform](https://sites.google.com/site/islandoraconsortiagroup/home/iw-module/iw-brief-steps)
 * [Islandora Webform module](https://sites.google.com/site/islandoraconsortiagroup/home/iw-module)
+
+
+## Links
+
+### Github Repos
+
+* [Islandora Collaboration Group](https://github.com/Islandora-Collaboration-Group)
+* obsolete? - [Islandora Liberal Arts College Core](https://github.com/islandora-liberal-arts-college-core)
+* obsolete? - [googlesite](https://sites.google.com/site/islandoraconsortiagroup/home/useful-links)
+
+### Islandora Support
+* [Islandora: Developers](http://islandora.ca/developers)
+* [Islandora: Resources](http://islandora.ca/resources) (modules, forms, logos, tools, beta, etc.)
+* [Islandora: Wiki](https://github.com/islandora/islandora/wiki)
+
+### Repository Utilities
+* [EULfedora - python library for creating and managing Fedora digital objects](http://eulfedora.readthedocs.io/en/1.7.2/)
