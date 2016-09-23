@@ -1,4 +1,4 @@
-# ICG Hack/Doc: Williams College (Williamstown, MA)
+# ICG Hack/Doc @ Williams College (Williamstown, MA)
 
 ## Date
 
@@ -21,6 +21,10 @@ May xx-xx, 2017
 ## Next meeting
 
 March 21-22, 201X @ Institution_Name (City, State)
+
+## Schedule
+
+
 
 ## Notes from the event
 

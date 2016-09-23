@@ -1,4 +1,4 @@
-﻿# ICG Hack/Doc: Wesleyan University (Middleton, CT)
+﻿# ICG Hack/Doc @ Wesleyan University (Middleton, CT)
 
 ## Date
 
@@ -34,10 +34,42 @@ September 21-22, 2016
 1. Jonathan Leamon (Williams - 9/21-22)
 1. Karen Gorss Benko (Williams - 9/21-22)
 
-
 ## Next meeting
 
 May xx-xx, 2017 @ Williams College (Williamstown, MA)
+
+## Schedule
+
+### Wednesday, September 21 
+
+* 8:30am Breakfast, get set up
+* 9:30-10:30am Hack/doc begins! Introductions + planning
+*  CSV Importer
+*  Islandora-in-a-Box
+*  Notes for the day 
+* 10:30-10:35am Break
+* 10:35-11:15am Break into hack/doc groups, check roles and goals
+* 11:15am-12:15pm Hack + doc
+* 12:15-1:15pm Lunch
+* 1:15-3pm Hack + doc
+* 3-3:15pm Break
+* 3:15-4pm Hack + doc
+* 4-5pm Preliminary reporting, discussion about what is going right and what isn’t working
+* Post 5pm Dinner on your own (or we could get dinner together downtown if people are up for it)
+*  
+### Thursday, September 22 
+
+* 8:30am Breakfast, get set up, notes for the day
+* 9:30-10:30am Finish documenting and testing (code if necessary)
+* 10:30-10:35am Break
+* 10:35am- 12pm Informal presenting on the finished CSV Importer followed by informal presenting on recommended dev environments
+* 12-1pm Lunch
+* 1-3pm Discuss dev environment plan (to be sent to the Steering Committee for next steps/discussion)
+* 3-3:15pm Break
+* 3:15-4pm Wrap-up
+* 4-5pm Reflection on what has been accomplished and goal setting for what comes next
+* Post 5pm 
+
 
 ## Notes from the event
 
@@ -49,28 +81,23 @@ Three projects/goals:
 
 **CSV Importer**
 
-The master CSV Importer is now back on the ICG github.
+* The master CSV Importer is now back on the ICG github.
 
 CSV Backend
 
-	Git clone [https://github.com/Islandora-Collaboration-icg_csv_import](https://github.com/Islandora-Collaboration-icg_csv_import)
+* it clone [https://github.com/Islandora-Collaboration-icg_csv_import](https://github.com/Islandora-Collaboration-icg_csv_import)
 
 CSV UI
 
-	… icig_csv_import_ui
+* icig_csv_import_ui
 
 For Day 2:
 
-	Add issues from here [https://docs.google.com/spreadsheets/d/1dLGhCSPThKrGlXX0Hu6X_ONPUqDPlvjiy5EgcQbTW3g/edit#gid=0](https://docs.google.com/spreadsheets/d/1dLGhCSPThKrGlXX0Hu6X_ONPUqDPlvjiy5EgcQbTW3g/edit#gid=0)
-
-	To the issues queue here [https://github.com/Islandora-Collaboration-icg_csv_import](https://github.com/Islandora-Collaboration-icg_csv_import)
-
-	Sample csv with multiple attributes
-
-	Write up install methods - Francesca & Gavin
-
+* Add issues from here [https://docs.google.com/spreadsheets/d/1dLGhCSPThKrGlXX0Hu6X_ONPUqDPlvjiy5EgcQbTW3g/edit#gid=0](https://docs.google.com/spreadsheets/d/1dLGhCSPThKrGlXX0Hu6X_ONPUqDPlvjiy5EgcQbTW3g/edit#gid=0)
+* To the issues queue here [https://github.com/Islandora-Collaboration-icg_csv_import](https://github.com/Islandora-Collaboration-icg_csv_import)
+* Sample csv with multiple attributes
+* Write up install methods - Francesca & Gavin
 * Git install
-
 * Drush
 
 **Islandora in a Box**
@@ -81,20 +108,12 @@ Add to the stack matrix [https://docs.google.com/a/wesleyan.edu/spreadsheets/d/1
 
 For Day 2:
 
-	Fill in the matrix (as possible)
-
-		There is a bash script - learn more about it.
-
-		[https://github.com/Islandora-Collaboration-Group/islandora_stack_inventory/blob/master/islandora_stack_inventory.sh](https://github.com/Islandora-Collaboration-Group/islandora_stack_inventory/blob/master/islandora_stack_inventory.sh) 
-
-	
-
-1 hour sprint on metadata
-
-		Should there a working group?
-
-	More on the general sense of where this proposal stands
-
+* Fill in the matrix (as possible)
+* There is a bash script - learn more about it.
+* [https://github.com/Islandora-Collaboration-Group/islandora_stack_inventory/blob/master/islandora_stack_inventory.sh](https://github.com/Islandora-Collaboration-Group/islandora_stack_inventory/blob/master/islandora_stack_inventory.sh) 
+* 1 hour sprint on metadata
+* Should there a working group?
+* More on the general sense of where this proposal stands
 * The [Islandora-in-a-Box](https://docs.google.com/document/d/1tEeJEOAUN1xMz-zTZUpX99UQ6ddXfw-acYQu1D60Pcw/edit?usp=sharing) project’s goal is for the working group to return an improved Islandora-in-a-Box document to the ICG Steering Committee for their consideration, discussion and acceptance as a project for shared development. Steps to be done at this hack/doc include:
 
     * Intro to Islandora-in-a-Box concept and outline the steps we hope to accomplish at the hack/doc:
@@ -247,7 +266,7 @@ Schedule a code sprint for a few weeks in the future to continue work
 
 * Continuing to refine the Bash scripts
 
-	
+
 
 **Peter and Kevin**
 

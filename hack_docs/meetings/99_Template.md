@@ -1,4 +1,4 @@
-# ICG Hack/Doc: Institution_Name (City, State)
+# ICG Hack/Doc @ Institution_Name (City, State)
 
 ## Date
 
@@ -21,6 +21,9 @@ September 21-22, 201X
 ## Next meeting
 
 March 21-22, 201X @ Institution_Name (City, State)
+
+## Schedule
+
 
 ## Notes from the event
 

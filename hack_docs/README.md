@@ -2,10 +2,10 @@
 
 ## Purpose
 
-* A hack/doc combines the form of a hackathon -- bringing coders together to work on a predetermined problem in a large block of time -- with a substantial documentation component. 
-* This is a much more inclusive and open way to conduct a hackathon, incorporating multiple perspectives and insights into the problems at hand.
-* Typically, each project is broken into small chunks and worked on by groups of 2-3 people.
-* Discussions are an important by-product of working together.
+A hack/doc combines the form of a hackathon -- bringing coders together to work on a predetermined problem in a large block of time -- with a substantial documentation component. 
+This is a much more inclusive and open way to conduct a hackathon, incorporating multiple perspectives and insights into the problems at hand.
+Typically, each project is broken into small chunks and worked on by groups of 2-3 people.
+Discussions are an important by-product of working together.
 
 ## How to participate
 
