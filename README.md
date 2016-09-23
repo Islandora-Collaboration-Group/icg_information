@@ -3,42 +3,39 @@
 ## Members
 
 * 3CDL (Hampshire College, Mount Holyoke, Smith College)
-* Barnard College
-* Grinnell College
-* Hamilton College
-* Vassar College
+* [Barnard College](http://digitalcollections.barnard.edu)
+* [Grinnell College](http://digital.grinnell.edu)
+* [Hamilton College](http://dhinitiative.org)
+* [Vassar College](https://digitallibrary.vassar.edu)
 * Wesleyan University
-* Williams College
+* [Williams College](http://unbound.williams.edu)
 
-## STUFF TODO
+## About Us
 
-* Url of main website: https://github.com/Islandora-Collaboration-Group
-* Contact email above
-* Mission statement of the ICG
-* Involvement in the Islandora Community
-* Intentions of help and wider adoption of Islandora
-* What is Islandora (url)
-* How to participate
-* Process for becoming a member of the ICG
-* Why become a member of the ICG
-* Current members of ICG
-* Logos and contact information (?)
-* Reference, merge, or link to this original ICG google site
-
-## Mission Statement
-
-* TODO
+ICG is a group of colleges working together to support and extend the Islandora tool through direct development, resource pooling, and advocacy.
+ICG has an all-members, face-to-face meeting about every 6 months where overall strategy, organization, and progress is reviewed and discussed. Additionally, ICG has working groups which meet via hangouts/skype and also conducts code sprints to continue projects from hack/doc events.
+General communication and meeting announcements happen via the islandora-consortium-group@googlegroups.com mailing list. Working groups or project teams may have mailing lists for discussions specific to that team or project.
 
 ## How to participate
 
-* Contact ___
-
-## Terms of Reference
-
-* ____
+* Send a request to the ICG (islandora-consortium-group@googlegroups.com)
 
 ## Links
-* ____
+
+### Github Repos
+
+* [Islandora Collaboration Group](https://github.com/Islandora-Collaboration-Group)
+* [obsolete? - Islandora Liberal Arts College Core](https://github.com/islandora-liberal-arts-college-core)
+* [obsolete? - googlesite](https://sites.google.com/site/islandoraconsortiagroup/home/useful-links)
+
+### Islandora Support
+* [For Developers](http://islandora.ca/developers)
+* [Resources: modules, forms, logos, tools, beta, etc.](http://islandora.ca/resources)
+* [User/Developer Articles](https://github.com/islandora/islandora/wiki)
+
+### Repository Utilities
+* [EULfedora - python library for creating and managing Fedora digital objects](http://eulfedora.readthedocs.io/en/1.7.2/)
+
 
 ## Membership
 
@@ -66,3 +63,25 @@
 * Rebecca Ciota (Grinnell College, Discovery and Systems Librarian)
 * Shay Foley (Hamilton College, Director, Metadata and Digital Strategies)
 * [Steve Young](https://github.com/hamhpc) (Hamilton College, Unix/HPC System Administrator)
+
+
+## [What is Islandora](http://islandora.ca)
+
+* todo
+
+## ICG Involvement in the Islandora Community
+
+* todo
+
+## Process for becoming a member of the ICG
+
+* todo
+
+## Why become a member of the ICG?
+
+* todo
+
+## Islandora WebForm
+
+* [Summary of Steps for Creating an Islandora Webform](https://sites.google.com/site/islandoraconsortiagroup/home/iw-module/iw-brief-steps)
+* [Islandora Webform module](https://sites.google.com/site/islandoraconsortiagroup/home/iw-module)
