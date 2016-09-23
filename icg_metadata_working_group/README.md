@@ -1,6 +1,18 @@
-# Meeting notes
+# ICG Metadata Working Group
 
-## title
+## Members
 
-* todo
+* Martha Tenney
+* 
+* 
+* 
 
+## How to participate
+
+* Send a request to the ICG (islandora-consortium-group@googlegroups.com)
+
+## Links
+
+* 
+* 
+* 

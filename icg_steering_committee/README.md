@@ -1,10 +1,22 @@
 # ICG Steering Committee
 
-## Meetings & Agendas for main group
+## Members
 
-* todo
+* Full Name (Institution)
+* Full Name (Institution)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
-## Meetings & Agendas for working groups
+## Links
 
-* todo
-
+* 
+* 
+* 

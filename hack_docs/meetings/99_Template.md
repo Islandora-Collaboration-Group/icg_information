@@ -6,7 +6,7 @@ September 21-22, 201X
 
 ## Agenda
 
-1. Business from [last meeting](https://github.com/Islandora-Collaboration-Group/icg_information/tree/master/hack_docs/meetings/XX.md)
+1. Business from [last meeting](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/XX_Institution_Year.md)
   1. 
   2. 
 1. Round table updates

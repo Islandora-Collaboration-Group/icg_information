@@ -6,7 +6,7 @@ September 21-22, 2016
 
 ## Agenda
 
-1. Business from [last meeting](https://github.com/Islandora-Collaboration-Group/icg_information/tree/master/hack_docs/meetings/01_Vassar_2016.md)
+1. Business from [last meeting](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/01_Vassar_2016.md)
   1. 
   2. 
 1. Round table updates
