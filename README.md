@@ -34,7 +34,7 @@ General communication and meeting announcements happen via the islandora-consort
 * [Jessika Drmacich-Flach](https://github.com/jgd1) (Williams College, Digital Resources Archivist)
 * [Joanna DiPasquale](https://github.com/jjdipasquale) (Vassar College, Head of Digital Scholarship and Technology Services)
 * John Neyssen (Wesleyan University, UNIX Systems Administer)
-* Jonathan Leamon (Williams College, Director of Instructional Technology)
+* [Jonathan Leamon](https://github.com/jmleamon) (Williams College, Director of Instructional Technology)
 * [Karen Gorss Benko](https://github.com/kgb1420) (Williams College, Catalogue Librarian)
 * Katie Nash (Williams College, College Archivist and Special Collections Librarian)
 * Lisa McFall (Hamilton College, Metadata and Catalog Librarian)
