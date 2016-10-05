@@ -23,23 +23,21 @@ General communication and meeting announcements happen via the islandora-consort
 
 ## Membership
 
-* [Benjamin Rosner](https://github.com/br2490) (Barnard College, Application Developer)
-* [Martha Tenney](https://github.com/MarthaTenney) (Barnard College, Digital Archivist)
+* Barnard College
+  * [Benjamin Rosner](https://github.com/br2490) (Application Developer)
+  * [Martha Tenney](https://github.com/MarthaTenney) (Digital Archivist)
 ---
-* [Patrick Dunlavey](https://github.com/patdunlavey) (Common Media Inc., Senior Drupal & Islandora Developer)
-* [Gavin Morris](https://github.com/g7morris) (Common Media Inc., Digital Repositories Team Lead, DevOps)
-* [Noah Smith](https://github.com/noahwsmith) (Common Media Inc., CEO)
----
-* Rebecca Ciota (Grinnell College, Discovery and Systems Librarian)
-* [Mark McFate](https://github.com/McFateM) (Grinnell College, Digital Library Applications Developer)
----
-* Shay Foley (Hamilton College, Director, Metadata and Digital Strategies)
-* [Greg Lord](https://github.com/gplord) (Hamilton College, DHI Lead Designer and Software Engineer)
-* [Peter MacDonald](https://github.com/dhinitiative) (Hamilton College, Library Information Systems Specialist)
-* Lisa McFall (Hamilton College, Metadata and Catalog Librarian)
-* [Aaron Neslin](https://github.com/aneslin) (Hamilton College, Discovery and Delivery Systems Analyst)
-* Janet Simons (Hamilton College, Co-Director, Digital Humanities Initiative)
-* [Steve Young](https://github.com/hamhpc) (Hamilton College, Unix/HPC System Administrator)
+* Grinnell College
+  * Rebecca Ciota (Discovery and Systems Librarian)
+  * [Mark McFate](https://github.com/McFateM) (Digital Library Applications Developer)
+* Hamilton College
+  * Shay Foley (Director, Metadata and Digital Strategies)
+  * [Greg Lord](https://github.com/gplord) (Hamilton College, DHI Lead Designer and Software Engineer)
+  * [Peter MacDonald](https://github.com/dhinitiative) (Hamilton College, Library Information Systems Specialist)
+  * Lisa McFall (Hamilton College, Metadata and Catalog Librarian)
+  * [Aaron Neslin](https://github.com/aneslin) (Hamilton College, Discovery and Delivery Systems Analyst)
+  * Janet Simons (Hamilton College, Co-Director, Digital Humanities Initiative)
+  * [Steve Young](https://github.com/hamhpc) (Hamilton College, Unix/HPC System Administrator)
 ---
 * [Tristan Chambers](https://github.com/TristanSmithlib) (Smith College, Digital Library Applications Administrator)
 ---
@@ -55,6 +53,10 @@ General communication and meeting announcements happen via the islandora-consort
 * [David Keiser-Clark](https://github.com/dwk2) (Williams College, Academic Application Developer)
 * [Jonathan Leamon](https://github.com/jmleamon) (Williams College, Director of Instructional Technology)
 * Katie Nash (Williams College, College Archivist and Special Collections Librarian)
+---
+* [Patrick Dunlavey](https://github.com/patdunlavey) (Common Media Inc., Senior Drupal & Islandora Developer)
+* [Gavin Morris](https://github.com/g7morris) (Common Media Inc., Digital Repositories Team Lead, DevOps)
+* [Noah Smith](https://github.com/noahwsmith) (Common Media Inc., CEO)
 
 
 ## What is Islandora
