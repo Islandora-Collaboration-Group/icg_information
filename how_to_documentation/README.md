@@ -4,7 +4,7 @@
 
 ## Topics
 
-* [how_to_git](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/how_to_git.md)
-* [how_to_vagrant](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/how_to_vagrant.md)
-* [how_to_virtual_box](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/how_to_virtual_box.md)
+* [help_with_git_and_github](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_git_and_github.md)
+* [help_with_vagrant](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_vagrant.md)
+* [help_with_virtual_box](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_virtual_box.md)
 
