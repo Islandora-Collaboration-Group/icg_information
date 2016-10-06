@@ -1,4 +1,4 @@
-# Documentation: How To Vagrant
+# Documentation: Help with Vagrant
 
 ## Contents
 

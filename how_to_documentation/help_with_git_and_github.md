@@ -1,4 +1,4 @@
-# Documentation: How To Git
+# Documentation: Help with Git and Github
 
 ## Contents
 
