@@ -41,7 +41,7 @@ General communication and meeting announcements happen via the islandora-consort
   * [Abigail Baines](https://github.com/abigaildiscovers) (Systems and Discovery Librarian)
   * Bob Crowley (Director of Information Technology)
 * Mount Holyoke College
-  * Sarah Goldstein (Associate Director of Discovery and Access)
+  * [Sarah Goldstein](https://github.com/sgoldste) (Associate Director of Discovery and Access)
   * [Shaun Trujillo](https://github.com/shauntru) (Digital Library Applications Manager)
 * Smith College
   * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator)
