@@ -42,7 +42,7 @@ General communication and meeting announcements happen via the islandora-consort
   * Bob Crowley (Director of Information Technology)
 * Mount Holyoke College
   * Sarah Goldstein (Associate Director of Discovery and Access)
-  * Shaun Trujillo (Digital Library Applications Manager)
+  * [Shaun Trujillo](https://github.com/shauntru) (Digital Library Applications Manager)
 * Smith College
   * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator)
 * Vassar College
