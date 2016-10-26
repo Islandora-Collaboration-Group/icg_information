@@ -10,7 +10,7 @@
 
 This set of templates is iteratively improving with each hack/doc that we do. 
 
-* [Download zip file](https://github.com/Islandora-Collaboration-Group/icg_information/how_to_run_a_hack_doc_template_set)
+* [Download zip file](https://github.com/Islandora-Collaboration-Group/icg_information/templates_how_to_run_a_hack_doc/Templates-Hack-Doc-Public-Version.zip)
 
 ## The above zip file includes the following documents:
 
@@ -18,7 +18,7 @@ This set of templates is iteratively improving with each hack/doc that we do.
 1. Attendees Signup List
 1. Code of Conduct
 1. Dev Tools and Resources
-1. Dietary Requests Form
+1. Dietary Requests Form (folder with google form and csv resultant file)
 1. FAQ + Troubleshooting
 1. Goals and Roles
 1. Logistics
