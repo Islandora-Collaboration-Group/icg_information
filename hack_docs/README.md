@@ -17,7 +17,5 @@ Discussions are an important by-product of working together.
 * [02_Wesleyan_2016](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
 * [03_Williams_2017](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
 
-## Template Folder: How to Run a Hack/Doc
 
-* [Template: How to run a hack/doc](https://github.com/Islandora-Collaboration-Group/icg_information/hack_docs/template_how_to_run_a_hack_doc)
 
