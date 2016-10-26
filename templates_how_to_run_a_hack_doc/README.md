@@ -10,7 +10,7 @@
 
 This set of templates is iteratively improving with each hack/doc that we do. 
 
-* [Download zip file](https://github.com/Islandora-Collaboration-Group/icg_information/templates_how_to_run_a_hack_doc/Templates-Hack-Doc-Public-Version.zip)
+* [Download zip file](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/templates_how_to_run_a_hack_doc/Templates-Hack-Doc-Public-Version.zip)
 
 ## The above zip file includes the following documents:
 
