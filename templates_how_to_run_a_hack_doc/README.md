@@ -1,4 +1,4 @@
-# How to Run a Hack/Doc (Set of Templates)
+# Templates: How to Run a Hack/Doc
 
 ## Authors
 
@@ -12,7 +12,7 @@ This set of templates is iteratively improving with each hack/doc that we do.
 
 * [Download zip file](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/templates_how_to_run_a_hack_doc/Templates-Hack-Doc-Public-Version.zip)
 
-## The above zip file includes the following documents:
+## The download includes these documents:
 
 1. Help Documentation (folder of docs)
 1. Attendees Signup List
