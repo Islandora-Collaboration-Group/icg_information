@@ -3,22 +3,24 @@
 ## Table of Contents
 
 * Glossary
-* General Overview: How to Contribute Code
 * Setup Instructions: Install “Github for Desktop (PC or Mac)” or “Git”
 * Initializing a Repository in an Existing Directory
-* Getting a Git Repository
-* Initializing a Repository in an Existing Directory
-* Cloning an Existing Repository
+  * Getting a Git Repository
+    * Initializing a Repository in an Existing Directory
+  * Cloning an Existing Repository
 * How to Work with a Git Repository
-* Git repositories need a README.md and .gitignore file
-* How to Add files to version-control
-* How to Commit files to version-control
-* How to Pull files from the Cloud repository
-* How to Push files from local repository to the Cloud repository
-* How to Remove files from version-control
-* How to Fork a Repository
+  * Git repositories need a README.md and .gitignore file
+  * How to Add files to version-control
+  * How to Commit files to version-control
+  * How to Pull files from the Cloud repository
+  * How to Push files from local repository to the Cloud repository
+  * How to Remove files from version-control
 * How to Clone a Repository
-* How to Issue a Pull Request
+* GitHub and Remote Repositories
+* GitHub Repository Management
+  * How to Fork a Repository
+  * How to Issue a Pull Request
+* Overview: How to Contribute Code
 * More Great Help Documentation
 
 
@@ -60,29 +62,6 @@ As a noun: unless it is a [fast-forward](https://git-scm.com/docs/gitglossary#de
 * **resolve** - The action of fixing up manually what a failed automatic [merge](https://git-scm.com/docs/gitglossary#def_merge) left behind.
 
 * **revision** - Synonym for [commit](https://git-scm.com/docs/gitglossary#def_commit) (the noun).
-
-* * *
-
-
-## General Overview: How to Contribute Code
-
-1. If you do not have your own github account, sign up for one.
-
-2. Visit the home page for this repository and click "Fork" at the upper-right. This will create a repository within your github space that is a clone of this original.
-
-3. Clone your fork down to your development environment. Or if you have already cloned Islandora-Collaboration-Group/icg_csv_import, you can change the remote [instructions](https://help.github.com/articles/changing-a-remote-s-url/).
-
-4. Work on your local code, make changes, commit your changes, push back up to your github remote etc.
-
-5. You can keep your fork updated from the ICG master [using this technique](http://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository)
-
-6. When you believe your work is ready for prime time, on your github repository, click the "Create Pull Request" button. Select Islandora-Collaboration-Group/icg_csv_import:master branch as the target. Describe the work you have done and what problem it solves.
-
-7. Other "watchers" on this repository will be notified of your pull request. They can merge it into their own forks and test it.
-
-8. Testers might have feedback for you and comment on the pull request. You might want to make changes and either withdraw your pull request or update it.
-
-9. Once we are satisfied that your work should be committed to the master branch, the pull request will be merged and closed.
 
 * * *
 
@@ -191,15 +170,6 @@ One may remove files from tracking using the following invocation:
 * * *
 
 
-## How to Fork a Repository
-
-Forking a repository means that you are downloading a copy of someone else’s repository and your fork is a distinct, entirely separate, repository that shows the original as the ancestor. You can issue a "pull request" as a means of offering commits you’ve made to your own repository back to the original (“parent”) repository; of course, the owner of the original repository must accept that pull request in order to accept your edits.
-
-The github website offers a "fork" button
-
-* * *
-
-
 ## How to Clone a Repository
 
 Download a copy of the repository; you can do this at the github website using the "clone or download" button. Download as a zip file to your laptop, or use the following notation in a shell to download programmatically:
@@ -209,9 +179,53 @@ Download a copy of the repository; you can do this at the github website using t
 * * *
 
 
-## How to Issue a Pull Request
+## GitHub and Remote Repositories
+
+Git has been developed primarily under the assumption that contributors would be interfacing primarily with other repositories using either over the SSH of HTTPS protocols.  Within most Git projects, at least one remote repository is specified, as this repository is located upon a server running the [Git daemon service](https://git-scm.com/book/en/v2/Git-on-the-Server-Git-Daemon).  GitHub offers its server resources freely to user members and organizations with the understanding that hosted projects should adhere to the principles of the Open Source software movement, and by promoting similar, related services which integrate with GitHub’s own approach to Git daemon hosting (e. g. [Travis CI](https://travis-ci.org/) for continuous integration).  Further, GitHub offers a number of higher-level repository management operations which are not offered by Git itself, and these must be taken into consideration for any organization investing within the architecture comprising those services offered by GitHub.
+
+* * *
+
+
+## GitHub Repository Management
+
+The two most common repository management operations undertaken are the "fork" and the “pull request”.  Both implement a certain structured, automated approach to tasks which could certainly be executed using Git alone.
+
+### How to Fork a Repository
+
+[Forking a GitHub Git repository](https://help.github.com/articles/fork-a-repo) essentially performs a "git clone" operation, but also provides GitHub’s services with metadata regarding the nature of the clone.  This permits one to more easily structure and visualize the relationships between cloned Git repositories, as well as to foster collaborative relationships between users who fork open source projects.  Further, it also provides GitHub with metadata which permits it to more easily integrate changes introduced by individuals forking a project.
+
+Forking a repository means that you are downloading a copy of someone else’s repository and your fork is a distinct, entirely separate, repository that shows the original as the ancestor. You can issue a "pull request" as a means of offering commits you’ve made to your own repository back to the original (“parent”) repository; of course, the owner of the original repository must accept that pull request in order to accept your edits.
+
+The github website offers a "fork" button
+
+### How to Issue a Pull Request
+
+A ["Pull Request"](https://help.github.com/articles/using-pull-requests) is a request issued by a party which has performed a “fork” on a project on GitHub with the intention of contributing to the original source code base (hence, it can be misleading to refer to this as a “true” forking of a project; often times the intention is to resolve bugs or refactor functionality where the outlying party may not be able to directly “push” to the repository holding the original project).  A “Pull Request” indicates to the repository administrator(s) that users who have performed a “fork” of their project wish to contribute their own modifications to the source code base of the original project.  The repository administrator(s) of the original project may decline the request, and more often than not, questions regarding quality assurance (i. e. testing) are raised before any “pull requests” made by third parties are accepted, and their contributions integrated.  Promoting the “forking” of projects and the issuing of “pull requests” is the objective of GitHub.  Ideally, individuals discover open source projects (of which they were unaware), extend and improve upon the application or service, and contribute to the original project’s source code base.
 
 The github website offers a "New pull request" button for initiating a pull request. A pull request sends your code edits to the original (“parent”) repository owner for review; they can either accept or reject your edits into their repository.
+
+* * *
+
+
+## Overview: How to Contribute Code
+
+1. If you do not have your own github account, sign up for one.
+
+2. Visit the home page for this repository and click "Fork" at the upper-right. This will create a repository within your github space that is a clone of this original.
+
+3. Clone your fork down to your development environment. Or if you have already cloned Islandora-Collaboration-Group/icg_csv_import, you can change the remote [instructions](https://help.github.com/articles/changing-a-remote-s-url/).
+
+4. Work on your local code, make changes, commit your changes, push back up to your github remote etc.
+
+5. You can keep your fork updated from the ICG master [using this technique](http://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository)
+
+6. When you believe your work is ready for prime time, on your github repository, click the "Create Pull Request" button. Select Islandora-Collaboration-Group/icg_csv_import:master branch as the target. Describe the work you have done and what problem it solves.
+
+7. Other "watchers" on this repository will be notified of your pull request. They can merge it into their own forks and test it.
+
+8. Testers might have feedback for you and comment on the pull request. You might want to make changes and either withdraw your pull request or update it.
+
+9. Once we are satisfied that your work should be committed to the master branch, the pull request will be merged and closed.
 
 * * *
 
