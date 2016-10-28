@@ -1,32 +1,25 @@
 # Documentation: Help with Git and Github
 
-## Contents
-
-<table>
-  <tr>
-    <td>Table of Contents: The TOC is auto-created by using "Headings". To update, click below, then click the “Update table of contents” button.
+## Table of Contents
 
 * Glossary
-General Overview: How to Contribute Code
-Setup Instructions: Install “Github for Desktop (PC or Mac)” or “Git”
-Initializing a Repository in an Existing Directory
-Getting a Git Repository
-Initializing a Repository in an Existing Directory
-Cloning an Existing Repository
-How to Work with a Git Repository
-Git repositories need a README.md and .gitignore file
-How to Add files to version-control
-How to Commit files to version-control
-How to Pull files from the Cloud repository
-How to Push files from local repository to the Cloud repository
-How to Remove files from version-control
-How to Fork a Repository
-How to Clone a Repository
-How to Issue a Pull Request
-More Great Help Documentation
-</td>
-  </tr>
-</table>
+* General Overview: How to Contribute Code
+* Setup Instructions: Install “Github for Desktop (PC or Mac)” or “Git”
+* Initializing a Repository in an Existing Directory
+* Getting a Git Repository
+* Initializing a Repository in an Existing Directory
+* Cloning an Existing Repository
+* How to Work with a Git Repository
+* Git repositories need a README.md and .gitignore file
+* How to Add files to version-control
+* How to Commit files to version-control
+* How to Pull files from the Cloud repository
+* How to Push files from local repository to the Cloud repository
+* How to Remove files from version-control
+* How to Fork a Repository
+* How to Clone a Repository
+* How to Issue a Pull Request
+* More Great Help Documentation
 
 
 ## * [Glossary](https://git-scm.com/docs/gitglossary)
