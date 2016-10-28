@@ -14,14 +14,15 @@ This set of templates is iteratively improving with each hack/doc that we do.
 
 ## The download includes these documents:
 
-1. Help Documentation (folder of docs)
+1. Help Documentation (folder: docs)
 1. Attendees Signup List
 1. Code of Conduct
 1. Dev Tools and Resources
-1. Dietary Requests Form (folder with google form and csv resultant file)
+1. Dietary Requests Form (folder: google form, csv file)
 1. FAQ + Troubleshooting
 1. Goals and Roles
 1. Logistics
 1. Planning Notes
-1. Post Mortem of Hack/Doc, Institution Name, Dates, MM DD-DD, YYYY
+1. Post Mortem of Hack/Doc
 1. Schedule
+1. Timeline
