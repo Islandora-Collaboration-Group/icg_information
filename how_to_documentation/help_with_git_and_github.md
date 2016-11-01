@@ -40,7 +40,7 @@ As a verb: The action of storing a new snapshot of the project’s state in the Gi
 
 * **fork** - Users who don’t have push permissions for a repository can "fork" it (create their own copy), push commits to that copy, and open a merge request from their fork back to the main project. This model allows the owner to be in CHAPTER 4: Git on the Server 148 full control of what goes into the repository and when, while allowing contributions from untrusted users. 
 
-* **issue pull request** - The github website offers a "New pull request" button for initiating a pull request. A pull request sends your code edits to the original (“parent”) repository owner for review; they can either accept or reject your edits into their repository.
+* **issue pull request** - The github website offers a "New pull request" button for initiating a pull request. A pull request sends your code edits to the original repository owner for review; they can either accept or reject your edits into their repository.
 
 * **master** - The default development [branch](https://git-scm.com/docs/gitglossary#def_branch). Whenever you create a Git [repository](https://git-scm.com/docs/gitglossary#def_repository), a branch named "master" is created, and becomes the active branch. In most cases, this contains the local development, though that is purely by convention and is not required.
 
@@ -194,7 +194,7 @@ The two most common repository management operations undertaken are the "fork" a
 
 [Forking a GitHub Git repository](https://help.github.com/articles/fork-a-repo) essentially performs a "git clone" operation, but also provides GitHub’s services with metadata regarding the nature of the clone.  This permits one to more easily structure and visualize the relationships between cloned Git repositories, as well as to foster collaborative relationships between users who fork open source projects.  Further, it also provides GitHub with metadata which permits it to more easily integrate changes introduced by individuals forking a project.
 
-Forking a repository means that you are downloading a copy of someone else’s repository and your fork is a distinct, entirely separate, repository that shows the original as the ancestor. You can issue a "pull request" as a means of offering commits you’ve made to your own repository back to the original (“parent”) repository; of course, the owner of the original repository must accept that pull request in order to accept your edits.
+Forking a repository means that you are downloading a copy of someone else’s repository and your fork is a distinct, entirely separate, repository that shows the original as the ancestor. You can issue a "pull request" as a means of offering commits you’ve made to your own repository back to the original repository; of course, the owner of the original repository must accept that pull request in order to accept your edits.
 
 The github website offers a "fork" button
 
@@ -202,7 +202,7 @@ The github website offers a "fork" button
 
 A ["Pull Request"](https://help.github.com/articles/using-pull-requests) is a request issued by a party which has performed a “fork” on a project on GitHub with the intention of contributing to the original source code base (hence, it can be misleading to refer to this as a “true” forking of a project; often times the intention is to resolve bugs or refactor functionality where the outlying party may not be able to directly “push” to the repository holding the original project).  A “Pull Request” indicates to the repository administrator(s) that users who have performed a “fork” of their project wish to contribute their own modifications to the source code base of the original project.  The repository administrator(s) of the original project may decline the request, and more often than not, questions regarding quality assurance (i. e. testing) are raised before any “pull requests” made by third parties are accepted, and their contributions integrated.  Promoting the “forking” of projects and the issuing of “pull requests” is the objective of GitHub.  Ideally, individuals discover open source projects (of which they were unaware), extend and improve upon the application or service, and contribute to the original project’s source code base.
 
-The github website offers a "New pull request" button for initiating a pull request. A pull request sends your code edits to the original (“parent”) repository owner for review; they can either accept or reject your edits into their repository.
+The github website offers a "New pull request" button for initiating a pull request. A pull request sends your code edits to the original repository owner for review; they can either accept or reject your edits into their repository.
 
 * * *
 

@@ -4,7 +4,7 @@
 
 * 3CDL (Hampshire College, Mount Holyoke, Smith College)
 * [Barnard College](http://digitalcollections.barnard.edu)
-* [Grinnell College](http://digital.grinnell.edu)
+* [Grinnell College](https://digital.grinnell.edu/)
 * [Hamilton College](http://dhinitiative.org)
 * [Vassar College](https://digitallibrary.vassar.edu)
 * Wesleyan University
@@ -64,9 +64,9 @@ General communication and meeting announcements happen via the islandora-consort
   * [Noah Smith](https://github.com/noahwsmith) (CEO)
 
 
-## What is Islandora
+## What is Islandora?
 
-* [Islandora](http://islandora.ca)
+* see: [Islandora website](http://islandora.ca)
 
 ## ICG Involvement in the Islandora Community
 
@@ -91,10 +91,12 @@ General communication and meeting announcements happen via the islandora-consort
 ### Github Repos
 
 * [Islandora Collaboration Group](https://github.com/Islandora-Collaboration-Group)
-* obsolete? - [Islandora Liberal Arts College Core](https://github.com/islandora-liberal-arts-college-core)
-* obsolete? - [googlesite](https://sites.google.com/site/islandoraconsortiagroup/home/useful-links)
+* [Awesome Islandora](https://github.com/Islandora-Labs/islandora_awesome)
+* [Islandora Interest Groups](https://github.com/islandora-interest-groups)
+* [Islandora DevOps Interest Group](https://github.com/islandora-interest-groups/Islandora-DevOps-Interest-Group/tree/master/meetings)
 
 ### Islandora Support
+* [Islandora: CLAW - next generation of Islandora](http://islandora.ca/CLAW)
 * [Islandora: Developers](http://islandora.ca/developers)
 * [Islandora: Resources](http://islandora.ca/resources) (modules, forms, logos, tools, beta, etc.)
 * [Islandora: Wiki](https://github.com/islandora/islandora/wiki)
