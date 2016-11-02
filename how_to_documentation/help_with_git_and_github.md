@@ -238,3 +238,5 @@ The github website offers a "New pull request" button for initiating a pull requ
 
 3. [https://desktop.github.com/](https://desktop.github.com/) 
 
+4. [Got 15 minutes and want to learn Git?](https://try.github.io/levels/1/challenges/1) 
+

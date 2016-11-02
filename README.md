@@ -70,15 +70,8 @@ General communication and meeting announcements happen via the islandora-consort
 
 ## ICG Involvement in the Islandora Community
 
-* todo
-
-## Process for becoming a member of the ICG
-
-* todo
-
-## Why become a member of the ICG?
-
-* todo
+* DLF 2016 pre-conference presentation: "[Hack/Doc Partnerships for Library Projects]"(https://dlfforum2016.sched.org/event/8LFu/s4c-hackdoc-partnerships-for-library-projects)
+* NERCOMP 2016 conference presentation: "[pending]"()
 
 ## Islandora WebForm
 
