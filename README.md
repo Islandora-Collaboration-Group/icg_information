@@ -1,4 +1,4 @@
-# Islandora Collaboration Group (ICG)
+# Islandora Collaboration Group: Information
 
 ## About Us
 
