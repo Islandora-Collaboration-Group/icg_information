@@ -20,7 +20,6 @@ General communication and meeting announcements happen via the islandora-consort
 
 * Send a request to the ICG (islandora-consortium-group@googlegroups.com)
 
-
 ## Membership
 
 * Barnard College
@@ -63,7 +62,6 @@ General communication and meeting announcements happen via the islandora-consort
   * [Gavin Morris](https://github.com/g7morris) (Digital Repositories Team Lead, DevOps)
   * [Noah Smith](https://github.com/noahwsmith) (CEO)
 
-
 ## What is Islandora?
 
 * see: [Islandora website](http://islandora.ca)
@@ -77,7 +75,6 @@ General communication and meeting announcements happen via the islandora-consort
 
 * [Summary of Steps for Creating an Islandora Webform](https://sites.google.com/site/islandoraconsortiagroup/home/iw-module/iw-brief-steps)
 * [Islandora Webform module](https://sites.google.com/site/islandoraconsortiagroup/home/iw-module)
-
 
 ## Links
 
