@@ -157,7 +157,7 @@ Blah:
 
 ### How to Push files from local repository to the Cloud repository
 
-Git synchronizes commits on local branches to branches in remote repositories using a "push" operation. The “-u” argument ensures that the branch “master” in the remote repository “origin” is tracked by the local branch “master”. This, in turn, permits one to more easily synchronize modifications made to the branch “master” on origin, to the local branch “master”.
+Git synchronizes commits on local branches to branches in remote repositories using a "push" operation. The “-u” argument ensures that the branch “master” in the remote repository “origin” is tracked by the local branch “master”. This, in turn, permits one to more easily synchronize modifications made to the branch “master” on origin, to the local branch, which in this case is called “master”.
 
 * **$ git push -u origin master**
 

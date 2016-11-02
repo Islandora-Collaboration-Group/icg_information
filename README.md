@@ -1,5 +1,11 @@
 # Islandora Collaboration Group ([ICG](https://github.com/Islandora-Collaboration-Group))
 
+## About Us
+
+ICG is a group of colleges working together to support and extend the Islandora tool through direct development, resource pooling, and advocacy.
+ICG has an all-members, face-to-face meeting about every 6 months where overall strategy, organization, and progress is reviewed and discussed. Additionally, ICG has working groups which meet via hangouts/skype and also conducts code sprints to continue projects from hack/doc events.
+General communication and meeting announcements happen via the islandora-consortium-group@googlegroups.com mailing list. Working groups or project teams may have mailing lists for discussions specific to that team or project.
+
 ## Members
 
 * 3CDL (Hampshire College, Mount Holyoke, Smith College)
@@ -9,12 +15,6 @@
 * [Vassar College](https://digitallibrary.vassar.edu)
 * Wesleyan University
 * [Williams College](http://unbound.williams.edu)
-
-## About Us
-
-ICG is a group of colleges working together to support and extend the Islandora tool through direct development, resource pooling, and advocacy.
-ICG has an all-members, face-to-face meeting about every 6 months where overall strategy, organization, and progress is reviewed and discussed. Additionally, ICG has working groups which meet via hangouts/skype and also conducts code sprints to continue projects from hack/doc events.
-General communication and meeting announcements happen via the islandora-consortium-group@googlegroups.com mailing list. Working groups or project teams may have mailing lists for discussions specific to that team or project.
 
 ## How to participate
 
