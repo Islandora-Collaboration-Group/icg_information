@@ -1,4 +1,4 @@
-# Islandora Collaboration Group ([ICG](https://github.com/Islandora-Collaboration-Group))
+# Islandora Collaboration Group (ICG)
 
 ## About Us
 
