@@ -28,7 +28,6 @@ tests/TestNarrowSuite.php
 *.jar
 *.rar
 *.tar
-*.zip
 
 # =========================
 # Folder config file
