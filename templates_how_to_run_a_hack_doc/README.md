@@ -3,8 +3,9 @@
 ## Authors
 
 1. [Joanna DiPasquale](https://github.com/jjdipasquale) (Vassar College, Head of Digital Scholarship and Technology Services)
-1. [Francesca Livermore](https://github.com/bookishgirl) (Wesleyan University, Digital Projects Librarian)
 1. [David Keiser-Clark](https://github.com/dwk2) (Williams College, Academic Application Developer)
+1. [Francesca Livermore](https://github.com/bookishgirl) (Wesleyan University, Digital Projects Librarian)
+
 
 ## Download
 
