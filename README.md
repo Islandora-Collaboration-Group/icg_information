@@ -8,8 +8,8 @@ General communication and meeting announcements happen via the islandora-consort
 
 ## Members
 
-* 3CDL (Hampshire College, Mount Holyoke, Smith College)
 * [Barnard College](http://digitalcollections.barnard.edu)
+* Five College Compass: Digital Collections - Hampshire, Mt. Holyoke and Smith Colleges
 * [Grinnell College](https://digital.grinnell.edu/)
 * [Hamilton College](http://dhinitiative.org)
 * [Vassar College](https://digitallibrary.vassar.edu)

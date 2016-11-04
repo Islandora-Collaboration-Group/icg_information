@@ -164,7 +164,7 @@ Major questions/discussions
 
 * Could we go to shared instances?
 
-    * 3CDL doing this
+    * Five College Compass: Digital Collections (Hampshire, Mt. Holyoke and Smith Colleges) is doing this
 
     * Eventually → put on roadmap, but perhaps not now
 
