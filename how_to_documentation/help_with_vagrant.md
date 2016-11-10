@@ -5,6 +5,7 @@
 * Glossary
 * Important: Recommended Order of Installation
 * Install Vagrant on PC or Mac
+* How to Run Vagrant (Vagrant Up)
 * Vagrant Command-Line Interface
 * Vagrant Plugins
 * More Great Help Documentation
@@ -31,13 +32,26 @@
 
 ## Install Vagrant on PC or Mac
 
-1. Download: [https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html) 
+1. Download and install: [https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html) 
 
-2. **Setup** - Download and install Vagrant within minutes on Mac OS X, Windows, or a popular distribution of Linux. No complicated setup process, just a simple to use OS-standard installer.
+**Stay updated by installing the newest release**
 
-3. **Configure** - Create a single file for your project to describe the type of machine you want, the software that needs to be installed, and the way you want to access the machine. Store this file with your project code.
+* * *
 
-4. **Work** - Run a single command — "vagrant up" — and sit back as Vagrant puts together your complete development environment. Say goodbye to the "works on my machine" excuse as Vagrant creates identical development environments for everyone on your team.
+
+## How to Run Vagrant (Vagrant Up)
+
+1. Download and install VirtualBox: https://www.virtualbox.org/wiki/Downloads
+
+2. Download and install Vagrant: http://www.vagrantup.com/downloads.html
+
+3. Download the desired VM vagrant.box file (if a zip file, then unzip it into a subdirectory on your laptop)
+
+4. Using a Command Line Interface, navigate to the VM directory from step 3 and run the command: vagrant up
+
+5. Note that this step will take a while as the VM downloads and installs a full virtual environment
+
+6. Test the VM by opening your web browser and navigating to: http://localhost:8080/name_of_directory
 
 **Stay updated by installing the newest release**
 
@@ -52,13 +66,13 @@ Always remember to be in the folder where the Vagrantfile is located to run Vagr
 
 * vagrant box			(add,list,remove,update) manages Vagrant boxes (VMs)
 
-* vagrant up     			creates and configures guest machines
+* vagrant up     		creates and configures guest machines
 
 * vagrant ssh			ssh into a running Vagrant machine and gives access to a shell
 
 * vagrant halt			shuts down the running machine Vagrant is managing.
 
-* vagrant destroy			stops the running machine & destroys all resources 
+* vagrant destroy		stops the running machine & destroys all resources 
 
 * vagrant reload --provision  	halt followed by an up but runs any configured provisioners
 

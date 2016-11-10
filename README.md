@@ -34,6 +34,7 @@ General communication and meeting announcements happen via the islandora-consort
   * [Peter MacDonald](https://github.com/dhinitiative) (Library Information Systems Specialist)
   * Lisa McFall (Metadata and Catalog Librarian)
   * [Aaron Neslin](https://github.com/aneslin) (Discovery and Delivery Systems Analyst)
+  * Angel David Nieves (Co-Director, Digital Humanities Initiative)
   * Janet Simons (Co-Director, Digital Humanities Initiative)
   * [Steve Young](https://github.com/hamhpc) (Unix/HPC System Administrator)
 * Hampshire College
@@ -70,6 +71,7 @@ General communication and meeting announcements happen via the islandora-consort
 
 * DLF 2016 pre-conference presentation: "[Hack/Doc Partnerships for Library Projects]"(https://dlfforum2016.sched.org/event/8LFu/s4c-hackdoc-partnerships-for-library-projects)
 * NERCOMP 2016 conference presentation: "[pending]"()
+* IslandoraCon 2017 conference presentation: "[pending]"()
 
 ## Islandora WebForm
 
