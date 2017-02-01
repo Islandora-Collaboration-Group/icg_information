@@ -60,6 +60,13 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * Another implication is that if you ever need to edit the content of a submission, you should do the editing using the XML metadata form originally used to create that object.
 * You can associate a webform with only one Islandora collection object at a time, so if you are in the practice of creating many collection objects to organize your repository’s content, you will need to create a separate webform for each collection. Since there is currently no way to clone a webform, each webform you need will have to be configured separately.
 
+## 2. Credits
 
+* The Islandora Webform module was conceived by the Islandora Consortial Group (ICG)
+* * https://sites.google.com/site/islandoraconsortiagroup/
+* The module development was coordinated by the Digital Humanities Initiative at Hamilton College http://dhinitiative.org/)
+* The development was performed by Common Media (Patrick Dunlavey, developer)
+* Beta testing was first performed by DHi at Hamilton College Collection Development Team ((DHi Collection Development Team) and later reviewed by other members of the ICG.
+* The development was supported by funds from an Andrew W. Mellon Foundation grant to DHi at Hamilton College (http://dhinitiative.org/) .
 
 
