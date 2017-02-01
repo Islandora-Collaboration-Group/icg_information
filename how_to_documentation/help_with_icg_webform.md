@@ -134,3 +134,19 @@ Guide for use: If you are an Islandora administrator with previous experience se
       
       `<strong>Instructions</strong>: HTML tags you may use: &lt;a&gt; &lt;strong&gt; &lt;p&gt; and &lt;br&gt;. [If you are doing a transcription, please follow the <a href="/transcription-instructions" target="_blank">Transcription instructions</a>]`
       
+[image]
+
+**Validation**
+* Required: [check]
+
+**Display**
+* Resizable: [check]
+* Label display: select "Above" [can be changed later]
+
+**Placeholder**
+* Supply message (optional): “-- Put your input here. --”
+
+[Other options may be left blank for now.]
+
+* Click "Save component" (button).
+* Now you can add more components until you have added all the ones you want, such as "First Name", "Last Name", "Drupal user account", "Date" and so on. If you create custom fields, you will later have to modify the metadata XML form to ensure there is a matching MODS element there you can map the component to.
