@@ -15,13 +15,13 @@
 ## Table of Contents
 
 **Introduction to the Islandora Webform module**
-1. Basic capabilities  
-2. Credits  
+* 1. Basic capabilities  
+* 2. Credits  
 
 **For Webform Managers**
-3. Creating and configuring a new Islandora Webform   
-3b. Enabling webforms on only certain objects  
-4. Configuring Drupal accounts for the Islandora Webform module  
+* 3. Creating and configuring a new Islandora Webform   
+* 3b. Enabling webforms on only certain objects  
+* 4. Configuring Drupal accounts for the Islandora Webform module  
 
 **For End Users**
 * 5. Submitting an Islandora Webform  
@@ -36,10 +36,8 @@
 * 12. Upgrading from an earlier version of the Islandora Webform module  
 
 **Enhanced Development**
-
-13. Uploading a file [not implemented yet]
-
-14. Search and retrieval of submissions [not written yet]
+* 13. Uploading a file [not implemented yet]  
+* 14. Search and retrieval of submissions [not written yet]  
 
 ## Warranty and Copyright
 
