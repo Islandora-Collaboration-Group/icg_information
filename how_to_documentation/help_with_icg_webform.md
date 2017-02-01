@@ -208,3 +208,33 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * Click the Webform (tab) and then "Islandora settings" (button)
 
 [image]
+
+* **Islandora Options**
+  * Enabled: [check]
+  * Content model filter: [Select one of the options]
+* This setting determines which Islandora pages will have a link to this webform on them.
+* The drop-down list shows the names of all content models it finds in Fedora. The labels shown come from the Label property of the Fedora object itself.
+  * “Any” [Do not select this option. This would place a webform link on every object --  including collection objects and under thumbnails of every object in a search result set.]
+  * Example: "Islandora PDF Content Model"
+* Collection filter: [Select one of the options.]
+  * "Any" (This option means this form can be used in any collection/site.)
+  * [It is recommended that you not set this to “Any” on a production site.]
+* The drop-down list shows the titles of all "collection" objects (MIME-type collections and content collections and "sub-collection" objects). The labels shown come from the Label property of the Fedora object itself.
+  * "American Prison Writing Project"
+* Specifying a collection means that this form will be offered as a link on objects only in that collection.
+* Be sure to select a collection that has objects that subscribe to the content model you specified for the “Content model filter.”
+  * PID Search String: [leave blank if all objects that qualify according to the above criteria.]
+    * regex options are: [no example available]
+      * [COMMENT: We need examples of this to guide us, try "sci:1*, lib*]
+  * Add a link to...: [select one of the two option below]
+    * "All matched objects" (Means a link to the webform will appear on all objects as defined on this page.)
+    * "Only those objects that are manually tagged for this webform"
+* If you select this, you will later need to select each object that should have a link to the webform. (see section “”##).
+  * Link Text: "Add a caption for this item." [example only]
+    * Other examples: "Transcribe this item." or a general use one like “Comment on this item.”
+  * Link help text: "Your input is greatly appreciated." [example only]
+* **Islandora Ingest**
+  * Enable: [check]
+  * Ingest destination: Select "Create new Islandora Simple Text Content Model" (Means create a Fedora object that subscribes to the islandora:sp_example_text content model.)
+  
+[image]
