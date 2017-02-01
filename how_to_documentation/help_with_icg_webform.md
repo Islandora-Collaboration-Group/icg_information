@@ -70,6 +70,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * The development was supported by funds from an Andrew W. Mellon Foundation grant to DHi at Hamilton College (http://dhinitiative.org/) 
 
 ## For Webform Managers
+
 # 3. Creating and configuring a new Islandora Webform
 # 1. Create a new Drupal webform
 * Log in to the site (URL) where you want to create a webform. Be sure your account/role is permitted to create webforms.
