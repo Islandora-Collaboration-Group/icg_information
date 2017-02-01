@@ -23,10 +23,10 @@
 5. Configuring Drupal accounts for the Islandora Webform module
 
 **For End Users**
-5. Submitting an Islandora Webform
+* 5. Submitting an Islandora Webform
 
 **For Administrators**
-6. Islandora Webform installation preliminaries
+* 6. Islandora Webform installation preliminaries
 
 7. Understanding the Islandora Simple Text content model
 
