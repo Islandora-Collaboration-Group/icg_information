@@ -27,17 +27,11 @@
 
 **For Administrators**
 * 6. Islandora Webform installation preliminaries
-
 7. Understanding the Islandora Simple Text content model
-
 8. Installing the Islandora Webform module
-
 9. Configuring permissions for the Islandora Webform module
-
 10. Configuring the Islandora Webform module’s XML Form
-
 11. Configuring the Drupal block of Islandora Webform submissions
-
 12. Upgrading from an earlier version of the Islandora Webform module
 
 **Enhanced Development**
