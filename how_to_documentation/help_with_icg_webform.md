@@ -81,7 +81,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * Add values to the fields to the webform as follows:
 
 [image]
-
+*  
   * Title: "IW PDF webform." (Customize this text to include the object content type (PDF, etc.) and/or the target collection name.
     * Actually, you can name it however you want -- depending on how narrowly or broadly you want the form to be used.
     * For example: "IW PDF webform for the Sacred Centers of India collection."
