@@ -130,6 +130,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
   *  
     * Description: [Usually you will just leave this blank, but you can add text as seen here.]
       * Note: Most HTML tags are ignored in the Description box.
-      * NExample (using “Filtered HTML” since it looks like "Full HTML" is not allowed):
+      * Example (using “Filtered HTML” since it looks like "Full HTML" is not allowed):
+      
       `<strong>Instructions</strong>: HTML tags you may use: &lt;a&gt; &lt;strong&gt; &lt;p&gt; and &lt;br&gt;. [If you are doing a transcription, please follow the <a href="/transcription-instructions" target="_blank">Transcription instructions</a>]`
       
