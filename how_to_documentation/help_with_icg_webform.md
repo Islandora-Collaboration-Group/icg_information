@@ -283,8 +283,8 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * At this point, the Islandora Webform module has silently added a new component to your webform labeled "Islandora object PID".
 * The "Islandora object PID" component holds the PID of the parent Islandora object. It does not need to be edited manually. It is automatically generated and inherits some settings from other components in the same webform. Upon ingest of a submission, the IW code stores the parent PID in the RELS-EXT datastream of the new object. Example:
 
-`<fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
-</fedora:isAnnotationOf>`
+`<fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">`
+`</fedora:isAnnotationOf>`
 
 * (Optional) Examine this new component
 * Administer > Content > Webforms (i.e. /admin/content/webform)
@@ -293,3 +293,36 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * Type: "Textfield"
   * Value: -
   * To see more of its fields, click "Edit".
+    * Label: "Islandora object PID" [do not change]
+    * Field Key: "islandora_object_pid" [do not change]
+
+[image]
+
+**3b. Enabling webforms on only certain objects**
+
+* If you want links to the webform to appear on only Islandora pages for only certain objects, you need to indicate this when editing the “Islandora settings” page. Look for “Add a link to” and select "Only those objects that are manually tagged for this webform".
+* Then you need to navigate to each Islandora object display page on which you want a link to the webform to appear and click the following link (“Go to web form” will be the name of your webform).
+  * add webform link: "Go to web form" (wording may vary)
+
+**4. Configuring Drupal accounts for the Islandora Webform module**
+
+* The IW module and IW Ingest module automatically set some user permissions, but an administrator should verify that they meet local needs.
+* If a link to your webform is to be seen by only authenticated users, an administrator should set permissions to restrict webform access to authenticated users only and create a Drupal account for those users and have them notified that they now have an account.
+  * Username:  [username of individual user]
+  * E-mail: [email address of the user]
+  * Password: [any_dummy_password] (user can change this upon first use)
+  * Status: Active (set to “Inactive” to prevent logging in)
+  * Roles: webform submitter (has “authorized” user permissions)
+
+## For End Users
+
+**5. Submitting an Islandora Webform**
+
+* An authenticated user will see in a link that will launch a webform, when s/he is in an Islandora collection for which an IW webform has been enabled and is viewing an object of the type for which a webform has been designed.
+
+[image]
+
+
+[image]
+
+
