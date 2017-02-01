@@ -351,3 +351,177 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 [table]
 
+7. Understanding the Islandora Simple Text Content Model
+
+The IW module comes bundled with a content model, the “Islandora Simple Text Content Model”. It helps to be aware of how this content model accommodates the values submitted by a webform. Understanding the content model can help you configure the webform components properly. So spend some time examining the content model and the XML metadata form it is associated with.
+The Content Model that is used by the IW module is part of the "Islandora Example Simple Text Solution Pack", which is installed when you install the main Islandora Webform module.
+The code (in Islandora Webform Ingest) supporting this CM grabs a form’s output and creates a Fedora object and plugs in those values in programmatic way into a MODS datastream which gets crosswalked to DC accordng to rules you can configure in an XSLT file.
+The IW module “derivatives.inc" creates a MODS datastream (based on the <mods: relatedItem> element from MODS: http://www.loc.gov/standards/mods/userguide/relateditem.html). 
+The code includes the parent object’s PID as the property of an xlink attribute of the <mods:relatedItem> element.
+The code puts the submitted text in the <mods:title> element.
+For other fields you use one of the IW menus to configure how each field in your form gets mapped to MODS (see discussion above).
+The MODS datastream in Fedora (Content: managed, MIME type: text/xml) might look something like this.
+
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+xmlns:mods="http://www.loc.gov/mods/v3"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xsi:schemaLocation="http://www.loc.gov/mods/v3
+http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+ <relatedItem type="host" xlink="http://lis.hamilton.edu/islandora/object/islandora%3A1">
+    <titleInfo lang="" displayLabel="">
+     <title>This photograph was probably taken in Toledo, Ohio.</title>
+     <subTitle/>
+    </titleInfo>
+    <name type="personal">
+     <namePart>Peter MacDonald</namePart>
+     <namePart type="family">MacDonald</namePart>
+     <namePart type="given">Peter</namePart>
+    </name>
+ </relatedItem>
+</mods>
+
+It creates a stub of a Dublin Core datastream that might look something like this:
+
+DC (inline, text/xml)
+
+<oai_dc xmlnsdc::oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+<dc:title>This photograph was probably taken in Toledo, Ohio</dc:title>
+ <dc:contributor>Peter, MacDonald</dc:contributor>
+ <dc:identifier>apw:235</dc:identifier>
+<dc:date>2016-01-26</dc:date>
+ <dc:description>This photograph was probably taken in Toledo, Ohio. </dc:description>
+</oai_dc:dc>
+
+The code puts an RDF triple pointing to the PARENT_PID in the RELS-EXT datastream adds.
+
+RELS-EXT (inline, applications/rdf+xml)
+
+<fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
+</fedora:isAnnotationOf>
+
+8. Installing the Islandora Webform module
+
+The IW module actually consists of three modules plus a text-based content model. To learn more about each IW module, you should read the README file for each one on the code distribution repo.
+
+Common Media’s code repo:
+github.com/commonmedia/islandora_webform.git
+
+8.1. First of all Install and Configure the Drupal Webform module
+
+        > drush dl -y webform
+        > drush @sites en -y webform
+        > drush @sites update
+
+Before you can start using webforms in Drupal you should configure it:
+Administer > Configuration > [Content Authoring] Webform settings
+(or <your_site>/admin/config/content/webform)
+Uncheck any fields you don’t think you’ll need in any of your Webforms. [Or, just leave them all checked.]
+
+[image]
+
+From address: "dhitech@hamilton.edu" (example only)
+From name: "Digital Humanities Initiative" (example only)
+Default subject: "Form submission from: [node:title]" (example only)
+Click "Save configuration".
+
+8.2. Download/Install the "Webform" and "WEbform AJAX" modules
+> drush dl -y webform
+> drush dl -y weborm_ajax
+> drush en -y webform
+> drush en -y webform_ajax
+
+8.3. Download/Install the "Islandora Webform" module (there is more than one way to do this)
+
+If you are just upgrading the IW modules from an earlier version:
+Clear all caches for all sites
+Disable the IW modules
+Update the database for your sites.
+> drush @sites cc all
+> drush @sites dis islandora_webform
+> drush @sites dis islandora_webform_ingest
+> drush @sites dis islandora_example_single_text
+> drush @sites update
+Back up an customizations that will be overwritten when you upgrade the modules, such as:
+islandora_webform/submodules/islandora_webform_ingest/examples/islandora_example_simple_text_solution_pack/xsl/
+modsrelated_to_dc.xsl
+SSH into the Drupal server.
+Navigate to "sites/all/modules".
+> git clone https://github.com/commonmedia/islandora_webform.git
+
+8.4. Enable the Islandora Webform module for each site that needs it.
+
+Shell method: SSH to the server
+To enable it for the default site, run at sites/all/modules:
+> drush en -y islandora_webform
+> drush en -y islandora_webform_ingest
+To enable it for all sites in multi-site, run at sites/all/modules:
+> drush @sites en -y islandora_webform
+> drush @sites en -y islandora_webform_ingest
+To enable it for a specific site:
+> drush en -y islandora_webform --uri=http://<your_site>
+> drush en -y islandora_webform_ingest --uri=http://<your_site>
+Drupal method: Log into a Drupal site
+Administer > Modules
+Enable "Islandora Webform" (islandora_webform)
+Enable "Islandora Webform Ingest" (islandora_webform_ingest)
+Enable "Islandora example simple text" module (islandora_example_simple_text)
+This module was installed as a submodule when the main IW module was installed, but you have to enable it manually.
+Update the database
+> drush update (or in the Drupal GUI: "<your_site>/update.php")
+There are no configuration options for this module.
+
+8.5. Ensure that all dependencies are enabled
+
+Administer > Modules
+
+Look for any Required but "missing" or "disabled" dependencies for the modules: Webform, Webform AJAX, Islandora Webform, and Islandora Webform Ingest modules, Islandora Example Simple Text.
+
+8.6 Understanding the structure of the IW modules
+
+Module(s) directory structure (the three modules are italicized here):
+
+sites/all/modules
+ |_islandora-webform
+               |_README.txt
+   |_submodules
+     |_islandora_webform_ingest
+       |_README.txt
+       |_examples
+         |_islandora_example_simple_text_solution_pack
+                  |_README.md
+
+Content Model
+Islandora Simple Text Content Model (islandora:sp_example_text)
+
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+ <dsTypeModel ID="DC">
+     <form FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" MIME="application/xml"></form>
+ </dsTypeModel>
+ <dsTypeModel ID="RELS-EXT" optional="true">
+     <form FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" MIME="application/rdf+xml"></form>
+ </dsTypeModel>
+ <dsTypeModel ID="RELS-INT" optional="true">
+     <form FORMAT_URI="info:fedora/fedora-system:FedoraRELSInt-1.0" MIME="application/rdf+xml"></form>
+ </dsTypeModel>
+ <dsTypeModel ID="MODS" optional="true">
+    <form FORMAT_URI="http://www.loc.gov/mods/v3" MIME="application/xml"></form>
+ </dsTypeModel>
+ <dsTypeModel ID="HTML" optional="true">
+     <form MIME="text/html"></form>
+    </dsTypeModel>
+ <dsTypeModel ID="TN" ORDERED="false" optional="true">
+    <form MIME="image/jpg"></form>
+    <form MIME="image/jpeg"></form>
+    <form MIME="image/png"></form>
+ </dsTypeModel>
+</dsCompositeModel>
+
+9. Configuring permissions for the Islandora Webform module
+
+Administer > People > Permissions > Roles
+
+[image]
+
+... add more later
