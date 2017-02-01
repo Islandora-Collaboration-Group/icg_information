@@ -63,7 +63,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 ## 2. Credits
 
 * The Islandora Webform module was conceived by the Islandora Consortial Group (ICG)
-* * https://sites.google.com/site/islandoraconsortiagroup/
+** https://sites.google.com/site/islandoraconsortiagroup/
 * The module development was coordinated by the Digital Humanities Initiative at Hamilton College http://dhinitiative.org/)
 * The development was performed by Common Media (Patrick Dunlavey, developer)
 * Beta testing was first performed by DHi at Hamilton College Collection Development Team ((DHi Collection Development Team) and later reviewed by other members of the ICG.
