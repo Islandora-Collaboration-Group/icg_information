@@ -14,13 +14,13 @@
 
 ## Table of Contents
 
-*Introduction to the Islandora Webform module*
+**Introduction to the Islandora Webform module**
 
 1. Basic capabilities
 
 2. Credits
 
-*For Webform Managers*
+**For Webform Managers**
 
 3.1 Creating and configuring a new Islandora Webform
 
@@ -28,11 +28,11 @@
 
 4. Configuring Drupal accounts for the Islandora Webform module
 
-*For End Users*
+**For End Users**
 
 5. Submitting an Islandora Webform
 
-*For Administrators*
+**For Administrators**
 
 6. Islandora Webform installation preliminaries
 
@@ -48,7 +48,7 @@
 
 12. Upgrading from an earlier version of the Islandora Webform module
 
-*Enhanced Development*
+**Enhanced Development**
 
 13. Uploading a file [not implemented yet]
 
@@ -60,7 +60,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 ## Introduction to the Islandora Webform module
 
-1. Basic capabilities
+*1. Basic capabilities*
 
 * The Islandora Webform (IW) module uses the capabilities of the standard Drupal Webform module to enable users to submit comments (captions, tags, transcriptions, etc.) on digital objects in an Islandora repository.
 * In Islandora, a link to a webform appears on the object view page that launches a webform that captures a user’s input and puts the submitted webform into a queue waiting for approval by a webform manager.
@@ -86,9 +86,10 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 ## For Webform Managers
 
-3. Creating and configuring a new Islandora Webform
+**3. Creating and configuring a new Islandora Webform**
 
-3.1. Create a new Drupal webform
+**3.1. Create a new Drupal webform**
+
 ** Log in to the site (URL) where you want to create a webform. Be sure your account/role is permitted to create webforms.
 ** Administer > Content; Click Add content; Select "Webform" (i.e., /node/add/webform).
 *** [If a webform has never been created before on this site, you might not see “webforms” in the list of content types. If "Webform" is not listed here, then your administrator will have to add it (see Administer > Structure > Content types (i.e., /admin/structure/types)
