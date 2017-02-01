@@ -158,3 +158,21 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * Help finding "Form settings" page
     * Administer > Content > Webforms (i.e., /admin/content/webform)
     * Find your webform, click the "Edit" link, then click the "Webform" tab, then click the "Form settings" button.
+
+[image]
+
+* Submission Settings
+  * Confirmation message: "Thank you for submitting your caption." (example only)
+    * You can add Drupal tokens in the confirmation message, e.g.
+      * “Thank you [current-user:name] for your submission.”
+      * “[current-user:name]” is a Drupal token you can use here if you want.
+  * Text format: "Full HTML" (your text format options may differ -- depending on how "text formats" are set up on your Drupal instance)
+    * Help configuring Text formats:
+      * Administer > Configuration > Content authoring > Text formats  (i.e., /admin/config/content/formats).
+  * “Full HTML” allows you to use any HTML tags you want.
+  * Redirection location
+    * Confirmation page: [uncheck]
+    * Custom URL: [leave blank]
+    * No redirect (reload current page): [check] [The other two options cause navigation problems for users.]            
+* Fill in any remaining options as needed, but the defaults should all work fine.
+* Inline Islandora Webform [If this fieldset is missing, it is because the webform_ajax" module has not been installed.]
