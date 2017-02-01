@@ -19,14 +19,14 @@
 1. Basic capabilities  
 2. Credits  
 3. Creating and configuring a new Islandora Webform   
-4. Enabling webforms on only certain objects  
-5. Configuring Drupal accounts for the Islandora Webform module  
+3b. Enabling webforms on only certain objects  
+4. Configuring Drupal accounts for the Islandora Webform module  
 
 **For End Users**
-* 6. Submitting an Islandora Webform  
+* 5. Submitting an Islandora Webform  
 
 **For Administrators**
-* 7. Islandora Webform installation preliminaries  
+* 6. Islandora Webform installation preliminaries  
 * 7. Understanding the Islandora Simple Text content model  
 * 8. Installing the Islandora Webform module  
 * 9. Configuring permissions for the Islandora Webform module  
