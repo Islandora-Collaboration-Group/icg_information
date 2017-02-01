@@ -93,4 +93,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
     * Sticky at top of lists: [uncheck]
 * Click "Save" (button).
 
+**2. Add Components and fields to your webform**
 
+* If this is your first webform, you will now be at the Webform > Form components page.
+** But if you are returning to edit an existing webform, you will first need to select the webform that you want to work on: Administer > Content > Webforms (e.g., /admin/content/webform). Then find the title of your webform.
