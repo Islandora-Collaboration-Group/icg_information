@@ -238,3 +238,27 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * Ingest destination: Select "Create new Islandora Simple Text Content Model" (Means create a Fedora object that subscribes to the islandora:sp_example_text content model.)
   
 [image]
+
+* If you do not see "Create new Islandora Simple Text Content Model", save this page (first uncheck "Enable" though) and ask the administrator to download/install/enable the "Islandora Example Simple Text Solution Pack". The Fedora content model object for the Solution Pack has to be installed too. Then come back and finish these instructions.
+  * Relationship to current object: Select "is Annotation Of"
+    * [WARNING: Do not use the predicate “isMemberOfCollection”. Doing so brings the risk of relationships corruption throughout your Fedora database.]
+* At the moment, the "master" branch in IW is configured to use the default Fedora ontology only.
+* There is a proposed enhancement to allow configuring any standards-based ontology here, but it is not yet an official project.
+* You should consult the default fedora ontology for the meaning of the various predicates in this list:
+* Fedora Digital Object Relationships (Fedora 3.x)
+  * http://www.fedora-commons.org/documentation/3.0/userdocs/digitalobjects/introRelsExt.html
+* Fedora Object Ontology (Fedora 3.x)
+  * http://www.fedora.info/definitions/1/0/fedora-relsext-ontology.rdfs
+
+* Namespace of new object: "apwiw" [example only]
+* Ensure that whatever namespace you choose is allowable in the collection you specified above under "Collections filter". [NOTE: Not sure this is true. That is, does Solr need it for searching. Still TBD.]
+* Click "Save configuration" (button).
+
+**5. Configure Islandora Ingest Mapping (to specify where the component’s content will be stored in the Fedora object)**
+
+* The IW module doesn't predetermine which components (i.e. form fields) you use in your webform. This is determined by your needs, but whatever components you choose must be mapped to MODS element paths in the specified metadata XML form. That said, since most content models require a <mods:title> element. However, the crosswalk that comes with the IW module crosswalks <mods:title> to <dc:relation>. DHi@Hamilton changed this crosswalking XSLT so it maps it to <dc:title>. (But this is not the place for a full explanation of how to do this.)
+* Navigate to the Webform "Form components" page:
+* Administer > Content > Webforms (tab) > find the title of your webform and click "Components" (link).
+* Find the component that will store the text of the submission and click the "Edit" link.
+
+**Islandora Ingest Mapping**
