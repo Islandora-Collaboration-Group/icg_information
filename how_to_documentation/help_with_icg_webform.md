@@ -22,15 +22,15 @@
 
 **For Webform Managers**
 
-3.1 Creating and configuring a new Islandora Webform
+* 3.1 Creating and configuring a new Islandora Webform
 
-3b. Enabling webforms on only certain objects [not written yet]
+* 3b. Enabling webforms on only certain objects
 
-4. Configuring Drupal accounts for the Islandora Webform module
+* 4. Configuring Drupal accounts for the Islandora Webform module
 
 **For End Users**
 
-5. Submitting an Islandora Webform
+* 5. Submitting an Islandora Webform
 
 **For Administrators**
 
