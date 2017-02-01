@@ -15,29 +15,45 @@
 ## Table of Contents
 
 Introduction to the Islandora Webform module
+
 1. Basic capabilities
+
 2. Credits
 
 For Webform Managers
-3. Creating and configuring a new Islandora Webform
+
+3.1 Creating and configuring a new Islandora Webform
+
 3b. Enabling webforms on only certain objects [not written yet]
+
 4. Configuring Drupal accounts for the Islandora Webform module
 
 For End Users
+
 5. Submitting an Islandora Webform
 
 For Administrators
+
 6. Islandora Webform installation preliminaries
+
 7. Understanding the Islandora Simple Text content model
+
 8. Installing the Islandora Webform module
+
 9. Configuring permissions for the Islandora Webform module
+
 10. Configuring the Islandora Webform module’s XML Form
+
 11. Configuring the Drupal block of Islandora Webform submissions
-12. Upgrading from an earlier version of the Islandora Webform module.
+
+12. Upgrading from an earlier version of the Islandora Webform module
+
 
 Enhanced Development
-* 13. Uploading a file [not implemented yet]
-* 14. Search and retrieval of submissions [not written yet]
+
+13. Uploading a file [not implemented yet]
+
+14. Search and retrieval of submissions [not written yet]
 
 ## Warranty and Copyright
 
@@ -71,9 +87,9 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 ## For Webform Managers
 
-* 3 Creating and configuring a new Islandora Webform
+3. Creating and configuring a new Islandora Webform
 
-** 1 Create a new Drupal webform
+3.1. Create a new Drupal webform
 ** Log in to the site (URL) where you want to create a webform. Be sure your account/role is permitted to create webforms.
 ** Administer > Content; Click Add content; Select "Webform" (i.e., /node/add/webform).
 *** [If a webform has never been created before on this site, you might not see “webforms” in the list of content types. If "Webform" is not listed here, then your administrator will have to add it (see Administer > Structure > Content types (i.e., /admin/structure/types)
