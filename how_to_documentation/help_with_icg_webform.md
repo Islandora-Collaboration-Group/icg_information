@@ -176,3 +176,35 @@ Guide for use: If you are an Islandora administrator with previous experience se
     * No redirect (reload current page): [check] [The other two options cause navigation problems for users.]            
 * Fill in any remaining options as needed, but the defaults should all work fine.
 * Inline Islandora Webform [If this fieldset is missing, it is because the webform_ajax" module has not been installed.]
+
+[image]
+
+*  
+  * Inline AJAX mode: [check] (AJAX is used to put the webform inline with the original (target) object being commented on.
+  * Show confirmation screen: [check, if visible] (Possible bug: this has been known to generate duplicate confirmation messages, but unchecking it may generate an error.)
+
+* **Submission Access - Roles that can submit this webform**
+  * anonymous user: [uncheck]
+  * authenticated user: [uncheck]
+    * [Unless, of course you actually do decide to let all authenticated users make a submission.]
+  * administrator: [check]
+  * webform manager: [check]
+  * webform submitter: [check]
+* Fill in any remaining options as needed, but the defaults should all work fine.
+
+* **Progress Bar [no changes required]**
+* **Preview Page**
+  * Enable preview page: [leave this unchecked] (Do not enable this without thoroughly testing the user experience.)
+* **Advanced Settings**
+  * Accept the defaults settings for now because no best practices exist for these settings yet.             
+* Click "Save configuration" (button).
+
+**4. Configure the Islandora settings for the webform**
+
+* WARNING: Before you change anything on this page, be aware that if this webform has already been used for any submissions and those submissions have not yet been ingested, those submissions might not ingest properly. As a precaution, you should ingest all pending webforms submissions before making any changes to an existing webform’s Islandora settings. If you are creating a new webform, you don't have to worry about this.
+  * Ensure you are on the “Form settings” page, if not…
+  * Go to Administer > Content > Webforms (i.e., /admin/content/webform)
+  * Find the title of your webform and click the "Components" link.
+* Click the Webform (tab) and then "Islandora settings" (button)
+
+[image]
