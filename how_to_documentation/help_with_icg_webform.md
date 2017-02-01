@@ -15,9 +15,10 @@
 ## Table of Contents
 
 **Introduction to the Islandora Webform module**
-
 1. Basic capabilities  
 2. Credits  
+
+**For Webform Managers**
 3. Creating and configuring a new Islandora Webform   
 3b. Enabling webforms on only certain objects  
 4. Configuring Drupal accounts for the Islandora Webform module  
