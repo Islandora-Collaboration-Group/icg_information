@@ -97,3 +97,24 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 * If this is your first webform, you will now be at the Webform > Form components page.  
   * But if you are returning to edit an existing webform, you will first need to select the webform that you want to work on: Administer > Content > Webforms (e.g., /admin/content/webform). Then find the title of your webform.  
+
+[image]
+[image]
+
+*  
+  * Create as many components (fields) as you want to be displayed on the form for the user to fill out.
+
+* For a new webform, the only component required is one for the submitted text (i.e., the “Caption”, “Transcription”, whatever). 
+  * Other components that you might find useful to configure are: 
+    * today’s date
+    * user’s Drupal account ID
+    * submission type (a select box offering, say “Caption”, “Transcription”, and “Other”
+  * but the IW module only requires a field to hold the submitted text. The rest are optional and should be determined by your needs.
+  * Enter values for each desired component of the form (the following are example values only)
+    * Label: "Caption or Transcription" (or, maybe, just “Submission text”)
+    * Type: select "Textarea" (“textarea” provides a larger area for text entry than “textfield” does.)
+    * Value: [blank] (You will edit this field later.)
+    * Required: [check]
+* Click "Add" (button) to save each component as you create it.
+
+When you click “Add”, you will be taken to a page where you should continue configuring the component you just chose to Add.
