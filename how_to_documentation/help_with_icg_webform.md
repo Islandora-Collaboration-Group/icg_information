@@ -82,15 +82,15 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 [image]
 
-* Title: "IW PDF webform." (Customize this text to include the object content type (PDF, etc.) and/or the target collection name.
-  * Actually, you can name it however you want -- depending on how narrowly or broadly you want the form to be used.
-  * For example: "IW PDF webform for the Sacred Centers of India collection."
-* Comment settings (appears only of "comments" is enabled for your site):
-  * Closed: [check] (The IW module works just fine with the built-in Comments set to “Closed”.]
-* Publishing options:
-  * Published: [check]
-  * Promoted to front page: [uncheck]
-  * Sticky at top of lists: [uncheck]
+  * Title: "IW PDF webform." (Customize this text to include the object content type (PDF, etc.) and/or the target collection name.
+    * Actually, you can name it however you want -- depending on how narrowly or broadly you want the form to be used.
+    * For example: "IW PDF webform for the Sacred Centers of India collection."
+  * Comment settings (appears only of "comments" is enabled for your site):
+    * Closed: [check] (The IW module works just fine with the built-in Comments set to “Closed”.]
+  * Publishing options:
+    * Published: [check]
+    * Promoted to front page: [uncheck]
+    * Sticky at top of lists: [uncheck]
 * Click "Save" (button).
 
 
