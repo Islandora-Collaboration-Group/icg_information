@@ -115,6 +115,21 @@ Guide for use: If you are an Islandora administrator with previous experience se
     * Type: select "Textarea" (“textarea” provides a larger area for text entry than “textfield” does.)
     * Value: [blank] (You will edit this field later.)
     * Required: [check]
-* Click "Add" (button) to save each component as you create it.
+  * Click "Add" (button) to save each component as you create it.
+* When you click “Add”, you will be taken to a page where you should continue configuring the component you just chose to Add.
+ 
+ [image]
+*  
+  * Configure this component
+    * Label: [prepopulated] (Will show the Label you previously specified for this component.)
+    * Field Key: [prepopulated] (Will be created automatically from the component's Label.)
+    * Default value (optional):  [Leave blank and use the “Placeholder” setting discussed below.]
 
-When you click “Add”, you will be taken to a page where you should continue configuring the component you just chose to Add.
+[image]
+
+  *  
+    * Description: [Usually you will just leave this blank, but you can add text as seen here.]
+      * Note: Most HTML tags are ignored in the Description box.
+      * NExample (using “Filtered HTML” since it looks like "Full HTML" is not allowed):
+      `<strong>Instructions</strong>: HTML tags you may use: &lt;a&gt; &lt;strong&gt; &lt;p&gt; and &lt;br&gt;. [If you are doing a transcription, please follow the <a href="/transcription-instructions" target="_blank">Transcription instructions</a>]`
+      
