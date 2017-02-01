@@ -322,7 +322,32 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 [image]
 
+* To submit a new webform:
+  * Click on the link to submit a caption. A form box will open.
 
 [image]
 
+*  
+  * Fill in the fields with your submission text.
+  * When finished, click "Submit". You can then “View”, “Edit” or “Delete” you submission on the “Submissions” page.        
+* To edit a previously submitted caption:
+  * Go to the object you submitted a caption on.
+  * Click the "Submissions" link.
+
+[image]
+
+* You cannot edit a previously submitted caption if you see the link “Re-ingest’ (in red font) because that means it has already been approved and ingested into Islandora. Ingested ones cannot be changed. If you decide to edit it anyway, a new Islandora submission object will be created and the original one will remain as well; there is no way you can delete it.
+  * Find your submission, which is probably the last one added to the list. If it has not yet been ingested, you can safely edit it.
+  * Click "Edit".
+    * Make your changes.
+  * Click “Save”.
+
+## For Administrators
+
+**6. Islandora Webform installation preliminaries**
+
+* Ensure that all basic Islandora modules and dependencies are installed and working.
+* DHI@Hamilton tested the IW module with the latest versions of each of these modules enabled:
+
+[table]
 
