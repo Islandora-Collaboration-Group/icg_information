@@ -71,13 +71,13 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 ## For Webform Managers
 
-# 3. Creating and configuring a new Islandora Webform
-# 1. Create a new Drupal webform
-* Log in to the site (URL) where you want to create a webform. Be sure your account/role is permitted to create webforms.
-* Administer > Content; Click Add content; Select "Webform" (i.e., /node/add/webform).
-** [If a webform has never been created before on this site, you might not see “webforms” in the list of content types. If "Webform" is not listed here, then your administrator will have to add it (see Administer > Structure > Content types (i.e., /admin/structure/types)
-* Create Webform
-** Add values to the fields to the webform as follows:
+* 3. Creating and configuring a new Islandora Webform
+** 1. Create a new Drupal webform
+** Log in to the site (URL) where you want to create a webform. Be sure your account/role is permitted to create webforms.
+** Administer > Content; Click Add content; Select "Webform" (i.e., /node/add/webform).
+*** [If a webform has never been created before on this site, you might not see “webforms” in the list of content types. If "Webform" is not listed here, then your administrator will have to add it (see Administer > Structure > Content types (i.e., /admin/structure/types)
+** Create Webform
+*** Add values to the fields to the webform as follows:
 
 
 
