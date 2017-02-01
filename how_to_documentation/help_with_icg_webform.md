@@ -150,3 +150,11 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 * Click "Save component" (button).
 * Now you can add more components until you have added all the ones you want, such as "First Name", "Last Name", "Drupal user account", "Date" and so on. If you create custom fields, you will later have to modify the metadata XML form to ensure there is a matching MODS element there you can map the component to.
+* When done adding components, click "Save" (button) to save the whole webform. This is very important, but easy to forget.
+
+**3. Configure the Confirmation message as follows:**
+
+* Be sure you are on the “Form settings” page.
+  * Help finding "Form settings" page
+    * Administer > Content > Webforms (i.e., /admin/content/webform)
+    * Find your webform, click the "Edit" link, then click the "Webform" tab, then click the "Form settings" button.
