@@ -74,12 +74,23 @@ Guide for use: If you are an Islandora administrator with previous experience se
 **3. Creating and configuring a new Islandora Webform**
 
 **3.1. Create a new Drupal webform**
-
 ** Log in to the site (URL) where you want to create a webform. Be sure your account/role is permitted to create webforms.
 ** Administer > Content; Click Add content; Select "Webform" (i.e., /node/add/webform).
 *** [If a webform has never been created before on this site, you might not see “webforms” in the list of content types. If "Webform" is not listed here, then your administrator will have to add it (see Administer > Structure > Content types (i.e., /admin/structure/types)
 ** Create Webform
 *** Add values to the fields to the webform as follows:
 
+[image]
+
+* Title: "IW PDF webform." (Customize this text to include the object content type (PDF, etc.) and/or the target collection name.
+** Actually, you can name it however you want -- depending on how narrowly or broadly you want the form to be used.
+** For example: "IW PDF webform for the Sacred Centers of India collection."
+* Comment settings (appears only of "comments" is enabled for your site):
+** Closed: [check] (The IW module works just fine with the built-in Comments set to “Closed”.]
+* Publishing options:
+** Published: [check]
+** Promoted to front page: [uncheck]
+** Sticky at top of lists: [uncheck]
+* Click "Save" (button).
 
 
