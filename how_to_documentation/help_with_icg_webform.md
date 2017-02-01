@@ -249,7 +249,6 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * http://www.fedora-commons.org/documentation/3.0/userdocs/digitalobjects/introRelsExt.html
 * Fedora Object Ontology (Fedora 3.x)
   * http://www.fedora.info/definitions/1/0/fedora-relsext-ontology.rdfs
-
 * Namespace of new object: "apwiw" [example only]
 * Ensure that whatever namespace you choose is allowable in the collection you specified above under "Collections filter". [NOTE: Not sure this is true. That is, does Solr need it for searching. Still TBD.]
 * Click "Save configuration" (button).
@@ -261,4 +260,36 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * Administer > Content > Webforms (tab) > find the title of your webform and click "Components" (link).
 * Find the component that will store the text of the submission and click the "Edit" link.
 
-**Islandora Ingest Mapping**
+* **Islandora Ingest Mapping**
+
+[image]
+
+*  
+  * Ingest?: Select "Append" [This is the preferred option. The other options are: "Do not ingest" and "Replace"]
+  * DataStream: "Select MODS" (The datastream labels listed here are those of the “Islandora Simple Text Content Model” which is used by Islandora for creating the caption object in Fedora.)
+  * Field: Select "relatedItems:relTitleInfo:relTitle (text/plain)" [Select the path to the MODS form element where you want the main webform text to be stored. The default XML form is "Simple Text Related Item MODS form".]
+* Click "Save component" (button)
+* Now you can proceed to map all the remaining components (except for the "Islandora object PID") to MODS fields in the XML form. Here are some example mappings from one of DHi's forms:
+  * Submission - relatedItems:noteTab:0:noteText (text/plain)
+  * Type of Submission - relatedItems:relatedGenre (text/plain)
+  * Short title - relatedItems:relTitleInfo:relTitle (text/plain)
+  * Last Name - relatedItems:relNameInfo:family (text/plain)
+  * First Name - relatedItems:relNameInfo:given (text/plain)
+  * User Account - relatedItems:relNameInfo:affiliation (text/plain)
+  * Date - relatedItems:relOriginInfo:relDateCreated (text/plain)
+  
+**6. (Optional) Check out the Islandora object PID component**
+
+* At this point, the Islandora Webform module has silently added a new component to your webform labeled "Islandora object PID".
+* The "Islandora object PID" component holds the PID of the parent Islandora object. It does not need to be edited manually. It is automatically generated and inherits some settings from other components in the same webform. Upon ingest of a submission, the IW code stores the parent PID in the RELS-EXT datastream of the new object. Example:
+
+`<fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
+</fedora:isAnnotationOf>`
+
+* (Optional) Examine this new component
+* Administer > Content > Webforms (i.e. /admin/content/webform)
+* Find the title of your webform > click "Components", and you will see the component "Islandora object PID".
+  * Label: "Islandora object PID"
+  * Type: "Textfield"
+  * Value: -
+  * To see more of its fields, click "Edit".
