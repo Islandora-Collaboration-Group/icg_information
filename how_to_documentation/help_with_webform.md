@@ -393,7 +393,8 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 ```
 * The code puts an RDF triple pointing to the PARENT_PID in the RELS-EXT datastream adds.
 * RELS-EXT (inline, applications/rdf+xml)
-```<fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
+```
+<fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
 </fedora:isAnnotationOf>
 ```
 
@@ -404,9 +405,10 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   * github.com/commonmedia/islandora_webform.git
 
 **8.1. First of all Install and Configure the Drupal Webform module**
-```        > drush dl -y webform
-        > drush en -y webform (add @sites for multi-site setups)
-        > drush update (add @sites for multi-site setups)
+```
+> drush dl -y webform
+> drush en -y webform (add @sites for multi-site setups)
+> drush update (add @sites for multi-site setups)
 ```
 
 * Before you can start using webforms in Drupal you should configure it:
@@ -422,7 +424,8 @@ Administer > Configuration > [Content Authoring] Webform settings
 * Click "Save configuration".
 
 **8.2. Download/Install the "Webform AJAX" modules**
-```> drush dl -y weborm_ajax
+```
+> drush dl -y weborm_ajax
 > drush en -y webform_ajax
 ```
 
@@ -431,13 +434,15 @@ Administer > Configuration > [Content Authoring] Webform settings
 * SSH into the Drupal server.
 * Navigate to "sites/all/modules".
 * Clone the islandora_webform module:
-```> git clone https://github.com/commonmedia/islandora_webform.git
+```
+> git clone https://github.com/commonmedia/islandora_webform.git
 ```
 * If you are just upgrading the IW modules from an earlier version, do the following steps before cloning the new webform:
   * Clear all caches for all sites
   * Disable the IW modules
   * Update the database for your sites.
-  ```> drush @sites cc all
+  ```
+  > drush @sites cc all
 > drush @sites dis islandora_webform
 > drush @sites dis islandora_webform_ingest
 > drush @sites dis islandora_example_single_text
