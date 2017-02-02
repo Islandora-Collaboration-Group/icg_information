@@ -8,7 +8,7 @@
 * Islandora Ingest Module (islandora_webform_ingest)
 * [includes Islandora Simple Text Module (islandora_simple_text_module)]
 * Islandora: 7.1.5, 7.1.6, HEAD
-* Drupal: 7.41
+* Drupal: 7.41  
 * * *
 
 ## Table of Contents
