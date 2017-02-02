@@ -81,7 +81,8 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * Add values to the fields to the webform as follows:
 
 [image]
-*
+
+*  
   * Title: "IW PDF webform." (Customize this text to include the object content type (PDF, etc.) and/or the target collection name.
     * Actually, you can name it however you want -- depending on how narrowly or broadly you want the form to be used.
     * For example: "IW PDF webform for the Sacred Centers of India collection."
@@ -101,7 +102,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 [image]
 [image]
 
-*
+*  
   * Create as many components (fields) as you want to be displayed on the form for the user to fill out.
 
 * For a new webform, the only component required is one for the submitted text (i.e., the “Caption”, “Transcription”, whatever).
@@ -181,7 +182,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 [image]
 
-*
+*  
   * Inline AJAX mode: [check] (AJAX is used to put the webform inline with the original (target) object being commented on.
   * Show confirmation screen: [check, if visible] (Possible bug: this has been known to generate duplicate confirmation messages, but unchecking it may generate an error.)
 
@@ -266,7 +267,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 [image]
 
-*
+*  
   * Ingest?: Select "Append" [This is the preferred option. The other options are: "Do not ingest" and "Replace"]
   * DataStream: "Select MODS" (The datastream labels listed here are those of the “Islandora Simple Text Content Model” which is used by Islandora for creating the caption object in Fedora.)
   * Field: Select "relatedItems:relTitleInfo:relTitle (text/plain)" [Select the path to the MODS form element where you want the main webform text to be stored. The default XML form is "Simple Text Related Item MODS form".]
@@ -328,7 +329,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 [image]
 
-*
+*  
   * Fill in the fields with your submission text.
   * When finished, click "Submit". You can then “View”, “Edit” or “Delete” you submission on the “Submissions” page.
 * To edit a previously submitted caption:
