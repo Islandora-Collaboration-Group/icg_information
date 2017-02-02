@@ -465,21 +465,20 @@ Enable "Islandora Webform" (islandora_webform)
 Enable "Islandora Webform Ingest" (islandora_webform_ingest)
 Enable "Islandora example simple text" module (islandora_example_simple_text)
 This module was installed as a submodule when the main IW module was installed, but you have to enable it manually.
-Update the database
-> drush update (or in the Drupal GUI: "<your_site>/update.php")
-There are no configuration options for this module.
+* Update the database
+```> drush update (or in the Drupal GUI: "<your_site>/update.php")
+```
+* There are no configuration options for this module.
 
-8.5. Ensure that all dependencies are enabled
+**8.5. Ensure that all dependencies are enabled**
 
-Administer > Modules
+* Administer > Modules
+* Look for any Required but "missing" or "disabled" dependencies for the modules: Webform, Webform AJAX, Islandora Webform, and Islandora Webform Ingest modules, Islandora Example Simple Text.
 
-Look for any Required but "missing" or "disabled" dependencies for the modules: Webform, Webform AJAX, Islandora Webform, and Islandora Webform Ingest modules, Islandora Example Simple Text.
+**8.6 Understanding the structure of the IW modules**
 
-8.6 Understanding the structure of the IW modules
-
-Module(s) directory structure (the three modules are italicized here):
-
-sites/all/modules
+* Module(s) directory structure (the three modules are italicized here):
+```sites/all/modules
  |_islandora-webform
                |_README.txt
    |_submodules
@@ -488,9 +487,9 @@ sites/all/modules
        |_examples
          |_islandora_example_simple_text_solution_pack
                   |_README.md
-
-Content Model
-Islandora Simple Text Content Model (islandora:sp_example_text)
+```
+* Content Model
+  * Islandora Simple Text Content Model (islandora:sp_example_text)
 ```<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
  <dsTypeModel ID="DC">
      <form FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" MIME="application/xml"></form>
@@ -514,9 +513,9 @@ Islandora Simple Text Content Model (islandora:sp_example_text)
  </dsTypeModel>
 </dsCompositeModel>
 ```
-9. Configuring permissions for the Islandora Webform module
+**9. Configuring permissions for the Islandora Webform module**
 
-Administer > People > Permissions > Roles
+* Administer > People > Permissions > Roles
 
 [image]
 
