@@ -30,7 +30,7 @@
 * 7. Understanding the Islandora Simple Text content model
 * 8. Installing the Islandora Webform module
 * 9. Configuring permissions for the Islandora Webform module
-* 10. Configuring the Islandora Webform moduleís XML Form
+* 10. Configuring the Islandora Webform module‚Äôs XML Form
 * 11. Configuring the Drupal block of Islandora Webform submissions
 * 12. Upgrading from an earlier version of the Islandora Webform module
 
@@ -47,17 +47,17 @@ Guide for use: If you are an Islandora administrator with previous experience se
 **1. Basic capabilities**
 
 * The Islandora Webform (IW) module uses the capabilities of the standard Drupal Webform module to enable users to submit comments (captions, tags, transcriptions, etc.) on digital objects in an Islandora repository.
-* In Islandora, a link to a webform appears on the object view page that launches a webform that captures a userís input and puts the submitted webform into a queue waiting for approval by a webform manager.
+* In Islandora, a link to a webform appears on the object view page that launches a webform that captures a user‚Äôs input and puts the submitted webform into a queue waiting for approval by a webform manager.
 * When approved, the submission is ingested into a new Fedora object where the content is mapped by a customizable XML metadata form to designated MODS elements which are crosswalked by a customizable XSLT to Dublin Core, and a relationship statement is placed in the RELS-EXT datastream connecting the submission to the original object.
 * All the submissions for a specific object can be displayed along with the original object.
 * When an IW webform is configured, it can be bound to a single content model (basic image, IA Book reader, etc.). If you do bind it to a single content model, then you have to create a specific webform for each content model. You can also bind as webform to specific collections.
 
 ## Know the Limitations of the IW Module
 
-* After a submission is ingested into Fedora, the IW ìSubmissionsî page will shows ìRe-Ingestî in a red font. It will also show links to ìViewî, ìEditî and ìDeleteî the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested. If you do edit the text of the submission and you then click the red ìRe-ingestî link, the IW module will create a brand new Fedora object -- leaving the original one still on place.
-* Implications of this are that it might be advisable to ìDeleteî a submission from the ìSubmissionsî page once the ingest has been deemed successful. ìDeleteî only deletes the entry for the submission on the Submissions page (a mySQL deletion) -- it does not delete the Fedora object.
+* After a submission is ingested into Fedora, the IW ‚ÄúSubmissions‚Äù page will shows ‚ÄúRe-Ingest‚Äù in a red font. It will also show links to ‚ÄúView‚Äù, ‚ÄúEdit‚Äù and ‚ÄúDelete‚Äù the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested. If you do edit the text of the submission and you then click the red ‚ÄúRe-ingest‚Äù link, the IW module will create a brand new Fedora object -- leaving the original one still on place.
+* Implications of this are that it might be advisable to ‚ÄúDelete‚Äù a submission from the ‚ÄúSubmissions‚Äù page once the ingest has been deemed successful. ‚ÄúDelete‚Äù only deletes the entry for the submission on the Submissions page (a mySQL deletion) -- it does not delete the Fedora object.
 * Another implication is that if you ever need to edit the content of a submission, you should do the editing using the XML metadata form originally used to create that object.
-* You can associate a webform with only one Islandora collection object at a time, so if you are in the practice of creating many collection objects to organize your repositoryís content, you will need to create a separate webform for each collection. Since there is currently no way to clone a webform, each webform you need will have to be configured separately.
+* You can associate a webform with only one Islandora collection object at a time, so if you are in the practice of creating many collection objects to organize your repository‚Äôs content, you will need to create a separate webform for each collection. Since there is currently no way to clone a webform, each webform you need will have to be configured separately.
 
 ## 2. Credits
 
@@ -75,7 +75,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 **3.1. Create a new Drupal webform**
 * Log in to the site (URL) where you want to create a webform. Be sure your account/role is permitted to create webforms.
 * Administer > Content; Click Add content; Select "Webform" (i.e., /node/add/webform).
-  * [If a webform has never been created before on this site, you might not see ìwebformsî in the list of content types. If "Webform" is not listed here, then your administrator will have to add it (see Administer > Structure > Content types (i.e., /admin/structure/types)
+  * [If a webform has never been created before on this site, you might not see ‚Äúwebforms‚Äù in the list of content types. If "Webform" is not listed here, then your administrator will have to add it (see Administer > Structure > Content types (i.e., /admin/structure/types)
 * Create Webform
   * Add values to the fields to the webform as follows:
 
@@ -85,7 +85,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
     * Actually, you can name it however you want -- depending on how narrowly or broadly you want the form to be used.
     * For example: "IW PDF webform for the Sacred Centers of India collection."
   * Comment settings (appears only of "comments" is enabled for your site):
-    * Closed: [check] (The IW module works just fine with the built-in Comments set to ìClosedî.]
+    * Closed: [check] (The IW module works just fine with the built-in Comments set to ‚ÄúClosed‚Äù.]
   * Publishing options:
     * Published: [check]
     * Promoted to front page: [uncheck]
@@ -103,33 +103,33 @@ Guide for use: If you are an Islandora administrator with previous experience se
 *
   * Create as many components (fields) as you want to be displayed on the form for the user to fill out.
 
-* For a new webform, the only component required is one for the submitted text (i.e., the ìCaptionî, ìTranscriptionî, whatever).
+* For a new webform, the only component required is one for the submitted text (i.e., the ‚ÄúCaption‚Äù, ‚ÄúTranscription‚Äù, whatever).
   * Other components that you might find useful to configure are:
-    * todayís date
-    * userís Drupal account ID
-    * submission type (a select box offering, say ìCaptionî, ìTranscriptionî, and ìOtherî
+    * today‚Äôs date
+    * user‚Äôs Drupal account ID
+    * submission type (a select box offering, say ‚ÄúCaption‚Äù, ‚ÄúTranscription‚Äù, and ‚ÄúOther‚Äù
   * but the IW module only requires a field to hold the submitted text. The rest are optional and should be determined by your needs.
   * Enter values for each desired component of the form (the following are example values only)
-    * Label: "Caption or Transcription" (or, maybe, just ìSubmission textî)
-    * Type: select "Textarea" (ìtextareaî provides a larger area for text entry than ìtextfieldî does.)
+    * Label: "Caption or Transcription" (or, maybe, just ‚ÄúSubmission text‚Äù)
+    * Type: select "Textarea" (‚Äútextarea‚Äù provides a larger area for text entry than ‚Äútextfield‚Äù does.)
     * Value: [blank] (You will edit this field later.)
     * Required: [check]
   * Click "Add" (button) to save each component as you create it.
-* When you click ìAddî, you will be taken to a page where you should continue configuring the component you just chose to Add.
+* When you click ‚ÄúAdd‚Äù, you will be taken to a page where you should continue configuring the component you just chose to Add.
 
  [image]
 *
   * Configure this component
     * Label: [prepopulated] (Will show the Label you previously specified for this component.)
     * Field Key: [prepopulated] (Will be created automatically from the component's Label.)
-    * Default value (optional):  [Leave blank and use the ìPlaceholderî setting discussed below.]
+    * Default value (optional):  [Leave blank and use the ‚ÄúPlaceholder‚Äù setting discussed below.]
 
 [image]
 
   *
     * Description: [Usually you will just leave this blank, but you can add text as seen here.]
       * Note: Most HTML tags are ignored in the Description box.
-      * Example (using ìFiltered HTMLî since it looks like "Full HTML" is not allowed):
+      * Example (using ‚ÄúFiltered HTML‚Äù since it looks like "Full HTML" is not allowed):
 
       `<strong>Instructions</strong>: HTML tags you may use: &lt;a&gt; &lt;strong&gt; &lt;p&gt; and &lt;br&gt;. [If you are doing a transcription, please follow the <a href="/transcription-instructions" target="_blank">Transcription instructions</a>]`
 
@@ -143,7 +143,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * Label display: select "Above" [can be changed later]
 
 **Placeholder**
-* Supply message (optional): ì-- Put your input here. --î
+* Supply message (optional): ‚Äú-- Put your input here. --‚Äù
 
 [Other options may be left blank for now.]
 
@@ -153,7 +153,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 **3. Configure the Confirmation message as follows:**
 
-* Be sure you are on the ìForm settingsî page.
+* Be sure you are on the ‚ÄúForm settings‚Äù page.
   * Help finding "Form settings" page
     * Administer > Content > Webforms (i.e., /admin/content/webform)
     * Find your webform, click the "Edit" link, then click the "Webform" tab, then click the "Form settings" button.
@@ -163,12 +163,12 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * Submission Settings
   * Confirmation message: "Thank you for submitting your caption." (example only)
     * You can add Drupal tokens in the confirmation message, e.g.
-      * ìThank you [current-user:name] for your submission.î
-      * ì[current-user:name]î is a Drupal token you can use here if you want.
+      * ‚ÄúThank you [current-user:name] for your submission.‚Äù
+      * ‚Äú[current-user:name]‚Äù is a Drupal token you can use here if you want.
   * Text format: "Full HTML" (your text format options may differ -- depending on how "text formats" are set up on your Drupal instance)
     * Help configuring Text formats:
       * Administer > Configuration > Content authoring > Text formats  (i.e., /admin/config/content/formats).
-  * ìFull HTMLî allows you to use any HTML tags you want.
+  * ‚ÄúFull HTML‚Äù allows you to use any HTML tags you want.
   * Redirection location
     * Confirmation page: [uncheck]
     * Custom URL: [leave blank]
@@ -200,8 +200,8 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 **4. Configure the Islandora settings for the webform**
 
-* WARNING: Before you change anything on this page, be aware that if this webform has already been used for any submissions and those submissions have not yet been ingested, those submissions might not ingest properly. As a precaution, you should ingest all pending webforms submissions before making any changes to an existing webformís Islandora settings. If you are creating a new webform, you don't have to worry about this.
-  * Ensure you are on the ìForm settingsî page, if notÖ
+* WARNING: Before you change anything on this page, be aware that if this webform has already been used for any submissions and those submissions have not yet been ingested, those submissions might not ingest properly. As a precaution, you should ingest all pending webforms submissions before making any changes to an existing webform‚Äôs Islandora settings. If you are creating a new webform, you don't have to worry about this.
+  * Ensure you are on the ‚ÄúForm settings‚Äù page, if not‚Ä¶
   * Go to Administer > Content > Webforms (i.e., /admin/content/webform)
   * Find the title of your webform and click the "Components" link.
 * Click the Webform (tab) and then "Islandora settings" (button)
@@ -213,24 +213,24 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * Content model filter: [Select one of the options]
 * This setting determines which Islandora pages will have a link to this webform on them.
 * The drop-down list shows the names of all content models it finds in Fedora. The labels shown come from the Label property of the Fedora object itself.
-  * ìAnyî [Do not select this option. This would place a webform link on every object --  including collection objects and under thumbnails of every object in a search result set.]
+  * ‚ÄúAny‚Äù [Do not select this option. This would place a webform link on every object --  including collection objects and under thumbnails of every object in a search result set.]
   * Example: "Islandora PDF Content Model"
 * Collection filter: [Select one of the options.]
   * "Any" (This option means this form can be used in any collection/site.)
-  * [It is recommended that you not set this to ìAnyî on a production site.]
+  * [It is recommended that you not set this to ‚ÄúAny‚Äù on a production site.]
 * The drop-down list shows the titles of all "collection" objects (MIME-type collections and content collections and "sub-collection" objects). The labels shown come from the Label property of the Fedora object itself.
   * "American Prison Writing Project"
 * Specifying a collection means that this form will be offered as a link on objects only in that collection.
-* Be sure to select a collection that has objects that subscribe to the content model you specified for the ìContent model filter.î
+* Be sure to select a collection that has objects that subscribe to the content model you specified for the ‚ÄúContent model filter.‚Äù
   * PID Search String: [leave blank if all objects that qualify according to the above criteria.]
     * regex options are: [no example available]
       * [COMMENT: We need examples of this to guide us, try "sci:1*, lib*]
   * Add a link to...: [select one of the two option below]
     * "All matched objects" (Means a link to the webform will appear on all objects as defined on this page.)
     * "Only those objects that are manually tagged for this webform"
-* If you select this, you will later need to select each object that should have a link to the webform. (see section ìî##).
+* If you select this, you will later need to select each object that should have a link to the webform. (see section ‚Äú‚Äù##).
   * Link Text: "Add a caption for this item." [example only]
-    * Other examples: "Transcribe this item." or a general use one like ìComment on this item.î
+    * Other examples: "Transcribe this item." or a general use one like ‚ÄúComment on this item.‚Äù
   * Link help text: "Your input is greatly appreciated." [example only]
 * **Islandora Ingest**
   * Enable: [check]
@@ -240,7 +240,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 * If you do not see "Create new Islandora Simple Text Content Model", save this page (first uncheck "Enable" though) and ask the administrator to download/install/enable the "Islandora Example Simple Text Solution Pack". The Fedora content model object for the Solution Pack has to be installed too. Then come back and finish these instructions.
   * Relationship to current object: Select "is Annotation Of"
-    * [WARNING: Do not use the predicate ìisMemberOfCollectionî. Doing so brings the risk of relationships corruption throughout your Fedora database.]
+    * [WARNING: Do not use the predicate ‚ÄúisMemberOfCollection‚Äù. Doing so brings the risk of relationships corruption throughout your Fedora database.]
 * At the moment, the "master" branch in IW is configured to use the default Fedora ontology only.
 * There is a proposed enhancement to allow configuring any standards-based ontology here, but it is not yet an official project.
 * You should consult the default fedora ontology for the meaning of the various predicates in this list:
@@ -252,7 +252,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * Ensure that whatever namespace you choose is allowable in the collection you specified above under "Collections filter". [NOTE: Not sure this is true. That is, does Solr need it for searching. Still TBD.]
 * Click "Save configuration" (button).
 
-**5. Configure Islandora Ingest Mapping (to specify where the componentís content will be stored in the Fedora object)**
+**5. Configure Islandora Ingest Mapping (to specify where the component‚Äôs content will be stored in the Fedora object)**
 
 * The IW module doesn't predetermine which components (i.e. form fields) you use in your webform. This is determined by your needs, but whatever components you choose must be mapped to MODS element paths in the specified metadata XML form. That said, since most content models require a <mods:title> element. However, the crosswalk that comes with the IW module crosswalks <mods:title> to <dc:relation>. DHi@Hamilton changed this crosswalking XSLT so it maps it to <dc:title>. (But this is not the place for a full explanation of how to do this.)
 * Navigate to the Webform "Form components" page:
@@ -265,7 +265,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 *
   * Ingest?: Select "Append" [This is the preferred option. The other options are: "Do not ingest" and "Replace"]
-  * DataStream: "Select MODS" (The datastream labels listed here are those of the ìIslandora Simple Text Content Modelî which is used by Islandora for creating the caption object in Fedora.)
+  * DataStream: "Select MODS" (The datastream labels listed here are those of the ‚ÄúIslandora Simple Text Content Model‚Äù which is used by Islandora for creating the caption object in Fedora.)
   * Field: Select "relatedItems:relTitleInfo:relTitle (text/plain)" [Select the path to the MODS form element where you want the main webform text to be stored. The default XML form is "Simple Text Related Item MODS form".]
 * Click "Save component" (button)
 * Now you can proceed to map all the remaining components (except for the "Islandora object PID") to MODS fields in the XML form. Here are some example mappings from one of DHi's forms:
@@ -298,8 +298,8 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 **3b. Enabling webforms on only certain objects**
 
-* If you want links to the webform to appear on only Islandora pages for only certain objects, you need to indicate this when editing the ìIslandora settingsî page. Look for ìAdd a link toî and select "Only those objects that are manually tagged for this webform".
-* Then you need to navigate to each Islandora object display page on which you want a link to the webform to appear and click the following link (ìGo to web formî will be the name of your webform).
+* If you want links to the webform to appear on only Islandora pages for only certain objects, you need to indicate this when editing the ‚ÄúIslandora settings‚Äù page. Look for ‚ÄúAdd a link to‚Äù and select "Only those objects that are manually tagged for this webform".
+* Then you need to navigate to each Islandora object display page on which you want a link to the webform to appear and click the following link (‚ÄúGo to web form‚Äù will be the name of your webform).
   * add webform link: "Go to web form" (wording may vary)
 
 **4. Configuring Drupal accounts for the Islandora Webform module**
@@ -309,8 +309,8 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * Username:  [username of individual user]
   * E-mail: [email address of the user]
   * Password: [any_dummy_password] (user can change this upon first use)
-  * Status: Active (set to ìInactiveî to prevent logging in)
-  * Roles: webform submitter (has ìauthorizedî user permissions)
+  * Status: Active (set to ‚ÄúInactive‚Äù to prevent logging in)
+  * Roles: webform submitter (has ‚Äúauthorized‚Äù user permissions)
 
 ## For End Users
 
@@ -327,18 +327,18 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 *
   * Fill in the fields with your submission text.
-  * When finished, click "Submit". You can then ìViewî, ìEditî or ìDeleteî you submission on the ìSubmissionsî page.
+  * When finished, click "Submit". You can then ‚ÄúView‚Äù, ‚ÄúEdit‚Äù or ‚ÄúDelete‚Äù you submission on the ‚ÄúSubmissions‚Äù page.
 * To edit a previously submitted caption:
   * Go to the object you submitted a caption on.
   * Click the "Submissions" link.
 
 [image]
 
-* You cannot edit a previously submitted caption if you see the link ìRe-ingestí (in red font) because that means it has already been approved and ingested into Islandora. Ingested ones cannot be changed. If you decide to edit it anyway, a new Islandora submission object will be created and the original one will remain as well; there is no way you can delete it.
+* You cannot edit a previously submitted caption if you see the link ‚ÄúRe-ingest‚Äô (in red font) because that means it has already been approved and ingested into Islandora. Ingested ones cannot be changed. If you decide to edit it anyway, a new Islandora submission object will be created and the original one will remain as well; there is no way you can delete it.
   * Find your submission, which is probably the last one added to the list. If it has not yet been ingested, you can safely edit it.
   * Click "Edit".
     * Make your changes.
-  * Click ìSaveî.
+  * Click ‚ÄúSave‚Äù.
 
 ## For Administrators
 
@@ -351,11 +351,11 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 **7. Understanding the _Islandora Simple Text Content Model_**
 
-* The IW module comes bundled with a content model, the ìIslandora Simple Text Content Modelî. It helps to be aware of how this content model accommodates the values submitted by a webform. Understanding the content model can help you configure the webform components properly. So spend some time examining the content model and the XML metadata form it is associated with.
+* The IW module comes bundled with a content model, the ‚ÄúIslandora Simple Text Content Model‚Äù. It helps to be aware of how this content model accommodates the values submitted by a webform. Understanding the content model can help you configure the webform components properly. So spend some time examining the content model and the XML metadata form it is associated with.
 * The Content Model that is used by the IW module is part of the "Islandora Example Simple Text Solution Pack", which is installed when you install the main Islandora Webform module.
-* The code (in Islandora Webform Ingest) supporting this CM grabs a formís output and creates a Fedora object and plugs in those values in a programmatic way into a MODS datastream which gets crosswalked to DC according to rules you can configure in an XSLT file.
-* The IW module ìderivatives.inc" creates a MODS datastream (based on the <mods: relatedItem> element from MODS: http://www.loc.gov/standards/mods/userguide/relateditem.html).
-* The code includes the parent objectís PID as the property of an xlink attribute of the <mods:relatedItem> element.
+* The code (in Islandora Webform Ingest) supporting this CM grabs a form‚Äôs output and creates a Fedora object and plugs in those values in a programmatic way into a MODS datastream which gets crosswalked to DC according to rules you can configure in an XSLT file.
+* The IW module ‚Äúderivatives.inc" creates a MODS datastream (based on the <mods: relatedItem> element from MODS: http://www.loc.gov/standards/mods/userguide/relateditem.html).
+* The code includes the parent object‚Äôs PID as the property of an xlink attribute of the <mods:relatedItem> element.
 * The code puts the submitted text in the <mods:title> element.
 * For other fields you use one of the IW menus to configure how each field in your form gets mapped to MODS (see discussion above).
 * The MODS datastream in Fedora (Content: managed, MIME type: text/xml) might look something like this.
@@ -399,7 +399,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 **8. Installing the Islandora Webform module**
 
 * The IW module actually consists of three modules plus a text-based content model. To learn more about each IW module, you should read the README file for each one on the code distribution repo.
-* Common Mediaís code repo:
+* Common Media‚Äôs code repo:
   * github.com/commonmedia/islandora_webform.git
 
 **8.1. First of all Install and Configure the Drupal Webform module**
@@ -411,7 +411,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * Before you can start using webforms in Drupal you should configure it:
 Administer > Configuration > [Content Authoring] Webform settings
 (or <your_site>/admin/config/content/webform)
-* Uncheck any fields you donít think youíll need in any of your Webforms. [Or, just leave them all checked.]
+* Uncheck any fields you don‚Äôt think you‚Äôll need in any of your Webforms. [Or, just leave them all checked.]
 
 [image]
 
@@ -520,4 +520,4 @@ Administer > People > Permissions > Roles
 
 [image]
 
-add more later.
+add more later.x
