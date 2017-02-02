@@ -539,4 +539,74 @@ modsrelated_to_dc.xsl
 
 [image]
 
-add more later.x
+Built-in roles:
+anonymous
+authenticated user
+administrator
+Add as many more roles as you think you'll need, e.g.
+webform submitter (=authenticated user + all webform permissions)
+webform manager (=authenticated user + limited webform permissions)
+
+Set desired permissions for each user role here:
+
+Administer > Modules > Islandora Webform > Permissions (i.e., /admin/people/permissions#module-islandora_webform)
+See separate section below for permission settings: "Islandora Webform Permissions Settings".
+10. Configuring the Islandora Webform module’s XML form
+
+The IW modules comes with a preferred XML form (Simple Text Related Item MODS form), which is configured to work with the module’s PHP code and the supplied content Model (islandora:sp_example_text). This XML form is designed to hold information on a “related item” and if the Fedora object holding the submission information is treated as the related item and all the submission information is wrapped in the <mods:relatedItem> element.
+It is very possible that the supplied XML form will not meet all of your metadata needs and you will need to customize it. For example,
+DHi@Hamilton unchecked “Access” to a few MODS elements that we did not need, such as, subTitle, reldisplayLabel, roleText, roleCode, and noteDisplaylabel.
+DHi replaced the built-it controlled vocabulary for the “type” attribute with its own terms:: Caption, Tags,Transcription, Translation, Question, Suggestion.
+DHi changed the mapping of the attribute “type” from reldisplayLabel to a full MODS element <mods:genre> so we could more easily retrieve it from Solr. This required adding crosswalk from mods:genre to dc:type in the transform: modsrelated_to_dc.xsl.
+DHi added a dateCreated element in the XML form.
+
+Make any local changes to the Simple Text Related Item MODS form
+
+Since editing built-in XML forms is not allowed in Islandora, the "Simple Text Related Item MODS form" has to be cloned (copied) to make a new one before you can customize it.
+
+Use case: If you want to change the field type of the main input component from, say, "textfield", to "textarea".
+
+“Copy” the built-in XML form to a new one.
+Open your new XML form.
+Select the title element: relatedItems:relTitleInfo:relTitle
+Change "Type" to "textarea".
+Click "Save".
+
+Associate the new XML form with the Content Model (admin/islandora/xmlform)
+
+Find "<your_new-XML-form>” and click "Associate".
+Click “Add Association”
+Content Model:  select "Islandora Simple Text Content Model (islandora:sp_example_text)"
+Metadata Datastream ID: "MODS"
+Title Field: "['relatedItems']['relTitleInfo']['relTitle']"
+XSL Transform: "modsrelated_to_dc.xsl"
+Self XSL Transform: "No transform"
+Upload Template Document: [optional]
+Click "Add Association" (button)
+Be sure to "Disable" the built-in XML form if you are not going to use it in production.
+Make the same change in the configuration of the matching component in your webform.
+
+Locate the webform that should be set up to work with the XML form you just modified.
+Click the "Components" button.
+Find the main text submission component and verify that it's TYPE is set to "textarea". If it is not create a new component that is and delete the one that is not.
+Click "Edit" next to the main text submission input component and then finish configuring that component’s “Islandora Ingest Mapping”.
+Open "Islandora Ingest Mapping" fieldset.
+If you get the message “Islandora Simple Text Content Model provides no datastreams that can be populated from this webform field type.” then you selected the wrong Content Model when you set up the XML Form.
+Ingest: "Append"
+DataStream: "MODS" (Note that the drop-down entry shows also the name of the webform itself, as in “MODS (My IW webform)”.
+Field: ['relatedItems']['relTitleInfo']['relTitle']
+Or select another path that corresponds to the component you are adding.
+For "surname" map to DataStream:  "relatedItems:relNameInfo:namePart:family
+Click "Save component".
+
+11. Configuring the Drupal block of Islandora Webform submissions
+
+All of the submissions for an Islandora object can be made visible by configuring the IW block.
+
+Go to Administer > Structure > Blocks (ie. /admin/structure/block)
+In the section labeled "Disabled", find the block titled "Objects with isAnnotationOf relation" [The title may vary.]
+Select position: "Content" (Means place the block in the “content” region of the Drupal page.)
+Move the block to the bottom of the "Content" list of items, if necessary, so it displays at the bottom of the page.
+Click "Save blocks"
+Click "configure" next to the "Objects with isAnnotationOf relation"
+
