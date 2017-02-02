@@ -449,22 +449,22 @@ modsrelated_to_dc.xsl
 ```
 **8.4. Enable the Islandora Webform module for each site that needs it.**
 
-Shell method: SSH to the server
-To enable it for the default site, run at sites/all/modules:
+* Shell method: SSH to the server
+  * To enable it for the default site, run at sites/all/modules:
 > drush en -y islandora_webform
 > drush en -y islandora_webform_ingest
-To enable it for all sites in multi-site, run at sites/all/modules:
+  * To enable it for all sites in multi-site, run at sites/all/modules:
 > drush @sites en -y islandora_webform
 > drush @sites en -y islandora_webform_ingest
-To enable it for a specific site:
+  * To enable it for a specific site:
 > drush en -y islandora_webform --uri=http://<your_site>
 > drush en -y islandora_webform_ingest --uri=http://<your_site>
-Drupal method: Log into a Drupal site
-Administer > Modules
-Enable "Islandora Webform" (islandora_webform)
-Enable "Islandora Webform Ingest" (islandora_webform_ingest)
-Enable "Islandora example simple text" module (islandora_example_simple_text)
-This module was installed as a submodule when the main IW module was installed, but you have to enable it manually.
+* Drupal method: Log into a Drupal site
+  * Administer > Modules
+    * Enable "Islandora Webform" (islandora_webform)
+    * Enable "Islandora Webform Ingest" (islandora_webform_ingest)
+    * Enable "Islandora example simple text" module (islandora_example_simple_text)
+      * This module was installed as a submodule when the main IW module was installed, but you have to enable it manually.
 * Update the database
 ```> drush update (or in the Drupal GUI: "<your_site>/update.php")
 ```
@@ -488,6 +488,7 @@ This module was installed as a submodule when the main IW module was installed, 
          |_islandora_example_simple_text_solution_pack
                   |_README.md
 ```
+
 * Content Model
   * Islandora Simple Text Content Model (islandora:sp_example_text)
 ```<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
@@ -513,6 +514,7 @@ This module was installed as a submodule when the main IW module was installed, 
  </dsTypeModel>
 </dsCompositeModel>
 ```
+
 **9. Configuring permissions for the Islandora Webform module**
 
 * Administer > People > Permissions > Roles
