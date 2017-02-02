@@ -466,7 +466,8 @@ modsrelated_to_dc.xsl
     * Enable "Islandora example simple text" module (islandora_example_simple_text)
       * This module was installed as a submodule when the main IW module was installed, but you have to enable it manually.
 * Update the database
-```> drush update (or in the Drupal GUI: "<your_site>/update.php")
+```
+> drush update (or in the Drupal GUI: "<your_site>/update.php")
 ```
 * There are no configuration options for this module.
 
@@ -491,7 +492,8 @@ modsrelated_to_dc.xsl
 
 * Content Model
   * Islandora Simple Text Content Model (islandora:sp_example_text)
-```<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+```
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
  <dsTypeModel ID="DC">
      <form FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" MIME="application/xml"></form>
  </dsTypeModel>
