@@ -281,10 +281,8 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 * At this point, the Islandora Webform module has silently added a new component to your webform labeled "Islandora object PID".
 * The "Islandora object PID" component holds the PID of the parent Islandora object. It does not need to be edited manually. It is automatically generated and inherits some settings from other components in the same webform. Upon ingest of a submission, the IW code stores the parent PID in the RELS-EXT datastream of the new object. Example:
-```
-<fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
-</fedora:isAnnotationOf>
-```
+```<fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
+</fedora:isAnnotationOf>```
 * (Optional) Examine this new component
 * Administer > Content > Webforms (i.e. /admin/content/webform)
 * Find the title of your webform > click "Components", and you will see the component "Islandora object PID".
@@ -360,8 +358,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * The code puts the submitted text in the <mods:title> element.
 * For other fields you use one of the IW menus to configure how each field in your form gets mapped to MODS (see discussion above).
 * The MODS datastream in Fedora (Content: managed, MIME type: text/xml) might look something like this.
-```
-<?xml version="1.0"?>
+```<?xml version="1.0"?>
 <mods xmlns="http://www.loc.gov/mods/v3"
 xmlns:mods="http://www.loc.gov/mods/v3"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -379,13 +376,10 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
      <namePart type="given">Peter</namePart>
     </name>
  </relatedItem>
-</mods>
-```
-
+</mods>```
 * It creates a stub of a Dublin Core datastream that might look something like this:
   * DC (inline, text/xml)
-```
-<oai_dc xmlnsdc::oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+```<oai_dc xmlnsdc::oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
 <dc:title>This photograph was probably taken in Toledo, Ohio</dc:title>
  <dc:contributor>Peter, MacDonald</dc:contributor>
  <dc:identifier>apw:235</dc:identifier>
@@ -397,8 +391,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * RELS-EXT (inline, applications/rdf+xml)
 ```
 <fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
-</fedora:isAnnotationOf>
-```
+</fedora:isAnnotationOf>```
 **8. Installing the Islandora Webform module**
 
 * The IW module actually consists of three modules plus a text-based content model. To learn more about each IW module, you should read the README file for each one on the code distribution repo.
@@ -406,11 +399,9 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   * github.com/commonmedia/islandora_webform.git
 
 **8.1. First of all Install and Configure the Drupal Webform module**
-```
-        > drush dl -y webform
+```        > drush dl -y webform
         > drush en -y webform (add @sites for multi-site setups)
-        > drush update (add @sites for multi-site setups)
-```
+        > drush update (add @sites for multi-site setups)```
 
 * Before you can start using webforms in Drupal you should configure it:
 Administer > Configuration > [Content Authoring] Webform settings
@@ -425,58 +416,51 @@ Administer > Configuration > [Content Authoring] Webform settings
 * Click "Save configuration".
 
 **8.2. Download/Install the "Webform AJAX" modules**
-```
-> drush dl -y weborm_ajax
-> drush en -y webform_ajax
-```
+```> drush dl -y weborm_ajax
+> drush en -y webform_ajax```
 
 **8.3. Download/Install the "Islandora Webform" module (there is more than one way to do this)**
 
 * SSH into the Drupal server.
 * Navigate to "sites/all/modules".
 * Clone the islandora_webform module:
-```
-> git clone https://github.com/commonmedia/islandora_webform.git
-```
+```> git clone https://github.com/commonmedia/islandora_webform.git```
 * If you are just upgrading the IW modules from an earlier version, do the following steps before cloning the new webform:
   * Clear all caches for all sites
   * Disable the IW modules
-  * Update the database for your sites.
-  ```
-> drush @sites cc all
+  * Update the database for your sites. (remove "@sites" if not a multi-site setup)
+  ```> drush @sites cc all
 > drush @sites dis islandora_webform
 > drush @sites dis islandora_webform_ingest
 > drush @sites dis islandora_example_single_text
-> drush @sites update
-```
+> drush @sites update```
 * Back up an customizations that will be overwritten when you upgrade the modules, such as:
-```
-islandora_webform/submodules/islandora_webform_ingest/examples/islandora_example_simple_text_solution_pack/xsl/
-modsrelated_to_dc.xsl
-```
+```islandora_webform/submodules/islandora_webform_ingest/examples/islandora_example_simple_text_solution_pack/xsl/
+modsrelated_to_dc.xsl```
+
 **8.4. Enable the Islandora Webform module for each site that needs it.**
 
-Shell method: SSH to the server
-To enable it for the default site, run at sites/all/modules:
-> drush en -y islandora_webform
-> drush en -y islandora_webform_ingest
-To enable it for all sites in multi-site, run at sites/all/modules:
-> drush @sites en -y islandora_webform
-> drush @sites en -y islandora_webform_ingest
-To enable it for a specific site:
-> drush en -y islandora_webform --uri=http://<your_site>
-> drush en -y islandora_webform_ingest --uri=http://<your_site>
-Drupal method: Log into a Drupal site
-Administer > Modules
-Enable "Islandora Webform" (islandora_webform)
-Enable "Islandora Webform Ingest" (islandora_webform_ingest)
-Enable "Islandora example simple text" module (islandora_example_simple_text)
-This module was installed as a submodule when the main IW module was installed, but you have to enable it manually.
-Update the database
-> drush update (or in the Drupal GUI: "<your_site>/update.php")
-There are no configuration options for this module.
+* Shell method: SSH to the server
+  * To enable it for the default site, run at sites/all/modules:
+```> drush en -y islandora_webform
+> drush en -y islandora_webform_ingest```
+  * To enable it for all sites in multi-site, run at sites/all/modules:
+```> drush @sites en -y islandora_webform
+> drush @sites en -y islandora_webform_ingest```
+  * To enable it for a specific site:
+```> drush en -y islandora_webform --uri=http://<your_site>
+> drush en -y islandora_webform_ingest --uri=http://<your_site>```
+* Drupal method: Log into a Drupal site
+  * Administer > Modules
+    * Enable "Islandora Webform" (islandora_webform)
+    * Enable "Islandora Webform Ingest" (islandora_webform_ingest)
+    * Enable "Islandora example simple text" module (islandora_example_simple_text)
+      * This module was installed as a submodule when the main IW module was installed, but you have to enable it manually.
+* Update the database
+```> drush update (or in the Drupal GUI: "<your_site>/update.php")```
+* There are no configuration options for this module.
 
-8.5. Ensure that all dependencies are enabled
+**8.5. Ensure that all dependencies are enabled**
 
 Administer > Modules
 
