@@ -285,7 +285,8 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 * At this point, the Islandora Webform module has silently added a new component to your webform labeled "Islandora object PID".
 * The "Islandora object PID" component holds the PID of the parent Islandora object. It does not need to be edited manually. It is automatically generated and inherits some settings from other components in the same webform. Upon ingest of a submission, the IW code stores the parent PID in the RELS-EXT datastream of the new object. Example:
-```<fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
+```
+<fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
 </fedora:isAnnotationOf>
 ```
 * (Optional) Examine this new component
