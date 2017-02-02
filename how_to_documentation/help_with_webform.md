@@ -360,7 +360,8 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * The code puts the submitted text in the <mods:title> element.
 * For other fields you use one of the IW menus to configure how each field in your form gets mapped to MODS (see discussion above).
 * The MODS datastream in Fedora (Content: managed, MIME type: text/xml) might look something like this.
-```<?xml version="1.0"?>
+```
+<?xml version="1.0"?>
 <mods xmlns="http://www.loc.gov/mods/v3"
 xmlns:mods="http://www.loc.gov/mods/v3"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -383,7 +384,8 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 * It creates a stub of a Dublin Core datastream that might look something like this:
   * DC (inline, text/xml)
-```<oai_dc xmlnsdc::oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+```
+<oai_dc xmlnsdc::oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
 <dc:title>This photograph was probably taken in Toledo, Ohio</dc:title>
  <dc:contributor>Peter, MacDonald</dc:contributor>
  <dc:identifier>apw:235</dc:identifier>
