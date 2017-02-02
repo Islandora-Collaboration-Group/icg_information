@@ -1,5 +1,5 @@
 # Documentation on the Islandora Webform Module
-(updated 2016-02-28, by Peter MacDonald)
+(updated 2017-02-03, by Peter MacDonald)
 
 ## Test Environment
 * Webform: 7.x-4.9 (webform)
@@ -437,8 +437,7 @@ Administer > Configuration > [Content Authoring] Webform settings
   * Clear all caches for all sites
   * Disable the IW modules
   * Update the database for your sites.
-  ```
-> drush @sites cc all
+  ```> drush @sites cc all
 > drush @sites dis islandora_webform
 > drush @sites dis islandora_webform_ingest
 > drush @sites dis islandora_example_single_text
