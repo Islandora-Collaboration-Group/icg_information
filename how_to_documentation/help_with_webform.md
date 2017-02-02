@@ -268,9 +268,14 @@ Guide for use: If you are an Islandora administrator with previous experience se
 [image]
 
 *  
+  * TROUBLESHOOTING: If you get this message: "Islandora Simple Text Content Model provides no datastreams populated from this webform."
+  1) You might not have yet set the association of the "Simple Text Related Item MODS form. or
+  2) You might have forgotten to enable the "Islandora example simple text module."
   * Ingest?: Select "Append" [This is the preferred option. The other options are: "Do not ingest" and "Replace"]
   * DataStream: "Select MODS" (The datastream labels listed here are those of the “Islandora Simple Text Content Model” which is used by Islandora for creating the caption object in Fedora.)
-  * Field: Select "relatedItems:relTitleInfo:relTitle (text/plain)" [Select the path to the MODS form element where you want the main webform text to be stored. The default XML form is "Simple Text Related Item MODS form".]
+  * Field:
+    * For a "Title" component, select "relatedItems:relTitleInfo:relTitle (text/plain)" [Select the path to the MODS form element where you want the main webform text to be stored. The default XML form is "Simple Text Related Item MODS form".]
+    * For a "Transcription" component, select, say, "relatedITems:noteTab:0:noteText (text/plain)."
 * Click "Save component" (button)
 * Now you can proceed to map all the remaining components (except for the "Islandora object PID") to MODS fields in the XML form. Here are some example mappings from one of DHi's forms:
   * Submission - relatedItems:noteTab:0:noteText (text/plain)
