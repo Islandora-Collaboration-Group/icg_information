@@ -408,8 +408,8 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 **8.1. First of all Install and Configure the Drupal Webform module**
 ```
         > drush dl -y webform
-        > drush @sites en -y webform
-        > drush @sites update
+        > drush en -y webform (add @sites for multi-site setups)
+        > drush update (add @sites for multi-site setups)
 ```
 
 * Before you can start using webforms in Drupal you should configure it:
