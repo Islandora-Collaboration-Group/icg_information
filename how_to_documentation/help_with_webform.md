@@ -497,13 +497,13 @@ modsrelated_to_dc.xsl
 * Module(s) directory structure (the three modules are italicized here):
 ```sites/all/modules
  |_islandora-webform
-               |_README.txt
+   |_README.txt
    |_submodules
      |_islandora_webform_ingest
        |_README.txt
        |_examples
          |_islandora_example_simple_text_solution_pack
-                  |_README.md
+           |_README.md
 ```
 
 * Content Model
