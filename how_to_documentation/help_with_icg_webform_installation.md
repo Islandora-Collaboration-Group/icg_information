@@ -372,8 +372,6 @@ NOTES:
 * This would probably better be done with RELS-EXT predicates, but we didn’t want to have separate forms for Captions and Transcriptions.
 * We use “isAnnotationOf” as the predicate in the RELS-EXT of all Fedora objects created by the IW module, but a richer ontology should be desirable for reporting and searching purposes.
 
-***
-
 **2. Uploading a file**
 
 * [THIS HAS NOT YET BEEN IMPLEMENT OR VERIFIED YET.]
