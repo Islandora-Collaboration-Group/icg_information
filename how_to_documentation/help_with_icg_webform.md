@@ -23,7 +23,7 @@
 * 4. Configuring Drupal accounts for the Islandora Webform module  
 
 **For End Users**
-* 5. Submitting an Islandora Webform  
+* 5. -Submitting an Islandora Webform- 
 
 **For Administrators**
 * 6. Islandora Webform installation preliminaries  
@@ -310,35 +310,6 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * Password: [any_dummy_password] (user can change this upon first use)
   * Status: Active (set to “Inactive” to prevent logging in)
   * Roles: webform submitter (has “authorized” user permissions)
-
-## For End Users
-
-**5. Submitting an Islandora Webform**
-
-* An authenticated user will see in a link that will launch a webform, when s/he is in an Islandora collection for which an IW webform has been enabled and is viewing an object of the type for which a webform has been designed.
-
-[image]
-
-* To submit a new webform:
-  * Click on the link to submit a caption. A form box will open.
-
-[image]
-
-*  
-  * Fill in the fields with your submission text.
-  * When finished, click "Submit". You can then “View”, “Edit” or “Delete” you submission on the “Submissions” page.        
-* To edit a previously submitted caption:
-  * Go to the object you submitted a caption on.
-  * Click the "Submissions" link.
-
-[image]
-
-* You cannot edit a previously submitted caption if you see the link “Re-ingest’ (in red font) because that means it has already been approved and ingested into Islandora. Ingested ones cannot be changed. If you decide to edit it anyway, a new Islandora submission object will be created and the original one will remain as well; there is no way you can delete it.
-  * Find your submission, which is probably the last one added to the list. If it has not yet been ingested, you can safely edit it.
-  * Click "Edit".
-    * Make your changes.
-  * Click “Save”.
-
 ## For Administrators
 
 **6. Islandora Webform installation preliminaries**
