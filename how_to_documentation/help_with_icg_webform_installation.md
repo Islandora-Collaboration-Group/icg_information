@@ -17,8 +17,8 @@
   * 4. Configuring permissions for the Islandora Webform module
   * 5. Configuring the Islandora Webform module’s XML Form
   * 6. Configuring the Drupal block of Islandora Webform submissions
-  * 7. Upgrading from an earlier version of the Islandora Webform module
-  * 8. Configuring Drupal accounts for the Islandora Webform module
+  * 7. Configuring Drupal accounts for the Islandora Webform module
+  * 8. Upgrading from an earlier version of the Islandora Webform module
 
 **4. Enhanced Development**
   * 1. DHi @hamilton (local customizations)
@@ -328,7 +328,6 @@ administrator
 [SHOULD THERE BE A SCREENSHOT HERE OF THE BLOCK CONFIG PAGE? MIGHT NOT REALLY BE NECESSARY, PJM]
 
 ***
-***
 
   * Block title: "User Contributed Captions and Transcriptions". [example only]
   * View mode: "Links" [This is the most compact mode because it doesn't show thumbnails.]
@@ -344,7 +343,19 @@ administrator
 
 ***
 
-##Upgrading from an earlier version of the Islandora Webform module.
+**7. Configuring Drupal accounts for the Islandora Webform module**
+
+* The IW module and IW Ingest module automatically set some user permissions, but an administrator should verify that they meet local needs.
+* If a link to your webform is to be seen by only authenticated users, an administrator should set permissions to restrict webform access to authenticated users only and create a Drupal account for those users and have them notified that they now have an account.
+  * Username:  [username of individual user]
+  * E-mail: [email address of the user]
+  * Password: [any_dummy_password] (user can change this upon first use)
+  * Status: Active (set to “Inactive” to prevent logging in)
+  * Roles: webform submitter (has “authorized” user permissions)
+
+***
+
+**8. Upgrading from an earlier version of the Islandora Webform module.**
 
 * Delete any existing “islandora_webform" directory and all its files.
 ```
@@ -428,20 +439,3 @@ See the GNU General Public License for more details.
 [insert tables]
 
 ***
-
-**7 Upgrading from an earlier version of the Islandora Webform module. [MISSING]
-
-***
-
-**8. Configuring Drupal accounts for the Islandora Webform module**
-
-* The IW module and IW Ingest module automatically set some user permissions, but an administrator should verify that they meet local needs.
-* If a link to your webform is to be seen by only authenticated users, an administrator should set permissions to restrict webform access to authenticated users only and create a Drupal account for those users and have them notified that they now have an account.
-  * Username:  [username of individual user]
-  * E-mail: [email address of the user]
-  * Password: [any_dummy_password] (user can change this upon first use)
-  * Status: Active (set to “Inactive” to prevent logging in)
-  * Roles: webform submitter (has “authorized” user permissions)
-
-***
-
