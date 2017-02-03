@@ -16,7 +16,7 @@
 
 **Introduction to the Islandora Webform module**
 * 1. Basic capabilities
-* 2. Credits
+* 2. Know the Limitations of the IW Module
 
 **For Webform Managers**
 * 3. Creating and configuring a new Islandora Webform
@@ -47,6 +47,17 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 ***
 
+## 2. Credits
+
+* The Islandora Webform module was conceived by the Islandora Consortial Group (ICG)
+  * https://sites.google.com/site/islandoraconsortiagroup/
+* The module development was coordinated by the Digital Humanities Initiative at Hamilton College (http://dhinitiative.org/)
+* The development was performed by Common Media (Patrick Dunlavey, developer)
+* Beta testing was first performed by DHi at Hamilton College Collection Development Team (DHi Collection Development Team) and later reviewed by other members of the ICG.
+* The development was supported by funds from an Andrew W. Mellon Foundation grant to DHi at Hamilton College (http://dhinitiative.org/)
+
+***
+
 ## Introduction to the Islandora Webform module
 
 **1. Basic capabilities**
@@ -57,7 +68,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * All the submissions for a specific object can be displayed along with the original object.
 * When an IW webform is configured, it can be bound to a single content model (basic image, IA Book reader, etc.). If you do bind it to a single content model, then you have to create a specific webform for each content model. You can also bind as webform to specific collections.
 
-**Know the Limitations of the IW Module**
+**2. Know the Limitations of the IW Module**
 
 * After a submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested. If you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place.
 * Implications of this are that it might be advisable to “Delete” a submission from the “Submissions” page once the ingest has been deemed successful. “Delete” only deletes the entry for the submission on the Submissions page (a mySQL deletion) -- it does not delete the Fedora object.
@@ -65,15 +76,6 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * You can associate a webform with only one Islandora collection object at a time, so if you are in the practice of creating many collection objects to organize your repository’s content, you will need to create a separate webform for each collection. Since there is currently no way to clone a webform, each webform you need will have to be configured separately.
 
 ***
-
-## 2. Credits
-
-* The Islandora Webform module was conceived by the Islandora Consortial Group (ICG)
-  * https://sites.google.com/site/islandoraconsortiagroup/
-* The module development was coordinated by the Digital Humanities Initiative at Hamilton College (http://dhinitiative.org/)
-* The development was performed by Common Media (Patrick Dunlavey, developer)
-* Beta testing was first performed by DHi at Hamilton College Collection Development Team (DHi Collection Development Team) and later reviewed by other members of the ICG.
-* The development was supported by funds from an Andrew W. Mellon Foundation grant to DHi at Hamilton College (http://dhinitiative.org/)
 
 ## For Webform Managers
 
