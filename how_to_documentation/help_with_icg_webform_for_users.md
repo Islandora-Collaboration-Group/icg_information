@@ -1,6 +1,6 @@
 # How to Use the ICG Webform - For End Users
 
-## Submitting an Islandora Webform
+**Submitting an Islandora Webform**
 
 * An authenticated user will see in a link that will launch a webform, when s/he is in an Islandora collection for which an IW webform has been enabled and is viewing an object of the type for which a webform has been designed.
 
@@ -13,7 +13,7 @@
 
 *  
   * Fill in the fields with your submission text.
-  * When finished, click "Submit". You can then “View”, “Edit” or “Delete” you submission on the “Submissions” page.        
+  * When finished, click "Submit". You can then “View”, “Edit” or “Delete” you submission on the “Submissions” page.
 * To edit a previously submitted caption:
   * Go to the object you submitted a caption on.
   * Click the "Submissions" link.
@@ -24,5 +24,6 @@
   * Find your submission, which is probably the last one added to the list. If it has not yet been ingested, you can safely edit it.
   * Click "Edit".
     * Make your changes.
-  * Click “Save”..
+  * Click “Save”.
 
+***
