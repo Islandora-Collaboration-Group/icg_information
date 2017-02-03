@@ -47,7 +47,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 ***
 
-## 2. Credits
+## Credits
 
 * The Islandora Webform module was conceived by the Islandora Consortial Group (ICG)
   * https://sites.google.com/site/islandoraconsortiagroup/
