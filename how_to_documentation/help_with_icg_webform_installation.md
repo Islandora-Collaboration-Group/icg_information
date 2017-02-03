@@ -326,7 +326,107 @@ administrator
 
 [SHOULD THERE BE A SCREENSHOT HERE OF THE BLOCK CONFIG PAGE? MIGHT NOT REALLY BE NECESSARY, PJM]
 
+***
+***
+
+  * Block title: "User Contributed Captions and Transcriptions". [example only]
+  * View mode: "Links" [This is the most compact mode because it doesn't show thumbnails.]
+  * Check "Only IW"
+  * Pages (section)
+    * Only the listed pages: [check]
+    * In box: "islandora/object/*" (Means show this block only when displaying Islandora objects.)
+  * Page Count: 10 (example only)
+  * Roles (section)
+    * authenticated user: [check] (make your own decision here whom to allow to see the submissions)
+  * Click "Save".
+* Click "Save blocks".
+
+***
+
+##Upgrading from an earlier version of the Islandora Webform module.
+
+* Delete any existing “islandora_webform" directory and all its files.
+```> cd sites/all/modules (or wherever islandora_webform in located)
+> drush cache-clear all
+> drush dis islandora_webform (this also disables islandora_webform_ingest)
+> rm -rf islandora_webform
+> drush update
+```
+NOTES: 
+* If you remove (rm) the modules you should protect files you may have manually customized such as 
+```islandora_webform/submodules/islandora_webform_ingest/examples/ .
+      islandora_example_simple_text_solution_pack/xsl/modsrelated_to_dc.xsl
+```
+* If you need to wipe out IW completely and start over, run pm-uninstall after you disable the modules. This does not wipe out the webforms or the XML forms, but it will wipe out all your settings related to Islandora Ingest.
+> drush pm-uninstall islandora_webform_ingest
+> drush pm-uninstall islandora_webform
+
+*** 
+##Enhanced development
+
+**1. Uploading a file**
+
+**[THIS HAS NOT YET BEEN IMPLEMENT OR VERIFIED YET.]**
+
+* Be sure you are in the collection to which you want to submit your upload.
+* If you are authorized to upload an object to this collection, you will see a block in the left sidebar labeled "Submitter Options" and in it a link labeled "Upload a file".
+* The purpose of this is to make it possible for an authenticated user to upload objects that are ingested as related to the object being viewed.
+
+* Click the “Upload a file” link.
+* Select the content type of the object you will be uploading (PDF, basic image, etc.)
+* Enter some metadata (only a "Title" is actually required).' Click "Next".
+* Click "Browse".
+  * Select the file on your computer.
+  * Click "Upload".
+* Click "Ingest".
+
+* Then if you want to add a caption to it, click the link under the object "Submit a caption or transcription."
+* These uploads will be ingested into Fedora, but they will not be visible to anonymous users until they are approved.
+* [dev comment: We still have to look into the details of permissions to be sure these users can't mess with with objects other than their own. I'm not sure that is possible.
+
+**2. Search and retrieval of submissions**
+
+* All submitted text is put into an HTML datastream and the dc:relation field. We can offer searches that query those datastreams, but, unfortunately, Drupal/Islandora ignores the HTML tags in those fields and runs all the text together. So DHi decided to map the submission text MODS note element to the dc:description element in the "text/plain" DC datastream.
+I think we will have to find another way to render the transcription with the HTML tags.
+
+15. DHi @hamilton local customizations)
+
+We add “User contribution:” to the title of a Fedora object created using the IW module.
+<dc:title>User contribution: [title]</dc:title>
+This would probably better be done with RELS-EXT predicates, but we didn’t want to have separate forms for Captions and Transcriptions.
+We use “isAnnotationOf” as the predicate in the RELS-EXT of all Fedora objects created by the IW module, but a richer ontology should be desirable for reporting and searching purposes.
+
+***
+
+Warranty and Copyright
+(This statement has not yet been approved by Common Media, DHi, or ICG)
+
+Copyright (C) 2015 ????
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+***
+
+**Islandora Webform Permission Settings**
+
+* These permission are currently set restrictively, but can easily be loosened up.
+  * Full management permissions are granted to the “administrator” and webform manager” roles.
+  * Submission permissions are granted to the “webform submitter” role.
+  * No webform permissions are granted to the “anonymous” and “authenticated” roles.
+
+**Node (scroll down to the 'Webform:" settings)**
+
+[insert tables]
+
+***
+***
+
 **7 Upgrading from an earlier version of the Islandora Webform module. [MISSING]
+
+***
 
 **8. Configuring Drupal accounts for the Islandora Webform module**
 
@@ -339,3 +439,4 @@ administrator
   * Roles: webform submitter (has “authorized” user permissions)
 
 ***
+
