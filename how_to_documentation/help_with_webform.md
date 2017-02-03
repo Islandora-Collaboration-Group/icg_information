@@ -57,9 +57,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * All the submissions for a specific object can be displayed along with the original object.
 * When an IW webform is configured, it can be bound to a single content model (basic image, IA Book reader, etc.). If you do bind it to a single content model, then you have to create a specific webform for each content model. You can also bind as webform to specific collections.
 
-***
-
-## Know the Limitations of the IW Module
+**Know the Limitations of the IW Module**
 
 * After a submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested. If you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place.
 * Implications of this are that it might be advisable to “Delete” a submission from the “Submissions” page once the ingest has been deemed successful. “Delete” only deletes the entry for the submission on the Submissions page (a mySQL deletion) -- it does not delete the Fedora object.
