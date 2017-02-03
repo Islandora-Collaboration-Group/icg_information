@@ -9,6 +9,7 @@
 * [includes Islandora Simple Text Module (islandora_simple_text_module)]
 * Islandora: 7.1.5, 7.1.6, HEAD
 * Drupal: 7.41  
+
 ***
 
 ## Table of Contents
@@ -42,6 +43,8 @@
 
 Guide for use: If you are an Islandora administrator with previous experience setting up Drupal webforms, then you will find this document offers more details than you probably need, but we hope that even you will find the level of detail into which this documentation goes helps you avoid making mistakes that can result in frustration and delays in implementation.
 
+***
+
 ## Introduction to the Islandora Webform module
 
 **1. Basic capabilities**
@@ -52,12 +55,16 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * All the submissions for a specific object can be displayed along with the original object.
 * When an IW webform is configured, it can be bound to a single content model (basic image, IA Book reader, etc.). If you do bind it to a single content model, then you have to create a specific webform for each content model. You can also bind as webform to specific collections.
 
+***
+
 ## Know the Limitations of the IW Module
 
 * After a submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested. If you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place.
 * Implications of this are that it might be advisable to “Delete” a submission from the “Submissions” page once the ingest has been deemed successful. “Delete” only deletes the entry for the submission on the Submissions page (a mySQL deletion) -- it does not delete the Fedora object.
 * Another implication is that if you ever need to edit the content of a submission, you should do the editing using the XML metadata form originally used to create that object.
 * You can associate a webform with only one Islandora collection object at a time, so if you are in the practice of creating many collection objects to organize your repository’s content, you will need to create a separate webform for each collection. Since there is currently no way to clone a webform, each webform you need will have to be configured separately.
+
+***
 
 ## 2. Credits
 
@@ -348,6 +355,8 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * Click "Edit".
     * Make your changes.
   * Click “Save”.
+
+***
 
 ## For Administrators
 
