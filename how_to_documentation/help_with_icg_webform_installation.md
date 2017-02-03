@@ -376,7 +376,7 @@ NOTES:
 
 **2. Uploading a file**
 
-**[THIS HAS NOT YET BEEN IMPLEMENT OR VERIFIED YET.]**
+* [THIS HAS NOT YET BEEN IMPLEMENT OR VERIFIED YET.]
 
 * Be sure you are in the collection to which you want to submit your upload.
 * If you are authorized to upload an object to this collection, you will see a block in the left sidebar labeled "Submitter Options" and in it a link labeled "Upload a file".
@@ -424,7 +424,6 @@ See the GNU General Public License for more details.
 
 [insert tables]
 
-***
 ***
 
 **7 Upgrading from an earlier version of the Islandora Webform module. [MISSING]
