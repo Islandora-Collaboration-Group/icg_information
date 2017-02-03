@@ -1,4 +1,4 @@
-# Documentation on the Islandora Webform Module
+# Documentation on the Islandora Webform Module - OBSOLETE
 (updated 2017-02-03, by Peter MacDonald)
 
 **For Webform Managers**
