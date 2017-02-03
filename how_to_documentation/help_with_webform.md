@@ -608,5 +608,5 @@ In the section labeled "Disabled", find the block titled "Objects with isAnnotat
 Select position: "Content" (Means place the block in the “content” region of the Drupal page.)
 Move the block to the bottom of the "Content" list of items, if necessary, so it displays at the bottom of the page.
 Click "Save blocks"
-Click "configure" next to the "Objects with isAnnotationOf relation"
+Click "configure" next to the "Objects with isAnnotationOf relation".
 
