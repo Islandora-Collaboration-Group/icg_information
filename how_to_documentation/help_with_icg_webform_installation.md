@@ -6,11 +6,11 @@
 * Credits
 * Test Environment
 
-1. **Introduction to the Islandora Webform module**
+**1. Introduction to the Islandora Webform module**
   * 1. Basic capabilities
   * 2. Know the Limitations of the IW Module
 
-2. **For Administrators**
+**2. For Administrators**
   * 1. Islandora Webform installation preliminaries
   * 2. Understanding the Islandora Simple Text content model
   * 3. Installing the Islandora Webform module
@@ -18,11 +18,11 @@
   * 5. Configuring the Islandora Webform module’s XML Form
   * 6. Configuring the Drupal block of Islandora Webform submissions
   * 7. Upgrading from an earlier version of the Islandora Webform module
+  * 8. Configuring Drupal accounts for the Islandora Webform module**
 
-3. **Enhanced Development**
+**4. Enhanced Development**
   * 1. Uploading a file [not implemented yet]
   * 2. Search and retrieval of submissions [not written yet]
-
 ***
 
 ## Warranty and Copyright
@@ -326,5 +326,16 @@ administrator
 
 [SHOULD THERE BE A SCREENSHOT HERE OF THE BLOCK CONFIG PAGE? MIGHT NOT REALLY BE NECESSARY, PJM]
 
-**7. Upgrading from an earlier version of the Islandora Webform module. [MISSING]
+**7 Upgrading from an earlier version of the Islandora Webform module. [MISSING]
 
+**8. Configuring Drupal accounts for the Islandora Webform module**
+
+* The IW module and IW Ingest module automatically set some user permissions, but an administrator should verify that they meet local needs.
+* If a link to your webform is to be seen by only authenticated users, an administrator should set permissions to restrict webform access to authenticated users only and create a Drupal account for those users and have them notified that they now have an account.
+  * Username:  [username of individual user]
+  * E-mail: [email address of the user]
+  * Password: [any_dummy_password] (user can change this upon first use)
+  * Status: Active (set to “Inactive” to prevent logging in)
+  * Roles: webform submitter (has “authorized” user permissions)
+
+***
