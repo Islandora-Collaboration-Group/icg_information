@@ -173,13 +173,13 @@ Administer > Configuration > [Content Authoring] Webform settings
 * If you are just upgrading the IW modules from an earlier version, do the following steps before cloning the new webform:
   * Clear all caches for all sites
   * Disable the IW modules
-  * Update the database for your sites.
+  * Update the database for your site(s) [Add "@sites" if you have a Drupal multi-site setup.]
   ```
   > drush @sites cc all
-> drush @sites dis islandora_webform
-> drush @sites dis islandora_webform_ingest
-> drush @sites dis islandora_example_single_text
-> drush @sites update
+> drush dis islandora_webform
+> drush dis islandora_webform_ingest
+> drush dis islandora_example_single_text
+> drush updatedb
 ```
 * Back up an customizations that will be overwritten when you upgrade the modules, such as:
 ```islandora_webform/submodules/islandora_webform_ingest/examples/islandora_example_simple_text_solution_pack/xsl/
