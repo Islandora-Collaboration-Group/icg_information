@@ -6,11 +6,11 @@
 * Credits
 * Test Environment
 
-1. Introduction to the Islandora Webform module**
+1. **Introduction to the Islandora Webform module**
   * 1. Basic capabilities
   * 2. Know the Limitations of the IW Module
 
-2. For Administrators**
+2. **For Administrators**
   * 1. Islandora Webform installation preliminaries
   * 2. Understanding the Islandora Simple Text content model
   * 3. Installing the Islandora Webform module
@@ -19,7 +19,7 @@
   * 6. Configuring the Drupal block of Islandora Webform submissions
   * 7. Upgrading from an earlier version of the Islandora Webform module
 
-3. Enhanced Development**
+3. **Enhanced Development**
   * 1. Uploading a file [not implemented yet]
   * 2. Search and retrieval of submissions [not written yet]
 
@@ -74,14 +74,14 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 ## For Administrators
 
-**6. Islandora Webform installation preliminaries**
+**1. Islandora Webform installation preliminaries**
 
 * Ensure that all basic Islandora modules and dependencies are installed and working.
 * DHI@Hamilton tested the IW module with the latest versions of each of these modules enabled:
 
 [table]
 
-**7. Understanding the _Islandora Simple Text Content Model_**
+**2. Understanding the _Islandora Simple Text Content Model_**
 
 * The IW module comes bundled with a content model, the “Islandora Simple Text Content Model”. It helps to be aware of how this content model accommodates the values submitted by a webform. Understanding the content model can help you configure the webform components properly. So spend some time examining the content model and the XML metadata form it is associated with.
 * The Content Model that is used by the IW module is part of the "Islandora Example Simple Text Solution Pack", which is installed when you install the main Islandora Webform module.
@@ -131,13 +131,13 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 </fedora:isAnnotationOf>
 ```
 
-**8. Installing the Islandora Webform module**
+**3. Installing the Islandora Webform module**
 
 * The IW module actually consists of three modules plus a text-based content model. To learn more about each IW module, you should read the README file for each one on the code distribution repo.
 * Common Media’s code repo:
   * github.com/commonmedia/islandora_webform.git
 
-**8.1. First of all Install and Configure the Drupal Webform module**
+**3.1. First of all Install and Configure the Drupal Webform module**
 ```
 > drush dl -y webform
 > drush en -y webform (add @sites for multi-site setups)
@@ -156,13 +156,13 @@ Administer > Configuration > [Content Authoring] Webform settings
 * Default subject: "Form submission from: [node:title]" (example only)
 * Click "Save configuration".
 
-**8.2. Download/Install the "Webform AJAX" modules**
+**3.2. Download/Install the "Webform AJAX" modules**
 ```
 > drush dl -y weborm_ajax
 > drush en -y webform_ajax
 ```
 
-**8.3. Download/Install the "Islandora Webform" module (there is more than one way to do this)**
+**833. Download/Install the "Islandora Webform" module (there is more than one way to do this)**
 
 * SSH into the Drupal server.
 * Navigate to "sites/all/modules".
@@ -185,7 +185,7 @@ Administer > Configuration > [Content Authoring] Webform settings
 ```islandora_webform/submodules/islandora_webform_ingest/examples/islandora_example_simple_text_solution_pack/xsl/
 modsrelated_to_dc.xsl
 ```
-**8.4. Enable the Islandora Webform module for each site that needs it.**
+**3.4. Enable the Islandora Webform module for each site that needs it.**
 
 * Shell method: SSH to the server
   * To enable it for the default site, run at sites/all/modules:
@@ -209,12 +209,12 @@ modsrelated_to_dc.xsl
 ```
 * There are no configuration options for this module.
 
-**8.5. Ensure that all dependencies are enabled**
+**3.5. Ensure that all dependencies are enabled**
 
 * Administer > Modules
 * Look for any Required but "missing" or "disabled" dependencies for the modules: Webform, Webform AJAX, Islandora Webform, and Islandora Webform Ingest modules, Islandora Example Simple Text.
 
-**8.6 Understanding the structure of the IW modules**
+**3.6 Understanding the structure of the IW modules**
 
 * Module(s) directory structure (the three modules are italicized here):
 ```sites/all/modules
@@ -255,7 +255,7 @@ modsrelated_to_dc.xsl
 </dsCompositeModel>
 ```
 
-**9. Configuring permissions for the Islandora Webform module**
+**4. Configuring permissions for the Islandora Webform module**
 
 * Administer > People > Permissions > Roles
 
@@ -272,7 +272,7 @@ administrator
   * Administer > Modules > Islandora Webform > Permissions (i.e., /admin/people/permissions#module-islandora_webform)
 * See separate section below for permission settings: "Islandora Webform Permissions Settings".
 
-**10. Configuring the Islandora Webform module’s XML form**
+**5. Configuring the Islandora Webform module’s XML form**
 
 * The IW modules comes with a preferred XML form (Simple Text Related Item MODS form), which is configured to work with the module’s PHP code and the supplied content Model (islandora:sp_example_text). This XML form is designed to hold information on a “related item.” The Fedora object holding the submission information is treated as the related item and all the submission information is wrapped in the <mods:relatedItem> element. [You can configure this differently on your site.]
 * If you decide to just use the default XML form, you still need to set its association with the Content Model set in the Islandora Settings in your webform
@@ -314,7 +314,7 @@ administrator
     * For "surname" map to DataStream:  "relatedItems:relNameInfo:namePart:family
   * Click "Save component".
 
-**11. Configuring the Drupal block of Islandora Webform submissions**
+**6. Configuring the Drupal block of Islandora Webform submissions**
 
 * All of the submissions for an Islandora object can be made visible by configuring the IW block.
 * Go to Administer > Structure > Blocks (ie. /admin/structure/block)
@@ -325,4 +325,6 @@ administrator
 * Click "configure" next to the "Objects with isAnnotationOf relation".
 
 [SHOULD THERE BE A SCREENSHOT HERE OF THE BLOCK CONFIG PAGE? MIGHT NOT REALLY BE NECESSARY, PJM]
+
+**7. Upgrading from an earlier version of the Islandora Webform module. [MISSING]
 
