@@ -347,7 +347,7 @@ administrator
 ##Upgrading from an earlier version of the Islandora Webform module.
 
 * Delete any existing “islandora_webform" directory and all its files.
-```> cd sites/all/modules (or wherever islandora_webform in located)
+``` > cd sites/all/modules (or wherever islandora_webform in located)
 > drush cache-clear all
 > drush dis islandora_webform (this also disables islandora_webform_ingest)
 > rm -rf islandora_webform
@@ -359,10 +359,12 @@ NOTES:
       islandora_example_simple_text_solution_pack/xsl/modsrelated_to_dc.xsl
 ```
 * If you need to wipe out IW completely and start over, run pm-uninstall after you disable the modules. This does not wipe out the webforms or the XML forms, but it will wipe out all your settings related to Islandora Ingest.
-> drush pm-uninstall islandora_webform_ingest
+``` > drush pm-uninstall islandora_webform_ingest
 > drush pm-uninstall islandora_webform
+```
 
 *** 
+
 ##Enhanced development
 
 **1. DHi @hamilton (local customizations)**
