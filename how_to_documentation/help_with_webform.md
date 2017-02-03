@@ -554,27 +554,28 @@ See separate section below for permission settings: "Islandora Webform Permissio
 
 **10. Configuring the Islandora Webform module’s XML form**
 
-* The IW modules comes with a preferred XML form (Simple Text Related Item MODS form), which is configured to work with the module’s PHP code and the supplied content Model (islandora:sp_example_text). This XML form is designed to hold information on a “related item” and if the Fedora object holding the submission information is treated as the related item and all the submission information is wrapped in the <mods:relatedItem> element.
+* The IW modules comes with a preferred XML form (Simple Text Related Item MODS form), which is configured to work with the module’s PHP code and the supplied content Model (islandora:sp_example_text). This XML form is designed to hold information on a “related item.” The Fedora object holding the submission information is treated as the related item and all the submission information is wrapped in the <mods:relatedItem> element. [You can configure this differently on your site.]
+* If you decide to just use the default XML form, you still need to set its association with the Content Model set in the Islandora Settings in your webform
 * It is very possible that the supplied XML form will not meet all of your metadata needs and you will need to customize it. For example,
-DHi@Hamilton unchecked “Access” to a few MODS elements that we did not need, such as, subTitle, reldisplayLabel, roleText, roleCode, and noteDisplaylabel.
+At DHi@Hamilton we unchecked “Access” to a few MODS elements that we did not need, such as, subTitle, reldisplayLabel, roleText, roleCode, and noteDisplaylabel.
 DHi replaced the built-it controlled vocabulary for the “type” attribute with its own terms:: Caption, Tags,Transcription, Translation, Question, Suggestion.
 DHi changed the mapping of the attribute “type” from reldisplayLabel to a full MODS element <mods:genre> so we could more easily retrieve it from Solr. This required adding crosswalk from mods:genre to dc:type in the transform: modsrelated_to_dc.xsl.
 DHi added a dateCreated element in the XML form.
 * Make any local changes to the Simple Text Related Item MODS form
-* Since editing built-in XML forms is not allowed in Islandora, the "Simple Text Related Item MODS form" has to be cloned (copied) to make a new one before you can customize it.
+* Since editing built-in XML forms is not allowed in Islandora, the "Simple Text Related Item MODS form" has to be cloned (copied) if you decide you need to customize it.
     * Use case: If you want to change the field type of the main input component from, say, "textfield", to "textarea".
     * “Copy” the built-in XML form to a new one.
     * Open your new XML form.
     * Select the title element: relatedItems:relTitleInfo:relTitle
     * Change "Type" to "textarea".
     * Click "Save".
-    * Associate the new XML form with the Content Model (admin/islandora/xmlform)
+    * Associate the new XML form with the Simple Text Content Model (admin/islandora/xmlform)
     * Find "<your_new-XML-form>” and click "Associate".
     * Click “Add Association”
       * Content Model:  select "Islandora Simple Text Content Model (islandora:sp_example_text)"
       * Metadata Datastream ID: "MODS"
       * Title Field: "['relatedItems']['relTitleInfo']['relTitle']"
-      * XSL Transform: "modsrelated_to_dc.xsl"
+      * XSL Transform: "modsrelated_to_dc.xsl" [or modsrelated_to_dc.xsl?]
       * Self XSL Transform: "No transform"
       * Upload Template Document: [optional]
       * Click "Add Association" (button)
@@ -603,3 +604,4 @@ DHi added a dateCreated element in the XML form.
 * Click "Save blocks"
 * Click "configure" next to the "Objects with isAnnotationOf relation".
 
+[SHOULD THERE BE A SCREENSHOT HERE OF THE BLOCK CONFIG PAGE? MIGHT NOT REALLY BE NECESSARY, PJM]
