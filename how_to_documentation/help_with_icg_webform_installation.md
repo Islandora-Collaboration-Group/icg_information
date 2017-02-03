@@ -7,21 +7,21 @@
 * Test Environment
 
 1. Introduction to the Islandora Webform module**
-  1 Basic capabilities
-  2 Know the Limitations of the IW Module
+  1. Basic capabilities
+  2. Know the Limitations of the IW Module
 
 2. For Administrators**
-  1 Islandora Webform installation preliminaries
-  2 Understanding the Islandora Simple Text content model
-  3 Installing the Islandora Webform module
-  4 Configuring permissions for the Islandora Webform module
-  5 Configuring the Islandora Webform module’s XML Form
-  6 Configuring the Drupal block of Islandora Webform submissions
-  7 Upgrading from an earlier version of the Islandora Webform module
+  1. Islandora Webform installation preliminaries
+  2. Understanding the Islandora Simple Text content model
+  3. Installing the Islandora Webform module
+  4. Configuring permissions for the Islandora Webform module
+  5. Configuring the Islandora Webform module’s XML Form
+  6. Configuring the Drupal block of Islandora Webform submissions
+  7. Upgrading from an earlier version of the Islandora Webform module
 
 3. Enhanced Development**
-  1 Uploading a file [not implemented yet]
-  2 Search and retrieval of submissions [not written yet]
+  1. Uploading a file [not implemented yet]
+  2. Search and retrieval of submissions [not written yet]
 
 ***
 
