@@ -15,7 +15,8 @@
 **1.1. Create a new Drupal webform**
 * Log in to the site (URL) where you want to create a webform. Be sure your account/role is permitted to create webforms.
 * Administer > Content; Click Add content; Select "Webform" (i.e., /node/add/webform).
-  * [If a webform has never been created before on this site, you might not see “webforms” in the list of content types. If "Webform" is not listed here, then your administrator will have to add it (see Administer > Structure > Content types (i.e., /admin/structure/types)
+  * [If a webform has never been created before on this site, you might not see “webforms” in the list of content types. If "Webform" is not listed here, then your administrator will have to add it (see Administer > Structure > Content types (i.e., /admin/structure/types).
+    * If you still do not see "Add Webform" go to /node/add/webform" directly on the URL line.
 * Create Webform
   * Add values to the fields to the webform as follows:
 
@@ -82,7 +83,7 @@
 * Required: [check]
 
 **Display**
-* Resizable: [check]
+* Resizable: [check] [This option may not be visible on all versions of the webform.]
 * Label display: select "Above" [can be changed later]
 
 **Placeholder**
@@ -143,7 +144,7 @@
 
 **1.4. Configure the Islandora settings for the webform**
 
-* WARNING: Before you change anything on this page, be aware that if this webform has already been used for any submissions and those submissions have not yet been ingested, those submissions might not ingest properly. As a precaution, you should ingest all pending webforms submissions before making any changes to an existing webform’s Islandora settings. If you are creating a new webform, you don't have to worry about this.
+* WARNING: Before you change anything on this page, be aware that if the webform you are configuring has already been used for any submissions and those submissions have not yet been ingested, those submissions might not ingest properly. As a precaution, you should ingest all pending webforms submissions before making any changes to an existing webform’s Islandora settings. If you are creating a new webform, you don't have to worry about this.
   * Ensure you are on the “Form settings” page, if not…
   * Go to Administer > Content > Webforms (i.e., /admin/content/webform)
   * Find the title of your webform and click the "Components" link.
@@ -197,7 +198,7 @@
 
 **1.5. Configure Islandora Ingest Mapping (to specify where the component’s content will be stored in the Fedora object)**
 
-* The IW module doesn't predetermine which components (i.e. form fields) you use in your webform. This is determined by your needs, but whatever components you choose must be mapped to MODS element paths in the specified metadata XML form. That said, since most content models require a <mods:title> element. However, the crosswalk that comes with the IW module crosswalks <mods:title> to <dc:relation>. DHi@Hamilton changed this crosswalking XSLT so it maps it to <dc:title>. (But this is not the place for a full explanation of how to do this.)
+* The IW module doesn't predetermine which components (i.e. form fields) you use in your webform. This is determined by your needs, but whatever components you choose must be mapped to MODS element paths in the specified metadata XML form. however, the crosswalk that comes with the IW module crosswalks <mods:title> to <dc:relation> -- not <dc.title>. DHi@Hamilton changed this crosswalking XSLT so it maps it to <dc:title>. (But this is not the place for a full explanation of how to do this.)
 * Navigate to the Webform "Form components" page:
 * Administer > Content > Webforms (tab) > find the title of your webform and click "Components" (link).
 * Find the component that will store the text of the submission and click the "Edit" link.
