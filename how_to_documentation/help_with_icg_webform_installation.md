@@ -356,7 +356,8 @@ administrator
 ```
 NOTES: 
 * If you remove (rm) the modules you should protect files you may have manually customized such as 
-```islandora_webform/submodules/islandora_webform_ingest/examples/ .
+```
+islandora_webform/submodules/islandora_webform_ingest/examples/ .
       islandora_example_simple_text_solution_pack/xsl/modsrelated_to_dc.xsl
 ```
 * If you need to wipe out IW completely and start over, run pm-uninstall after you disable the modules. This does not wipe out the webforms or the XML forms, but it will wipe out all your settings related to Islandora Ingest.
