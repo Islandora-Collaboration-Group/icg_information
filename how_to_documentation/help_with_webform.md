@@ -1,18 +1,11 @@
 # Documentation on the Islandora Webform Module
 (updated 2017-02-03, by Peter MacDonald)
 
-## Test Environment
-* Webform: 7.x-4.9 (webform)
-* Webform AJAX: 7.x-1.1 (webform_ajax)
-* Islandora Webform Module (islandora_webform)
-* Islandora Ingest Module (islandora_webform_ingest)
-* [includes Islandora Simple Text Module (islandora_simple_text_module)]
-* Islandora: 7.1.5, 7.1.6, HEAD
-* Drupal: 7.41  
-
-***
-
 ## Table of Contents
+
+* Warranty and Copyright
+* Credits
+* Test Environment
 
 **Introduction to the Islandora Webform module**
 * 1. Basic capabilities
@@ -55,6 +48,17 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * The development was performed by Common Media (Patrick Dunlavey, developer)
 * Beta testing was first performed by DHi at Hamilton College Collection Development Team (DHi Collection Development Team) and later reviewed by other members of the ICG.
 * The development was supported by funds from an Andrew W. Mellon Foundation grant to DHi at Hamilton College (http://dhinitiative.org/)
+
+***
+
+## Test Environment
+* Webform: 7.x-4.9 (webform)
+* Webform AJAX: 7.x-1.1 (webform_ajax)
+* Islandora Webform Module (islandora_webform)
+* Islandora Ingest Module (islandora_webform_ingest)
+* [includes Islandora Simple Text Module (islandora_simple_text_module)]
+* Islandora: 7.1.5, 7.1.6, HEAD
+* Drupal: 7.41  
 
 ***
 
