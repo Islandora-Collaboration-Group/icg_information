@@ -334,6 +334,8 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * Status: Active (set to “Inactive” to prevent logging in)
   * Roles: webform submitter (has “authorized” user permissions)
 
+***
+
 ## For End Users
 
 **5. Submitting an Islandora Webform**
