@@ -162,7 +162,7 @@ Administer > Configuration > [Content Authoring] Webform settings
 > drush en -y webform_ajax
 ```
 
-**833. Download/Install the "Islandora Webform" module (there is more than one way to do this)**
+**3.3. Download/Install the "Islandora Webform" module (there is more than one way to do this)**
 
 * SSH into the Drupal server.
 * Navigate to "sites/all/modules".
