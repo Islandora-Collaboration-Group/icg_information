@@ -265,17 +265,6 @@ islandora_webform/submodules/islandora_webform_ingest/examples/ .
 
 *** 
 
-##Enhanced development
-
-**1. DHi @hamilton (local customizations)**
-
-* We add “User contribution:” to the title of a Fedora object created using the IW module.
-  * <dc:title>User contribution: [title]</dc:title>
-* This would probably better be done with RELS-EXT predicates, but we didn’t want to have separate forms for Captions and Transcriptions.
-* We use “isAnnotationOf” as the predicate in the RELS-EXT of all Fedora objects created by the IW module, but a richer ontology should be desirable for reporting and searching purposes.
-
-***
-
 **7. Search and retrieval of submissions**
 
 * All submitted text is put into an HTML datastream and the dc:relation field. We can offer searches that query those datastreams, but, unfortunately, Drupal/Islandora ignores the HTML tags in those fields and runs all the text together. So DHi decided to map the submission text MODS note element to the dc:description element in the "text/plain" DC datastream.
