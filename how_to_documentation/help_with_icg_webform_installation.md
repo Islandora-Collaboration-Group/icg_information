@@ -1,8 +1,11 @@
 # How to Install and Configure the ICG Webform module
 
+Guide for use: If you are an Islandora administrator with previous experience setting up Drupal webforms, then you will find this document offers more details than you probably need, but we hope that even you will find the level of detail into which this documentation goes helps you avoid making mistakes that can result in frustration and delays in implementation.
+
+***
+
 ## Table of Contents
 
-* Warranty and Copyright
 * Credits
 * Test Environment
 
@@ -24,12 +27,6 @@
   * 1. DHi @hamilton (local customizations)
   * 2. Uploading a file [not implemented yet]
   * 3. Search and retrieval of submissions [not written yet]
-***
-
-## Warranty and Copyright
-
-Guide for use: If you are an Islandora administrator with previous experience setting up Drupal webforms, then you will find this document offers more details than you probably need, but we hope that even you will find the level of detail into which this documentation goes helps you avoid making mistakes that can result in frustration and delays in implementation.
-
 ***
 
 ## Credits
