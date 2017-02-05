@@ -82,15 +82,15 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 [table]
 
-Module Name | Status
-Drupal | required
-Islandora | required, plus dependencies
-Tuque | required
-Islandora Basic Collection | required
-Isandora XML Forms | required if Igest module is enabled
-Webform | required
-Webform AJAX | required
-Token | optional
+| Module Name | Status |
+| Drupal | required |
+| Islandora | required, plus dependencies |
+| Tuque | required |
+| Islandora Basic Collection | required |
+| Isandora XML Forms | required if Igest module is enabled |
+| Webform | required |
+| Webform AJAX | required |
+| Token | optional |
 
 **2. Understanding the _Islandora Simple Text Content Model_**
 
