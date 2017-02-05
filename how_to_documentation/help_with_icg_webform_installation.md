@@ -447,9 +447,22 @@ See the GNU General Public License for more details.
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
 | ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
-| Webform:| - | - | X | X | X |
-Create new content
-|Webform: | - | - | X | X | X |
-Edit own content| | | | | |
-| | | | | |
+| Webform: Create new content | - | - | X | X | X |
+| Webform: Edit own content   | - | - | X | X | X |
+| Webform: Edit any content   | - | - | X | X | - |
+| Webform: Edit any content   | - | - | X | X | X |
+| Webform: Delete any content | - | - | X | X | - |
+
+**Islandora**
+
+**Islandora Solr**
+* Search the Solr Index (Checck all roles)
+
+**Islandora Webform**
+
+**Islandora Webform Ingest**
+
+**Webform (Drupal)**
+
+
 ***
