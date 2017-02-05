@@ -446,7 +446,7 @@ See the GNU General Public License for more details.
 **Node (scroll down to the 'Webform:" settings)**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
-| ------------- |:-------------:| :-----:| :------------- |:-------------:| :-----:|
+| ------------- |:-------------:| :-----:| :-------------: |:-------------:| :-----:|
 | Webform: Create new content | - | - | X | X | X |
 | Webform: Edit own content   | - | - | X | X | X |
 | Webform: Edit any content   | - | - | X | X | - |
@@ -456,7 +456,7 @@ See the GNU General Public License for more details.
 **Islandora**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
-| ------------- |:-------------:| :-----:| :------------- |:-------------:| :-----:|
+| ------------- |:-------------:| :-----:| :-------------: |:-------------:| :-----:|
 | View repository objects | X | X | X | X | X |
 
 **Islandora Solr**
@@ -465,19 +465,26 @@ See the GNU General Public License for more details.
 **Islandora Webform**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
-| ------------- |:-------------:| :-----:| :------------- |:-------------:| :-----:|
+| ------------- |:-------------:| :-----:| :-------------: |:-------------:| :-----:|
 | Manage Isl. Webforms      | - | - | X | - | - |
 | Link Isl obj. to webforms | - | - | X | X | - |
 
 **Islandora Webform Ingest**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
-| ------------- |:-------------:| :-----:| :------------- |:-------------:| :-----:|
+| ------------- |:-------------:| :-----:| :-------------: |:-------------:| :-----:|
 | Ingest Isl. Webform Submissions  | - | - | X | X | - |
 
 **Webform (Drupal)**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
-| ------------- |:-------------:| :-----:| :------------- |:-------------:| :-----:|
-|  |  |  |  |  |  |
+| ------------- |:-------------:| :-----:| :-------------: |:-------------:| :-----:|
+| Access all webform results |  |  | X | X | X |
+| Access own webform results |  |  | X | X | X |
+| Edit all webform submissions |  |  | X | X | - |
+| Delete all webform submissions |  |  | X | X | - |
+| Access own webform submissions |  |  | X | X | X |
+| Edit own webform submission |  |  | X | X | X |
+| Delete own webform submissions |  |  | X | X | X |
+| Content authors: access and edit webofrm componenets and settings  |  |  | X | X | - |
 ***
