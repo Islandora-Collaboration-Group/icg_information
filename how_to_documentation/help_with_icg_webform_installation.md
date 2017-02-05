@@ -32,11 +32,10 @@ Guide for use: If you are an Islandora administrator with previous experience se
 ## Credits
 
 * The Islandora Webform module was conceived by the Islandora Consortial Group (ICG)
-  * https://sites.google.com/site/islandoraconsortiagroup/
-* The module development was coordinated by the Digital Humanities Initiative at Hamilton College (http://dhinitiative.org/)
+  * https://github.com/Islandora-Collaboration-Group
+* The module development was coordinated by the Digital Humanities Initiative at Hamilton College (http://dhinitiative.org/) and supported by funds from an Andrew W. Mellon Foundation grant to DHi at Hamilton College (http://dhinitiative.org/)
 * The development was performed by Common Media (Patrick Dunlavey, developer)
 * Beta testing was first performed by DHi at Hamilton College Collection Development Team (DHi Collection Development Team) and later reviewed by other members of the ICG.
-* The development was supported by funds from an Andrew W. Mellon Foundation grant to DHi at Hamilton College (http://dhinitiative.org/)
 
 ***
 
@@ -46,8 +45,8 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * Islandora Webform Module (islandora_webform)
 * Islandora Ingest Module (islandora_webform_ingest)
 * [includes Islandora Simple Text Module (islandora_simple_text_module)]
-* Islandora: 7.1.5, 7.1.6, HEAD
-* Drupal: 7.41  
+* Islandora: 7.1.7, and HEAD
+* Drupal: 7.51
 
 ***
 
@@ -56,10 +55,10 @@ Guide for use: If you are an Islandora administrator with previous experience se
 **1. Basic capabilities**
 
 * The Islandora Webform (IW) module uses the capabilities of the standard Drupal Webform module to enable users to submit comments (captions, tags, transcriptions, etc.) on digital objects in an Islandora repository.
-* In Islandora, a link to a webform appears on the object view page that launches a webform that captures a user’s input and puts the submitted webform into a queue waiting for approval by a webform manager.
-* When approved, the submission is ingested into a new Fedora object where the content is mapped by a customizable XML metadata form to designated MODS elements which are crosswalked by a customizable XSLT to Dublin Core, and a relationship statement is placed in the RELS-EXT datastream connecting the submission to the original object.
-* All the submissions for a specific object can be displayed along with the original object.
-* When an IW webform is configured, it can be bound to a single content model (basic image, IA Book reader, etc.). If you do bind it to a single content model, then you have to create a specific webform for each content model. You can also bind as webform to specific collections.
+* In Islandora, a link to a webform appears on the object view page that launches a webform that captures a user’s input and puts the submitted form values into a queue waiting for approval by a webform manager.
+* When the submission is approved, the form values are ingested into either 1) the MODS (or a specific datastream) of the Fedora object being commented on or 2) a completely new Fedora object. The values are mapped as desired using a customizable XML metadata form. If 2) is used, a relationship statement is placed in the RELS-EXT datastream connecting the Fedora submission object to the original Fedora object.
+* All the submissions for a specific object can be displayed along with the original object using a dedicated Drupal block.
+* When an IW webform is configured, it can be bound to a single content model (basic image, IA Book reader, etc.). If you do bind it to a single content model, then you have to create a specific webform for each content model. You can also bind a webform to specific collections.
 
 **2. Know the Limitations of the IW Module**
 
