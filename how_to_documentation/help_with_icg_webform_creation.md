@@ -9,6 +9,7 @@
 * 4. Creating and configuring a new Islandora Webform
   * 4b. Creating and configuring a new Islandora Webform
 * 5. Enabling webforms on only certain objects
+* 6. DHi @hamilton (local customizations)
 
 ***
 
@@ -372,3 +373,11 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ***
 
+**6. DHi @hamilton (local customizations)**
+
+* We add “User contribution:” to the title of a Fedora object created using the IW module.
+  * <dc:title>User contribution: [title]</dc:title>
+* This would probably better be done with RELS-EXT predicates, but we didn’t want to have separate forms for Captions and Transcriptions.
+* We use “isAnnotationOf” as the predicate in the RELS-EXT of all Fedora objects created by the IW module, but a richer ontology should be desirable for reporting and searching purposes.
+
+***
