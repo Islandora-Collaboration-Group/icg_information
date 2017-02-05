@@ -83,6 +83,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 [table]
 <code>"
 | Module Name | Status |
+| ------------- |:-------------:| -----:|
 | Drupal | required |
 | Islandora | required, plus dependencies |
 | Tuque | required |
