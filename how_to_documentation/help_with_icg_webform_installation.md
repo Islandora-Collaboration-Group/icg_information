@@ -58,7 +58,6 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * In Islandora, a link to a webform appears on the object view page that launches a webform that captures a user’s input and puts the submitted form values into a queue waiting for approval by a webform manager.
 * When the submission is approved, the form values are ingested into either 1) the MODS (or a specific datastream) of the Fedora object being commented on or 2) a completely new Fedora object. The values are mapped as desired using a customizable XML metadata form. If 2) is used, a relationship statement is placed in the RELS-EXT datastream connecting the Fedora submission object to the original Fedora object.
 * All the submissions for a specific object can be displayed along with the original object using a dedicated Drupal block.
-* When an IW webform is configured, it can be bound to a single content model (basic image, IA Book reader, etc.). If you do bind it to a single content model, then you have to create a specific webform for each content model. You can also bind a webform to specific collections.
 
 **2. Know the Limitations of the IW Module**
 
