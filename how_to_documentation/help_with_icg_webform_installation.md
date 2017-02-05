@@ -101,7 +101,7 @@ Token | optional
 * The code includes the parent object’s PID as the property of an xlink attribute of the <mods:relatedItem> element.
 * The code puts the submitted text in the <mods:title> element.
 * For other fields you use one of the IW menus to configure how each field in your form gets mapped to MODS (see discussion above).
-* The MODS datastream in Fedora (Content: managed, MIME type: text/xml) might look something like this.
+* The MODS datastream in Fedora (Content: managed, MIME type: text/xml) might look something like this..
 ```
 <?xml version="1.0"?>
 <mods xmlns="http://www.loc.gov/mods/v3"
