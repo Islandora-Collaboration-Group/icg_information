@@ -81,7 +81,12 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * DHI@Hamilton tested the IW module with the latest versions of each of these modules enabled:
 
 [table]
-<code>"
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 | Module Name | Status |
 | ------------- |:-------------:| -----:|
 | Drupal | required |
@@ -92,7 +97,6 @@ Guide for use: If you are an Islandora administrator with previous experience se
 | Webform | required |
 | Webform AJAX | required |
 | Token | optional |
-"</code>
 
 **2. Understanding the _Islandora Simple Text Content Model_**
 
