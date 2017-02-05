@@ -2,28 +2,19 @@
 
 Guide for use: If you are an Islandora administrator with previous experience setting up Drupal webforms, then you will find this document offers more details than you probably need, but we hope that even you will find the level of detail into which this documentation goes helps you avoid making mistakes that can result in frustration and delays in implementation.
 
-***
-
-## Table of Contents
-
 * Credits
 * Test Environment
 
-***
+## Table of Contents
 
-**2. For Administrators**
-  * 1. Islandora Webform installation preliminaries
-  * 3. Installing the Islandora Webform module
-  * 4. Configuring permissions for the Islandora Webform module
-  * 5. Configuring the Islandora Webform module’s XML Form
-  * 6. Configuring the Drupal block of Islandora Webform submissions
-  * 7. Configuring Drupal accounts for the Islandora Webform module
-  * 8. Upgrading from an earlier version of the Islandora Webform module
+* 1. Islandora Webform installation preliminaries
+* 2. Installing the Islandora Webform module
+* 3. Configuring permissions for the Islandora Webform module
+* 4. Configuring the Drupal block of Islandora Webform submissions
+* 5. Configuring Drupal accounts for the Islandora Webform module
+* 6. Upgrading from an earlier version of the Islandora Webform module
+* 7. Search and retrieval of submissions [not written yet]
 
-**4. Enhanced Development**
-  * 1. DHi @hamilton (local customizations)
-  * 2. Uploading a file [not implemented yet]
-  * 3. Search and retrieval of submissions [not written yet]
 ***
 
 ## Credits
@@ -193,7 +184,7 @@ modsrelated_to_dc.xsl
 </dsCompositeModel>
 ```
 
-**4. Configuring permissions for the Islandora Webform module**
+**3. Configuring permissions for the Islandora Webform module**
 
 * Administer > People > Permissions > Roles
 
@@ -210,7 +201,7 @@ administrator
   * Administer > Modules > Islandora Webform > Permissions (i.e., /admin/people/permissions#module-islandora_webform)
 * See separate section below for permission settings: "Islandora Webform Permissions Settings".
 
-**6. Configuring the Drupal block of Islandora Webform submissions**
+**4. Configuring the Drupal block of Islandora Webform submissions**
 
 * All of the submissions for an Islandora object can be made visible by configuring the IW block.
 * Go to Administer > Structure > Blocks (ie. /admin/structure/block)
@@ -238,7 +229,7 @@ administrator
 
 ***
 
-**7. Configuring Drupal accounts for the Islandora Webform module**
+**5. Configuring Drupal accounts for the Islandora Webform module**
 
 * The IW module and IW Ingest module automatically set some user permissions, but an administrator should verify that they meet local needs.
 * If a link to your webform is to be seen by only authenticated users, an administrator should set permissions to restrict webform access to authenticated users only and create a Drupal account for those users and have them notified that they now have an account.
@@ -250,7 +241,7 @@ administrator
 
 ***
 
-**8. Upgrading from an earlier version of the Islandora Webform module.**
+**6. Upgrading from an earlier version of the Islandora Webform module.**
 
 * Delete any existing “islandora_webform" directory and all its files.
 ```
@@ -283,27 +274,9 @@ islandora_webform/submodules/islandora_webform_ingest/examples/ .
 * This would probably better be done with RELS-EXT predicates, but we didn’t want to have separate forms for Captions and Transcriptions.
 * We use “isAnnotationOf” as the predicate in the RELS-EXT of all Fedora objects created by the IW module, but a richer ontology should be desirable for reporting and searching purposes.
 
-**2. Uploading a file**
+***
 
-* [THIS HAS NOT YET BEEN IMPLEMENT OR VERIFIED YET.]
-
-* Be sure you are in the collection to which you want to submit your upload.
-* If you are authorized to upload an object to this collection, you will see a block in the left sidebar labeled "Submitter Options" and in it a link labeled "Upload a file".
-* The purpose of this is to make it possible for an authenticated user to upload objects that are ingested as related to the object being viewed.
-
-* Click the “Upload a file” link.
-* Select the content type of the object you will be uploading (PDF, basic image, etc.)
-* Enter some metadata (only a "Title" is actually required).' Click "Next".
-* Click "Browse".
-  * Select the file on your computer.
-  * Click "Upload".
-* Click "Ingest".
-
-* Then if you want to add a caption to it, click the link under the object "Submit a caption or transcription."
-* These uploads will be ingested into Fedora, but they will not be visible to anonymous users until they are approved.
-* [dev comment: We still have to look into the details of permissions to be sure these users can't mess with with objects other than their own. I'm not sure that is possible.
-
-**3. Search and retrieval of submissions**
+**7. Search and retrieval of submissions**
 
 * All submitted text is put into an HTML datastream and the dc:relation field. We can offer searches that query those datastreams, but, unfortunately, Drupal/Islandora ignores the HTML tags in those fields and runs all the text together. So DHi decided to map the submission text MODS note element to the dc:description element in the "text/plain" DC datastream.
 * I think we will have to find another way to render the transcription with the HTML tags.
@@ -373,4 +346,5 @@ See the GNU General Public License for more details.
 | Edit own webform submission |  | - | X | X | X |
 | Delete own webform submissions | - | - | X | X | X |
 | Content authors: access and edit webofrm componenets and settings  |  |  | X | X | - |
+
 ***
