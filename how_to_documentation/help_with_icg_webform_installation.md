@@ -62,10 +62,10 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 **2. Know the Limitations of the IW Module**
 
-* After a submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested. If you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place.
-* Implications of this are that it might be advisable to “Delete” a submission from the “Submissions” page once the ingest has been deemed successful. “Delete” only deletes the entry for the submission on the Submissions page (a mySQL deletion) -- it does not delete the Fedora object.
+* After a webform submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested. If you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place and unchanged.
+* Implications of this are that it might be advisable to “Delete” a submission from the “Submissions” page once the ingest has been approved and ingested. “Delete” only deletes the entry for the submission on the Submissions page (a mySQL deletion) -- it does not delete the Fedora object.
 * Another implication is that if you ever need to edit the content of a submission, you should do the editing using the XML metadata form originally used to create that object.
-* You can associate a webform with only one Islandora collection object at a time, so if you are in the practice of creating many collection objects to organize your repository’s content, you will need to create a separate webform for each collection. Since there is currently no way to clone a webform, each webform you need will have to be configured separately.
+* You can associate a webform with only one content model at a time or no content model at all. If you are in the practice of ingesting objects of different content models into the same collection, you might be able to get away with not binding a webform to any content model at all.
 
 ***
 
