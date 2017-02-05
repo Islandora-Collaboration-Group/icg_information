@@ -9,29 +9,31 @@
 
 * 1. How to submit an Islandora Webform
 
-* An authenticated user will see in a link that will launch a webform, when s/he is in an Islandora collection for which an IW webform has been enabled and is viewing an object of the type for which a webform has been designed.
+* when a visitor to the Islandora site views an object whose properties matche the properties set by a webform , she will see a link to that webform if the visitor's user role permits access to the webform.
+* The person who set up the webform may have set it up s only authenticated users will have access to it.
 
 [image]
 
-* To submit a new webform:
-  * Click on the link to submit a caption. A form box will open.
+* To use the webform:
+  * Click on the link to the webform and a webform box will open for you to fill in.
 
 [image]
 
 *  
-  * Fill in the fields with your submission text.
-  * When finished, click "Submit". You can then “View”, “Edit” or “Delete” you submission on the “Submissions” page.
-* To edit a previously submitted caption:
-  * Go to the object you submitted a caption on.
+  * Fill in the fields in accordance with the on-screen instructions.
+  * When finished, click "Submit".
+* To edit a previously submitted webform:
+  * Go to the object you submitted a webform on.
   * Click the "Submissions" link.
+  * You can then “View”, “Edit” or “Delete” your submission on the “Submissions” page.
 
 [image]
 
-* You cannot edit a previously submitted caption if you see the link “Re-ingest’ (in red font) because that means it has already been approved and ingested into Islandora. Ingested ones cannot be changed. If you decide to edit it anyway, a new Islandora submission object will be created and the original one will remain as well; there is no way you can delete it.
   * Find your submission, which is probably the last one added to the list. If it has not yet been ingested, you can safely edit it.
   * Click "Edit".
     * Make your changes.
   * Click “Save”.
+* PLEASE NOTE that you cannot edit a webform that has already been submitted if you see the link “Re-ingest’ (in red font) because that means it has already been approved and ingested into Islandora. Ingested ones cannot be changed. If you decide to edit it anyway, a new Islandora submission object will be created and the original one will remain as well; there is no way you can delete it.
 
 ***
 
