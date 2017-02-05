@@ -446,7 +446,7 @@ See the GNU General Public License for more details.
 **Node (scroll down to the 'Webform:" settings)**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
-| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| :-----:| :------------- |:-------------:| :-----:|
 | Webform: Create new content | - | - | X | X | X |
 | Webform: Edit own content   | - | - | X | X | X |
 | Webform: Edit any content   | - | - | X | X | - |
@@ -456,7 +456,7 @@ See the GNU General Public License for more details.
 **Islandora**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
-| ------------- |:------------- | :----- | :------------- |:------------- | :----- |
+| ------------- |:-------------:| :-----:| :------------- |:-------------:| :-----:|
 | View repository objects | X | X | X | X | X |
 
 **Islandora Solr**
@@ -465,19 +465,19 @@ See the GNU General Public License for more details.
 **Islandora Webform**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
-| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| :-----:| :------------- |:-------------:| :-----:|
 | Manage Isl. Webforms      | - | - | X | - | - |
 | Link Isl obj. to webforms | - | - | X | X | - |
 
 **Islandora Webform Ingest**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
-| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| :-----:| :------------- |:-------------:| :-----:|
 | Ingest Isl. Webform Submissions  | - | - | X | X | - |
 
 **Webform (Drupal)**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
-| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| :-----:| :------------- |:-------------:| :-----:|
 |  |  |  |  |  |  |
 ***
