@@ -82,6 +82,16 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 [table]
 
+Module Name | Status
+Drupal | required
+Islandora | required, plus dependencies
+Tuque | required
+Islandora Basic Collection | required
+Isandora XML Forms | required if Igest module is enabled
+Webform | required
+Webform AJAX | required
+Token | optional
+
 **2. Understanding the _Islandora Simple Text Content Model_**
 
 * The IW module comes bundled with a content model, the “Islandora Simple Text Content Model”. It helps to be aware of how this content model accommodates the values submitted by a webform. Understanding the content model can help you configure the webform components properly. So spend some time examining the content model and the XML metadata form it is associated with.
