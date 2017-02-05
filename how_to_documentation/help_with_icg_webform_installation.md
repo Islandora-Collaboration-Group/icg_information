@@ -81,7 +81,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * DHI@Hamilton tested the IW module with the latest versions of each of these modules enabled:
 
 [table]
-<code>
+<code>"
 | Module Name | Status |
 | Drupal | required |
 | Islandora | required, plus dependencies |
@@ -91,7 +91,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 | Webform | required |
 | Webform AJAX | required |
 | Token | optional |
-</code>
+"</code>
 
 **2. Understanding the _Islandora Simple Text Content Model_**
 
