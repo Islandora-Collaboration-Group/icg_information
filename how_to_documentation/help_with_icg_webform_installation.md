@@ -456,7 +456,7 @@ See the GNU General Public License for more details.
 **Islandora**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
-| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
+| ------------- |:------------- | :----- | :------------- |:------------- | :----- |
 | View repository objects | X | X | X | X | X |
 
 **Islandora Solr**
