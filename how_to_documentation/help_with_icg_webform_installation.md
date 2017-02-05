@@ -80,13 +80,6 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * Ensure that all basic Islandora modules and dependencies are installed and working.
 * DHI@Hamilton tested the IW module with the latest versions of each of these modules enabled:
 
-[table]
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
 | Module Name | Status |
 | ------------- |:-------------:| -----:|
 | Drupal | required |
