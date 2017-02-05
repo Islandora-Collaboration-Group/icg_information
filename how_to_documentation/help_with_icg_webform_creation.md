@@ -7,6 +7,7 @@
 * 2. Know the Limitations of the IW Module
 * 3. Understanding the Islandora Simple Text content model
 * 4. Creating and configuring a new Islandora Webform
+  * 4b. Creating and configuring a new Islandora Webform
 * 5. Enabling webforms on only certain objects
 
 ***
@@ -79,53 +80,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ***
 
-**4. Configuring the Islandora Webform module’s XML form**
-
-* The IW modules comes with a preferred XML form (Simple Text Related Item MODS form), which is configured to work with the module’s PHP code and the supplied content Model (islandora:sp_example_text). This XML form is designed to hold information on a “related item.” The Fedora object holding the submission information is treated as the related item and all the submission information is wrapped in the <mods:relatedItem> element. [You can configure this differently on your site.]
-* If you decide to just use the default XML form, you still need to set its association with the Content Model set in the Islandora Settings in your webform
-* It is very possible that the supplied XML form will not meet all of your metadata needs and you will need to customize it. For example,
-  * At DHi@Hamilton we unchecked “Access” to a few MODS elements that we did not need, such as, subTitle, reldisplayLabel, roleText, roleCode, and noteDisplaylabel.
-  * DHi replaced the built-it controlled vocabulary for the “type” attribute with its own terms:: Caption, Tags,Transcription, Translation, Question, Suggestion.
-  * DHi changed the mapping of the attribute “type” from reldisplayLabel to a full MODS element <mods:genre> so we could more easily retrieve it from Solr. This required adding crosswalk from mods:genre to dc:type in the transform: modsrelated_to_dc.xsl.
-  * DHi added a dateCreated element in the XML form.
-* Make any local changes to the Simple Text Related Item MODS form
-* Since editing built-in XML forms is not allowed in Islandora, the "Simple Text Related Item MODS form" has to be cloned (copied) if you decide you need to customize it.
-    * Use case: If you want to change the field type of the main input component from, say, "textfield", to "textarea".
-    * “Copy” the built-in XML form to a new one.
-    * Open your new XML form.
-    * Select the title element: relatedItems:relTitleInfo:relTitle
-    * Change "Type" to "textarea".
-    * Click "Save".
-    * Associate the new XML form with the Simple Text Content Model (admin/islandora/xmlform)
-    * Find "<your_new-XML-form>” and click "Associate".
-    * Click “Add Association”
-      * Content Model:  select "Islandora Simple Text Content Model (islandora:sp_example_text)"
-      * Metadata Datastream ID: "MODS"
-      * Title Field: "['relatedItems']['relTitleInfo']['relTitle']"
-      * XSL Transform: "modsrelated_to_dc.xsl" [or modsrelated_to_dc.xsl?]
-      * Self XSL Transform: "No transform"
-      * Upload Template Document: [optional]
-      * Click "Add Association" (button)
-    * Be sure to "Disable" the built-in XML form if you are not going to use it in production.
-    * Make the same change in the configuration of the matching component in your webform.
-* Locate the webform that should be set up to work with the XML form you just modified.
-* Click the "Components" button.
-  * Find the main text submission component and verify that it's TYPE is set to "textarea". If it is not create a new component that is and delete the one that is not.
-  * Click "Edit" next to the main text submission input component and then finish configuring that component’s “Islandora Ingest Mapping”.
-  * Open "Islandora Ingest Mapping" fieldset.
-  * If you get the message “Islandora Simple Text Content Model provides no datastreams that can be populated from this webform field type.” then you selected the wrong Content Model when you set up the XML Form.
-  * Ingest: "Append"
-  * DataStream: "MODS" (Note that the drop-down entry shows also the name of the webform itself, as in “MODS (My IW webform)”.
-  * Field: ['relatedItems']['relTitleInfo']['relTitle']
-    * Or select another path that corresponds to the component you are adding.
-    * For "surname" map to DataStream:  "relatedItems:relNameInfo:namePart:family
-  * Click "Save component".
-
-
-$$
-***
-
-**5. Creating and configuring a new Islandora Webform**
+**4. Creating and configuring a new Islandora Webform**
 
 **1.1. Create a new Drupal webform**
 * Log in to the site (URL) where you want to create a webform. Be sure your account/role is permitted to create webforms.
@@ -361,7 +316,55 @@ $$
 
 [image]
 
-**2. Enabling webforms on only certain objects**
+*** 
+
+[MERGE 4b WITH PREVIOUS SECTION???]
+
+**4b. Configuring the Islandora Webform module’s XML form**
+
+* The IW modules comes with a preferred XML form (Simple Text Related Item MODS form), which is configured to work with the module’s PHP code and the supplied content Model (islandora:sp_example_text). This XML form is designed to hold information on a “related item.” The Fedora object holding the submission information is treated as the related item and all the submission information is wrapped in the <mods:relatedItem> element. [You can configure this differently on your site.]
+* If you decide to just use the default XML form, you still need to set its association with the Content Model set in the Islandora Settings in your webform
+* It is very possible that the supplied XML form will not meet all of your metadata needs and you will need to customize it. For example,
+  * At DHi@Hamilton we unchecked “Access” to a few MODS elements that we did not need, such as, subTitle, reldisplayLabel, roleText, roleCode, and noteDisplaylabel.
+  * DHi replaced the built-it controlled vocabulary for the “type” attribute with its own terms:: Caption, Tags,Transcription, Translation, Question, Suggestion.
+  * DHi changed the mapping of the attribute “type” from reldisplayLabel to a full MODS element <mods:genre> so we could more easily retrieve it from Solr. This required adding crosswalk from mods:genre to dc:type in the transform: modsrelated_to_dc.xsl.
+  * DHi added a dateCreated element in the XML form.
+* Make any local changes to the Simple Text Related Item MODS form
+* Since editing built-in XML forms is not allowed in Islandora, the "Simple Text Related Item MODS form" has to be cloned (copied) if you decide you need to customize it.
+    * Use case: If you want to change the field type of the main input component from, say, "textfield", to "textarea".
+    * “Copy” the built-in XML form to a new one.
+    * Open your new XML form.
+    * Select the title element: relatedItems:relTitleInfo:relTitle
+    * Change "Type" to "textarea".
+    * Click "Save".
+    * Associate the new XML form with the Simple Text Content Model (admin/islandora/xmlform)
+    * Find "<your_new-XML-form>” and click "Associate".
+    * Click “Add Association”
+      * Content Model:  select "Islandora Simple Text Content Model (islandora:sp_example_text)"
+      * Metadata Datastream ID: "MODS"
+      * Title Field: "['relatedItems']['relTitleInfo']['relTitle']"
+      * XSL Transform: "modsrelated_to_dc.xsl" [or modsrelated_to_dc.xsl?]
+      * Self XSL Transform: "No transform"
+      * Upload Template Document: [optional]
+      * Click "Add Association" (button)
+    * Be sure to "Disable" the built-in XML form if you are not going to use it in production.
+    * Make the same change in the configuration of the matching component in your webform.
+* Locate the webform that should be set up to work with the XML form you just modified.
+* Click the "Components" button.
+  * Find the main text submission component and verify that it's TYPE is set to "textarea". If it is not create a new component that is and delete the one that is not.
+  * Click "Edit" next to the main text submission input component and then finish configuring that component’s “Islandora Ingest Mapping”.
+  * Open "Islandora Ingest Mapping" fieldset.
+  * If you get the message “Islandora Simple Text Content Model provides no datastreams that can be populated from this webform field type.” then you selected the wrong Content Model when you set up the XML Form.
+  * Ingest: "Append"
+  * DataStream: "MODS" (Note that the drop-down entry shows also the name of the webform itself, as in “MODS (My IW webform)”.
+  * Field: ['relatedItems']['relTitleInfo']['relTitle']
+    * Or select another path that corresponds to the component you are adding.
+    * For "surname" map to DataStream:  "relatedItems:relNameInfo:namePart:family
+  * Click "Save component".
+
+***
+
+**5. Enabling webforms on only certain objects**
 
 * If you want links to the webform to appear on only Islandora pages for only certain objects, you need to indicate this when editing the “Islandora settings” page. Look for “Add a link to” and select "Only those objects that are manually tagged for this webform".
 * Then you need to navigate to each Islandora object display page on which you want a link to the webform to appear and click the following link (“Go to web form” will be the name of your webform).
