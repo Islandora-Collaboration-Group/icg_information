@@ -67,11 +67,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 | Webform AJAX | required |
 | Token | optional |
 
-**2. Understanding the _Islandora Simple Text Content Model_**
-
-* The IW module comes bundled with a content model, the “Islandora Simple Text Content Model”. It helps to be aware of how this content model accommodates the values submitted by a webform. Understanding the content model can help you configure the webform components properly. So spend some time examining the content model and the XML metadata form it is associated with.
-* The Content Model that is used by the IW module is part of the "Islandora Example Simple Text Solution Pack", which is installed when you install the main Islandora Webform module.
-* The code (in Islandora Webform Ingest) supporting this CM grabs a form’s output and creates a Fedora object (or writes to the original object) and plugs in those values in a programmatic way into a MODS datastream which gets crosswalked to DC according to rules you can configure in an XSLT file.
+***
 
 **3. Installing the Islandora Webform module**
 
