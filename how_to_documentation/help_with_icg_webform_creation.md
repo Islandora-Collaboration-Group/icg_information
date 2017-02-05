@@ -369,3 +369,6 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * If you want links to the webform to appear on only Islandora pages for only certain objects, you need to indicate this when editing the “Islandora settings” page. Look for “Add a link to” and select "Only those objects that are manually tagged for this webform".
 * Then you need to navigate to each Islandora object display page on which you want a link to the webform to appear and click the following link (“Go to web form” will be the name of your webform).
   * add webform link: "Go to web form" (wording may vary)
+
+***
+
