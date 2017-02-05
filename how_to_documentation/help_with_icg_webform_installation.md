@@ -479,12 +479,12 @@ See the GNU General Public License for more details.
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
 | ------------- |:-------------:| :-----:| :-------------: |:-------------:| :-----:|
-| Access all webform results |  |  | X | X | X |
-| Access own webform results |  |  | X | X | X |
-| Edit all webform submissions |  |  | X | X | - |
-| Delete all webform submissions |  |  | X | X | - |
-| Access own webform submissions |  |  | X | X | X |
-| Edit own webform submission |  |  | X | X | X |
-| Delete own webform submissions |  |  | X | X | X |
+| Access all webform results | - | - | X | X | X |
+| Access own webform results | - | - | X | X | X |
+| Edit all webform submissions | - | - | X | X | - |
+| Delete all webform submissions | - | - | X | X | - |
+| Access own webform submissions | - | - | X | X | X |
+| Edit own webform submission |  | - | X | X | X |
+| Delete own webform submissions | - | - | X | X | X |
 | Content authors: access and edit webofrm componenets and settings  |  |  | X | X | - |
 ***
