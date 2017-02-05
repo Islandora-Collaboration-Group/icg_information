@@ -9,13 +9,10 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * Credits
 * Test Environment
 
-**1. Introduction to the Islandora Webform module**
-  * 1. Basic capabilities
-  * 2. Know the Limitations of the IW Module
+***
 
 **2. For Administrators**
   * 1. Islandora Webform installation preliminaries
-  * 2. Understanding the Islandora Simple Text content model
   * 3. Installing the Islandora Webform module
   * 4. Configuring permissions for the Islandora Webform module
   * 5. Configuring the Islandora Webform module’s XML Form
@@ -52,22 +49,6 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 ## Introduction to the Islandora Webform module
 
-**1. Basic capabilities**
-
-* The Islandora Webform (IW) module uses the capabilities of the standard Drupal Webform module to enable users to submit comments (captions, tags, transcriptions, etc.) on digital objects in an Islandora repository.
-* In Islandora, a link to a webform appears on the object view page that launches a webform that captures a user’s input and puts the submitted form values into a queue waiting for approval by a webform manager.
-* When the submission is approved, the form values are ingested into either 1) the MODS (or a specific datastream) of the Fedora object being commented on or 2) a completely new Fedora object. The values are mapped as desired using a customizable XML metadata form. If 2) is used, a relationship statement is placed in the RELS-EXT datastream connecting the Fedora submission object to the original Fedora object.
-* All the submissions for a specific object can be displayed along with the original object using a dedicated Drupal block.
-
-**2. Know the Limitations of the IW Module**
-
-* After a webform submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested. If you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place and unchanged.
-* Implications of this are that it might be advisable to “Delete” a submission from the “Submissions” page once the ingest has been approved and ingested. “Delete” only deletes the entry for the submission on the Submissions page (a mySQL deletion) -- it does not delete the Fedora object.
-* Another implication is that if you ever need to edit the content of a submission, you should do the editing using the XML metadata form originally used to create that object.
-* You can associate a webform with only one content model at a time or no content model at all. If you are in the practice of ingesting objects of different content models into the same collection, you might be able to get away with not binding a webform to any content model at all. But you can create separate Islandora webforms for each content model if you want unique components in the webforms for each one.
-
-***
-
 ## For Administrators
 
 **1. Islandora Webform installation preliminaries**
@@ -91,50 +72,6 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * The IW module comes bundled with a content model, the “Islandora Simple Text Content Model”. It helps to be aware of how this content model accommodates the values submitted by a webform. Understanding the content model can help you configure the webform components properly. So spend some time examining the content model and the XML metadata form it is associated with.
 * The Content Model that is used by the IW module is part of the "Islandora Example Simple Text Solution Pack", which is installed when you install the main Islandora Webform module.
 * The code (in Islandora Webform Ingest) supporting this CM grabs a form’s output and creates a Fedora object (or writes to the original object) and plugs in those values in a programmatic way into a MODS datastream which gets crosswalked to DC according to rules you can configure in an XSLT file.
-* The IW module “derivatives.inc" creates a MODS datastream (based on the <mods: relatedItem> element from MODS: http://www.loc.gov/standards/mods/userguide/relateditem.html).
-* The code includes the parent object’s PID as the property of an xlink attribute of the <mods:relatedItem> element.
-* The code puts the submitted text in the <mods:title> element.
-* For other fields you use one of the IW menus to configure how each field in your form gets mapped to MODS (see discussion above).
-* The MODS datastream in Fedora (Content: managed, MIME type: text/xml) might look something like this..
-```
-<?xml version="1.0"?>
-<mods xmlns="http://www.loc.gov/mods/v3"
-xmlns:mods="http://www.loc.gov/mods/v3"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xsi:schemaLocation="http://www.loc.gov/mods/v3
-http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
- <relatedItem type="host" xlink="http://lis.hamilton.edu/islandora/object/islandora%3A1">
-    <titleInfo lang="" displayLabel="">
-     <title>This photograph was probably taken in Toledo, Ohio.</title>
-     <subTitle/>
-    </titleInfo>
-    <name type="personal">
-     <namePart>Peter MacDonald</namePart>
-     <namePart type="family">MacDonald</namePart>
-     <namePart type="given">Peter</namePart>
-    </name>
- </relatedItem>
-</mods>
-```
-
-* It creates a stub of a Dublin Core datastream that might look something like this:
-  * DC (inline, text/xml)
-```
-<oai_dc xmlnsdc::oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-<dc:title>This photograph was probably taken in Toledo, Ohio</dc:title>
- <dc:contributor>Peter, MacDonald</dc:contributor>
- <dc:identifier>apw:235</dc:identifier>
-<dc:date>2016-01-26</dc:date>
- <dc:description>This photograph was probably taken in Toledo, Ohio. </dc:description>
-</oai_dc:dc>
-```
-* The code puts an RDF triple pointing to the PARENT_PID in the RELS-EXT datastream adds.
-* RELS-EXT (inline, applications/rdf+xml)
-```
-<fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
-</fedora:isAnnotationOf>
-```
 
 **3. Installing the Islandora Webform module**
 
@@ -276,48 +213,6 @@ administrator
 * Set desired permissions for each user role here:
   * Administer > Modules > Islandora Webform > Permissions (i.e., /admin/people/permissions#module-islandora_webform)
 * See separate section below for permission settings: "Islandora Webform Permissions Settings".
-
-**5. Configuring the Islandora Webform module’s XML form**
-
-* The IW modules comes with a preferred XML form (Simple Text Related Item MODS form), which is configured to work with the module’s PHP code and the supplied content Model (islandora:sp_example_text). This XML form is designed to hold information on a “related item.” The Fedora object holding the submission information is treated as the related item and all the submission information is wrapped in the <mods:relatedItem> element. [You can configure this differently on your site.]
-* If you decide to just use the default XML form, you still need to set its association with the Content Model set in the Islandora Settings in your webform
-* It is very possible that the supplied XML form will not meet all of your metadata needs and you will need to customize it. For example,
-  * At DHi@Hamilton we unchecked “Access” to a few MODS elements that we did not need, such as, subTitle, reldisplayLabel, roleText, roleCode, and noteDisplaylabel.
-  * DHi replaced the built-it controlled vocabulary for the “type” attribute with its own terms:: Caption, Tags,Transcription, Translation, Question, Suggestion.
-  * DHi changed the mapping of the attribute “type” from reldisplayLabel to a full MODS element <mods:genre> so we could more easily retrieve it from Solr. This required adding crosswalk from mods:genre to dc:type in the transform: modsrelated_to_dc.xsl.
-  * DHi added a dateCreated element in the XML form.
-* Make any local changes to the Simple Text Related Item MODS form
-* Since editing built-in XML forms is not allowed in Islandora, the "Simple Text Related Item MODS form" has to be cloned (copied) if you decide you need to customize it.
-    * Use case: If you want to change the field type of the main input component from, say, "textfield", to "textarea".
-    * “Copy” the built-in XML form to a new one.
-    * Open your new XML form.
-    * Select the title element: relatedItems:relTitleInfo:relTitle
-    * Change "Type" to "textarea".
-    * Click "Save".
-    * Associate the new XML form with the Simple Text Content Model (admin/islandora/xmlform)
-    * Find "<your_new-XML-form>” and click "Associate".
-    * Click “Add Association”
-      * Content Model:  select "Islandora Simple Text Content Model (islandora:sp_example_text)"
-      * Metadata Datastream ID: "MODS"
-      * Title Field: "['relatedItems']['relTitleInfo']['relTitle']"
-      * XSL Transform: "modsrelated_to_dc.xsl" [or modsrelated_to_dc.xsl?]
-      * Self XSL Transform: "No transform"
-      * Upload Template Document: [optional]
-      * Click "Add Association" (button)
-    * Be sure to "Disable" the built-in XML form if you are not going to use it in production.
-    * Make the same change in the configuration of the matching component in your webform.
-* Locate the webform that should be set up to work with the XML form you just modified.
-* Click the "Components" button.
-  * Find the main text submission component and verify that it's TYPE is set to "textarea". If it is not create a new component that is and delete the one that is not.
-  * Click "Edit" next to the main text submission input component and then finish configuring that component’s “Islandora Ingest Mapping”.
-  * Open "Islandora Ingest Mapping" fieldset.
-  * If you get the message “Islandora Simple Text Content Model provides no datastreams that can be populated from this webform field type.” then you selected the wrong Content Model when you set up the XML Form.
-  * Ingest: "Append"
-  * DataStream: "MODS" (Note that the drop-down entry shows also the name of the webform itself, as in “MODS (My IW webform)”.
-  * Field: ['relatedItems']['relTitleInfo']['relTitle']
-    * Or select another path that corresponds to the component you are adding.
-    * For "surname" map to DataStream:  "relatedItems:relNameInfo:namePart:family
-  * Click "Save component".
 
 **6. Configuring the Drupal block of Islandora Webform submissions**
 
