@@ -27,6 +27,11 @@
 
 ***
 
+**3. Understanding the _Islandora Simple Text Content Model_**
+
+* The IW module comes bundled with a content model, the “Islandora Simple Text Content Model”. It helps to be aware of how this content model accommodates the values submitted by a webform. Understanding the content model can help you configure the webform components properly. So spend some time examining the content model and the XML metadata form it is associated with.
+* The Content Model that is used by the IW module is part of the "Islandora Example Simple Text Solution Pack", which is installed when you install the main Islandora Webform module.
+* The code (in Islandora Webform Ingest) supporting this CM grabs a form’s output and creates a Fedora object (or writes to the original object) and plugs in those values in a programmatic way into a MODS datastream which gets crosswalked to DC according to rules you can configure in an XSLT file.
 * The IW module “derivatives.inc" creates a MODS datastream (based on the <mods: relatedItem> element from MODS: http://www.loc.gov/standards/mods/userguide/relateditem.html).
 * The code includes the parent object’s PID as the property of an xlink attribute of the <mods:relatedItem> element.
 * The code puts the submitted text in the <mods:title> element.
@@ -71,8 +76,10 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 <fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
 </fedora:isAnnotationOf>
 ```
+
 ***
-**5. Configuring the Islandora Webform module’s XML form**
+
+**4. Configuring the Islandora Webform module’s XML form**
 
 * The IW modules comes with a preferred XML form (Simple Text Related Item MODS form), which is configured to work with the module’s PHP code and the supplied content Model (islandora:sp_example_text). This XML form is designed to hold information on a “related item.” The Fedora object holding the submission information is treated as the related item and all the submission information is wrapped in the <mods:relatedItem> element. [You can configure this differently on your site.]
 * If you decide to just use the default XML form, you still need to set its association with the Content Model set in the Islandora Settings in your webform
@@ -118,9 +125,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 $$
 ***
 
-## For Webform Managers
-
-**1. Creating and configuring a new Islandora Webform**
+**5. Creating and configuring a new Islandora Webform**
 
 **1.1. Create a new Drupal webform**
 * Log in to the site (URL) where you want to create a webform. Be sure your account/role is permitted to create webforms.
