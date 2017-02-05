@@ -445,6 +445,10 @@ See the GNU General Public License for more details.
 
 **Node (scroll down to the 'Webform:" settings)**
 
-[insert tables]
-
+| Feature | anon. | authen. | admin. | webform mgr | webform submitter |
+| Webform:| - | - | X | X | X |
+Create new content
+|Webform: | - | - | X | X | X |
+Edit own content| | | | | |
+| | | | | |
 ***
