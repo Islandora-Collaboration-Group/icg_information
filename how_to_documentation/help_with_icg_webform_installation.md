@@ -455,14 +455,29 @@ See the GNU General Public License for more details.
 
 **Islandora**
 
+| Feature | anon. | authen. | admin. | webform mgr | webform submitter |
+| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
+| View repository objects | X | X | X | X | X |
+
 **Islandora Solr**
 * Search the Solr Index (Checck all roles)
 
 **Islandora Webform**
 
+| Feature | anon. | authen. | admin. | webform mgr | webform submitter |
+| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
+| Manage Isl. Webforms      | - | - | X | - | - |
+| Link Isl obj. to webforms | - | - | X | X | - |
+
 **Islandora Webform Ingest**
+
+| Feature | anon. | authen. | admin. | webform mgr | webform submitter |
+| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
+| Ingest Isl. Webform Submissions  | - | - | X | X | - |
 
 **Webform (Drupal)**
 
-
+| Feature | anon. | authen. | admin. | webform mgr | webform submitter |
+| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
+|  |  |  |  |  |  |
 ***
