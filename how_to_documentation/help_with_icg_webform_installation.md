@@ -66,6 +66,8 @@ Figure 1: Configuring the Drupal webform module
 * Default subject: "Form submission from: [node:title]" (example only)
 * Click "Save configuration".
 
+***
+
 **3. Install the Webform AJAX modules**
 ```
 > drush dl -y weborm_ajax
