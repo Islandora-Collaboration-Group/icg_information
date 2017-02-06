@@ -11,12 +11,13 @@
 **1. How to submit data in an Islandora Webform**
 
 * The person who sets up a webform is required to specify under what conditions the webform may be used.
-* When you visit an Islandora repository, you will be able to use that webform only if these conditions are met:
-  * if the object you are viewing has properties that match the properties set by a webform
-    * E.g. is it a PDF? or part of a spccific collections, etc.
-  * if the visitor's Drupal user role permits access to the webform
-    * anonymous users may be prohibited from using a webform.
-  * If you see a link to a webform, feel free to use it.
+* When you visit an Islandora repository, you will be able to use that webform only if these conditions are met, e.g.
+  * The object you are viewing must have properties that match the properties set by a webfor
+    * it must be a PDF file if the webform only works for PDF objects or image object.
+    * It might have to be inside a specific collection of objects.
+  * You might not have permission to use the webform, e.g.
+    * anonymous users are often prohibited from using a webform (request an account on the website if you need to).
+  * If you do see a link to a webform, then feel free to use it.
 
 ***
 
