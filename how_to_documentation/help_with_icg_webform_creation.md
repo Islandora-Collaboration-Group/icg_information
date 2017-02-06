@@ -1,4 +1,4 @@
-# How to Create an Webform using the Islandora Webform Module
+# How to Create a Webform using the Islandora Webform Module
 (updated 2017-02-05, by Peter MacDonald)
 
 **Table of Contents**
