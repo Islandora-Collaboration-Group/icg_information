@@ -265,19 +265,20 @@ Figure 2: Configuring Drupal Roles for the Islandora Webform module
 
 **8. Upgrading from an earlier version of the Islandora Webform module.**
 
-* Delete any existing “islandora_webform" directory and all its files.
+* If you are just upgrading the IW modules from an earlier version, do the following steps before cloning the new webform:
+* An upgrade of these modules will not delete any webforms you have created (they are in mySQL), but your webforms may need to be tweaked to become compatible with the newer version of the IW module.
+* Disable and delete any existing “islandora_webform" directory and all its files.
 ```
 > cd sites/all/modules (or wherever islandora_webform in located)
 > drush cache-clear all
 > drush dis islandora_webform (this also disables islandora_webform_ingest)
+```
+* * Before you delete the modules back up any files that you have customized in the Islandora Weborm directories. These will be overwritten when you upgrade the modules, such as:
+```
 > rm -rf islandora_webform
 > drush update
 ```
 
-***
-
-NOTES: 
-* If you remove (rm) the modules you should protect files you may have manually customized such as 
 ```
 islandora_webform/submodules/islandora_webform_ingest/examples/ .
       islandora_example_simple_text_solution_pack/xsl/modsrelated_to_dc.xsl
@@ -289,28 +290,6 @@ islandora_webform/submodules/islandora_webform_ingest/examples/ .
 ```
 
 *** 
-
-[TO BE MERGED WITH THE ABOVE SECTION.]
-
-* If you are just upgrading the IW modules from an earlier version, do the following steps before cloning the new webform:
-  * Clear all caches for all sites.
-  * Disable the IW modules.
-  * Update the database for your site(s) [Add "@sites" if you have a Drupal multi-site setup.]
-  ```
-> drush cc all
-> drush dis islandora_webform
-> drush dis islandora_webform_ingest
-> drush dis islandora_example_single_text
-> drush updatedb
-```
-* An upgrade of these modules will not delete any webforms you have created (they are in mySQL), but your webforms may need to be tweaked to become compatible with the newer version of the IW module.
-* Back up any files that you have customized in the Islandora Weborm directories. These will be overwritten when you upgrade the modules, such as:
-```
-islandora_webform/submodules/islandora_webform_ingest/examples/islandora_example_simple_text_solution_pack/xsl/
-modsrelated_to_dc.xsl
-```
-
-***
 
 Warranty and Copyright
 (This statement has not yet been approved by Common Media, DHi, or ICG)
