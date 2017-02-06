@@ -11,7 +11,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * 3. Install the Webform AJAX module
 * 4. Install the Islandora Webform module
 * 5. Configure Drupal Roles for the Islandora Webform module
-* 6. Configure Drupal accounts for the Islandora Webform module
+* 6. Configure Drupal Accounts for the Islandora Webform module
 * 7. Configuring the Drupal block of Islandora Webform submissions
 * 8. Upgrading from an earlier version of the Islandora Webform module
 
@@ -163,102 +163,6 @@ administrator
   * Administer > Modules > Islandora Webform > Permissions (i.e., /admin/people/permissions#module-islandora_webform)
 * See separate section below for permission settings: "Islandora Webform Permissions Settings".
 
-***
-
-**5. Configuring Drupal accounts for the Islandora Webform module**
-
-* The IW module and IW Ingest module automatically set some user permissions, but an administrator should verify that they meet local needs.
-* If a link to your webform is to be seen by only authenticated users, an administrator should set permissions to restrict webform access to authenticated users only and create a Drupal account for those users and have them notified that they now have an account.
-  * Username:  [username of individual user]
-  * E-mail: [email address of the user]
-  * Password: [any_dummy_password] (user can change this upon first use)
-  * Status: Active (set to “Inactive” to prevent logging in)
-  * Roles: webform submitter (has “authorized” user permissions)
-
-***
-
-**7. Configuring the Drupal block of Islandora Webform submissions**
-
-* All of the submissions for an Islandora object can be made visible to users by configuring the IW block.
-* Go to Administer > Structure > Blocks (ie. /admin/structure/block)
-* In the section labeled "Disabled", find the block titled "Objects with isAnnotationOf relation" [The title may vary.]
-* Select position: "Content" (Means place the block in the “content” region of the Drupal page.)
-* Move the block to, say, the top of the "Content" list of items if you want the "Submission" link to be displayed at the top of the content block.
-* Click "Save blocks"
-* Click "configure" next to the "Objects with isAnnotationOf relation".
-
-![webform_17.jpg](/how_to_documentation/images/webform_17.jpg)
-
-***
-
-  * Block title: "User Contributed Captions and Transcriptions". [example only]
-  * View mode: "Links" [This is the most compact mode because it doesn't show thumbnails.]
-  * Check "Only IW"
-  * Pages (section)
-    * Only the listed pages: [check]
-    * In box: "islandora/object/*" (Means show this block only when displaying Islandora objects.)
-  * Page Count: 10 (example only)
-  * Roles (section)
-    * authenticated user: [check] (make your own decision here whom to allow to see the submissions)
-  * Click "Save".
-* Click "Save blocks".
-
-***
-
-**6. Upgrading from an earlier version of the Islandora Webform module.**
-
-* Delete any existing “islandora_webform" directory and all its files.
-```
-> cd sites/all/modules (or wherever islandora_webform in located)
-> drush cache-clear all
-> drush dis islandora_webform (this also disables islandora_webform_ingest)
-> rm -rf islandora_webform
-> drush update
-```
-NOTES: 
-* If you remove (rm) the modules you should protect files you may have manually customized such as 
-```
-islandora_webform/submodules/islandora_webform_ingest/examples/ .
-      islandora_example_simple_text_solution_pack/xsl/modsrelated_to_dc.xsl
-```
-* If you need to wipe out IW completely and start over, run pm-uninstall after you disable the modules. This does not wipe out the webforms or the XML forms, but it will wipe out all your settings related to Islandora Ingest.
-```
-> drush pm-uninstall islandora_webform_ingest
-> drush pm-uninstall islandora_webform
-```
-
-*** 
-* If you are just upgrading the IW modules from an earlier version, do the following steps before cloning the new webform:
-  * Clear all caches for all sites.
-  * Disable the IW modules.
-  * Update the database for your site(s) [Add "@sites" if you have a Drupal multi-site setup.]
-  ```
-  > drush cc all
-> drush dis islandora_webform
-> drush dis islandora_webform_ingest
-> drush dis islandora_example_single_text
-> drush updatedb
-```
-* An upgrade of these modules will not delete any webforms you have created (they are in mySQL), but your webforms may need to be tweaked to become compatible with the newer version of the IW module.
-* Back up any files that you have customized in the Islandora Weborm directories. These will be overwritten when you upgrade the modules, such as:
-```
-islandora_webform/submodules/islandora_webform_ingest/examples/islandora_example_simple_text_solution_pack/xsl/
-modsrelated_to_dc.xsl
-```
-
-***
-
-Warranty and Copyright
-(This statement has not yet been approved by Common Media, DHi, or ICG)
-
-Copyright (C) 2015 ????
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-See the GNU General Public License for more details.
-
-***
 
 **Islandora Webform Permission Settings**
 
@@ -312,4 +216,105 @@ See the GNU General Public License for more details.
 | Delete own webform submissions | - | - | X | X | X |
 | Content authors: access and edit webofrm componenets and settings  |  |  | X | X | - |
 
+***
+
+**6. Configure Drupal accounts for the Islandora Webform module**
+
+* The IW module and IW Ingest modules automatically set some user permissions, but an administrator should verify that these permissions meet local needs.
+* If a link to your webform is to be seen by only authenticated users, an administrator should set permissions to restrict webform access to authenticated users only.
+* Create a Drupal account for those users according to local needs.
+  * Username:  [username of individual user]
+  * E-mail: [email address of the user]
+  * Password: [any_dummy_password] (user can change this upon first use)
+  * Status: Active (set to “Inactive” to prevent logging in)
+  * Roles: webform submitter (has “authenticated” user permissions)
+
+***
+
+**7. Configuring the Drupal block of Islandora Webform submissions**
+
+* All of the submissions for an Islandora object can be made visible to users by configuring the IW block.
+* Go to Administer > Structure > Blocks (ie. /admin/structure/block)
+* In the section labeled "Disabled", find the block titled "Objects with isAnnotationOf relation" [The title may vary.]
+* Select position: "Content" (Means place the block in the “content” region of the Drupal page.)
+* Move the block to, say, the top of the "Content" list of items if you want the "Submission" link to be displayed at the top of the content block.
+* Click "Save blocks"
+* Click "configure" next to the "Objects with isAnnotationOf relation".
+
+![webform_17.jpg](/how_to_documentation/images/webform_17.jpg)
+
+  * Block title: "User Contributed Captions and Transcriptions". [example only]
+  * View mode: "Links" [This is the most compact mode because it doesn't show thumbnails.]
+  * Check "Only IW"
+  * Pages (section)
+    * Only the listed pages: [check]
+    * In box: "islandora/object/*" (Means show this block only when displaying Islandora objects.)
+  * Page Count: 10 (example only)
+  * Roles (section)
+    * authenticated user: [check] (make your own decision here whom to allow to see the submissions)
+  * Click "Save".
+* Click "Save blocks".
+
+***
+
+**8. Upgrading from an earlier version of the Islandora Webform module.**
+
+* Delete any existing “islandora_webform" directory and all its files.
+```
+> cd sites/all/modules (or wherever islandora_webform in located)
+> drush cache-clear all
+> drush dis islandora_webform (this also disables islandora_webform_ingest)
+> rm -rf islandora_webform
+> drush update
+```
+
+***
+
+NOTES: 
+* If you remove (rm) the modules you should protect files you may have manually customized such as 
+```
+islandora_webform/submodules/islandora_webform_ingest/examples/ .
+      islandora_example_simple_text_solution_pack/xsl/modsrelated_to_dc.xsl
+```
+* If you need to wipe out IW completely and start over, run pm-uninstall after you disable the modules. This does not wipe out the webforms or the XML forms, but it will wipe out all your settings related to Islandora Ingest.
+```
+> drush pm-uninstall islandora_webform_ingest
+> drush pm-uninstall islandora_webform
+```
+
+*** 
+
+[TO BE MERGED WITH THE ABOVE SECTION.]
+
+* If you are just upgrading the IW modules from an earlier version, do the following steps before cloning the new webform:
+  * Clear all caches for all sites.
+  * Disable the IW modules.
+  * Update the database for your site(s) [Add "@sites" if you have a Drupal multi-site setup.]
+  ```
+  > drush cc all
+> drush dis islandora_webform
+> drush dis islandora_webform_ingest
+> drush dis islandora_example_single_text
+> drush updatedb
+```
+* An upgrade of these modules will not delete any webforms you have created (they are in mySQL), but your webforms may need to be tweaked to become compatible with the newer version of the IW module.
+* Back up any files that you have customized in the Islandora Weborm directories. These will be overwritten when you upgrade the modules, such as:
+```
+islandora_webform/submodules/islandora_webform_ingest/examples/islandora_example_simple_text_solution_pack/xsl/
+modsrelated_to_dc.xsl
+```
+
+***
+
+Warranty and Copyright
+(This statement has not yet been approved by Common Media, DHi, or ICG)
+
+Copyright (C) 2015 ????
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+***
 ***
