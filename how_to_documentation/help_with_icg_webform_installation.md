@@ -1,4 +1,4 @@
-# How to Install the ICG Webform module
+# How to Install the Islandora Webform module
 
 Guide for use: If you are an Islandora administrator with previous experience setting up Drupal webforms, then you will find this document offers more details than you probably need, but we hope that even you will find the level of detail into which this documentation goes helps you avoid making mistakes that can result in frustration and delays in implementation.
 
@@ -6,7 +6,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 * Credits
 * Test Environment
-* 1. Islandora Webform installation preliminaries
+* 1. Installation preliminaries
 * 2. Install the Drupal Webform module
 * 3. Install the Webform AJAX module
 * 4. Install the Islandora Webform module
@@ -24,19 +24,20 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * The module development was coordinated by the Digital Humanities Initiative (DHi) at Hamilton College (http://dhinitiative.org/) and supported by funds from an Andrew W. Mellon Foundation grant to DHi.
 * The development was performed by Common Media (Patrick Dunlavey, developer)
   * http://commonmedia.com
-* Beta testing was first performed by the DHi Collection Development Team) and later reviewed by other members of the ICG.
+* Beta testing was first performed by the DHi Collection Development Team and reviewed by other members of the ICG.
 
 ***
 
 ## Test Environment
 
-**1. Islandora Webform installation preliminaries**
+**1. Installation preliminaries**
 
 * Ensure that all basic Islandora modules and dependencies are installed and working.
 * DHi last tested the IW module in February of 2017 using the following versions of each of these modules and libraries:
 
-| Module Name | Status |
+| Module Name | Version |
 | ------------- |:-------------:| -----:|
+| CentOs | - |
 | Drupal | 7.51 |
 | Islandora | 7x-1.7 |
 | Tuque | 7x-1.7 |
@@ -54,29 +55,37 @@ Guide for use: If you are an Islandora administrator with previous experience se
 > drush en -y webform (add @sites for multi-site setups)
 > drush update (add @sites for multi-site setups)
 ```
-* Administer > Configuration > [Content Authoring] Webform settings (or <your_site>/admin/config/content/webform)
-  * See Figure 1: Configuring the Drupal webform module
+
+**Configure the Drupal Webform module**
+
+* Administer > Configuration > Content Authoring > Webform settings (or <your_site>/admin/config/content/webform)
+
+***
+
+![webform_18.png](/how_to_documentation/images/webform_18.png)
+
+Figure 1: Configuring the Drupal webform module (part 1 of 2)
+
+***
+
 * Uncheck any fields you don’t think you’ll need in any of your Webforms. [Or, just leave them all checked.]
 
 ***
 
 ![webform_15.png](/how_to_documentation/images/webform_15.png)
 
-Figure 1: Configuring the Drupal webform module
+Figure 1: Configuring the Drupal webform module (part 2 of 2)
 
 ***
 
-* From address: "dhitech@hamilton.edu" (example only)
-* From name: "Digital Humanities Initiative" (example only)
-* Default subject: "Form submission from: [node:title]" (example only)
 * Click "Save configuration".
 
 ***
 
-**3. Install the Webform AJAX modules**
+**3. Install the Webform AJAX module**
 ```
 > drush dl -y weborm_ajax
-> drush en -y webform_ajax
+> drush en -y webform_ajax (add @sites if needed for all sites in a multi-site Drupal installation)
 ```
 
 ***
@@ -84,45 +93,30 @@ Figure 1: Configuring the Drupal webform module
 **4. Install the Islandora Webform module (there is more than one way to do this)**
 
 * The IW module actually consists of three modules:
-  # islandora)webform
-  # islandora_webform_ingest
-  # islandora_simple_text_module
+  1. islandora)webform
+  2. islandora_webform_ingest
+  3. islandora_simple_text_module
 * The islandora_simple_text_module comes with its own Content Model.
+
+* The directory structure of the IW modules
+```sites/all/modules
+ |_islandora-webform
+   |_submodules
+     |_islandora_webform_ingest
+       |_examples
+         |_islandora_example_simple_text_solution_pack
+```
 * To learn more about each IW module, you should read the README file for each one on the IW code distribution repo.
-  * Common Media’s code repo:
-    * github.com/commonmedia/islandora_webform.git
+  * github.com/commonmedia/islandora_webform.git
   
 * On the Drupal server, navigate to "sites/all/modules".
 * Clone the islandora_webform module:
 ```
 > git clone https://github.com/commonmedia/islandora_webform.git
 ```
-* If you are just upgrading the IW modules, see the section 8. later in this document.
+* [If you are just upgrading the IW modules, see the section 8. later in this document.]
 
-**Enable the Islandora Webform module for each site that needs it.**
-
-* Shell method: SSH to the server
-  * To enable it for the default site, run at sites/all/modules:
-  ```
-> drush en -y islandora_webform
-> drush en -y islandora_webform_ingest
-```
-  * To enable it for all sites in multi-site, run at sites/all/modules:
-  ```
-> drush @sites en -y islandora_webform
-> drush @sites en -y islandora_webform_ingest
-```
-  * To enable it for a specific site:
-  ```
-> drush en -y islandora_webform --uri=http://<your_site>
-> drush en -y islandora_webform_ingest --uri=http://<your_site>
-```
-* Drupal method: Log into a Drupal site
-  * Administer > Modules
-    * Enable "Islandora Webform" (islandora_webform)
-    * Enable "Islandora Webform Ingest" (islandora_webform_ingest)
-    * Enable "Islandora example simple text" module (islandora_example_simple_text)
-      * This module was installed as a submodule when the main IW module was installed, but you have to enable it manually.
+* Enable the Islandora Webform module for each site that needs it.*
 * Update the database.
 ```
 > drush update (or in the Drupal GUI: "<your_site>/update.php")
@@ -133,54 +127,39 @@ Figure 1: Configuring the Drupal webform module
 * Administer > Modules
 * Look for any Required but "missing" or "disabled" dependencies for the modules: Webform, Webform AJAX, Islandora Webform, and Islandora Webform Ingest modules, Islandora Example Simple Text.
 
-**Understanding the structure of the IW modules**
+**Configure the Islandora Webform module**
 
-* Module(s) directory structure
-```sites/all/modules
- |_islandora-webform
-   |_submodules
-     |_islandora_webform_ingest
-       |_examples
-         |_islandora_example_simple_text_solution_pack
-```
-
-**Configure the Islandora Webform module
-
-* Actually, there are no global configuration options for this module.
-* Configuration is managed separately for each webform you set up.
+* Actually, there are no global configuration options for this module. All configuration is managed separately for each webform you set up.
 
 ***
 
 **5. Configure Drupal Permissions for the Islandora Webform module**
 
+* Depending on your needs, you may need to create a couple of new roles to specify what IW permissions your users should have.
 * Administer > People > Permissions > Roles
 
 ***
 
 ![webform_16.png](/how_to_documentation/images/webform_16.png)
 
-Figure 2: Configuring Drupal Permissions for the Islandora Webform module 
+Figure 2: Configuring Drupal Roles for the Islandora Webform module 
 
 ***
 
-  * Built-in roles:
-    * anonymous
-    * authenticated user
-administrator
-  * Add as many more roles as you think you'll need, e.g.
-    * webform submitter (=authenticated user + all webform permissions)
-    * webform manager (=authenticated user + limited webform permissions)
+* Add as many new roles as you think you'll need, e.g.
+  * webform submitter (=authenticated user + all webform permissions)
+  * webform manager (=authenticated user + limited webform permissions)
 * Set desired permissions for each user role here:
   * Administer > Modules > Islandora Webform > Permissions (i.e., /admin/people/permissions#module-islandora_webform)
-* See separate section below for permission settings: "Islandora Webform Permissions Settings".
 
-
-**Islandora Webform Permission Settings**
+**Configure Islandora Webform Permissions**
 
 * These permission are currently set restrictively, but can easily be loosened up.
   * Full management permissions are granted to the “administrator” and webform manager” roles.
   * Submission permissions are granted to the “webform submitter” role.
   * No webform permissions are granted to the “anonymous” and “authenticated” roles.
+
+***
 
 **Node (scroll down to the 'Webform:" settings)**
 
@@ -192,14 +171,20 @@ administrator
 | Webform: Edit any content   | - | - | X | X | X |
 | Webform: Delete any content | - | - | X | X | - |
 
+***
+
 **Islandora**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
 | ------------- |:-------------:| :-----:| :-------------: |:-------------:| :-----:|
 | View repository objects | X | X | X | X | X |
 
+***
+
 **Islandora Solr**
 * Search the Solr Index (Checck all roles)
+
+***
 
 **Islandora Webform**
 
@@ -208,11 +193,15 @@ administrator
 | Manage Isl. Webforms      | - | - | X | - | - |
 | Link Isl obj. to webforms | - | - | X | X | - |
 
+***
+
 **Islandora Webform Ingest**
 
 | Feature | anon. | authen. | admin. | webform mgr | webform submitter |
 | ------------- |:-------------:| :-----:| :-------------: |:-------------:| :-----:|
 | Ingest Isl. Webform Submissions  | - | - | X | X | - |
+
+***
 
 **Webform (Drupal)**
 
@@ -229,7 +218,7 @@ administrator
 
 ***
 
-**6. Configure Drupal accounts for the Islandora Webform module**
+**6. Create and Configure Drupal accounts for the Islandora Webform module**
 
 * The IW module and IW Ingest modules automatically set some user permissions, but an administrator should verify that these permissions meet local needs.
 * If a link to your webform is to be seen by only authenticated users, an administrator should set permissions to restrict webform access to authenticated users only.
