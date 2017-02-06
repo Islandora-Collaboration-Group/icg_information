@@ -1,4 +1,4 @@
-# How to Install and Configure the ICG Webform module
+# How to Install the ICG Webform module
 
 Guide for use: If you are an Islandora administrator with previous experience setting up Drupal webforms, then you will find this document offers more details than you probably need, but we hope that even you will find the level of detail into which this documentation goes helps you avoid making mistakes that can result in frustration and delays in implementation.
 
