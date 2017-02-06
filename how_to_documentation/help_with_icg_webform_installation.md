@@ -146,7 +146,7 @@ Figure 1: Configuring the Drupal webform module
 
 ***
 
-**5. Configuring permissions for the Islandora Webform module**
+**5. Configure Drupal Permissions for the Islandora Webform module**
 
 * Administer > People > Permissions > Roles
 
@@ -163,17 +163,31 @@ administrator
   * Administer > Modules > Islandora Webform > Permissions (i.e., /admin/people/permissions#module-islandora_webform)
 * See separate section below for permission settings: "Islandora Webform Permissions Settings".
 
-**4. Configuring the Drupal block of Islandora Webform submissions**
+***
 
-* All of the submissions for an Islandora object can be made visible by configuring the IW block.
+**5. Configuring Drupal accounts for the Islandora Webform module**
+
+* The IW module and IW Ingest module automatically set some user permissions, but an administrator should verify that they meet local needs.
+* If a link to your webform is to be seen by only authenticated users, an administrator should set permissions to restrict webform access to authenticated users only and create a Drupal account for those users and have them notified that they now have an account.
+  * Username:  [username of individual user]
+  * E-mail: [email address of the user]
+  * Password: [any_dummy_password] (user can change this upon first use)
+  * Status: Active (set to “Inactive” to prevent logging in)
+  * Roles: webform submitter (has “authorized” user permissions)
+
+***
+
+**7. Configuring the Drupal block of Islandora Webform submissions**
+
+* All of the submissions for an Islandora object can be made visible to users by configuring the IW block.
 * Go to Administer > Structure > Blocks (ie. /admin/structure/block)
 * In the section labeled "Disabled", find the block titled "Objects with isAnnotationOf relation" [The title may vary.]
 * Select position: "Content" (Means place the block in the “content” region of the Drupal page.)
-* Move the block to the bottom of the "Content" list of items, if necessary, so it displays at the bottom of the page.
+* Move the block to, say, the top of the "Content" list of items if you want the "Submission" link to be displayed at the top of the content block.
 * Click "Save blocks"
 * Click "configure" next to the "Objects with isAnnotationOf relation".
 
-![webform_17.png](/how_to_documentation/images/webform_17.png)
+![webform_17.jpg](/how_to_documentation/images/webform_17.jpg)
 
 ***
 
@@ -188,18 +202,6 @@ administrator
     * authenticated user: [check] (make your own decision here whom to allow to see the submissions)
   * Click "Save".
 * Click "Save blocks".
-
-***
-
-**5. Configuring Drupal accounts for the Islandora Webform module**
-
-* The IW module and IW Ingest module automatically set some user permissions, but an administrator should verify that they meet local needs.
-* If a link to your webform is to be seen by only authenticated users, an administrator should set permissions to restrict webform access to authenticated users only and create a Drupal account for those users and have them notified that they now have an account.
-  * Username:  [username of individual user]
-  * E-mail: [email address of the user]
-  * Password: [any_dummy_password] (user can change this upon first use)
-  * Status: Active (set to “Inactive” to prevent logging in)
-  * Roles: webform submitter (has “authorized” user permissions)
 
 ***
 
