@@ -6,7 +6,6 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 * Credits
 * Test Environment
-
 * 1. Islandora Webform installation preliminaries
 * 2. Install the Drupal Webform module
 * 3. Install the Webform AJAX module
@@ -24,7 +23,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * https://github.com/Islandora-Collaboration-Group
 * The module development was coordinated by the Digital Humanities Initiative (DHi) at Hamilton College (http://dhinitiative.org/) and supported by funds from an Andrew W. Mellon Foundation grant to DHi.
 * The development was performed by Common Media (Patrick Dunlavey, developer)
-
+  * http://commonmedia.com
 * Beta testing was first performed by the DHi Collection Development Team) and later reviewed by other members of the ICG.
 
 ***
@@ -48,60 +47,53 @@ Guide for use: If you are an Islandora administrator with previous experience se
 
 ***
 
-**3. Installing the Islandora Webform module**
+**2. Install the Drupal Webform module**
 
-* The IW module actually consists of three modules plus a text-based content model. To learn more about each IW module, you should read the README file for each one on the code distribution repo.
-* Common Media’s code repo:
-  * github.com/commonmedia/islandora_webform.git
-
-**3.1. First of all Install and Configure the Drupal Webform module**
 ```
 > drush dl -y webform
 > drush en -y webform (add @sites for multi-site setups)
 > drush update (add @sites for multi-site setups)
 ```
-
-* Before you can start using webforms in Drupal you should configure it:
-Administer > Configuration > [Content Authoring] Webform settings
-(or <your_site>/admin/config/content/webform)
+* Administer > Configuration > [Content Authoring] Webform settings (or <your_site>/admin/config/content/webform)
+  * See Figure 1: Configuring the Drupal webform module
 * Uncheck any fields you don’t think you’ll need in any of your Webforms. [Or, just leave them all checked.]
 
 ![webform_15.png](/how_to_documentation/images/webform_15.png)
+Figure 1: Configuring the Drupal webform module
 
 * From address: "dhitech@hamilton.edu" (example only)
 * From name: "Digital Humanities Initiative" (example only)
 * Default subject: "Form submission from: [node:title]" (example only)
 * Click "Save configuration".
 
-**3.2. Download/Install the "Webform AJAX" modules**
+**3. Install the Webform AJAX modules**
 ```
 > drush dl -y weborm_ajax
 > drush en -y webform_ajax
 ```
 
-**3.3. Download/Install the "Islandora Webform" module (there is more than one way to do this)**
+***
 
-* SSH into the Drupal server.
-* Navigate to "sites/all/modules".
+**4. Install the Islandora Webform module (there is more than one way to do this)**
+
+* The IW module actually consists of three modules:
+  # islandora)webform
+  # islandora_webform_ingest
+  # islandora_simple_text_module
+* The islandora_simple_text_module comes with its own Content Model.
+* To learn more about each IW module, you should read the README file for each one on the IW code distribution repo.
+  * Common Media’s code repo:
+    * github.com/commonmedia/islandora_webform.git
+  
+* On the Drupal server, navigate to "sites/all/modules".
 * Clone the islandora_webform module:
 ```
 > git clone https://github.com/commonmedia/islandora_webform.git
 ```
-* If you are just upgrading the IW modules from an earlier version, do the following steps before cloning the new webform:
-  * Clear all caches for all sites
-  * Disable the IW modules
-  * Update the database for your site(s) [Add "@sites" if you have a Drupal multi-site setup.]
-  ```
-  > drush @sites cc all
-> drush dis islandora_webform
-> drush dis islandora_webform_ingest
-> drush dis islandora_example_single_text
-> drush updatedb
-```
-* Back up an customizations that will be overwritten when you upgrade the modules, such as:
-```islandora_webform/submodules/islandora_webform_ingest/examples/islandora_example_simple_text_solution_pack/xsl/
-modsrelated_to_dc.xsl
-```
+* If you are just upgrading the IW modules, see the section 8. later in this document.
+
+***
+
 **3.4. Enable the Islandora Webform module for each site that needs it.**
 
 * Shell method: SSH to the server
@@ -252,11 +244,23 @@ islandora_webform/submodules/islandora_webform_ingest/examples/ .
 ```
 
 *** 
-
-**7. Search and retrieval of submissions**
-
-* All submitted text is put into an HTML datastream and the dc:relation field. We can offer searches that query those datastreams, but, unfortunately, Drupal/Islandora ignores the HTML tags in those fields and runs all the text together. So DHi decided to map the submission text MODS note element to the dc:description element in the "text/plain" DC datastream.
-* I think we will have to find another way to render the transcription with the HTML tags.
+* If you are just upgrading the IW modules from an earlier version, do the following steps before cloning the new webform:
+  * Clear all caches for all sites.
+  * Disable the IW modules.
+  * Update the database for your site(s) [Add "@sites" if you have a Drupal multi-site setup.]
+  ```
+  > drush cc all
+> drush dis islandora_webform
+> drush dis islandora_webform_ingest
+> drush dis islandora_example_single_text
+> drush updatedb
+```
+* An upgrade of these modules will not delete any webforms you have created (they are in mySQL), but your webforms may need to be tweaked to become compatible with the newer version of the IW module.
+* Back up any files that you have customized in the Islandora Weborm directories. These will be overwritten when you upgrade the modules, such as:
+```
+islandora_webform/submodules/islandora_webform_ingest/examples/islandora_example_simple_text_solution_pack/xsl/
+modsrelated_to_dc.xsl
+```
 
 ***
 
