@@ -17,7 +17,7 @@
 * To use the webform:
   * Click on the link to the webform and a webform box will open for you to fill in.
 
-[image]
+![webform_13.png](/how_to_documentation/images/webform_13.png)
 
 *  
   * Fill in the fields in accordance with the on-screen instructions.
@@ -27,7 +27,7 @@
   * Click the "Submissions" link.
   * You can then “View”, “Edit” or “Delete” your submission on the “Submissions” page.
 
-[image]
+![webform_14.png](/how_to_documentation/images/webform_12.png)
 
   * Find your submission, which is probably the last one added to the list. If it has not yet been ingested, you can safely edit it.
   * Click "Edit".
