@@ -2,61 +2,49 @@
 
 Guide for use: If you are an Islandora administrator with previous experience setting up Drupal webforms, then you will find this document offers more details than you probably need, but we hope that even you will find the level of detail into which this documentation goes helps you avoid making mistakes that can result in frustration and delays in implementation.
 
+## Table of Contents
+
 * Credits
 * Test Environment
 
-## Table of Contents
-
 * 1. Islandora Webform installation preliminaries
-* 2. Installing the Islandora Webform module
-* 3. Configuring permissions for the Islandora Webform module
-* 4. Configuring the Drupal block of Islandora Webform submissions
-* 5. Configuring Drupal accounts for the Islandora Webform module
-* 6. Upgrading from an earlier version of the Islandora Webform module
-* 7. Search and retrieval of submissions [not written yet]
+* 2. Install the Drupal Webform module
+* 3. Install the Webform AJAX module
+* 4. Install the Islandora Webform module
+* 5. Configure Drupal Roles for the Islandora Webform module
+* 6. Configure Drupal accounts for the Islandora Webform module
+* 7. Configuring the Drupal block of Islandora Webform submissions
+* 8. Upgrading from an earlier version of the Islandora Webform module
 
 ***
 
 ## Credits
 
-* The Islandora Webform module was conceived by the Islandora Consortial Group (ICG)
+* The Islandora Webform module was conceived by the Islandora Collaboration Group (ICG)
   * https://github.com/Islandora-Collaboration-Group
-* The module development was coordinated by the Digital Humanities Initiative at Hamilton College (http://dhinitiative.org/) and supported by funds from an Andrew W. Mellon Foundation grant to DHi at Hamilton College (http://dhinitiative.org/)
+* The module development was coordinated by the Digital Humanities Initiative (DHi) at Hamilton College (http://dhinitiative.org/) and supported by funds from an Andrew W. Mellon Foundation grant to DHi.
 * The development was performed by Common Media (Patrick Dunlavey, developer)
-* Beta testing was first performed by DHi at Hamilton College Collection Development Team (DHi Collection Development Team) and later reviewed by other members of the ICG.
+
+* Beta testing was first performed by the DHi Collection Development Team) and later reviewed by other members of the ICG.
 
 ***
 
 ## Test Environment
-* Webform: 7.x-4.9 (webform)
-* Webform AJAX: 7.x-1.1 (webform_ajax)
-* Islandora Webform Module (islandora_webform)
-* Islandora Ingest Module (islandora_webform_ingest)
-* [includes Islandora Simple Text Module (islandora_simple_text_module)]
-* Islandora: 7.1.7, and HEAD
-* Drupal: 7.51
-
-***
-
-## Introduction to the Islandora Webform module
-
-## For Administrators
 
 **1. Islandora Webform installation preliminaries**
 
 * Ensure that all basic Islandora modules and dependencies are installed and working.
-* DHI@Hamilton tested the IW module with the latest versions of each of these modules enabled:
+* DHi last tested the IW module in February of 2017 using the following versions of each of these modules and libraries:
 
 | Module Name | Status |
 | ------------- |:-------------:| -----:|
-| Drupal | required |
-| Islandora | required, plus dependencies |
-| Tuque | required |
-| Islandora Basic Collection | required |
-| Isandora XML Forms | required if Igest module is enabled |
-| Webform | required |
-| Webform AJAX | required |
-| Token | optional |
+| Drupal | 7.51 |
+| Islandora | 7x-1.7 |
+| Tuque | 7x-1.7 |
+| Islandora Basic Collection | 7x-1.7 |
+| Isandora XML Forms | 7x-dev |
+| Webform | 7.x-4.14 |
+| Webform AJAX | 7.x-1.1 |
 
 ***
 
