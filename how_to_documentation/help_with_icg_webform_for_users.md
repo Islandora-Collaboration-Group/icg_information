@@ -7,7 +7,7 @@
 
 ***
 
-** 1. How to submit an Islandora Webform**
+**1. How to submit an Islandora Webform**
 
 * When a visitor to the Islandora site views an object whose properties match the properties set by a webform, she will see a link to on the object view page that will launch that webform, but only if the visitor's Drupal user role permits access to the webform.
 * The person who set up the webform may have set it up so only authenticated users will have access to it.
