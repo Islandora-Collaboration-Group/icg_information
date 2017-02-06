@@ -74,10 +74,11 @@ Figure 1: Configuring the Drupal webform module (part 1 of 2)
 
 ![webform_15.png](/how_to_documentation/images/webform_15.png)
 
-Figure 1: Configuring the Drupal webform module (part 2 of 2)
+Figure 2: Configuring the Drupal webform module (part 2 of 2)
 
 ***
 
+* Fill in the e-mail values as appropriate.
 * Click "Save configuration".
 
 ***
@@ -93,22 +94,11 @@ Figure 1: Configuring the Drupal webform module (part 2 of 2)
 **4. Install the Islandora Webform module (there is more than one way to do this)**
 
 * The IW module actually consists of three modules:
-  1. islandora)webform
-  2. islandora_webform_ingest
-  3. islandora_simple_text_module
+  * islandora_webform
+  * islandora_webform_ingest
+  * islandora_simple_text_module
 * The islandora_simple_text_module comes with its own Content Model.
 
-* The directory structure of the IW modules
-```sites/all/modules
- |_islandora-webform
-   |_submodules
-     |_islandora_webform_ingest
-       |_examples
-         |_islandora_example_simple_text_solution_pack
-```
-* To learn more about each IW module, you should read the README file for each one on the IW code distribution repo.
-  * github.com/commonmedia/islandora_webform.git
-  
 * On the Drupal server, navigate to "sites/all/modules".
 * Clone the islandora_webform module:
 ```
@@ -121,6 +111,17 @@ Figure 1: Configuring the Drupal webform module (part 2 of 2)
 ```
 > drush update (or in the Drupal GUI: "<your_site>/update.php")
 ```
+* The directory structure of the IW modules
+```sites/all/modules
+ |_islandora-webform
+   |_submodules
+     |_islandora_webform_ingest
+       |_examples
+         |_islandora_example_simple_text_solution_pack
+```
+* To learn more about each IW module, consult the README file for each one on the IW code distribution repo.
+  * github.com/commonmedia/islandora_webform.git
+  
 
 **Ensure that all dependencies are enabled**
 
