@@ -94,77 +94,59 @@ Figure 1: Configuring the Drupal webform module
 
 ***
 
-**3.4. Enable the Islandora Webform module for each site that needs it.**
+**Enable the Islandora Webform module for each site that needs it.**
 
 * Shell method: SSH to the server
   * To enable it for the default site, run at sites/all/modules:
+  ```
 > drush en -y islandora_webform
 > drush en -y islandora_webform_ingest
+```
   * To enable it for all sites in multi-site, run at sites/all/modules:
+  ```
 > drush @sites en -y islandora_webform
 > drush @sites en -y islandora_webform_ingest
+```
   * To enable it for a specific site:
+  ```
 > drush en -y islandora_webform --uri=http://<your_site>
 > drush en -y islandora_webform_ingest --uri=http://<your_site>
+```
 * Drupal method: Log into a Drupal site
   * Administer > Modules
     * Enable "Islandora Webform" (islandora_webform)
     * Enable "Islandora Webform Ingest" (islandora_webform_ingest)
     * Enable "Islandora example simple text" module (islandora_example_simple_text)
       * This module was installed as a submodule when the main IW module was installed, but you have to enable it manually.
-* Update the database
+* Update the database.
 ```
 > drush update (or in the Drupal GUI: "<your_site>/update.php")
 ```
-* There are no configuration options for this module.
 
-**3.5. Ensure that all dependencies are enabled**
+**Ensure that all dependencies are enabled**
 
 * Administer > Modules
 * Look for any Required but "missing" or "disabled" dependencies for the modules: Webform, Webform AJAX, Islandora Webform, and Islandora Webform Ingest modules, Islandora Example Simple Text.
 
-**3.6 Understanding the structure of the IW modules**
+**Understanding the structure of the IW modules**
 
-* Module(s) directory structure (the three modules are italicized here):
+* Module(s) directory structure
 ```sites/all/modules
  |_islandora-webform
-   |_README.txt
    |_submodules
      |_islandora_webform_ingest
-       |_README.txt
        |_examples
          |_islandora_example_simple_text_solution_pack
-           |_README.md
 ```
 
-* Content Model
-  * Islandora Simple Text Content Model (islandora:sp_example_text)
-```
-<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
- <dsTypeModel ID="DC">
-     <form FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" MIME="application/xml"></form>
- </dsTypeModel>
- <dsTypeModel ID="RELS-EXT" optional="true">
-     <form FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" MIME="application/rdf+xml"></form>
- </dsTypeModel>
- <dsTypeModel ID="RELS-INT" optional="true">
-     <form FORMAT_URI="info:fedora/fedora-system:FedoraRELSInt-1.0" MIME="application/rdf+xml"></form>
- </dsTypeModel>
- <dsTypeModel ID="MODS" optional="true">
-    <form FORMAT_URI="http://www.loc.gov/mods/v3" MIME="application/xml"></form>
- </dsTypeModel>
- <dsTypeModel ID="HTML" optional="true">
-     <form MIME="text/html"></form>
-    </dsTypeModel>
- <dsTypeModel ID="TN" ORDERED="false" optional="true">
-    <form MIME="image/jpg"></form>
-    <form MIME="image/jpeg"></form>
-    <form MIME="image/png"></form>
- </dsTypeModel>
-</dsCompositeModel>
-```
+**Configure the Islandora Webform module
 
-**3. Configuring permissions for the Islandora Webform module**
+* Actually, there are no global configuration options for this module.
+* Configuration is managed separately for each webform you set up.
+
+***
+
+**5. Configuring permissions for the Islandora Webform module**
 
 * Administer > People > Permissions > Roles
 
