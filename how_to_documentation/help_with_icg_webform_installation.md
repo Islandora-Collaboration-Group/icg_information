@@ -153,7 +153,7 @@ Figure 1: Configuring the Drupal webform module
 
 ![webform_16.png](/how_to_documentation/images/webform_16.png)
 
-Figure 2: Configure Drupal Permissions for the Islandora Webform module 
+Figure 2: Configuring Drupal Permissions for the Islandora Webform module 
 
   * Built-in roles:
     * anonymous
