@@ -79,6 +79,33 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 </fedora:isAnnotationOf>
 ```
 
+* Content Model
+  * Islandora Simple Text Content Model (islandora:sp_example_text)
+```
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+ <dsTypeModel ID="DC">
+     <form FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" MIME="application/xml"></form>
+ </dsTypeModel>
+ <dsTypeModel ID="RELS-EXT" optional="true">
+     <form FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" MIME="application/rdf+xml"></form>
+ </dsTypeModel>
+ <dsTypeModel ID="RELS-INT" optional="true">
+     <form FORMAT_URI="info:fedora/fedora-system:FedoraRELSInt-1.0" MIME="application/rdf+xml"></form>
+ </dsTypeModel>
+ <dsTypeModel ID="MODS" optional="true">
+    <form FORMAT_URI="http://www.loc.gov/mods/v3" MIME="application/xml"></form>
+ </dsTypeModel>
+ <dsTypeModel ID="HTML" optional="true">
+     <form MIME="text/html"></form>
+    </dsTypeModel>
+ <dsTypeModel ID="TN" ORDERED="false" optional="true">
+    <form MIME="image/jpg"></form>
+    <form MIME="image/jpeg"></form>
+    <form MIME="image/png"></form>
+ </dsTypeModel>
+</dsCompositeModel>
+```
+
 ***
 
 **4. Creating and configuring a new Islandora Webform**
