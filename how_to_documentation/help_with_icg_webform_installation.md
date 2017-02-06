@@ -78,7 +78,7 @@ Administer > Configuration > [Content Authoring] Webform settings
 (or <your_site>/admin/config/content/webform)
 * Uncheck any fields you don’t think you’ll need in any of your Webforms. [Or, just leave them all checked.]
 
-[image]
+![webform_15.png](/how_to_documentation/images/webform_15.png)
 
 * From address: "dhitech@hamilton.edu" (example only)
 * From name: "Digital Humanities Initiative" (example only)
@@ -188,7 +188,7 @@ modsrelated_to_dc.xsl
 
 * Administer > People > Permissions > Roles
 
-[image]
+![webform_16.png](/how_to_documentation/images/webform_16.png)
 
   * Built-in roles:
     * anonymous
@@ -211,7 +211,7 @@ administrator
 * Click "Save blocks"
 * Click "configure" next to the "Objects with isAnnotationOf relation".
 
-[SHOULD THERE BE A SCREENSHOT HERE OF THE BLOCK CONFIG PAGE? MIGHT NOT REALLY BE NECESSARY, PJM]
+![webform_17.png](/how_to_documentation/images/webform_17.png)
 
 ***
 
