@@ -10,17 +10,19 @@
 
 **1. How to submit data in an Islandora Webform**
 
-* When a visitor to the Islandora repository, she will see a link to on the object view page that will launch that webform, if certain conditions are fulfilled:
-  * 1. if the object she is viewing has properties that match the properties set by a webform.
-  * 2. if the visitor's Drupal user role permits access to the webform.
-  * 3. in come case, she must be logged in.
-* The person who set up the webform may have set it up so only authenticated users will have access to it.
+* The person who sets up a webform is required to specify under what conditions the webform may be used.
+* When you visit an Islandora repository, you will be able to use that webform only if these conditions are met:
+  * if the object you are viewing has properties that match the properties set by a webform
+    * E.g. is it a PDF? or part of a spccific collections, etc.
+  * if the visitor's Drupal user role permits access to the webform
+    * anonymous users may be prohibited from using a webform.
+  * If you see a link to a webform, feel free to use it.
 
 ***
 
 ![webform_12.png](/how_to_documentation/images/webform_12.png)
 
-* Figure 1: Object view page showing a link to the Islandora webform at the bottom of the window.
+* Figure 1: An Islandora objectpage showing a link to the Islandora webform at the bottom of the window.
 
 ***
 
@@ -43,7 +45,6 @@
 
 * Go to the object page you submitted a webform on.
 * Click the "Submissions" link on that page (if you see one).
-* You can then “View”, “Edit” or “Delete” your submission on the “Submissions” page.
 
 ***
 
@@ -53,10 +54,12 @@ Figure: 3: View of what users can see if they want to view, edit or delete their
 
 ***
 
-  * Find your submission, which is probably the last one added to the list. If it has not yet been ingested, you can safely edit it.
-  * Click "Edit".
-    * Make your changes.
-  * Click “Save”.
+* You can then “View”, “Edit” or “Delete” your submission on the “Submissions” page.
+* Find your submission, which is probably the last one added to the list. If it has not yet been ingested, you can safely edit it.
+* Click "Edit".
+  * Make your changes.
+* Click “Save”.
+
 * PLEASE NOTE that you cannot edit a webform that has already been submitted if you see the link “Re-ingest’ (in red font) because that means it has already been approved and ingested into Islandora. Ingested ones cannot be changed. If you decide to edit it anyway, a new Islandora submission object will be created and the original one will remain as well; there is no way you can delete the old one.
 
 ***
