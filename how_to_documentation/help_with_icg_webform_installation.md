@@ -243,7 +243,7 @@ Figure 2: Configuring Drupal Roles for the Islandora Webform module
 
 ***
 
-![webform_XX.jpg](/how_to_documentation/images/webform_X.jpg) [need image]
+![webform_19.png](/how_to_documentation/images/webform_19.png) [need image]
 
 * Figure 3: Configuring the Drupal block of Islandora Webform submissions
 
