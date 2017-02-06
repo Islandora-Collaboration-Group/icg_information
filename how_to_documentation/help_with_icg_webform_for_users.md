@@ -7,17 +7,29 @@
 
 ***
 
-* 1. How to submit an Islandora Webform
+** 1. How to submit an Islandora Webform**
 
-* when a visitor to the Islandora site views an object whose properties matche the properties set by a webform , she will see a link to that webform if the visitor's user role permits access to the webform.
-* The person who set up the webform may have set it up s only authenticated users will have access to it.
+* When a visitor to the Islandora site views an object whose properties match the properties set by a webform, she will see a link to on the object view page that will launch that webform, but only if the visitor's Drupal user role permits access to the webform.
+* The person who set up the webform may have set it up so only authenticated users will have access to it.
+
+***
 
 ![webform_12.png](/how_to_documentation/images/webform_12.png)
+
+* Figure 1: Object view page showing a link to the Islandora webform below the object frame.
+
+***
 
 * To use the webform:
   * Click on the link to the webform and a webform box will open for you to fill in.
 
+***
+
 ![webform_13.png](/how_to_documentation/images/webform_13.png)
+
+* Figure 2: View of a webform as seem by an end user
+
+***
 
 *  
   * Fill in the fields in accordance with the on-screen instructions.
@@ -27,7 +39,13 @@
   * Click the "Submissions" link.
   * You can then “View”, “Edit” or “Delete” your submission on the “Submissions” page.
 
-![webform_14.png](/how_to_documentation/images/webform_12.png)
+***
+
+![webform_14.png](/how_to_documentation/images/webform_14.png)
+
+Figure: 3: View of what users can see if they want to view, edit or delete their submission.
+
+***
 
   * Find your submission, which is probably the last one added to the list. If it has not yet been ingested, you can safely edit it.
   * Click "Edit".
