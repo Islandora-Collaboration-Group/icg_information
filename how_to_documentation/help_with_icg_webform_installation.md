@@ -291,7 +291,7 @@ islandora_webform/submodules/islandora_webform_ingest/examples/ .
   * Disable the IW modules.
   * Update the database for your site(s) [Add "@sites" if you have a Drupal multi-site setup.]
   ```
-  > drush cc all
+> drush cc all
 > drush dis islandora_webform
 > drush dis islandora_webform_ingest
 > drush dis islandora_example_single_text
@@ -316,5 +316,4 @@ This program is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 See the GNU General Public License for more details.
 
-***
 ***
