@@ -12,7 +12,7 @@
 * when a visitor to the Islandora site views an object whose properties matche the properties set by a webform , she will see a link to that webform if the visitor's user role permits access to the webform.
 * The person who set up the webform may have set it up s only authenticated users will have access to it.
 
-![webform_12.png](/images/webform_12.png)
+![webform_12.png](/how_to_documentation/images/webform_12.png)
 
 * To use the webform:
   * Click on the link to the webform and a webform box will open for you to fill in.
