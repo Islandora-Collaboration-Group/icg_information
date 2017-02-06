@@ -96,7 +96,7 @@ Figure 2: Configuring the Drupal webform module (part 2 of 2)
 * The IW module actually consists of three modules:
   * islandora_webform
   * islandora_webform_ingest
-  * islandora_simple_text_module
+  * islandora_simple_text_solution_pack
 * The islandora_simple_text_module comes with its own Content Model.
 
 * On the Drupal server, navigate to "sites/all/modules".
@@ -106,7 +106,6 @@ Figure 2: Configuring the Drupal webform module (part 2 of 2)
 ```
 * [If you are just upgrading the IW modules, see the section 8. later in this document.]
 
-* Enable the Islandora Webform module for each site that needs it.*
 * Update the database.
 ```
 > drush update (or in the Drupal GUI: "<your_site>/update.php")
@@ -122,28 +121,26 @@ Figure 2: Configuring the Drupal webform module (part 2 of 2)
 * To learn more about each IW module, consult the README file for each one on the IW code distribution repo.
   * github.com/commonmedia/islandora_webform.git
   
+* Enable the Islandora Webform module for each site that needs it.
 
 **Ensure that all dependencies are enabled**
 
 * Administer > Modules
 * Look for any Required but "missing" or "disabled" dependencies for the modules: Webform, Webform AJAX, Islandora Webform, and Islandora Webform Ingest modules, Islandora Example Simple Text.
-
-**Configure the Islandora Webform module**
-
-* Actually, there are no global configuration options for this module. All configuration is managed separately for each webform you set up.
+* There are no global configuration options for this module. All configuration is managed separately for each webform you set up.
 
 ***
 
-**5. Configure Drupal Permissions for the Islandora Webform module**
+**5. Configure Drupal Roles for the Islandora Webform module**
 
-* Depending on your needs, you may need to create a couple of new roles to specify what IW permissions your users should have.
+* Depending on your needs, you may need to create a couple of new Drupal user roles so you can give different permissions to difference groups of webform users.
 * Administer > People > Permissions > Roles
 
 ***
 
 ![webform_16.png](/how_to_documentation/images/webform_16.png)
 
-Figure 2: Configuring Drupal Roles for the Islandora Webform module 
+Figure 3: Configuring Drupal Roles for the Islandora Webform module users 
 
 ***
 
@@ -246,7 +243,7 @@ Figure 2: Configuring Drupal Roles for the Islandora Webform module
 
 ![webform_19.png](/how_to_documentation/images/webform_19.png) [need image]
 
-* Figure 3: Configuring the Drupal block of Islandora Webform submissions
+* Figure 4: Configuring the Drupal block of Islandora Webform submissions
 
 ***
 
@@ -266,28 +263,28 @@ Figure 2: Configuring Drupal Roles for the Islandora Webform module
 
 **8. Upgrading from an earlier version of the Islandora Webform module.**
 
-* If you are just upgrading the IW modules from an earlier version, do the following steps before cloning the new webform:
 * An upgrade of these modules will not delete any webforms you have created (they are in mySQL), but your webforms may need to be tweaked to become compatible with the newer version of the IW module.
-* Disable and delete any existing “islandora_webform" directory and all its files.
+* When you upgrade the IW modules from an earlier version, do the following steps before cloning the new webform:
+* Disable the Islandora webform module
 ```
 > cd sites/all/modules (or wherever islandora_webform in located)
 > drush cache-clear all
 > drush dis islandora_webform (this also disables islandora_webform_ingest)
 ```
-* * Before you delete the modules back up any files that you have customized in the Islandora Weborm directories. These will be overwritten when you upgrade the modules, such as:
-```
-> rm -rf islandora_webform
-> drush update
-```
-
-```
-islandora_webform/submodules/islandora_webform_ingest/examples/ .
-      islandora_example_simple_text_solution_pack/xsl/modsrelated_to_dc.xsl
-```
 * If you need to wipe out IW completely and start over, run pm-uninstall after you disable the modules. This does not wipe out the webforms or the XML forms, but it will wipe out all your settings related to Islandora Ingest.
 ```
 > drush pm-uninstall islandora_webform_ingest
 > drush pm-uninstall islandora_webform
+```
+* Before you delete the modules back up any files that you have customized in the Islandora Weborm directories. These will be overwritten when you upgrade the modules, such as:
+```
+islandora_webform/submodules/islandora_webform_ingest/examples/ .
+      islandora_example_simple_text_solution_pack/xsl/modsrelated_to_dc.xsl
+```
+* Delete any existing “islandora_webform" directory and all its files.
+```
+> rm -rf islandora_webform
+> drush update
 ```
 
 *** 
