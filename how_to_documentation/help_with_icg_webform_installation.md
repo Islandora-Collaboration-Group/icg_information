@@ -59,6 +59,7 @@ Guide for use: If you are an Islandora administrator with previous experience se
 * Uncheck any fields you don’t think you’ll need in any of your Webforms. [Or, just leave them all checked.]
 
 ![webform_15.png](/how_to_documentation/images/webform_15.png)
+
 Figure 1: Configuring the Drupal webform module
 
 * From address: "dhitech@hamilton.edu" (example only)
@@ -151,6 +152,8 @@ Figure 1: Configuring the Drupal webform module
 * Administer > People > Permissions > Roles
 
 ![webform_16.png](/how_to_documentation/images/webform_16.png)
+
+Figure 2: Configure Drupal Permissions for the Islandora Webform module 
 
   * Built-in roles:
     * anonymous
