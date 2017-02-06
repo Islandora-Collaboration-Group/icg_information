@@ -119,9 +119,13 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * Create Webform
   * Add values to the fields to the webform as follows:
 
+***
+
 ![webform_01.png](/how_to_documentation/images/webform_01.png)
 
 * Figure 1: Creating and configuring a new Islandora Webform
+
+***
 
 *  
   * Title: "IW PDF webform." (Customize this text to include the object content type (PDF, etc.) and/or the target collection name.
@@ -140,12 +144,18 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * If this is your first webform, you will now be at the Webform > Form components page.
   * But if you are returning to edit an existing webform, you will first need to select the webform that you want to work on: Administer > Content > Webforms (e.g., /admin/content/webform). Then find the title of your webform.
 
+***
+
 ![webform_02.png](/how_to_documentation/images/webform_02.png)
 * Figure 2: Finding a webform
+
+***
 
 ![webform_03.png](/how_to_documentation/images/webform_03.png)
 
 * Figure 3: Viewing the components of a webform.
+
+***
 
 *  
   * Create as many components (fields) as you want to be displayed on the form for the user to fill out.
@@ -164,9 +174,13 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   * Click "Add" (button) to save each component as you create it.
 * When you click “Add”, you will be taken to a page where you should continue configuring the component you just chose to Add.
 
+***
+
 ![webform_04.png](/how_to_documentation/images/webform_04.png)
 
 * Figure 4: Editing a component of a webform
+
+***
 
 *  
   * Configure this component
@@ -186,7 +200,11 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 <strong>Instructions</strong>: HTML tags you may use: &lt;a&gt; &lt;strong&gt; &lt;p&gt; and &lt;br&gt;. [If you are doing a transcription, please follow the <a href="/transcription-instructions" target="_blank">Transcription instructions</a>]
 ```
 
+***
+
 ![webform_05.png](/how_to_documentation/images/webform_05.png)
+
+***
 
 * Figure 6: Configuring a webform component (part 2 of 2)
 
@@ -213,7 +231,11 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
     * Administer > Content > Webforms (i.e., /admin/content/webform)
     * Find your webform, click the "Edit" link, then click the "Webform" tab, then click the "Form settings" button.
 
+***
+
 ![webform_06.png](/how_to_documentation/images/webform_06.png)
+
+***
 
 * Figure 7: Congiguring the confirmation message of a webform
 
@@ -233,7 +255,11 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * Fill in any remaining options as needed, but the defaults should all work fine.
 * Inline Islandora Webform [If this fieldset is missing, it is because the webform_ajax" module has not been installed.]
 
+***
+
 ![webform_07.jpg](/how_to_documentation/images/webform_07.jpg)
+
+***
 
 * Figure 8: Configuring AJAX for the webform
 
@@ -265,7 +291,11 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   * Find the title of your webform and click the "Components" link.
 * Click the Webform (tab) and then "Islandora settings" (button)
 
+***
+
 ![webform_08.png](/how_to_documentation/images/webform_08.png)
+
+***
 
 * Figure 9: Configuring the Islandora settings for the webform (part 1 of 3)
  
@@ -297,7 +327,11 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   * Enable: [check]
   * Ingest destination: Select "Create new Islandora Simple Text Content Model" (Means create a Fedora object that subscribes to the islandora:sp_example_text content model.)
 
+***
+
 ![webform_09.png](/how_to_documentation/images/webform_09.png)
+
+***
 
 * Figure 10: Configuring the Islandora settings for the webform (part 2 of 3)
 
@@ -324,7 +358,11 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 * **Islandora Ingest Mapping**
 
+***
+
 ![webform_10.png](/how_to_documentation/images/webform_10.png)
+
+***
 
 * Figure 9: Configuring the Islandora settings for the webform (part 3 of 3)
 
@@ -364,6 +402,8 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   * To see more of its fields, click "Edit".
     * Label: "Islandora object PID" [do not change]
     * Field Key: "islandora_object_pid" [do not change]
+
+***
 
 ![webform_11.png](/how_to_documentation/images/webform_11.png)
 
