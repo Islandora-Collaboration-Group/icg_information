@@ -94,8 +94,6 @@ Figure 1: Configuring the Drupal webform module
 ```
 * If you are just upgrading the IW modules, see the section 8. later in this document.
 
-***
-
 **Enable the Islandora Webform module for each site that needs it.**
 
 * Shell method: SSH to the server
