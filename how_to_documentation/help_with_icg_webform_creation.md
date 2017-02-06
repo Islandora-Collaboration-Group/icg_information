@@ -204,9 +204,9 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_05.png](/how_to_documentation/images/webform_05.png)
 
-***
-
 * Figure 6: Configuring a webform component (part 2 of 2)
+
+***
 
 **Validation**
 * Required: [check]
@@ -235,9 +235,9 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_06.png](/how_to_documentation/images/webform_06.png)
 
-***
-
 * Figure 7: Congiguring the confirmation message of a webform
+
+***
 
 * Submission Settings
   * Confirmation message: "Thank you for submitting your caption." (example only)
@@ -259,9 +259,9 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_07.jpg](/how_to_documentation/images/webform_07.jpg)
 
-***
-
 * Figure 8: Configuring AJAX for the webform
+
+***
 
 *  
   * Inline AJAX mode: [check] (AJAX is used to put the webform inline with the original (target) object being commented on.
@@ -295,10 +295,10 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_08.png](/how_to_documentation/images/webform_08.png)
 
-***
-
 * Figure 9: Configuring the Islandora settings for the webform (part 1 of 3)
  
+***
+
 * **Islandora Options**
   * Enabled: [check]
   * Content model filter: [Select one of the options]
@@ -331,9 +331,9 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_09.png](/how_to_documentation/images/webform_09.png)
 
-***
-
 * Figure 10: Configuring the Islandora settings for the webform (part 2 of 3)
+
+***
 
 * If you do not see "Create new Islandora Simple Text Content Model", save this page (first uncheck "Enable" though) and ask the administrator to download/install/enable the "Islandora Example Simple Text Solution Pack". The Fedora content model object for the Solution Pack has to be installed too. Then come back and finish these instructions.
   * Relationship to current object: Select "is Annotation Of"
@@ -362,9 +362,9 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_10.png](/how_to_documentation/images/webform_10.png)
 
-***
-
 * Figure 9: Configuring the Islandora settings for the webform (part 3 of 3)
+
+***
 
 *  
   * TROUBLESHOOTING: If you get this message: "Islandora Simple Text Content Model provides no datastreams populated from this webform."
