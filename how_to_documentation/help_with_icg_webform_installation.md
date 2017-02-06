@@ -58,9 +58,13 @@ Guide for use: If you are an Islandora administrator with previous experience se
   * See Figure 1: Configuring the Drupal webform module
 * Uncheck any fields you don’t think you’ll need in any of your Webforms. [Or, just leave them all checked.]
 
+***
+
 ![webform_15.png](/how_to_documentation/images/webform_15.png)
 
 Figure 1: Configuring the Drupal webform module
+
+***
 
 * From address: "dhitech@hamilton.edu" (example only)
 * From name: "Digital Humanities Initiative" (example only)
@@ -151,9 +155,13 @@ Figure 1: Configuring the Drupal webform module
 
 * Administer > People > Permissions > Roles
 
+***
+
 ![webform_16.png](/how_to_documentation/images/webform_16.png)
 
 Figure 2: Configuring Drupal Permissions for the Islandora Webform module 
+
+***
 
   * Built-in roles:
     * anonymous
@@ -244,7 +252,13 @@ administrator
 * Click "Save blocks"
 * Click "configure" next to the "Objects with isAnnotationOf relation".
 
-![webform_17.jpg](/how_to_documentation/images/webform_17.jpg)
+***
+
+![webform_XX.jpg](/how_to_documentation/images/webform_X.jpg) [need image]
+
+* Figure 3: Configuring the Drupal block of Islandora Webform submissions
+
+***
 
   * Block title: "User Contributed Captions and Transcriptions". [example only]
   * View mode: "Links" [This is the most compact mode because it doesn't show thumbnails.]
