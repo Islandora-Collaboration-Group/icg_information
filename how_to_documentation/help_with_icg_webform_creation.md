@@ -267,6 +267,13 @@ APPENDIX: The "Islandora Simple Text Content Model"
 * Then you need to navigate to each Islandora object display page on which you want a link to the webform to appear and click the link to force the appearance of a link to a webform on that specific object page.
   * add webform link: "Go to web form" (wording may vary)
 
+***
+
+###3.2. Specify how the webform values will be stored in Islandora
+
+* Purpose: to specify where the component’s content will be stored in the Fedora object.
+* The IW module doesn't predetermine which components (i.e. form fields) you use in your webform. This is determined by your needs, but whatever components you choose must be mapped to MODS element paths in the specified metadata XML form. however, the crosswalk that comes with the IW module crosswalks <mods:title> to <dc:relation> -- not <dc.title>. DHi@Hamilton changed this crosswalking XSLT so it maps it to <dc:title>. (But this is not the place for a full explanation of how to do this.)
+
 * **Islandora Ingest**
   * Enable: [check]
   * Ingest destination: Select "Create new Islandora Simple Text Content Model" (Means create a Fedora object that subscribes to the islandora:sp_example_text content model.)
@@ -294,15 +301,11 @@ APPENDIX: The "Islandora Simple Text Content Model"
 
 ***
 
-###3.2. Specify how the webform values will be stored in Islandora
+###3.3. Specify the field mapping of webform values in the metadata
 
-* Purpose: to specify where the component’s content will be stored in the Fedora object.
-* The IW module doesn't predetermine which components (i.e. form fields) you use in your webform. This is determined by your needs, but whatever components you choose must be mapped to MODS element paths in the specified metadata XML form. however, the crosswalk that comes with the IW module crosswalks <mods:title> to <dc:relation> -- not <dc.title>. DHi@Hamilton changed this crosswalking XSLT so it maps it to <dc:title>. (But this is not the place for a full explanation of how to do this.)
 * Navigate to the Webform "Form components" page:
 * Administer > Content > Webforms (tab) > find the title of your webform and click "Components" (link).
 * Find the component that will store the text of the submission and click the "Edit" link.
-
-###3.3. Specify the field mapping of webform values in the metadata
 
 ***
 
