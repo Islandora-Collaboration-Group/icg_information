@@ -15,6 +15,7 @@
 3.2. Specify how the webform values will be stored in Islandora  
 3.3. Specify the field mapping of webform values in the metadata  
 3.4. Configuring the "Simple Text Related Item MODS form" (XML form)  
+
 APPENDIX: The "Islandora Simple Text Content Model"
 
 ***
