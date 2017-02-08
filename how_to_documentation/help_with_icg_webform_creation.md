@@ -3,30 +3,31 @@
 
 **Table of Contents**
 
-* 1. Basic capabilities of the Islandora Webform module
-* 2. Limitations of the Islandora Webform Module
-* 3. The Islandora Simple Text content model
+* 1. Basic capabilities of the _Islandora Webform Module_
+* 2. Limitations of the _Islandora Webform Module_
+* 3. _The Islandora Simple Text content model_
 * 4. Creating a Drupal Webform
-* 5. Configuring the Islandora Settings for the Webform
-* 6. Configuring the Islandora Webform module’s XML form
-* 7. Configuring the Islandora Ingest Mapping.
+* 5. Configuring the _Islandora Settings_ for the Webform
+* 6. Configuring the _Islandora Webform Module’s XML form_
+* 7. Configuring the _Islandora Ingest_ mapping.
 * 8. Enabling Islandora webforms on only certain objects
 
 ***
 
-**1. Basic capabilities of the Islandora Webform module**
+**1. Basic capabilities of the _Islandora Webform Module_**
 
 * The Islandora Webform (IW) module uses the capabilities of the standard Drupal Webform module to enable users to submit comments (captions, tags, transcriptions, etc.) on digital objects in an Islandora repository.
 * In Islandora, a link to the webform appears on the page of qualifying repository objects. When clicked by an authorized visitor, the link launches the webform that gathers data from the user and puts the submitted data into a queue waiting for approval by a webform manager.
 * When the submission is approved, the form values are ingested either 1) into the MODS (or another specific datastream) of the Fedora object being commented on, or 2) into a completely new Fedora object. If 2) is used, a relationship statement is placed in the RELS-EXT datastream connecting the submission Fedora object to the original Fedora object.
 * All the submissions for a specific object can then be displayed along with the original object using a dedicated Drupal block.
 
-**2. Limitations of the Islandora Webform Module**
+**2. Limitations of the _Islandora Webform Module_**
 
-* After a webform submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested. If you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place and unchanged.
-* Implications of this are that it might be advisable to “Delete” a submission from the “Submissions” page once the ingest has been approved and ingested. “Delete” only deletes the entry for the submission on the Submissions page (a mySQL deletion) -- it does not delete the Fedora object.
-* Another implication is that if you ever need to edit the content of a submission, you should do the editing using the XML metadata form originally used to create that object.
-* You can associate a webform with only one content model at a time or no content model at all. If you are in the practice of ingesting objects of different content models into the same collection, you might be able to get away with not binding a webform to any content model at all. But you can create separate Islandora webforms for each content model if you want unique components in the webforms for each one.
+* After a webform submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested into Fedora. So, if you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place and unchanged. [**PETER: Verify what happens if you are ingesting into MODS -- does it replace or append or nothing?**]
+* Implications of this are that it might be advisable to “Delete” a submission from the “Submissions” page once the ingest has been approved and ingested. “Delete” does not delete the Fedora object. It deletes onlythe entry for the submission on the Submissions page (a mySQL deletion).
+* Another implication is that if you ever want to re-edit the content of a submission that was put into a MODS datastream by the IW module, you should do the editing using the XML metadata form originally used to create that object.
+* You can associate a webform with only one content model at a time or no content model at all. So, if you are in the practice of ingesting objects of different MIME type (content models are bound to certaiin MIME types) into the same collection, you might be able to get away with not binding a webform to any content model at all. But if you want unique components in the webforms for each MIME type you will have to create separate Islandora webforms for each content model.
+
 
 ***
 
