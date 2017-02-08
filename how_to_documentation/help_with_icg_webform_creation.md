@@ -3,8 +3,8 @@
 
 **Table of Contents**
 
-1. About the "Islandora Webform Module"
-1.1. Basic capabilitie
+1. About the "Islandora Webform Module"  
+1.1. Basic capabilities  
 1.2. Limitations
 2. The "Islandora Simple Text Content Model"
 3. Creating a Drupal Webform  
