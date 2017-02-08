@@ -220,6 +220,9 @@ APPENDIX: The "Islandora Simple Text Content Model"
 ##3. Configuring the Islandora Settings for a webform 
 
 * WARNING: Before you change anything on this page, be aware that if the webform you are configuring has already been used for any submissions and those submissions have not yet been ingested, those submissions might not ingest properly. As a precaution, you should ingest all pending webforms submissions before making any changes to an existing webform’s Islandora settings. If you are creating a new webform, you don't have to worry about this.
+
+###3.1. Specify which Islandora objects a webform targets
+
   * Ensure you are on the “Form settings” page, if not…
   * Go to Administer > Content > Webforms (i.e., /admin/content/webform)
   * Find the title of your webform and click the "Components" link.
@@ -232,8 +235,6 @@ APPENDIX: The "Islandora Simple Text Content Model"
 * Figure 9: Configuring the _Islandora Settings_ for a webform (part 1 of 2)
  
 ***
-
-###3.1. Specify which Islandora objects a webform targets
 
 * **Islandora Options**
   * Enabled: [check]
