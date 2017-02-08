@@ -20,6 +20,8 @@
 * When the submission is approved, the form values are ingested either 1) into the MODS (or another specific datastream) of the Fedora object being commented on, or 2) into a completely new Fedora object. If 2) is used, a relationship statement is placed in the RELS-EXT datastream connecting the submission Fedora object to the original Fedora object.
 * All the submissions for a specific object can then be displayed along with the original object using a dedicated Drupal block.
 
+***
+
 ##2. Limitations of the _Islandora Webform Module_
 
 * After a webform submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested into Fedora. So, if you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place and unchanged. [**PETER: Verify what happens if you are ingesting into MODS -- does it replace or append or nothing?**]
@@ -50,8 +52,6 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
     </titleInfo>
     <name type="personal">
      <namePart>Peter MacDonald</namePart>
-     <namePart type="family">MacDonald</namePart>
-     <namePart type="given">Peter</namePart>
     </name>
  </relatedItem>
 </mods>
@@ -412,8 +412,6 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * Figure 12: The Islandora object PID component of a webform
 
 *** 
-
-[MERGE 4b WITH PREVIOUS SECTION???]
 
 **7. Configuring the _Simple Text Related Item MODS form" (XML form)
 
