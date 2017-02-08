@@ -7,13 +7,13 @@
 2. Limitations of the "Islandora Webform Module"
 3. The "Islandora Simple Text Content Model"
 4. Creating a Drupal Webform
-  1. Add components to the webform
-  2. Configure the confirmation message
+4.1. Add components to the webform
+4.2. Configure the confirmation message
 5. Configuring the "Islandora Settings" for a webform
-  1. Specify which objects a webform is created for
-  2. Specify where the webform values will be stored
-  3. Configuring the "Islandora Ingest" field mapping of a webform
-  4. Configuring the "Simple Text Related Item MODS form" (XML form)
+5.1. Specify which objects a webform is created for
+5.2. Specify where the webform values will be stored
+5.3. Configuring the "Islandora Ingest" field mapping of a webform
+5.4. Configuring the "Simple Text Related Item MODS form" (XML form)
 
 ***
 
@@ -296,6 +296,8 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * Figure 9: Configuring the _Islandora Settings_ for a webform (part 1 of 2)
  
 ***
+
+###Specify where the webform values will be stored
 
 * **Islandora Options**
   * Enabled: [check]
