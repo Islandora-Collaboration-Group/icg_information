@@ -33,14 +33,9 @@
 
 **3. Understanding the _Islandora Simple Text Content Model_**
 
-* The IW module comes bundled with a content model, the “Islandora Simple Text Content Model”. It helps to be aware of how this content model accommodates the values submitted by a webform. Understanding the content model can help you configure the webform components properly. So spend some time examining the content model and the XML metadata form it is associated with.
-* The Content Model that is used by the IW module is part of the "Islandora Example Simple Text Solution Pack", which is installed when you install the main Islandora Webform module.
-* The code (in Islandora Webform Ingest) supporting this CM grabs a form’s output and creates a Fedora object (or writes to the original object) and plugs in those values in a programmatic way into a MODS datastream which gets crosswalked to DC according to rules you can configure in an XSLT file.
-* The IW module “derivatives.inc" creates a MODS datastream (based on the <mods: relatedItem> element from MODS: http://www.loc.gov/standards/mods/userguide/relateditem.html).
-* The code includes the parent object’s PID as the property of an xlink attribute of the <mods:relatedItem> element.
-* The code puts the submitted text in the <mods:title> element.
-* For other fields you use one of the IW menus to configure how each field in your form gets mapped to MODS (see discussion above).
-* The MODS datastream in Fedora (Content: managed, MIME type: text/xml) might look something like this..
+* The IW module comes bundled with the "Islandora Example Simple Text Solution Pack", which is installed when you install the main Islandora Webform module. The IW Simple Text SP comes with its own content model, the “Islandora Simple Text Content Model”. This content model processes the values submitted by a webform. Studying the content model will help you configure the webform components properly. So spend some time examining the content model and the XML metadata form associated with it, the "Simple Text Related Item MODS form."
+* The code (in Islandora Webform Ingest) supporting this CM grabs a form’s output and creates a Fedora object (or writes to a datastream in the original object) and plugs in those values in a programmatic way into a MODS datastream which gets crosswalked to Dublin Core (DC). Even the MODS to DC crosswalk can be configured in an XSLT file to meet your local needs.
+* By default, the MODS datastream in Fedora created by the IW Module from a webforms values might look something like this...
 ```
 <?xml version="1.0"?>
 <mods xmlns="http://www.loc.gov/mods/v3"
@@ -63,8 +58,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 </mods>
 ```
 
-* It creates a stub of a Dublin Core datastream that might look something like this:
-  * DC (inline, text/xml)
+* This MODS is crosswalted to a DC datastream (inline, text/xml) that might look something like this:
 ```
 <oai_dc xmlnsdc::oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
 <dc:title>This photograph was probably taken in Toledo, Ohio</dc:title>
