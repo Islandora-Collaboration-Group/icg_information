@@ -1,27 +1,27 @@
 # How to Create a Webform using the Islandora Webform Module
-(updated 2017-02-05, by Peter MacDonald)
+(updated 2017-02-08, by Peter MacDonald)
 
 **Table of Contents**
 
 * 1. Basic capabilities of the Islandora Webform module
-* 2. Know the Limitations of the IW Module
-* 3. Understanding the Islandora Simple Text content model
-* 4. Creating and configuring a new Islandora Webform
-* 5. Configuring the Islandora Webform module’s XML form
-* 5. Enabling webforms on only certain objects
-* 6. Creating and configuring a new Islandora Webform
-* 7. DHi @hamilton (local customizations)
+* 2. Limitations of the Islandora Webform Module
+* 3. The Islandora Simple Text content model
+* 4. Creating a Drupal Webform
+* 5. Configuring the Islandora Settings for the Webform
+* 6. Configuring the Islandora Webform module’s XML form
+* 7. Configuring the Islandora Ingest Mapping.
+* 8. Enabling Islandora webforms on only certain objects
 
 ***
 
 **1. Basic capabilities of the Islandora Webform module**
 
 * The Islandora Webform (IW) module uses the capabilities of the standard Drupal Webform module to enable users to submit comments (captions, tags, transcriptions, etc.) on digital objects in an Islandora repository.
-* In Islandora, a link to a webform appears on the object view page that launches a webform that captures a user’s input and puts the submitted form values into a queue waiting for approval by a webform manager.
-* When the submission is approved, the form values are ingested into either 1) the MODS (or a specific datastream) of the Fedora object being commented on or 2) a completely new Fedora object. The values are mapped as desired using a customizable XML metadata form. If 2) is used, a relationship statement is placed in the RELS-EXT datastream connecting the Fedora submission object to the original Fedora object.
-* All the submissions for a specific object can be displayed along with the original object using a dedicated Drupal block.
+* In Islandora, a link to the webform appears on the page of qualifying repository objects. When clicked by an authorized visitor, the link launches the webform that gathers data from the user and puts the submitted data into a queue waiting for approval by a webform manager.
+* When the submission is approved, the form values are ingested either 1) into the MODS (or another specific datastream) of the Fedora object being commented on, or 2) into a completely new Fedora object. If 2) is used, a relationship statement is placed in the RELS-EXT datastream connecting the submission Fedora object to the original Fedora object.
+* All the submissions for a specific object can then be displayed along with the original object using a dedicated Drupal block.
 
-**2. Know the Limitations of the IW Module**
+**2. Limitations of the Islandora Webform Module**
 
 * After a webform submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested. If you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place and unchanged.
 * Implications of this are that it might be advisable to “Delete” a submission from the “Submissions” page once the ingest has been approved and ingested. “Delete” only deletes the entry for the submission on the Submissions page (a mySQL deletion) -- it does not delete the Fedora object.
