@@ -8,7 +8,8 @@
 1.2. Limitations
 2. Creating a Drupal Webform  
 2.1. Add components to the webform  
-2.2. Configure the confirmation message
+2.2. Configure the confirmation message  
+2.3. Configure AJAX and submission access
 3. Configuring the Islandora Settings for a webform  
 3.1. Specify which Islandora objects a webform targets  
 3.2. Specify how the webform values will be stored in Islandora  
@@ -181,6 +182,9 @@ APPENDIX: The "Islandora Simple Text Content Model"
     * Custom URL: [leave blank]
     * No redirect (reload current page): [check] [The other two options cause navigation problems for users.]
 * Fill in any remaining options as needed, but the defaults should all work fine.
+
+### 2.3. Configure AJAX and submission access
+
 * Inline Islandora Webform [If this fieldset is missing, it is because the webform_ajax" module has not been installed.]
 
 ***
