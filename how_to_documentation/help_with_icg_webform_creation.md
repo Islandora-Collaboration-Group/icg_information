@@ -276,7 +276,7 @@ APPENDIX: The "Islandora Simple Text Content Model"
 
 * **Islandora Ingest**
   * Enable: [check]
-  * Ingest destination: Select "Create new Islandora Simple Text Content Model" (Means create a Fedora object that subscribes to the islandora:sp_example_text content model.)
+  * Ingest destination: Select "Create new Islandora Simple Text Content Model" (Means create a Fedora object that subscribes to the islandora:sp_example_text content model. For more about this important content model see the APPENDIX below.)
 
 ***
 
