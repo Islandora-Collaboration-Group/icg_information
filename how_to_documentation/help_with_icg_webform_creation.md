@@ -3,13 +3,13 @@
 
 **Table of Contents**
 
-* 1. Basic capabilities of the _Islandora Webform Module_
-* 2. Limitations of the _Islandora Webform Module_
-* 3. _The Islandora Simple Text content model_
+* 1. Basic capabilities of the "Islandora Webform Module"
+* 2. Limitations of the "Islandora Webform Module"
+* 3. The "Islandora Simple Text content model"
 * 4. Creating a Drupal Webform
-* 5. Configuring the _Islandora Settings_ for the Webform
-* 6. Configuring the _Islandora Ingest_ Mapping
-* 7. Configuring the _Islandora Webform Module’s XML form_
+* 5. Configuring the "Islandora Settings" for a webform
+* 6. Configuring the "Islandora Ingest" Mapping of a webform
+* 7. Configuring the "Simple Text Related Item MODS form" (XML form)
 * 8. Enabling Islandora webforms on only certain objects
 
 ***
@@ -411,7 +411,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 [MERGE 4b WITH PREVIOUS SECTION???]
 
-**7. Configuring the Islandora Webform module’s XML form
+**7. Configuring the _Simple Text Related Item MODS form" (XML form)
 
 * The IW modules comes with a preferred XML form (Simple Text Related Item MODS form), which is configured to work with the module’s PHP code and the supplied content Model (islandora:sp_example_text). This XML form is designed to hold information on a “related item.” The Fedora object holding the submission information is treated as the related item and all the submission information is wrapped in the <mods:relatedItem> element. [You can configure this differently on your site.]
 * If you decide to just use the default XML form, you still need to set its association with the Content Model set in the Islandora Settings in your webform
