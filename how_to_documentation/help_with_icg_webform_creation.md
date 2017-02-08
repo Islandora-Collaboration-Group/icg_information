@@ -78,7 +78,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 </fedora:isAnnotationOf>
 ```
 
-* Islandora Simplet Text Content Model (islandora:sp_example_text)
+* Islandora Simple Text Content Model (islandora:sp_example_text)
 ```
 <dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
  <dsTypeModel ID="DC">
@@ -135,7 +135,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
     * Sticky at top of lists: [uncheck]
 * Click "Save" (button).
 
-###Add Components to the webform
+###4.1. Add components to the webform
 
 * If this is your first webform, you will now be at the Webform > Form components page.
   * But if you are returning to edit an existing webform, you will first need to select the webform that you want to work on: Administer > Content > Webforms (e.g., /admin/content/webform). Then find the title of your webform.
@@ -220,7 +220,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * Now you can add more components until you have added all the ones you want, such as "First Name", "Last Name", "Drupal user account", "Date" and so on. If you create custom fields, you will later have to modify the metadata XML form to ensure there is a matching MODS element there you can map the component to.
 * When done adding components, click "Save" (button) to save the whole webform. This is very important, but easy to forget.
 
-###Configure the confirmation message
+###4.2. Configure the confirmation message
 
 * Be sure you are on the “Form settings” page.
   * Help finding "Form settings" page
@@ -297,7 +297,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
  
 ***
 
-###Specify where the webform values will be stored
+###Specify which objects a webform is created for
 
 * **Islandora Options**
   * Enabled: [check]
@@ -357,7 +357,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ***
 
-###Configure the _Islandora Ingest_ field mapping for a webform
+###5.2. Specify where the webform values will be stored
 
 * Purpose: to specify where the component’s content will be stored in the Fedora object.
 * The IW module doesn't predetermine which components (i.e. form fields) you use in your webform. This is determined by your needs, but whatever components you choose must be mapped to MODS element paths in the specified metadata XML form. however, the crosswalk that comes with the IW module crosswalks <mods:title> to <dc:relation> -- not <dc.title>. DHi@Hamilton changed this crosswalking XSLT so it maps it to <dc:title>. (But this is not the place for a full explanation of how to do this.)
@@ -365,7 +365,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * Administer > Content > Webforms (tab) > find the title of your webform and click "Components" (link).
 * Find the component that will store the text of the submission and click the "Edit" link.
 
-* **Islandora Ingest Mapping**
+###5.3. Configuring the "Islandora Ingest" field mapping of a webform
 
 ***
 
@@ -420,7 +420,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 *** 
 
-###Configuring the _Simple Text Related Item MODS form" (XML form)
+###5.4. Configuring the _Simple Text Related Item MODS form" (XML form)
 
 * The IW modules comes with a preferred XML form (Simple Text Related Item MODS form), which is configured to work with the module’s PHP code and the supplied content Model (islandora:sp_example_text). This XML form is designed to hold information on a “related item.” The Fedora object holding the submission information is treated as the related item and all the submission information is wrapped in the <mods:relatedItem> element. [You can configure this differently on your site.]
 * If you decide to just use the default XML form, you still need to set its association with the Content Model set in the Islandora Settings in your webform
