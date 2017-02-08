@@ -10,7 +10,6 @@
 * 5. Configuring the "Islandora Settings" for a webform
 * 6. Configuring the "Islandora Ingest" field mapping of a webform
 * 7. Configuring the "Simple Text Related Item MODS form" (XML form)
-* 8. Enabling Islandora webforms on only certain objects
 
 ***
 
@@ -329,7 +328,6 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * Figure 10: Configuring the _Islandora Settings_ for the Drupal webform (part 2 of 3)
 
 ***
-
 * If you do not see "Create new Islandora Simple Text Content Model", save this page (first uncheck "Enable" though) and ask the administrator to download/install/enable the "Islandora Example Simple Text Solution Pack". The Fedora content model object for the Solution Pack has to be installed too. Then come back and finish these instructions.
   * Relationship to current object: Select "is Annotation Of"
     * [WARNING: Do not use the predicate “isMemberOfCollection”. Doing so brings the risk of relationships corruption throughout your Fedora database.]
@@ -343,6 +341,12 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * Namespace of new object: "apwiw" [example only]
 * Ensure that whatever namespace you choose is allowable in the collection you specified above under "Collections filter". [NOTE: Not sure this is true. That is, does Solr need it for searching. Still TBD.]
 * Click "Save configuration" (button).
+
+**Enabling webforms on only certain objects**
+
+* If you want links to the webform to appear on only Islandora pages for only certain objects, you need to indicate this when editing the “Islandora settings” page. Look for “Add a link to” and select "Only those objects that are manually tagged for this webform".
+* Then you need to navigate to each Islandora object display page on which you want a link to the webform to appear and click the link to force the appearance of a link to a webform on that specific object page.
+  * add webform link: "Go to web form" (wording may vary)
 
 ***
 
@@ -452,13 +456,5 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
     * Or select another path that corresponds to the component you are adding.
     * For "surname" map to DataStream:  "relatedItems:relNameInfo:namePart:family
   * Click "Save component".
-
-***
-
-##8. Enabling webforms on only certain objects
-
-* If you want links to the webform to appear on only Islandora pages for only certain objects, you need to indicate this when editing the “Islandora settings” page. Look for “Add a link to” and select "Only those objects that are manually tagged for this webform".
-* Then you need to navigate to each Islandora object display page on which you want a link to the webform to appear and click the link to force the appearance of a link to a webform on that specific object page.
-  * add webform link: "Go to web form" (wording may vary)
 
 ***
