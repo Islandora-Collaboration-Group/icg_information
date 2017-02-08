@@ -420,7 +420,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 *** 
 
-###5.4. Configuring the _Simple Text Related Item MODS form" (XML form)
+###5.4. Configuring the "Simple Text Related Item MODS form" (XML form)
 
 * The IW modules comes with a preferred XML form (Simple Text Related Item MODS form), which is configured to work with the module’s PHP code and the supplied content Model (islandora:sp_example_text). This XML form is designed to hold information on a “related item.” The Fedora object holding the submission information is treated as the related item and all the submission information is wrapped in the <mods:relatedItem> element. [You can configure this differently on your site.]
 * If you decide to just use the default XML form, you still need to set its association with the Content Model set in the Islandora Settings in your webform
