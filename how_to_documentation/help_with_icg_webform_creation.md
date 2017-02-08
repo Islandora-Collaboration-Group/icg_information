@@ -1,24 +1,24 @@
 # How to Create a Webform using the Islandora Webform Module
 (updated 2017-02-08, by Peter MacDonald)
 
-**Table of Contents**
+##Table of Contents
 
 1. The "Islandora Webform Module"  
 1.1. Basic capabilities  
 1.2. Limitations
-2. The "Islandora Simple Text Content Model"
 3. Creating a Drupal Webform  
 3.1. Add components to the webform  
 3.2. Configure the confirmation message
 4. Configuring the Islandora Settings for a webform  
-4.1. Specify which Islandora objects a webform targets
-4.2. Specify how the webform values will be stored in Islandora
-4.3. Specify the field mapping of webform values in the metadata
+4.1. Specify which Islandora objects a webform targets  
+4.2. Specify how the webform values will be stored in Islandora  
+4.3. Specify the field mapping of webform values in the metadata  
 4.4. Configuring the "Simple Text Related Item MODS form" (XML form)  
+APPENDIX: The "Islandora Simple Text Content Model"
 
 ***
 
-##1. Basic capabilities of the _Islandora Webform Module_
+###1.1 Basic capabilities of the _Islandora Webform Module_
 
 * The Islandora Webform (IW) module uses the capabilities of the standard Drupal Webform module to enable users to submit comments (captions, tags, transcriptions, etc.) on digital objects in an Islandora repository.
 * In Islandora, a link to the webform appears on the page of qualifying repository objects. When clicked by an authorized visitor, the link launches the webform that gathers data from the user and puts the submitted data into a queue waiting for approval by a webform manager.
@@ -27,83 +27,13 @@
 
 ***
 
-##2. Limitations of the _Islandora Webform Module_
+###1.2. Limitations of the _Islandora Webform Module_
 
 * After a webform submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested into Fedora. So, if you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place and unchanged. [**PETER: Verify what happens if you are ingesting into MODS -- does it replace or append or nothing?**]
 * Implications of this are that it might be advisable to “Delete” a submission from the “Submissions” page once the ingest has been approved and ingested. “Delete” does not delete the Fedora object. It deletes onlythe entry for the submission on the Submissions page (a mySQL deletion).
 * Another implication is that if you ever want to re-edit the content of a submission that was put into a MODS datastream by the IW module, you should do the editing using the XML metadata form originally used to create that object.
 * You can associate a webform with only one content model at a time or no content model at all. So, if you are in the practice of ingesting objects of different MIME type (content models are bound to certaiin MIME types) into the same collection, you might be able to get away with not binding a webform to any content model at all. But if you want unique components in the webforms for each MIME type you will have to create separate Islandora webforms for each content model.
 
-
-***
-
-##3. The _Islandora Simple Text Content Model_
-
-* The IW module comes bundled with the "Islandora Example Simple Text Solution Pack", which is installed when you install the main Islandora Webform module. The IW Simple Text SP comes with its own content model, the “Islandora Simple Text Content Model”. This content model processes the values submitted by a webform. Studying the content model will help you configure the webform components properly. So spend some time examining the content model and the XML metadata form associated with it, the "Simple Text Related Item MODS form."
-* The code (in Islandora Webform Ingest) supporting this CM grabs a form’s output and creates a Fedora object (or writes to a datastream in the original object) and plugs in those values in a programmatic way into a MODS datastream which gets crosswalked to Dublin Core (DC). Even the MODS to DC crosswalk can be configured in an XSLT file to meet your local needs.
-* By default, the MODS datastream in Fedora created by the IW Module from a webforms values might look something like this...
-```
-<?xml version="1.0"?>
-<mods xmlns="http://www.loc.gov/mods/v3"
-xmlns:mods="http://www.loc.gov/mods/v3"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xsi:schemaLocation="http://www.loc.gov/mods/v3
-http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
- <relatedItem type="host" xlink="http://lis.hamilton.edu/islandora/object/islandora%3A1">
-    <titleInfo lang="" displayLabel="">
-     <title>This photograph was probably taken in Toledo, Ohio.</title>
-     <subTitle/>
-    </titleInfo>
-    <name type="personal">
-     <namePart>Peter MacDonald</namePart>
-    </name>
- </relatedItem>
-</mods>
-```
-
-* This MODS is crosswalted to a DC datastream (inline, text/xml) that might look something like this:
-```
-<oai_dc xmlnsdc::oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-<dc:title>This photograph was probably taken in Toledo, Ohio</dc:title>
- <dc:contributor>Peter, MacDonald</dc:contributor>
- <dc:identifier>apw:235</dc:identifier>
-<dc:date>2016-01-26</dc:date>
- <dc:description>This photograph was probably taken in Toledo, Ohio. </dc:description>
-</oai_dc:dc>
-```
-* The code puts an RDF triple pointing to the PARENT_PID in the RELS-EXT datastream adds.
-* RELS-EXT (inline, applications/rdf+xml)
-```
-<fedora:isAnnotationOf rdf:resource="info:fedora/yourNamespace:1">
-</fedora:isAnnotationOf>
-```
-
-* Islandora Simple Text Content Model (islandora:sp_example_text)
-```
-<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
- <dsTypeModel ID="DC">
-     <form FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" MIME="application/xml"></form>
- </dsTypeModel>
- <dsTypeModel ID="RELS-EXT" optional="true">
-     <form FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" MIME="application/rdf+xml"></form>
- </dsTypeModel>
- <dsTypeModel ID="RELS-INT" optional="true">
-     <form FORMAT_URI="info:fedora/fedora-system:FedoraRELSInt-1.0" MIME="application/rdf+xml"></form>
- </dsTypeModel>
- <dsTypeModel ID="MODS" optional="true">
-    <form FORMAT_URI="http://www.loc.gov/mods/v3" MIME="application/xml"></form>
- </dsTypeModel>
- <dsTypeModel ID="HTML" optional="true">
-     <form MIME="text/html"></form>
-    </dsTypeModel>
- <dsTypeModel ID="TN" ORDERED="false" optional="true">
-    <form MIME="image/jpg"></form>
-    <form MIME="image/jpeg"></form>
-    <form MIME="image/png"></form>
- </dsTypeModel>
-</dsCompositeModel>
-```
 
 ***
 
@@ -462,5 +392,75 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
     * Or select another path that corresponds to the component you are adding.
     * For "surname" map to DataStream:  "relatedItems:relNameInfo:namePart:family
   * Click "Save component".
+
+***
+
+##APPENDIX: The _Islandora Simple Text Content Model_
+
+* The IW module comes bundled with the "Islandora Example Simple Text Solution Pack", which is installed when you install the main Islandora Webform module. The IW Simple Text SP comes with its own content model, the “Islandora Simple Text Content Model”. This content model processes the values submitted by a webform. Studying the content model will help you configure the webform components properly. So spend some time examining the content model and the XML metadata form associated with it, the "Simple Text Related Item MODS form."
+* The code (in Islandora Webform Ingest) supporting this CM grabs a form’s output and creates a Fedora object (or writes to a datastream in the original object) and plugs in those values in a programmatic way into a MODS datastream which gets crosswalked to Dublin Core (DC). Even the MODS to DC crosswalk can be configured in an XSLT file to meet your local needs.
+* By default, the MODS datastream in Fedora created by the IW Module from a webforms values might look something like this...
+```
+<?xml version="1.0"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+xmlns:mods="http://www.loc.gov/mods/v3"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xsi:schemaLocation="http://www.loc.gov/mods/v3
+http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+ <relatedItem type="host" xlink="http://lis.hamilton.edu/islandora/object/islandora%3A1">
+    <titleInfo lang="" displayLabel="">
+     <title>This photograph was probably taken in Toledo, Ohio.</title>
+     <subTitle/>
+    </titleInfo>
+    <name type="personal">
+     <namePart>Peter MacDonald</namePart>
+    </name>
+ </relatedItem>
+</mods>
+```
+
+* This MODS is crosswalted to a DC datastream (inline, text/xml) that might look something like this:
+```
+<oai_dc xmlnsdc::oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+<dc:title>This photograph was probably taken in Toledo, Ohio</dc:title>
+ <dc:contributor>Peter, MacDonald</dc:contributor>
+ <dc:identifier>apw:235</dc:identifier>
+<dc:date>2016-01-26</dc:date>
+ <dc:description>This photograph was probably taken in Toledo, Ohio. </dc:description>
+</oai_dc:dc>
+```
+* The code puts an RDF triple pointing to the PARENT_PID in the RELS-EXT datastream adds.
+* RELS-EXT (inline, applications/rdf+xml)
+```
+<fedora:isAnnotationOf rdf:resource="info:fedora/yourNamespace:1">
+</fedora:isAnnotationOf>
+```
+
+* Islandora Simple Text Content Model (islandora:sp_example_text)
+```
+<dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
+ <dsTypeModel ID="DC">
+     <form FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/" MIME="application/xml"></form>
+ </dsTypeModel>
+ <dsTypeModel ID="RELS-EXT" optional="true">
+     <form FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" MIME="application/rdf+xml"></form>
+ </dsTypeModel>
+ <dsTypeModel ID="RELS-INT" optional="true">
+     <form FORMAT_URI="info:fedora/fedora-system:FedoraRELSInt-1.0" MIME="application/rdf+xml"></form>
+ </dsTypeModel>
+ <dsTypeModel ID="MODS" optional="true">
+    <form FORMAT_URI="http://www.loc.gov/mods/v3" MIME="application/xml"></form>
+ </dsTypeModel>
+ <dsTypeModel ID="HTML" optional="true">
+     <form MIME="text/html"></form>
+    </dsTypeModel>
+ <dsTypeModel ID="TN" ORDERED="false" optional="true">
+    <form MIME="image/jpg"></form>
+    <form MIME="image/jpeg"></form>
+    <form MIME="image/png"></form>
+ </dsTypeModel>
+</dsCompositeModel>
+```
 
 ***
