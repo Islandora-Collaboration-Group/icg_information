@@ -8,20 +8,20 @@
 * 3. _The Islandora Simple Text content model_
 * 4. Creating a Drupal Webform
 * 5. Configuring the _Islandora Settings_ for the Webform
-* 6. Configuring the _Islandora Webform Module’s XML form_
-* 7. Configuring the _Islandora Ingest_ mapping.
+* 6. Configuring the _Islandora Ingest_ Mapping
+* 7. Configuring the _Islandora Webform Module’s XML form_
 * 8. Enabling Islandora webforms on only certain objects
 
 ***
 
-**1. Basic capabilities of the _Islandora Webform Module_**
+##1. Basic capabilities of the _Islandora Webform Module_
 
 * The Islandora Webform (IW) module uses the capabilities of the standard Drupal Webform module to enable users to submit comments (captions, tags, transcriptions, etc.) on digital objects in an Islandora repository.
 * In Islandora, a link to the webform appears on the page of qualifying repository objects. When clicked by an authorized visitor, the link launches the webform that gathers data from the user and puts the submitted data into a queue waiting for approval by a webform manager.
 * When the submission is approved, the form values are ingested either 1) into the MODS (or another specific datastream) of the Fedora object being commented on, or 2) into a completely new Fedora object. If 2) is used, a relationship statement is placed in the RELS-EXT datastream connecting the submission Fedora object to the original Fedora object.
 * All the submissions for a specific object can then be displayed along with the original object using a dedicated Drupal block.
 
-**2. Limitations of the _Islandora Webform Module_**
+##2. Limitations of the _Islandora Webform Module_
 
 * After a webform submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested into Fedora. So, if you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place and unchanged. [**PETER: Verify what happens if you are ingesting into MODS -- does it replace or append or nothing?**]
 * Implications of this are that it might be advisable to “Delete” a submission from the “Submissions” page once the ingest has been approved and ingested. “Delete” does not delete the Fedora object. It deletes onlythe entry for the submission on the Submissions page (a mySQL deletion).
@@ -31,7 +31,7 @@
 
 ***
 
-**3. Understanding the _Islandora Simple Text Content Model_**
+##3. Understanding the _Islandora Simple Text Content Model_
 
 * The IW module comes bundled with the "Islandora Example Simple Text Solution Pack", which is installed when you install the main Islandora Webform module. The IW Simple Text SP comes with its own content model, the “Islandora Simple Text Content Model”. This content model processes the values submitted by a webform. Studying the content model will help you configure the webform components properly. So spend some time examining the content model and the XML metadata form associated with it, the "Simple Text Related Item MODS form."
 * The code (in Islandora Webform Ingest) supporting this CM grabs a form’s output and creates a Fedora object (or writes to a datastream in the original object) and plugs in those values in a programmatic way into a MODS datastream which gets crosswalked to Dublin Core (DC). Even the MODS to DC crosswalk can be configured in an XSLT file to meet your local needs.
@@ -71,12 +71,11 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * The code puts an RDF triple pointing to the PARENT_PID in the RELS-EXT datastream adds.
 * RELS-EXT (inline, applications/rdf+xml)
 ```
-<fedora:isAnnotationOf rdf:resource="info:fedora/islandora:1">
+<fedora:isAnnotationOf rdf:resource="info:fedora/yourNamespace:1">
 </fedora:isAnnotationOf>
 ```
 
-* Content Model
-  * Islandora Simple Text Content Model (islandora:sp_example_text)
+* Islandora Simplet Text Content Model (islandora:sp_example_text)
 ```
 <dsCompositeModel xmlns="info:fedora/fedora-system:def/dsCompositeModel#">
  <dsTypeModel ID="DC">
@@ -104,9 +103,8 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ***
 
-**4. Creating and configuring a new Islandora Webform**
+##4. Creating a Drupal Webform
 
-**1.1. Create a new Drupal webform**
 * Log in to the site (URL) where you want to create a webform. Be sure your account/role is permitted to create webforms.
 * Administer > Content; Click Add content; Select "Webform" (i.e., /node/add/webform).
   * [If a webform has never been created before on this site, you might not see “webforms” in the list of content types. If "Webform" is not listed here, then your administrator will have to add it (see Administer > Structure > Content types (i.e., /admin/structure/types).
@@ -118,7 +116,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_01.png](/how_to_documentation/images/webform_01.png)
 
-* Figure 1: Creating and configuring a new Islandora Webform
+* Figure 1: Creating a Drupal Webform
 
 ***
 
@@ -134,7 +132,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
     * Sticky at top of lists: [uncheck]
 * Click "Save" (button).
 
-**1.2. Add Components and fields to your webform**
+**Add Components and fields to your Drupal webform**
 
 * If this is your first webform, you will now be at the Webform > Form components page.
   * But if you are returning to edit an existing webform, you will first need to select the webform that you want to work on: Administer > Content > Webforms (e.g., /admin/content/webform). Then find the title of your webform.
@@ -142,13 +140,13 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 ***
 
 ![webform_02.png](/how_to_documentation/images/webform_02.png)
-* Figure 2: Finding a webform
+* Figure 2: Finding a Drupal webform
 
 ***
 
 ![webform_03.png](/how_to_documentation/images/webform_03.png)
 
-* Figure 3: Viewing the components of a webform.
+* Figure 3: Viewing the components of a Drupal webform
 
 ***
 
@@ -173,7 +171,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_04.png](/how_to_documentation/images/webform_04.png)
 
-* Figure 4: Editing a component of a webform
+* Figure 4: Editing a component of a Drupal webform
 
 ***
 
@@ -230,7 +228,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_06.png](/how_to_documentation/images/webform_06.png)
 
-* Figure 7: Congiguring the confirmation message of a webform
+* Figure 7: Configuring the confirmation message of a webform
 
 ***
 
@@ -254,7 +252,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_07.jpg](/how_to_documentation/images/webform_07.jpg)
 
-* Figure 8: Configuring AJAX for the webform
+* Figure 8: Configuring AJAX for the Drupal webform
 
 ***
 
@@ -278,7 +276,9 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   * Accept the defaults settings for now because no best practices exist for these settings yet.
 * Click "Save configuration" (button).
 
-**Configure the Islandora settings for the webform**
+***
+
+##5. Configuring the _Islandora Settings_ for the Drupal webform
 
 * WARNING: Before you change anything on this page, be aware that if the webform you are configuring has already been used for any submissions and those submissions have not yet been ingested, those submissions might not ingest properly. As a precaution, you should ingest all pending webforms submissions before making any changes to an existing webform’s Islandora settings. If you are creating a new webform, you don't have to worry about this.
   * Ensure you are on the “Form settings” page, if not…
@@ -290,7 +290,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_08.png](/how_to_documentation/images/webform_08.png)
 
-* Figure 9: Configuring the Islandora settings for the webform (part 1 of 3)
+* Figure 9: Configuring the _Islandora Settings_ for the Drupal webform (part 1 of 3)
  
 ***
 
@@ -326,7 +326,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_09.png](/how_to_documentation/images/webform_09.png)
 
-* Figure 10: Configuring the Islandora settings for the webform (part 2 of 3)
+* Figure 10: Configuring the _Islandora Settings_ for the Drupal webform (part 2 of 3)
 
 ***
 
@@ -344,8 +344,11 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 * Ensure that whatever namespace you choose is allowable in the collection you specified above under "Collections filter". [NOTE: Not sure this is true. That is, does Solr need it for searching. Still TBD.]
 * Click "Save configuration" (button).
 
-**Configure Islandora Ingest Mapping (to specify where the component’s content will be stored in the Fedora object)**
+***
 
+##6. Configuring the _Islandora Ingest_ Mapping 
+
+* Purpose: to specify where the component’s content will be stored in the Fedora object.
 * The IW module doesn't predetermine which components (i.e. form fields) you use in your webform. This is determined by your needs, but whatever components you choose must be mapped to MODS element paths in the specified metadata XML form. however, the crosswalk that comes with the IW module crosswalks <mods:title> to <dc:relation> -- not <dc.title>. DHi@Hamilton changed this crosswalking XSLT so it maps it to <dc:title>. (But this is not the place for a full explanation of how to do this.)
 * Navigate to the Webform "Form components" page:
 * Administer > Content > Webforms (tab) > find the title of your webform and click "Components" (link).
@@ -357,7 +360,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_10.png](/how_to_documentation/images/webform_10.png)
 
-* Figure 9: Configuring the Islandora settings for the webform (part 3 of 3)
+* Figure 11: Configuring the Islandora settings for the webform (part 3 of 3)
 
 ***
 
@@ -380,7 +383,7 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   * User Account - relatedItems:relNameInfo:affiliation (text/plain)
   * Date - relatedItems:relOriginInfo:relDateCreated (text/plain)
 
-**(Optional) Check out the Islandora object PID component**
+**The Islandora object PID component**
 
 * At this point, the Islandora Webform module has silently added a new component to your webform labeled "Islandora object PID".
 * The "Islandora object PID" component holds the PID of the parent Islandora object. It does not need to be edited manually. It is automatically generated and inherits some settings from other components in the same webform. Upon ingest of a submission, the IW code stores the parent PID in the RELS-EXT datastream of the new object. Example:
@@ -402,13 +405,13 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ![webform_11.png](/how_to_documentation/images/webform_11.png)
 
-* Figure 10: The "Islandora object PID component of a webform
+* Figure 12: The Islandora object PID component of a webform
 
 *** 
 
 [MERGE 4b WITH PREVIOUS SECTION???]
 
-**5. Configuring the Islandora Webform module’s XML form**
+**7. Configuring the Islandora Webform module’s XML form
 
 * The IW modules comes with a preferred XML form (Simple Text Related Item MODS form), which is configured to work with the module’s PHP code and the supplied content Model (islandora:sp_example_text). This XML form is designed to hold information on a “related item.” The Fedora object holding the submission information is treated as the related item and all the submission information is wrapped in the <mods:relatedItem> element. [You can configure this differently on your site.]
 * If you decide to just use the default XML form, you still need to set its association with the Content Model set in the Islandora Settings in your webform
@@ -452,20 +455,10 @@ http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
 
 ***
 
-*5. Enabling webforms on only certain objects**
+##8. Enabling webforms on only certain objects
 
 * If you want links to the webform to appear on only Islandora pages for only certain objects, you need to indicate this when editing the “Islandora settings” page. Look for “Add a link to” and select "Only those objects that are manually tagged for this webform".
-* Then you need to navigate to each Islandora object display page on which you want a link to the webform to appear and click the following link (“Go to web form” will be the name of your webform).
+* Then you need to navigate to each Islandora object display page on which you want a link to the webform to appear and click the link to force the appearance of a link to a webform on that specific object page.
   * add webform link: "Go to web form" (wording may vary)
-
-
-***
-
-**7. DHi @hamilton (local customizations)**
-
-* We add “User contribution:” to the title of a Fedora object created using the IW module.
-  * <dc:title>User contribution: [title]</dc:title>
-* This would probably better be done with RELS-EXT predicates, but we didn’t want to have separate forms for Captions and Transcriptions.
-* We use “isAnnotationOf” as the predicate in the RELS-EXT of all Fedora objects created by the IW module, but a richer ontology should be desirable for reporting and searching purposes.
 
 ***
