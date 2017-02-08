@@ -5,7 +5,7 @@
 
 * 1. Basic capabilities of the "Islandora Webform Module"
 * 2. Limitations of the "Islandora Webform Module"
-* 3. The "Islandora Simple Text content model"
+* 3. The "Islandora Simple Text Content Model"
 * 4. Creating a Drupal Webform
 * 5. Configuring the "Islandora Settings" for a webform
 * 6. Configuring the "Islandora Ingest" Mapping of a webform
