@@ -6,14 +6,14 @@
 1. Basic capabilities of the "Islandora Webform Module"
 2. Limitations of the "Islandora Webform Module"
 3. The "Islandora Simple Text Content Model"
-4. Creating a Drupal Webform
-4.1. Add components to the webform
+4. Creating a Drupal Webform  
+4.1. Add components to the webform  
 4.2. Configure the confirmation message
-5. Configuring the "Islandora Settings" for a webform
-5.1. Specify which objects a webform is created for
-5.2. Specify where the webform values will be stored
-5.3. Configuring the "Islandora Ingest" field mapping of a webform
-5.4. Configuring the "Simple Text Related Item MODS form" (XML form)
+5. Configuring the "Islandora Settings" for a webform  
+5.1. Specify which objects a webform is created for  
+5.2. Specify where the webform values will be stored  
+5.3. Configuring the "Islandora Ingest" field mapping of a webform  
+5.4. Configuring the "Simple Text Related Item MODS form" (XML form)  
 
 ***
 
