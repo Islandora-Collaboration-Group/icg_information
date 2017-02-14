@@ -1,4 +1,4 @@
-# How to Use an Islandora Webform - For End Users
+#How to Use an Islandora Webform - For End Users
 
 ##Table of Contents
 
