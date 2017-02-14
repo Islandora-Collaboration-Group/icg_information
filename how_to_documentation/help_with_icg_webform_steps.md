@@ -19,16 +19,19 @@ This Summary of Steps skips giving you the actual values to put in the settings 
       * Save Component
     * Repeat until all your components are created.
     * Save (again)
+
 ##3. Configure Islandora Settings
   * Content > Webforms > find your webform > Components > Islandora settings
     * Islandora Options: Enable, Content model filter, Collection filter, PID search string, Add a link to..., Link text, Link help text
     * Islandora Ingest: Enabled, Ingest destination, Relationship to current object, Namespace of new object
     * Save configuration
+
 ##4. Configure Ingest Mapping for each Component
   * Content > Webforms > find your webform > Components
     * Select a component > Edit
       * Islandora Ingest Mapping: Ingest?, DataStream, Field
       * Save component
+
 ##5. Configure Confirmation Page
   * Content > Webforms > find your webform > Components > Form settings
     * Submission Settings: Confirmation message, Text format, No redirect
