@@ -8,6 +8,7 @@ This Summary of Steps skips giving you the actual values to put in the settings 
     * Fill out "Create Webform" page
       * Title, Publishing options
     * Save
+    
 ##2. Add Components
   * Content > Webforms > find your webform > Components
     * Create components: Label, Type, Required
