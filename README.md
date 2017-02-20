@@ -52,10 +52,10 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
   * Lori Stethers (Systems and Emerging Technologies Librarian)
 * Williams College
   * [Karen Gorss Benko](https://github.com/kgb1420) (Catalogue Librarian)
+  * Lisa Conathan (Head of Special Collections)
   * [Jessika Drmacich-Flach](https://github.com/jgd1) (Digital Resources Archivist)
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer)
   * [Jonathan Leamon](https://github.com/jmleamon) (Director of Instructional Technology)
-  * Katie Nash (College Archivist and Special Collections Librarian)
 * Common Media Inc.
   * [Patrick Dunlavey](https://github.com/patdunlavey) (Senior Drupal & Islandora Developer)
   * [Gavin Morris](https://github.com/g7morris) (Digital Repositories Team Lead, DevOps)
