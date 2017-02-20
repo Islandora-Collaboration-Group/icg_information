@@ -1,0 +1,8 @@
+title: "Islandora Collaboration Group: Information"
+description: Islandora Collaboration Group (ICG) is a group of colleges working to support and extend the Islandora tool through development, resource pooling and advocacy.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
