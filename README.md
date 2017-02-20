@@ -12,7 +12,7 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
 * [Hamilton College](http://dhinitiative.org)
 * [Vassar College](https://digitallibrary.vassar.edu)
 * Wesleyan University
-* [Williams College](http://unbound.williams.edu)
+* [Williams College](https://unbound.williams.edu)
 
 ## How to participate
 
