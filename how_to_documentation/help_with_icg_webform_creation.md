@@ -123,7 +123,7 @@ APPENDIX: The "Islandora Simple Text Content Model"
 * Figure 5: Configuring a webform component (part 1 or 2)
 
   *  
-    * Description: [Usually you will just leave this blank, but you can add text as seen here.]
+    * Description: [Usually you will just leave this blank, but you can add text if more information is needed.]
       * Note: Most HTML tags are ignored in the Description box.
       * Example (using “Filtered HTML” since it looks like "Full HTML" is not allowed):
 ```
