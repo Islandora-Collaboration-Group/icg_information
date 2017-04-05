@@ -180,7 +180,7 @@ APPENDIX: The "Islandora Simple Text Content Model"
   * “Full HTML” allows you to use any HTML tags you want.
   * Redirection location
     * Confirmation page: [uncheck]
-    * Custom URL: [leave blank]
+    * Custom URL: [uncheck and leave box blank]
     * No redirect (reload current page): [check] [The other two options cause navigation problems for users.]
 * Fill in any remaining options as needed, but the defaults should all work fine.
 
