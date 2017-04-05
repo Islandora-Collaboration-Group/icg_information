@@ -136,11 +136,11 @@ Figure 2: Configuring the Drupal webform module (part 2 of 2)
 
 * Administer > Modules
 * Look for any Required but "missing" or "disabled" dependencies for the modules: Webform, Webform AJAX, Islandora Webform, and Islandora Webform Ingest modules, Islandora Example Simple Text.
-* There are no global configuration options for the IW module. All configuration is managed separately for each webform created by users of the IW module..
+* There are no global configuration options for the IW module. All configuration is managed separately for each webform created by users of the IW module.
 
 ***
 
-##5. Create Drupal Roles and sest permissions for the Islandora Webform module
+##5. Create Drupal Roles and set permissions for the Islandora Webform module
 
 * Depending on your needs, you may need to create a couple of new Drupal user roles so you can give different sets permissions to difference groups of webform users.
 * Administer > People > Permissions > Roles
