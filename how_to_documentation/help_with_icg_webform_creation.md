@@ -30,7 +30,7 @@ APPENDIX: The "Islandora Simple Text Content Model"
 
 ***
 
-###1.2. Limitations of the _Islandora Webform Module_
+### 1.2. Limitations of the _Islandora Webform Module_
 
 * After a webform submission is ingested into Fedora, the IW “Submissions” page will shows “Re-Ingest” in a red font. It will also show links to “View”, “Edit” and “Delete” the submission. However, once the submission has been ingested, any edits made through this page will not replace the text already ingested into Fedora. So, if you do edit the text of the submission and you then click the red “Re-ingest” link, the IW module will create a brand new Fedora object -- leaving the original one still on place and unchanged. [**PETER: Verify what happens if you are ingesting into MODS -- does it replace or append or nothing?**]
 * Implications of this are that it might be advisable to “Delete” a submission from the “Submissions” page once the ingest has been approved and ingested. “Delete” does not delete the Fedora object. It deletes onlythe entry for the submission on the Submissions page (a mySQL deletion).
@@ -40,7 +40,7 @@ APPENDIX: The "Islandora Simple Text Content Model"
 
 ***
 
-##2. Creating a Drupal Webform
+## 2. Creating a Drupal Webform
 
 * Log in to the site (URL) where you want to create a webform. Be sure your account/role is permitted to create webforms.
 * Administer > Content; Click Add content; Select "Webform" (i.e., /node/add/webform).
@@ -69,7 +69,7 @@ APPENDIX: The "Islandora Simple Text Content Model"
     * Sticky at top of lists: [uncheck]
 * Click "Save" (button).
 
-###2.1. Add components to the webform
+### 2.1. Add components to the webform
 
 * If this is your first webform, you will now be at the Webform > Form components page.
   * But if you are returning to edit an existing webform, you will first need to select the webform that you want to work on: Administer > Content > Webforms (e.g., /admin/content/webform). Then find the title of your webform.
@@ -154,7 +154,7 @@ APPENDIX: The "Islandora Simple Text Content Model"
 * Now you can add more components until you have added all the ones you want, such as "First Name", "Last Name", "Drupal user account", "Date" and so on. If you create custom fields, you will later have to modify the metadata XML form to ensure there is a matching MODS element there you can map the component to.
 * When done adding components, click "Save" (button) to save the whole webform. This is very important, but easy to forget.
 
-###2.2. Configure the confirmation message
+### 2.2. Configure the confirmation message
 
 * Be sure you are on the “Form settings” page.
   * Help finding "Form settings" page
@@ -218,11 +218,11 @@ APPENDIX: The "Islandora Simple Text Content Model"
 
 ***
 
-##3. Configuring the Islandora Settings for a webform 
+## 3. Configuring the Islandora Settings for a webform 
 
 * WARNING: Before you change anything on this page, be aware that if the webform you are configuring has already been used for any submissions and those submissions have not yet been ingested, those submissions might not ingest properly. As a precaution, you should ingest all pending webforms submissions before making any changes to an existing webform’s Islandora settings. If you are creating a new webform, you don't have to worry about this.
 
-###3.1. Specify which Islandora objects a webform targets
+### 3.1. Specify which Islandora objects a webform targets
 
   * Ensure you are on the “Form settings” page, if not…
   * Go to Administer > Content > Webforms (i.e., /admin/content/webform)
@@ -270,7 +270,7 @@ APPENDIX: The "Islandora Simple Text Content Model"
 
 ***
 
-###3.2. Specify how the webform values will be stored in Islandora
+### 3.2. Specify how the webform values will be stored in Islandora
 
 * Purpose: to specify where the component’s content will be stored in the Fedora object.
 * The IW module doesn't predetermine which components (i.e. form fields) you use in your webform. This is determined by your needs, but whatever components you choose must be mapped to MODS element paths in the specified metadata XML form. however, the crosswalk that comes with the IW module crosswalks <mods:title> to <dc:relation> -- not <dc.title>. DHi@Hamilton changed this crosswalking XSLT so it maps it to <dc:title>. (But this is not the place for a full explanation of how to do this.)
@@ -302,7 +302,7 @@ APPENDIX: The "Islandora Simple Text Content Model"
 
 ***
 
-###3.3. Specify the field mapping of webform values in the metadata
+### 3.3. Specify the field mapping of webform values in the metadata
 
 * Navigate to the Webform "Form components" page:
 * Administer > Content > Webforms (tab) > find the title of your webform and click "Components" (link).
@@ -405,7 +405,7 @@ APPENDIX: The "Islandora Simple Text Content Model"
 
 ***
 
-##APPENDIX: The _Islandora Simple Text Content Model_
+## APPENDIX: The _Islandora Simple Text Content Model_
 
 * The IW module comes bundled with the "Islandora Example Simple Text Solution Pack", which is installed when you install the main Islandora Webform module. The IW Simple Text SP comes with its own content model, the “Islandora Simple Text Content Model”. This content model processes the values submitted by a webform. Studying the content model will help you configure the webform components properly. So spend some time examining the content model and the XML metadata form associated with it, the "Simple Text Related Item MODS form."
 * The code (in Islandora Webform Ingest) supporting this CM grabs a form’s output and creates a Fedora object (or writes to a datastream in the original object) and plugs in those values in a programmatic way into a MODS datastream which gets crosswalked to Dublin Core (DC). Even the MODS to DC crosswalk can be configured in an XSLT file to meet your local needs.
