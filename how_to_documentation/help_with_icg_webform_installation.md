@@ -45,6 +45,11 @@ APPENDIX: Upgrading from an earlier version of the Islandora Webform module
 | Webform | 7.x-4.14 |
 | Webform AJAX | 7.x-1.1 |
 
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
 * Ensure that basic Islandora modules and dependencies are installed and working, namely
   * Islandora, Islandora Basic Colelction, Islandora XML Form, and Tuque.
   * Ensure that the Islandora connection to Fedora is working (administration > Islandora)
