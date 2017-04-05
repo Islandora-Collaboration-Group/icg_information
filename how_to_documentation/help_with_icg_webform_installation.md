@@ -34,15 +34,15 @@ APPENDIX: Upgrading from an earlier version of the Islandora Webform module
 **Test Environment**
 * DHi last tested the IW module in February of 2017 using the following versions of each of these modules and libraries:
 
-| Module Name | Version |
-| ------------- |:-------------:| -----:|
-| CentOs | - |
-| Drupal | 7.51 |
-| Islandora | 7x-1.7 |
-| Tuque | 7x-1.7 |
-| Islandora Basic Collection | 7x-1.7 |
-| Islandora XML Forms | 7x-dev |
-| Webform | 7.x-4.14 |
+| Module Name                | Version       |
+| -------------------------- |:-------------:|
+| CentOs                     | -             |
+| Drupal                     | 7.51          |
+| Islandora                  | 7x-1.7        |
+| Tuque                      | 7x-1.7        |
+| Islandora Basic Collection | 7x-1.7        |
+| Islandora XML Forms        | 7x-dev        |
+| Webform                    | 7.x-4.14      |
 | Webform AJAX | 7.x-1.1 |
 
 | Left-aligned | Center-aligned | Right-aligned |
