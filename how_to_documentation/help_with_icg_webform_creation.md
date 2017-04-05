@@ -118,7 +118,7 @@ APPENDIX: The "Islandora Simple Text Content Model"
     * Field Key: [prepopulated] (Will be created automatically from the component's Label.)
     * Default value (optional):  [Leave blank and use the “Placeholder” setting discussed below.]
 
-![webform_05.png](/how_to_documentation/images/webform_05.png)
+![webform_04b.png](/how_to_documentation/images/webform_04b.png)
 
 * Figure 5: Configuring a webform component (part 1 or 2)
 
