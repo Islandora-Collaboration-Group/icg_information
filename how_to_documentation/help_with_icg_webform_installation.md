@@ -142,7 +142,7 @@ Figure 2: Configuring the Drupal webform module (part 2 of 2)
 
 ##5. Create Drupal Roles and set permissions for the Islandora Webform module
 
-* Depending on your needs, you may need to create a couple of new Drupal user roles so you can give different sets permissions to difference groups of webform users.
+* Depending on your needs, you may need to create a couple of new Drupal user roles so you can give different sets of permissions to difference groups of webform users.
 * Administer > People > Permissions > Roles
 
 ***
