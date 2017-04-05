@@ -43,12 +43,7 @@ APPENDIX: Upgrading from an earlier version of the Islandora Webform module
 | Islandora Basic Collection | 7x-1.7        |
 | Islandora XML Forms        | 7x-dev        |
 | Webform                    | 7.x-4.14      |
-| Webform AJAX | 7.x-1.1 |
-
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| Webform AJAX               | 7.x-1.1       |
 
 * Ensure that basic Islandora modules and dependencies are installed and working, namely
   * Islandora, Islandora Basic Colelction, Islandora XML Form, and Tuque.
