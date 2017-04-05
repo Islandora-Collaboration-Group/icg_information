@@ -242,7 +242,7 @@ Figure 3: Configuring Drupal Roles for the Islandora Webform module users
 
 * All of the submissions for an Islandora object can be made visible to users by configuring the IW block.
 * Go to Administer > Structure > Blocks (ie. /admin/structure/block)
-* In the section labeled "Disabled", find the block titled "Objects with isAnnotationOf relation" [The title may vary.]
+* In the section labeled "Disabled", find the block titled "Objects with Is Annotation Of relation" [The title may vary.]
 * Select position: "Content" (Means place the block in the “content” region of the Drupal page.)
 * Move the block to, say, the top of the "Content" list of items if you want the "Submission" link to be displayed at the top of the content block.
 * Click "Save blocks"
