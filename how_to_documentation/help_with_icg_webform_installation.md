@@ -110,9 +110,9 @@ Figure 2: Configuring the Drupal webform module (part 2 of 2)
 ```
 * Enable the Islandora Webform module for each site that needs it.
 ```
-> drush en islandora_webform
-> drush en islandora_webform_ingest
-> drush en islandora_example_simple_text
+> drush en -y islandora_webform
+> drush en -y islandora_webform_ingest
+> drush en -y islandora_example_simple_text
 ```
 * Update the database.
 ```
