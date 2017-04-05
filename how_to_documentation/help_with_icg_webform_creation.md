@@ -20,8 +20,8 @@ APPENDIX: The "Islandora Simple Text Content Model"
 
 ***
 
-##1. The "Islandora Webform Module"
-###1.1 Basic capabilities of the _Islandora Webform Module_
+## 1. The "Islandora Webform Module"
+### 1.1 Basic capabilities of the _Islandora Webform Module_
 
 * The Islandora Webform (IW) module uses the capabilities of the standard Drupal Webform module to enable users to submit comments (captions, tags, transcriptions, etc.) on digital objects in an Islandora repository.
 * In Islandora, a link to the webform appears on the page of qualifying repository objects. When clicked by an authorized visitor, the link launches the webform that gathers data from the user and puts the submitted data into a queue waiting for approval by a webform manager.
