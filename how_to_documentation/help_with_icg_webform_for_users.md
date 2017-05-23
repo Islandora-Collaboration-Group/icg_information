@@ -1,6 +1,6 @@
-#How to Use an Islandora Webform - For End Users
+# How to Use an Islandora Webform - For End Users
 
-##Table of Contents
+## Table of Contents
 
 * 1. How to submit data using an Islandora Webform
 * 2. How to update date previously submitted using an Islandora Webform
@@ -8,7 +8,7 @@
 
 ***
 
-##1. How to submit data using an Islandora Webform
+## 1. How to submit data using an Islandora Webform
 
 * The person who sets up a webform is required to specify under what conditions the webform may be used.
 * When you visit an Islandora repository, you will be able to use that webform only if these conditions are met, e.g.
@@ -42,7 +42,7 @@
   * Fill in the fields in accordance with the on-screen instructions.
   * When finished, click "Submit".
   
-##2. How to update a previously submitted using an Islandora Webform
+## 2. How to update a previously submitted using an Islandora Webform
 
 * Go to the object page you submitted a webform on.
 * Click the "Submissions" link on that page (if you see one).
@@ -65,7 +65,7 @@ Figure: 3: View of what users can see if they want to view, edit or delete their
 
 ***
 
-##3How to upload a file using a webform
+## 3. How to upload a file using a webform
 
 * [THIS HAS NOT YET BEEN IMPLEMENT OR VERIFIED YET.]
 
