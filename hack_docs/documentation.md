@@ -35,13 +35,13 @@ This document and project has been created to provide the ICG group and larger c
   * Clone this repository by using git or a git client e.g. [Sourcetree](https://www.sourcetreeapp.com/)
 
   * Missing git? For MacOS / OSX:
-   * Method A: To install Git with a package manager
-   1. Install [Homebrew](https://brew.sh/)
-   2. `brew install git`
+    * Method A: To install Git with a package manager
+     1. Install [Homebrew](https://brew.sh/)
+     2. `brew install git`
 
-   * Method B: To install Git with a wizard
-   1. Download installer [here](https://git-scm.com/download/mac)
-   2. Follow instructions from the installer or [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+    * Method B: To install Git with a wizard
+     1. Download installer [here](https://git-scm.com/download/mac)
+     2. Follow instructions from the installer or [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ## Tools
 
@@ -49,12 +49,12 @@ This document and project has been created to provide the ICG group and larger c
  * There is a big red button on the landing page to download for the appropriate operating system.
 
  * ICG recommends the use of the [Markdown Preview](https://atom.io/packages/markdown-preview) plugin with Atom
-  * To install this plugin on MacOS
-   * Launch the Atom app
-   * Select `Preferences`
-   * Select `Install`
-   * Enter `markdown-preview` within the `Search packages` input field
-   * Click the blue `Install` button
+   * To install this plugin on MacOS
+     * Launch the Atom app
+     * Select `Preferences`
+     * Select `Install`
+     * Enter `markdown-preview` within the `Search packages` input field
+     * Click the blue `Install` button
 
 ## Syntax
 
