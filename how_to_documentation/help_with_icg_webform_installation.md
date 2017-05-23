@@ -29,7 +29,7 @@ APPENDIX: Upgrading from an earlier version of the Islandora Webform module
 
 ***
 
-##1. Installation preliminaries
+## 1. Installation preliminaries
 
 **Test Environment**
 * DHi last tested the IW module in February of 2017 using the following versions of each of these modules and libraries:
@@ -51,7 +51,7 @@ APPENDIX: Upgrading from an earlier version of the Islandora Webform module
 
 ***
 
-##2. Install the Drupal "Webform" module
+## 2. Install the Drupal "Webform" module
 
 ```
 > drush dl -y webform
@@ -86,7 +86,7 @@ Figure 2: Configuring the Drupal webform module (part 2 of 2)
 
 ***
 
-##3. Install the "Webform AJAX" module
+## 3. Install the "Webform AJAX" module
 
 ```
 > drush dl -y weborm_ajax
@@ -95,7 +95,7 @@ Figure 2: Configuring the Drupal webform module (part 2 of 2)
 
 ***
 
-##4. Install the "Islandora Webform" module
+## 4. Install the "Islandora Webform" module
 
 * The IW module actually consists of three modules and they all need to be enabled individually (in Drupal or with drush).
   * islandora_webform
@@ -140,7 +140,7 @@ Figure 2: Configuring the Drupal webform module (part 2 of 2)
 
 ***
 
-##5. Create Drupal Roles and set permissions for the Islandora Webform module
+## 5. Create Drupal Roles and set permissions for the Islandora Webform module
 
 * Depending on your needs, you may need to create a couple of new Drupal user roles so you can give different sets of permissions to difference groups of webform users.
 * Administer > People > Permissions > Roles
@@ -225,7 +225,7 @@ Figure 3: Configuring Drupal Roles for the Islandora Webform module users
 
 ***
 
-##6. Create and Configure Drupal accounts for users of the Islandora Webform module
+## 6. Create and Configure Drupal accounts for users of the Islandora Webform module
 
 * The IW module and IW Ingest modules automatically set some user permissions, but an administrator should verify that these permissions meet local needs.
 * If a link to your webform is to be seen by only authenticated users, an administrator should set permissions to restrict webform access to authenticated users only.
@@ -238,7 +238,7 @@ Figure 3: Configuring Drupal Roles for the Islandora Webform module users
 
 ***
 
-##7. Enable the Drupal block for Islandora Webform submissions
+## 7. Enable the Drupal block for Islandora Webform submissions
 
 * All of the submissions for an Islandora object can be made visible to users by configuring the IW block.
 * Go to Administer > Structure > Blocks (ie. /admin/structure/block)
@@ -270,7 +270,7 @@ Figure 3: Configuring Drupal Roles for the Islandora Webform module users
 
 ***
 
-##APPENDIX: Upgrading from an earlier version of the Islandora Webform module.**
+## APPENDIX: Upgrading from an earlier version of the Islandora Webform module.**
 
 * An upgrade of these modules will not delete any webforms you have created (they are in mySQL), but your webforms may need to be tweaked to become compatible with the newer version of the IW module.
 * When you upgrade the IW modules from an earlier version, do the following steps before cloning the new webform:
