@@ -119,4 +119,3 @@ You should think of host_vars and group_vars more like defaults rather than over
 5. [Ansible Best Practices](http://docs.ansible.com/ansible/playbooks_best_practices.html)
 
 6. [Intro to Ansible](http://docs.ansible.com/ansible/intro.html)
-
