@@ -68,9 +68,9 @@ Download: [http://docs.ansible.com/ansible/intro_installation.html](http://docs.
 
 ## Ansible Commands
 
-* Ad-hoc commands - An ad-hoc command is to do something really quick, but donít want to save for later. Often used with tags
+* Ad-hoc commands - An ad-hoc command is to do something really quick, but don‚Äôt want to save for later. Often used with tags
 
-    * ansible-playbook -i inventory playbook.yml --tags"mysqlî (run a specific role)
+    * ansible-playbook -i inventory playbook.yml --tags"mysql‚Äù (run a specific role)
 
     * ansible webservers -m git -a "repo=git://foo.example.org/repo.git dest=/srv/myapp version=HEAD" (deploy code)
 
@@ -80,7 +80,7 @@ Download: [http://docs.ansible.com/ansible/intro_installation.html](http://docs.
 
 * Playbooks ansible-playbook -i inventory playbook.yml
 
-    * Playbooks can declare configurations but they can also orchestrate steps of any manual ordered process, even as different steps must bounce back and forth between sets of machines in particular orders. They can launch tasks synchronously or asynchronously.
+    * Playbooks can declare configurations but they can also orchestrate steps of any manual ordered process, even as different steps must bounce back and forth between sets of machines in particular orders. They can launch tasks synchronously or asynchronously..
 
 * * *
 
