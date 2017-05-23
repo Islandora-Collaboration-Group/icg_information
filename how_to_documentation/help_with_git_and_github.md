@@ -122,13 +122,13 @@ If you're starting to track an existing project in Git, you need to go to the pr
 
 * **$ git init**
 
-This creates a new subdirectory named .git that contains all of your necessary repository files – a Git repository skeleton. At this point, nothing in your project is tracked yet. (See [Git Internals](https://git-scm.com/book/en/v2/ch00/_git_internals) for more information about exactly what files are contained in the .git directory you just created.)
+This creates a new subdirectory named .git that contains all of your necessary repository files Â– a Git repository skeleton. At this point, nothing in your project is tracked yet. (See [Git Internals](https://git-scm.com/book/en/v2/ch00/_git_internals) for more information about exactly what files are contained in the .git directory you just created.)
 
 At this point, you have a Git repository with tracked files and an initial commit.
 
 ### 2. Clone an Existing Repository
 
-If you want to get a copy of an existing Git repository – for example, a project you'd like to contribute to – the command you need is git clone. If you're familiar with other VCS systems such as Subversion, you'll notice that the command is "clone" and not "checkout". This is an important distinction – instead of getting just a working copy, Git receives a full copy of nearly all data that the server has. Every version of every file for the history of the project is pulled down by default when you run git clone. In fact, if your server disk gets corrupted, you can often use nearly any of the clones on any client to set the server back to the state it was in when it was cloned (you may lose some server-side hooks and such, but all the versioned data would be there – see [Getting Git on a Server](https://git-scm.com/book/en/v2/ch00/_git_on_the_server) for more details).
+If you want to get a copy of an existing Git repository Â– for example, a project you'd like to contribute to Â– the command you need is git clone. If you're familiar with other VCS systems such as Subversion, you'll notice that the command is "clone" and not "checkout". This is an important distinction Â– instead of getting just a working copy, Git receives a full copy of nearly all data that the server has. Every version of every file for the history of the project is pulled down by default when you run git clone. In fact, if your server disk gets corrupted, you can often use nearly any of the clones on any client to set the server back to the state it was in when it was cloned (you may lose some server-side hooks and such, but all the versioned data would be there Â– see [Getting Git on a Server](https://git-scm.com/book/en/v2/ch00/_git_on_the_server) for more details).
 
 You clone a repository with **git clone [url]**. For example, if you want to clone the Git linkable library called libgit2, you can do so like this:
 
@@ -329,5 +329,4 @@ The github website offers a "New pull request" button for initiating a pull requ
 
 6. [Atlassian - Getting Git Right](https://www.atlassian.com/git/)
 
-7. [Atlassian - Git Glossary](https://www.atlassian.com/git/glossary/)
-
+7. [Atlassian - Git Glossary](https://www.atlassian.com/git/glossary/).
