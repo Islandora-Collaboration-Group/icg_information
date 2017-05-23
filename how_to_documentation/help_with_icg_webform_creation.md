@@ -1,7 +1,7 @@
 # How to Create a Webform using the Islandora Webform Module
 (updated 2017-02-08, by Peter MacDonald)
 
-##Table of Contents
+## Table of Contents
 
 1. The "Islandora Webform Module"  
 1.1. Basic capabilities  
@@ -139,14 +139,14 @@ APPENDIX: The "Islandora Simple Text Content Model"
 
 ***
 
-**Validation**
+** Validation**
 * Required: [check]
 
-**Display**
+* *Display**
 * Resizable: [check] [This option may not be visible on all versions of the webform.]
 * Label display: select "Above" [can be changed later]
 
-**Placeholder**
+** Placeholder**
 * Supply message (optional): “-- Put your input here. --”
 
 [Other options may be left blank for now.]
@@ -263,7 +263,7 @@ APPENDIX: The "Islandora Simple Text Content Model"
     * Other examples: "Transcribe this item." or a general use one like “Comment on this item.”
   * Link help text: "Your input is greatly appreciated." [example only]
     
-**Enabling webforms on only certain objects**
+** Enabling webforms on only certain objects**
 
 * If you want links to the webform to appear on only Islandora pages for only certain objects, you need to indicate this when editing the “Islandora settings” page. Look for “Add a link to” and select "Only those objects that are manually tagged for this webform".
 * Then you need to navigate to each Islandora object display page on which you want a link to the webform to appear and click the link to force the appearance of a link to a webform on that specific object page.
