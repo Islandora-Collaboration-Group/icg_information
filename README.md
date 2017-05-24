@@ -34,6 +34,7 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
   * [Aaron Neslin](https://github.com/aneslin) (Discovery and Delivery Systems Analyst)
   * Angel David Nieves (Co-Director, Digital Humanities Initiative)
   * Janet Simons (Co-Director, Digital Humanities Initiative)
+  * Gisella Stalloch (Cataloger)
   * [Steve Young](https://github.com/hamhpc) (Unix/HPC System Administrator)
 * Hampshire College
   * [Abigail Baines](https://github.com/abigaildiscovers) (Systems and Discovery Librarian)
@@ -53,6 +54,7 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
 * Williams College
   * [Karen Gorss Benko](https://github.com/kgb1420) (Catalogue Librarian)
   * Lisa Conathan (Head of Special Collections)
+  * David Keiser-Clark
   * [Jessika Drmacich-Flach](https://github.com/jgd1) (Digital Resources Archivist)
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer)
   * [Jonathan Leamon](https://github.com/jmleamon) (Director of Instructional Technology)
