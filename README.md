@@ -54,7 +54,6 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
 * Williams College
   * [Karen Gorss Benko](https://github.com/kgb1420) (Catalogue Librarian)
   * Lisa Conathan (Head of Special Collections)
-  * David Keiser-Clark
   * [Jessika Drmacich-Flach](https://github.com/jgd1) (Digital Resources Archivist)
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer)
   * [Jonathan Leamon](https://github.com/jmleamon) (Director of Instructional Technology)
