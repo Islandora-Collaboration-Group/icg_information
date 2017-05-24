@@ -1,4 +1,4 @@
-# Islandora Collaboration Group: Information
+# Islandora Collaboration Group: Information.
 
 ## About Us
 
