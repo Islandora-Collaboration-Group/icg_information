@@ -73,7 +73,8 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
 
 ## Islandora WebForm
 
-* [Islandora Webform module installation](icg_information/how_to_documentation/help_with_icg_webform_installation.md)
+* [Islandora Webform module installation](https://github.com/Islandora-Collaboration-Group/icg_information/icg_information/how_to_documentation/help_with_icg_webform_installation.md)
+* [Islandora Webform module for users](https://github.com/Islandora-Collaboration-Group/icg_information/icg_information/how_to_documentation/help_with_icg_webform_installation.md)
 * [ICG Weborm Creation](https://github.com/Islandora-Collaboration-Group/icg_information/how_to_documentation/help_with_icg_webform_creation.md)
 * [ICG Webform Steps](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform_steps.md)
 
