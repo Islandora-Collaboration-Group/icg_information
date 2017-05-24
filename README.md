@@ -68,9 +68,12 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
 
 ## ICG Involvement in the Islandora Community
 
-* DLF 2016 pre-conference presentation: "[Hack/Doc Partnerships for Library Projects]"(https://dlfforum2016.sched.org/event/8LFu/s4c-hackdoc-partnerships-for-library-projects)
-* NERCOMP 2016 conference presentation: "[pending]"()
-* IslandoraCon 2017 conference presentation: "[pending]"()
+
+NERCOMP Annual Conference, "Hack/Doc Partnerships for Organizational Projects
+* IslandoraCon 2017 conference presentation: [Islandora Enterprise](), [Islandora for Consortia](), [Hack/Doc Partnerships for Islandora Projects](), [1-day Hack/Doc preconference]()
+* NERCOMP 2017 conference presentation: [Hack/Doc Partnerships for Organizational Projects](https://events.educause.edu/nercomp-annual-conference/2017)
+* DLF 2016 pre-conference presentation: [Hack/Doc Partnerships for Library Projects]"(https://dlfforum2016.sched.org/event/8LFu/s4c-hackdoc-partnerships-for-library-projects)
+
 
 ## Islandora WebForm
 
