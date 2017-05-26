@@ -18,17 +18,6 @@ APPENDIX: Upgrading from an earlier version of the Islandora Webform module
 
 ***
 
-## Credits
-
-* The Islandora Webform module was conceived by the Islandora Collaboration Group (ICG)
-  * https://github.com/Islandora-Collaboration-Group
-* The module development was coordinated by the Digital Humanities Initiative (DHi) at Hamilton College (http://dhinitiative.org/) and supported by funds from an Andrew W. Mellon Foundation grant to DHi.
-* The development was performed by Common Media (Patrick Dunlavey, developer)
-  * http://commonmedia.com
-* Beta testing was first performed by the DHi Collection Development Team and reviewed by other members of the ICG.
-
-***
-
 ## 1. Installation preliminaries
 
 **Test Environment**
@@ -131,7 +120,7 @@ Figure 2: Configuring the Drupal webform module (part 2 of 2)
 ```
 * To learn more about each IW module, consult the README file for each one on the IW code distribution repo.
   * github.com/commonmedia/islandora_webform.git
-  
+
 **Ensure that all dependencies for these webform modules are installed and enabled**
 
 * Administer > Modules
@@ -149,7 +138,7 @@ Figure 2: Configuring the Drupal webform module (part 2 of 2)
 
 ![webform_16.png](/how_to_documentation/images/webform_16.png)
 
-Figure 3: Configuring Drupal Roles for the Islandora Webform module users 
+Figure 3: Configuring Drupal Roles for the Islandora Webform module users
 
 ***
 
@@ -297,4 +286,4 @@ islandora_webform/submodules/islandora_webform_ingest/examples/ .
 > drush update
 ```
 
-*** 
+***
