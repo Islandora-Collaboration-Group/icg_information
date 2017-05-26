@@ -76,11 +76,11 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
     * ["An Islandora Odyssey: The Liberal Arts Journey with Islandora (so far)"](https://islandora.ca/camps/conference2015/schedule) (workshop)
 
 
-## Islandora WebForm
-* [Islandora Webform module installation](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform_installation.md)
-* [ICG Webform Steps](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform_steps.md)
-* [ICG Webform Creation](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform_creation.md)
-* [Islandora Webform module for users](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform_for_users.md)
+## Highlighted ICG Projects
+* [Islandora Enterprise (ISLE)](https://github.com/Islandora-Collaboration-Group/ISLE/)
+* [ICG Islandora Webform module](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform__index.md)
+* [ICG Drush Sitespinner](https://github.com/Islandora-Collaboration-Group/drush-sitespinner/)
+* [ICG Islandora Unit Tests](https://islandora-collaboration-group.github.io/icg_islandora_unit_tests/)
 
 ## Links
 
