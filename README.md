@@ -1,11 +1,9 @@
 # Islandora Collaboration Group: Information
 
 ## About Us
-
 The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of colleges collaborating together to support and extend the Islandora digital repository through direct development, resource pooling, and advocacy. The ICG holds monthly steering committee meetings to develop strategy and organization and plan progress. The ICG holds a face-to-face hack/doc meeting twice a year for code and documentation development, open to all members. Additionally, the ICG has working groups which meet electronically on specific topics (current topics include metadata and code sprints). General communication and meeting announcements happen via the islandora-consortium-group@googlegroups.com mailing list.
 
 ## Members
-
 * [Barnard College](http://digitalcollections.barnard.edu)
 * Five College Compass: Digital Collections - Hampshire, Mount Holyoke and Smith Colleges
 * [Grinnell College](https://digital.grinnell.edu/)
@@ -15,11 +13,9 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
 * [Williams College](https://unbound.williams.edu)
 
 ## How to participate
-
 * Send a request to the ICG (islandora-consortium-group@googlegroups.com)
 
 ## Membership
-
 * Barnard College
   * [Benjamin Rosner](https://github.com/br2490) (Application Developer)
   * [Martha Tenney](https://github.com/MarthaTenney) (Digital Archivist)
@@ -63,20 +59,24 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
   * [Noah Smith](https://github.com/noahwsmith) (CEO)
 
 ## What is Islandora?
-
 * see: [Islandora website](http://islandora.ca)
 
 ## ICG Involvement in the Islandora Community
-
-
-NERCOMP Annual Conference, "Hack/Doc Partnerships for Organizational Projects
-* IslandoraCon 2017 conference presentation: [Islandora Enterprise](), [Islandora for Consortia](), [Hack/Doc Partnerships for Islandora Projects](), [1-day Hack/Doc preconference]()
-* NERCOMP 2017 conference presentation: [Hack/Doc Partnerships for Organizational Projects](https://events.educause.edu/nercomp-annual-conference/2017)
-* DLF 2016 pre-conference presentation: [Hack/Doc Partnerships for Library Projects]"(https://dlfforum2016.sched.org/event/8LFu/s4c-hackdoc-partnerships-for-library-projects)
+* 2017 Islandoracon (biennial conference), Hamilton, Ontario, Canada
+  * ["Islandora Enterprise"](https://docs.google.com/presentation/d/1wj95Dxu4iVt98rahj3QEp73xLFlsAmr_lrjhbzU2jCQ/edit?usp=sharing) (full plenary, [ISLE demo](https://www.youtube.com/watch?v=F30M-x-O1kM), [ISLE brochure](https://drive.google.com/file/d/0BwWnQmDKeQGBUXg2RTFXdFZuUmM/view?usp=sharing))
+  * ["Hack/Doc Partnerships for Islandora Projects"](https://docs.google.com/presentation/d/1s0foVJVtNUVb1HJWPhZitHPwzoLfY5fxYCAejLtNAhI/edit?usp=sharing) (full plenary)
+  * ["Islandora for Consortia"](https://docs.google.com/presentation/d/1h8e53VHPC6kb7NdBD-o2oz2V9B2sVb6s6FUD9hfUcn8/edit?usp=sharing) (workshop)
+* 2017 NERCOMP (annual conference), Providence, RI
+  * ["Hack/Doc Partnerships for Organizational Projects"](https://events.educause.edu/nercomp-annual-conference/2017/agenda/hackdoc-partnerships-for-organizational-projects) (workshop)
+* 2016 DLF LAC (pre-conference), Milwaukee, WI
+  * ["Hack/Doc Partnerships for Library Projects"](https://dlfforum2016.sched.org/event/8LFu/s4c-hackdoc-partnerships-for-library-projects) (workshop)
+* 2016 Oberlin Digital Scholarship Conference, St. Paul, MN
+  * ["Making Islandora work at the LAC-level"](https://www.macalester.edu/library/oberlindsconference/schedule.html#) (workshop)
+* 2015 Islandoracon (biennial conference), Charlottetown, PEI, Canada
+    * ["An Islandora Odyssey: The Liberal Arts Journey with Islandora (so far)"](https://islandora.ca/camps/conference2015/schedule) (workshop)
 
 
 ## Islandora WebForm
-
 * [Islandora Webform module installation](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform_installation.md)
 * [ICG Webform Steps](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform_steps.md)
 * [ICG Webform Creation](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform_creation.md)
@@ -85,7 +85,6 @@ NERCOMP Annual Conference, "Hack/Doc Partnerships for Organizational Projects
 ## Links
 
 ### Github Repos
-
 * [Islandora Collaboration Group](https://github.com/Islandora-Collaboration-Group)
 * [Awesome Islandora](https://github.com/Islandora-Labs/islandora_awesome)
 * [Islandora Interest Groups](https://github.com/islandora-interest-groups)
