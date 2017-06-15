@@ -1,18 +1,17 @@
 # Use of the Islandora Webform in DHi (Hamilton College)
 (by Peter MacDonald, 2017-02-10b)
 
-The following is a general overview of what the IW module is capable of and how it is used for transcribing essays on the APWA website.
+The following is a general overview of what the IW module is capable of and how it is used for transcribing essays on the American Prison Writers Archive [http://apw.dhinitiative.org].
 
 ## What is the ICG Webform module?
 
   * The ICG "Islandora Webform Module" (IW) is a Drupal module developed by Common Media to add connectivity to an Islandora/Fedora repository.
   * The IW module is based on the Webform module that is compatible with Drupal 7.
-  * The IW module is installed on Hamilton's Islandora server and a webform has been configured for DHi's American Prison Writers Archive (APWA) site to help gather transcriptions  of essays from visitors to the APWA website.
-
+  
 ## Generality
 
   * The IW module works on any recent version of Islandora 7x repository.
-  * The IW module has no limitations on what kinds of repository objects it will work with. We use it with PDF objects, but theoretically it should work with other content type such as images, audio, video, manuscripts, and books with some adjustments in the theming layer because Islandora displays different types of objects with different DOM structures.
+  * The IW module has no limitations on what kinds of repository objects it will work with. We use it with PDF objects, but theoretically it should work with other content type such as images, audio, video, manuscripts, and books with some adjustments in the theming layer, which may be required because Islandora displays different types of objects with different DOM structures.
 
 ## Extensibility
 
@@ -45,6 +44,7 @@ The following is a general overview of what the IW module is capable of and how 
     * __Submitters__ - These are users whom Doran has authorized to use the Transcription Tool.
     * __Managers__ - These are users authorized to review submissions. They can view, edit and delete anyone's transcription and eventually ingest them into Islandora. However, managers cannot create or modify the webforms themselves.
     * __Administrators__ - Administrators can do everything submitters and managers can do and in addition can create, edit, and delete the webforms themselves.
+* The IW module is installed on Hamilton's Islandora server and a webform has been configured for DHi's American Prison Writers Archive (APWA) site to help gather transcriptions of essays from visitors to the site.
 
 ## Privacy
 
@@ -83,7 +83,6 @@ The following is a general overview of what the IW module is capable of and how 
   * [https://www.drupal.org/node/2834432] (Drupal Webform Code Snippets)
   * [https://www.drupal.org/node/2834436] (Drupal Webform Theming)
   * [https://www.drupal.org/node/1526208] (Drupal Webform Related Projects)
- - [http://www.reelseo.com/how-to-video-interview-google-hangouts/](http://www.reelseo.com/how-to-video-interview-google-hangouts/)
  
 ## NOTES
 
