@@ -6,6 +6,7 @@
 2. [Summary of Steps for Creating an Islandora Webform](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform_steps.md)
 3. [How to Create a Webform using the Islandora Webform Module](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform_creation.md)
 4. [How to Use an Islandora Webform - For End Users](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform_for_users.md)
+5. [Islandora Webform for Transcriptions: DHi@Hamilton College Use Case](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform_transcriptions.md)
 
 ## Description
 
