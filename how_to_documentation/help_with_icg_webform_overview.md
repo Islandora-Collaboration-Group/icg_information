@@ -33,21 +33,21 @@ The following is a general overview of what the IW module is capable of and how 
 
   * DHi used the IW module to create a webform we call the "Transcription Tool".
   * The TT consists of five fields:
-  ** __Credit__ - Text that tells the submitter to add their name and date at the end of the transcription if they want credit for being the transciber.
-  ** __Transcription__ - The place where the submitter puts the transcription they are submitting.
-  ** __Instructions__ - Text that points the user to instructions on how to transcribe the essay.
-  ** __User Account__ - A system-generated field holding the submitter's Drupal account ID.
-  ** __Date__ - A system-generated field holding the current date. [required or automatic? pjm]
-  ** __Islandora object PID__ - A system-generated field holding the PID (Fedora ID) of the object being transcribed.
+    * __Credit__ - Text that tells the submitter to add their name and date at the end of the transcription if they want credit for being the transciber.
+    * __Transcription__ - The place where the submitter puts the transcription they are submitting.
+    * __Instructions__ - Text that points the user to instructions on how to transcribe the essay.
+    * __User Account__ - A system-generated field holding the submitter's Drupal account ID.
+    * __Date__ - A system-generated field holding the current date. [required or automatic? pjm]
+    * __Islandora object PID__ - A system-generated field holding the PID (Fedora ID) of the object being transcribed.
   * The webform can be modified by only Drupal Administrators (can be changed locally).
 
 ### TT User Accounts
 
   * Doran submits names with email addresses to Peter (an administrator), who then creates Drupal accounts for them and associates that account with the "Submitters" role.
   * The TT uses three user roles:
-   * __Submitters__ - These are users whom Doran has authorized to use the Transcription Tool.
-   * __Managers__ - These are users authorized to review submissions. They can view, edit and delete anyone's transcription and eventually ingest them into Islandora. However, managers cannot create or modify the webforms themselves.
-   * __Administrators__ - Administrators can do everything submitters and managers can do and in addition can create, edit, and delete the webforms themselves.
+    * __Submitters__ - These are users whom Doran has authorized to use the Transcription Tool.
+    * __Managers__ - These are users authorized to review submissions. They can view, edit and delete anyone's transcription and eventually ingest them into Islandora. However, managers cannot create or modify the webforms themselves.
+    * __Administrators__ - Administrators can do everything submitters and managers can do and in addition can create, edit, and delete the webforms themselves.
 
 ## Privacy
 
