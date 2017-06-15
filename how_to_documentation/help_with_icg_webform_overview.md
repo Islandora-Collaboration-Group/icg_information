@@ -24,40 +24,43 @@ The following is a general overview of what the IW module is capable of and how 
   * Ease of use is ultimately dependent on the complexity of the webform being designed and the level of local familiarity with Islandora and Fedora.
   * A working knowledge of MODS, XML Forms, XSLT, and the Fedora object architecture is pretty much required to handle the configuration of the IW module.
   * Troubleshooting the many moving parts of an IW webform can be time consuming.
+  
+## Hamilton's Use Case: Transcriptons
 
-## The "Transcription Tool" (TT)
+* The IW module is installed on Hamilton's Islandora server and a webform has been configured for DHi's American Prison Writers Archive (APWA) site to help gather transcriptions of essays from visitors to the site.
+
+### The "Transcription Tool" (TT)
 
   * DHi used the IW module to create a webform we call the "Transcription Tool".
   * The TT consists of five fields:
-    * __Credit__ - Text that tells the submitter to add their name and date at the end of the transcription if they want credit for being the transciber.
-    * __Transcription__ - The place where the submitter puts the transcription they are submitting.
-    * __Instructions__ - Text that points the user to instructions on how to transcribe the essay.
-    * __User Account__ - A system-generated field holding the submitter's Drupal account ID.
-    * __Date__ - A system-generated field holding the current date. [required or automatic? pjm]
-    * __Islandora object PID__ - A system-generated field holding the PID (Fedora ID) of the object being transcribed.
+   * __Credit__ - Text that tells the submitter to add their name and date at the end of the transcription if they want credit for being the transciber.
+   * __Transcription__ - The place where the submitter puts the transcription they are submitting.
+   * __Instructions__ - Text that points the user to instructions on how to transcribe the essay.
+   * __User Account__ - A system-generated field holding the submitter's Drupal account ID.
+   * __Date__ - A system-generated field holding the current date. [required or automatic? pjm]
+   * __Islandora object PID__ - A system-generated field holding the PID (Fedora ID) of the object being transcribed.
   * The webform can be modified by only Drupal Administrators (can be changed locally).
 
-## TT User Accounts
+### TT User Accounts
 
   * Doran submits names with email addresses to Peter (an administrator), who then creates Drupal accounts for them and associates that account with the "Submitters" role.
   * The TT uses three user roles:
-    * __Submitters__ - These are users whom Doran has authorized to use the Transcription Tool.
-    * __Managers__ - These are users authorized to review submissions. They can view, edit and delete anyone's transcription and eventually ingest them into Islandora. However, managers cannot create or modify the webforms themselves.
-    * __Administrators__ - Administrators can do everything submitters and managers can do and in addition can create, edit, and delete the webforms themselves.
-* The IW module is installed on Hamilton's Islandora server and a webform has been configured for DHi's American Prison Writers Archive (APWA) site to help gather transcriptions of essays from visitors to the site.
+   * __Submitters__ - These are users whom Doran has authorized to use the Transcription Tool.
+   * __Managers__ - These are users authorized to review submissions. They can view, edit and delete anyone's transcription and eventually ingest them into Islandora. However, managers cannot create or modify the webforms themselves.
+   * __Administrators__ - Administrators can do everything submitters and managers can do and in addition can create, edit, and delete the webforms themselves.
 
 ## Privacy
 
   * Submitters are instructed in the webform to add their name at the end of the transcription if they want public recognition of their efforts. Otherwise, we do not permanently associate their name or user account with the transcription.
 
-## TT Access
+### TT Access
 
   * We have configured the Transcription Tool to show a link under the essay when that essay is one that is elligible to be transcribed.
   * That link will be displayed only to users who are logged in with an account associated with one of the IW role authorized to submit transcriptions.
   * Anonymous visitors to the APWA website cannot actually submit a transcription without first contacting Doran, but they can experiment with a "demo" Transcription Tool.
   * Anonymous users can submit a transcription by sending the transcription and the Essay Identifier directly to Doran, who may approve it and forward it Peter for ingest into Islandora.
 
-## TT Workflow
+### TT Workflow
 
   * Any visitor to the APWA website can search for essays that need transcribing.
   * If the user is authorized to submit webforms and is logged in, s/he will see a link below the essay that will launch the TT webform when clicked.
