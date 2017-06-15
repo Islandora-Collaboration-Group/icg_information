@@ -25,7 +25,7 @@ The following is a general overview of what the IW module is capable of and how 
   * A working knowledge of MODS, XML Forms, XSLT, and the Fedora object architecture is pretty much required to handle the configuration of the IW module.
   * Troubleshooting the many moving parts of an IW webform can be time consuming.
   
-## Hamilton's Use Case: Transcriptons
+## Hamilton's Use Case: Transcriptions
 
 * The IW module is installed on Hamilton's Islandora server and a webform has been configured for DHi's American Prison Writers Archive (APWA) site to help gather transcriptions of essays from visitors to the site.
 
