@@ -1,4 +1,4 @@
-# Islandora Webform for Transcriptions (DHi@Hamilton College)
+# Islandora Webform for Transcriptions: DHi@Hamilton College Use Case
 (by Peter MacDonald, 2017-06-15)
 
 The following is a general overview of what the IW module is capable of and how it is used for transcribing essays on the American Prison Writers Archive [http://apw.dhinitiative.org].
