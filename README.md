@@ -61,6 +61,7 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
   * [Shaun Trujillo](https://github.com/shauntru) (Digital Library Applications Manager)
 * Smith College
   * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator)
+  * Elisa Lanzi (Director of Digital Strategies and Services)
 * Vassar College
   * [Joanna DiPasquale](https://github.com/jjdipasquale) (Head of Digital Scholarship and Technology Services)
   * Arianna Schlegel (Metadata and Systems Librarian)
@@ -80,7 +81,7 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
   * [Noah Smith](https://github.com/noahwsmith) (CEO)
 
 
-## How to participate
+## How to Participate
 * Send a request to the ICG (islandora-consortium-group@googlegroups.com)
 
 ## Links
