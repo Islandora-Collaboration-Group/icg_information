@@ -23,7 +23,7 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
 * [ICG Drush Sitespinner](https://github.com/Islandora-Collaboration-Group/drush-sitespinner)
 * [ICG Islandora Unit Tests](https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests)
 
-## ICG Involvement in the Islandora Community
+## ICG Conference Presentations @ Islandora
 * 2017 DLF (annual conference), Pittsburgh, PA
   * ["Islandora: Community and Collections"](https://dlfforum2017.sched.com/event/Bzsu/t5b-islandora-community-and-collections) (panel of 7 institutions, [ISLE Facebook video](https://www.facebook.com/archivists.atbarnard/videos/vb.100000636466830/1785595161471682/?type=2&theater), [slides](https://osf.io/2xrpq/))
   * ["Hack/Doc Partnerships for Library Technology Projects"](https://dlfforum2017.sched.com/event/Bzsr/t4c-working-lunch-hackdoc-partnerships-for-library-technology-projects) ([workshop](https://docs.google.com/a/vassar.edu/presentation/d/1gDG4-Tdlpvx6M5rG2uaJUv90IuOmW22v8xpBQpcF0Q4/edit?usp=sharing), with [templates](https://github.com/Islandora-Collaboration-Group/icg_information/tree/master/templates_how_to_run_a_hack_doc))
