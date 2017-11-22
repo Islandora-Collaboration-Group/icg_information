@@ -5,12 +5,14 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
 
 ## Members
 * [Barnard College](http://digitalcollections.barnard.edu)
+* Colgate University
 * [Five College Compass: Digital Collections](https://compass.fivecolleges.edu/)
   * [Hampshire College](https://compass.fivecolleges.edu/institution/hampshire-college)
   * [Mount Holyoke College](https://compass.fivecolleges.edu/institution/mount-holyoke-college)
   * [Smith College](https://compass.fivecolleges.edu/institution/smith-college)
 * [Grinnell College](https://digital.grinnell.edu/)
 * [Hamilton College](http://dhinitiative.org)
+* Rensselaer Polytechnic Institute
 * [Vassar College](https://digitallibrary.vassar.edu)
 * [Wesleyan University](https://digitalcollections.wesleyan.edu/)
 * [Williams College](https://unbound.williams.edu)
@@ -22,6 +24,9 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
 * [ICG Islandora Unit Tests](https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests)
 
 ## ICG Involvement in the Islandora Community
+* 2017 DLF (annual conference), Pittsburgh, PA
+  * ["Islandora: Community and Collections"](https://dlfforum2017.sched.com/event/Bzsu/t5b-islandora-community-and-collections) (panel of 7 institutions, [ISLE Facebook video](https://www.facebook.com/archivists.atbarnard/videos/vb.100000636466830/1785595161471682/?type=2&theater), [slides](https://osf.io/2xrpq/))
+  * ["Hack/Doc Partnerships for Library Technology Projects"](https://dlfforum2017.sched.com/event/Bzsr/t4c-working-lunch-hackdoc-partnerships-for-library-technology-projects) ([workshop](https://docs.google.com/a/vassar.edu/presentation/d/1gDG4-Tdlpvx6M5rG2uaJUv90IuOmW22v8xpBQpcF0Q4/edit?usp=sharing), with [templates](https://github.com/Islandora-Collaboration-Group/icg_information/tree/master/templates_how_to_run_a_hack_doc))
 * 2017 Islandoracon (biennial conference), Hamilton, Ontario, Canada
   * ["Islandora Enterprise"](https://docs.google.com/presentation/d/1wj95Dxu4iVt98rahj3QEp73xLFlsAmr_lrjhbzU2jCQ/edit?usp=sharing) (full plenary, [ISLE demo](https://www.youtube.com/watch?v=F30M-x-O1kM), [ISLE brochure](https://drive.google.com/file/d/0BwWnQmDKeQGBUXg2RTFXdFZuUmM/view?usp=sharing))
   * ["Hack/Doc Partnerships for Islandora Projects"](https://docs.google.com/presentation/d/1s0foVJVtNUVb1HJWPhZitHPwzoLfY5fxYCAejLtNAhI/edit?usp=sharing) (full plenary)
@@ -40,6 +45,9 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
 * Barnard College
   * [Benjamin Rosner](https://github.com/br2490) (Application Developer)
   * [Martha Tenney](https://github.com/MarthaTenney) (Digital Archivist)
+* Colgate University
+  * tbd
+  * tbd
 * Grinnell College
   * Rebecca Ciota (Discovery and Systems Librarian)
   * [Mark McFate](https://github.com/McFateM) (Digital Library Applications Developer)
@@ -59,11 +67,15 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
 * Mount Holyoke College
   * [Sarah Goldstein](https://github.com/sgoldste) (Associate Director of Discovery and Access)
   * [Shaun Trujillo](https://github.com/shauntru) (Digital Library Applications Manager)
+* Rensselaer Polytechnic Institute
+  * tbd
+  * tbd
 * Smith College
   * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator)
   * Elisa Lanzi (Director of Digital Strategies and Services)
 * Vassar College
   * [Joanna DiPasquale](https://github.com/jjdipasquale) (Head of Digital Scholarship and Technology Services)
+  * [Carolyn Moritz]() (Digital Technologies Librarian)
   * Arianna Schlegel (Metadata and Systems Librarian)
 * Wesleyan University
   * [Francesca Livermore](https://github.com/bookishgirl) (Digital Projects Librarian)
