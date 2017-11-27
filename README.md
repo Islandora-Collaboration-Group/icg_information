@@ -46,8 +46,8 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
   * [Benjamin Rosner](https://github.com/br2490) (Application Developer)
   * [Martha Tenney](https://github.com/MarthaTenney) (Digital Archivist)
 * Colgate University
-  * Cindy Li
-  * [Mark Sandford](https://github.com/marksandford)
+  * Cindy Li (Associate Director of Library Technology and Digital Initiatives)
+  * [Mark Sandford](https://github.com/marksandford) (Systems Librarian)
 * Grinnell College
   * Rebecca Ciota (Discovery and Systems Librarian)
   * [Mark McFate](https://github.com/McFateM) (Digital Library Applications Developer)
