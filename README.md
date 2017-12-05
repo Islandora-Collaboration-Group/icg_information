@@ -68,8 +68,8 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
   * [Sarah Goldstein](https://github.com/sgoldste) (Associate Director of Discovery and Access)
   * [Shaun Trujillo](https://github.com/shauntru) (Digital Library Applications Manager)
 * Rensselaer Polytechnic Institute
-  * tbd
-  * tbd
+  * [Andrea Kathleen Byrne](andreakb) (Technology and Metadata Librarian)
+  * Jenifer Monger (Assistant Institute Archivist)
 * Smith College
   * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator)
   * Elisa Lanzi (Director of Digital Strategies and Services)

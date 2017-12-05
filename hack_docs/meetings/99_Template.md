@@ -21,4 +21,8 @@ Month xx-xx, 201x "ICG Hack/Doc" @ Institution_Name (City, State)
 
 
 
-## Notes from the event
+# Notes from the event
+
+## Day 1: Welcome!
+
+## Day 2: Welcome!
