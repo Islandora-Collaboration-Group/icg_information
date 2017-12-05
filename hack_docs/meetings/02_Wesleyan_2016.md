@@ -6,8 +6,9 @@ September 21-22, 2016
 
 ## Agenda
 
-1. CSV Importer
-1. Islandora-in-a-Box
+1. Hack/Doc Topics:
+ * CSV Importer
+ * Islandora-in-a-Box
 
 ## Attendees
 
@@ -32,17 +33,17 @@ September 21-22, 2016
 
 ## Next meeting
 
-May xx-xx, 2017 @ Williams College (Williamstown, MA)
+May 23-24, 2017: "ICG Hack/Doc" @ Williams College (Williamstown, MA)
 
 ## Schedule
 
-### Wednesday, September 21 
+### Wednesday, September 21
 
 * 8:30am Breakfast, get set up
 * 9:30-10:30am Hack/doc begins! Introductions + planning
-*  CSV Importer
-*  Islandora-in-a-Box
-*  Notes for the day 
+  * CSV Importer
+  * Islandora-in-a-Box
+  * Notes for the day
 * 10:30-10:35am Break
 * 10:35-11:15am Break into hack/doc groups, check roles and goals
 * 11:15am-12:15pm Hack + doc
@@ -53,7 +54,7 @@ May xx-xx, 2017 @ Williams College (Williamstown, MA)
 * 4-5pm Preliminary reporting, discussion about what is going right and what isn’t working
 * Post 5pm Dinner on your own (or we could get dinner together downtown if people are up for it)
 *  
-### Thursday, September 22 
+### Thursday, September 22
 
 * 8:30am Breakfast, get set up, notes for the day
 * 9:30-10:30am Finish documenting and testing (code if necessary)
@@ -64,7 +65,7 @@ May xx-xx, 2017 @ Williams College (Williamstown, MA)
 * 3-3:15pm Break
 * 3:15-4pm Wrap-up
 * 4-5pm Reflection on what has been accomplished and goal setting for what comes next
-* Post 5pm 
+* Post 5pm
 
 
 ## Notes from the event
@@ -106,7 +107,7 @@ For Day 2:
 
 * Fill in the matrix (as possible)
 * There is a bash script - learn more about it.
-* [https://github.com/Islandora-Collaboration-Group/islandora_stack_inventory/blob/master/islandora_stack_inventory.sh](https://github.com/Islandora-Collaboration-Group/islandora_stack_inventory/blob/master/islandora_stack_inventory.sh) 
+* [https://github.com/Islandora-Collaboration-Group/islandora_stack_inventory/blob/master/islandora_stack_inventory.sh](https://github.com/Islandora-Collaboration-Group/islandora_stack_inventory/blob/master/islandora_stack_inventory.sh)
 * 1 hour sprint on metadata
 * Should there a working group?
 * More on the general sense of where this proposal stands
@@ -200,7 +201,7 @@ How to contribute to the repo: [https://github.com/Islandora-Collaboration-Group
 
 Schedule a code sprint for a few weeks in the future to continue work
 
-**CSV Importer** - 
+**CSV Importer** -
 
 * Add ICG_Hooks to the Islandora_Collaboration_Group github (from Digital Grinnell)
 
@@ -216,7 +217,7 @@ Schedule a code sprint for a few weeks in the future to continue work
 
 * Ajax is semi-functional--can add a duplicate element
 
-* Joanna wants to insert into the form exactly where you are and recursively work up the tree--so there is an explicit xpath that can be edited 
+* Joanna wants to insert into the form exactly where you are and recursively work up the tree--so there is an explicit xpath that can be edited
 
 * Still doing development in the main csv importer, but will push it out to the UI module when it’s ready. Mark would like to start to split up the back and front-end code
 
@@ -248,7 +249,7 @@ Schedule a code sprint for a few weeks in the future to continue work
 
 **Mark and Pat**
 
-* Latest changes propagated back to the ICG repo 
+* Latest changes propagated back to the ICG repo
 
 * More exception handling - XML creation of a MODS datastream, you will get a message somewhere with the root cause, particularly if it’s a problem with data
 
@@ -323,4 +324,3 @@ You need to establish the rules/guidelines/whatever before you can break/exploit
 * Working group will review the IIAB proposal and will bring it back to Steering Group
 
 * Decision: Ultimately - we would like the CSV_Importer to go to Islandora Labs (or maybe core) - maybe for unveiling at IslandoraCon
-
