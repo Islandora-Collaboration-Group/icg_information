@@ -7,12 +7,12 @@ Month xx-xx, 201x
 ## Agenda
 
 1. Business from [last meeting](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/xx_Institution_YEAR.md)
-  1. yada
-  1. yada
+  * yada
+  * yada
 1. Round table updates
 1. New business
-  1. yada
-  1. yada
+  * yada
+  * yada
 
 ## Attendees
 
