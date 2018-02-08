@@ -39,7 +39,12 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
   * ["Making Islandora work at the LAC-level"](https://www.macalester.edu/library/oberlindsconference/schedule.html#) (workshop)
 * 2015 Islandoracon (biennial conference), Charlottetown, PEI, Canada
     * ["An Islandora Odyssey: The Liberal Arts Journey with Islandora (so far)"](https://islandora.ca/camps/conference2015/schedule) (workshop)
-
+    
+## Hack/Docs
+* [March-April 2016, Vassar College (Poughkeepsie, NY)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/01_Vassar_2016.md)
+* [September 2016, Wesleyan University (Middletown, CT)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
+* [May 2017, Williams College (Williamstown, MA](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
+* [March 2018, METRO (New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/)
 
 ## Membership
 * Barnard College
