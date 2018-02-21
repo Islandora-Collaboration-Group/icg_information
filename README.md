@@ -1,7 +1,7 @@
 # Islandora Collaboration Group: Information
 
 ## About Us
-The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of colleges collaborating together to support and extend the Islandora digital repository through direct development, resource pooling, and advocacy. The ICG holds monthly steering committee meetings to develop strategy and organization and plan progress. The ICG holds a face-to-face hack/doc meeting twice a year for code and documentation development, open to all members. Additionally, the ICG has working groups which meet electronically on specific topics (current topics include metadata and code sprints). General communication and meeting announcements happen via the islandora-consortium-group@googlegroups.com mailing list.
+The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of liberal arts colleges collaborating together to support and extend the Islandora digital repository through direct development, resource pooling, and advocacy. The ICG holds monthly steering committee meetings to develop strategy and organization and plan progress. The ICG holds a face-to-face hack/doc meeting twice a year for code and documentation development, open to all members. Additionally, the ICG has working groups which meet electronically on specific topics (current topics include metadata and code sprints). General communication and meeting announcements happen via the islandora-consortium-group@googlegroups.com mailing list.
 
 ## Members
 * [Barnard College](http://digitalcollections.barnard.edu)
@@ -18,12 +18,15 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
 * [Williams College](https://unbound.williams.edu)
 
 ## Highlighted ICG Projects
-* [Islandora Enterprise (ISLE)](https://github.com/Islandora-Collaboration-Group/ISLE)
+* [ISLE - Islandora Enterprise](https://github.com/Islandora-Collaboration-Group/ISLE)
+* [LASIR - Liberal Arts Sprint for IR development](https://github.com/Islandora-Collaboration-Group/LASIR)
 * [ICG Islandora Webform module](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform__index.md)
 * [ICG Drush Sitespinner](https://github.com/Islandora-Collaboration-Group/drush-sitespinner)
 * [ICG Islandora Unit Tests](https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests)
 
 ## ICG Conference Presentations @ Islandora
+* 2018 Code4Lib preconference (annual conference), Washington, DC
+  * ["ISLE: Islandora Installation Simplified"](http://2018.code4lib.org/workshops/isle-islandora-installation-simplified) ([3-hour presentation](https://drive.google.com/file/d/1mmQh4ZxsQGgEgPwP46MsY8RX4I0fRb9j/view?usp=sharing) + [hands-on workshop](https://drive.google.com/file/d/1zpB5PyEV-PHkV-OmU9FbNjlwCpLRkre2/view?usp=sharing))
 * 2017 DLF (annual conference), Pittsburgh, PA
   * ["Islandora: Community and Collections"](https://dlfforum2017.sched.com/event/Bzsu/t5b-islandora-community-and-collections) (panel of 7 institutions, [ISLE Facebook video](https://www.facebook.com/archivists.atbarnard/videos/vb.100000636466830/1785595161471682/?type=2&theater), [slides](https://osf.io/2xrpq/))
   * ["Hack/Doc Partnerships for Library Technology Projects"](https://dlfforum2017.sched.com/event/Bzsr/t4c-working-lunch-hackdoc-partnerships-for-library-technology-projects) ([workshop](https://docs.google.com/a/vassar.edu/presentation/d/1gDG4-Tdlpvx6M5rG2uaJUv90IuOmW22v8xpBQpcF0Q4/edit?usp=sharing), with [templates](https://github.com/Islandora-Collaboration-Group/icg_information/tree/master/templates_how_to_run_a_hack_doc))
@@ -39,12 +42,12 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of col
   * ["Making Islandora work at the LAC-level"](https://www.macalester.edu/library/oberlindsconference/schedule.html#) (workshop)
 * 2015 Islandoracon (biennial conference), Charlottetown, PEI, Canada
     * ["An Islandora Odyssey: The Liberal Arts Journey with Islandora (so far)"](https://islandora.ca/camps/conference2015/schedule) (workshop)
-    
+
 ## Hack/Docs
-* [March-April 2016, Vassar College (Poughkeepsie, NY)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/01_Vassar_2016.md)
-* [September 2016, Wesleyan University (Middletown, CT)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
-* [May 2017, Williams College (Williamstown, MA](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
 * [March 2018, METRO (New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/)
+* [May 2017, Williams College (Williamstown, MA](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
+* [September 2016, Wesleyan University (Middletown, CT)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
+* [March 2016, Vassar College (Poughkeepsie, NY)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/01_Vassar_2016.md)
 
 ## Membership
 * Barnard College
