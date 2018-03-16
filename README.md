@@ -20,6 +20,7 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of lib
 ## Highlighted ICG Projects
 * [ISLE - Islandora Enterprise](https://github.com/Islandora-Collaboration-Group/ISLE)
 * [LASIR - Liberal Arts Sprint for IR development](https://github.com/Islandora-Collaboration-Group/LASIR)
+* [Islandora Sample Objects](https://github.com/Islandora-Collaboration-Group/islandora-sample-objects)
 * [ICG Islandora Webform module](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform__index.md)
 * [ICG Drush Sitespinner](https://github.com/Islandora-Collaboration-Group/drush-sitespinner)
 * [ICG Islandora Unit Tests](https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests)
@@ -45,7 +46,7 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of lib
 
 ## Hack/Docs
 * [March 2018, METRO (New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/)
-* [May 2017, Williams College (Williamstown, MA](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
+* [May 2017, Williams College (Williamstown, MA)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
 * [September 2016, Wesleyan University (Middletown, CT)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
 * [March 2016, Vassar College (Poughkeepsie, NY)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/01_Vassar_2016.md)
 
@@ -108,16 +109,15 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of lib
 
 ### Islandora Support
 * [Islandora website](https://islandora.ca)
+* [Islandora: Wiki](https://github.com/islandora/islandora/wiki)
 * [Islandora: CLAW - next generation of Islandora](https://islandora.ca/CLAW)
 * [Islandora: Developers](https://islandora.ca/developers)
 * [Islandora: Resources](https://islandora.ca/resources) (modules, forms, logos, tools, beta, etc.)
-* [Islandora: Wiki](https://github.com/islandora/islandora/wiki)
 
 ### Github Repos
 * [Islandora Collaboration Group](https://github.com/Islandora-Collaboration-Group)
 * [Awesome Islandora](https://github.com/Islandora-Labs/islandora_awesome)
 * [Islandora Interest Groups](https://github.com/islandora-interest-groups)
-* [Islandora DevOps Interest Group](https://github.com/islandora-interest-groups/Islandora-DevOps-Interest-Group/tree/master/meetings)
 
 ### Repository Utilities
-* [EULfedora - python library for creating and managing Fedora digital objects](http://eulfedora.readthedocs.io/en/1.7.2/)
+* [eulfedora - is an extensible library for creating and managing digital objects in a Fedora Commons repository.](http://eulfedora.readthedocs.io/en/1.7.2/)
