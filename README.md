@@ -30,11 +30,11 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of lib
   * ["ISLE: Islandora Installation Simplified"](https://2018.code4lib.org/workshops/isle-islandora-installation-simplified) ([3-hour presentation](https://drive.google.com/file/d/1mmQh4ZxsQGgEgPwP46MsY8RX4I0fRb9j/view?usp=sharing) + [hands-on workshop](https://drive.google.com/file/d/1zpB5PyEV-PHkV-OmU9FbNjlwCpLRkre2/view?usp=sharing))
 * 2017 DLF (annual conference), Pittsburgh, PA
   * ["Islandora: Community and Collections"](https://dlfforum2017.sched.com/event/Bzsu/t5b-islandora-community-and-collections) (panel of 7 institutions, [ISLE Facebook video](https://www.facebook.com/archivists.atbarnard/videos/vb.100000636466830/1785595161471682/?type=2&theater), [slides](https://osf.io/2xrpq/))
-  * ["Hack/Doc Partnerships for Library Technology Projects"](https://dlfforum2017.sched.com/event/Bzsr/t4c-working-lunch-hackdoc-partnerships-for-library-technology-projects) ([workshop](https://docs.google.com/a/vassar.edu/presentation/d/1gDG4-Tdlpvx6M5rG2uaJUv90IuOmW22v8xpBQpcF0Q4/edit?usp=sharing), with [templates](https://github.com/Islandora-Collaboration-Group/icg_information/tree/master/templates_how_to_run_a_hack_doc))
+  * ["Hack/Doc Partnerships for Library Technology Projects"](https://dlfforum2017.sched.com/event/Bzsr/t4c-working-lunch-hackdoc-partnerships-for-library-technology-projects) ([slides](https://drive.google.com/file/d/1OySkajwr8dyW_4-XDMrRjcbabIvNYSe2/view?usp=sharing), [hack/doc templates](https://github.com/Islandora-Collaboration-Group/icg_information/tree/master/templates_how_to_run_a_hack_doc))
 * 2017 Islandoracon (biennial conference), Hamilton, Ontario, Canada
-  * ["Islandora Enterprise"](https://docs.google.com/presentation/d/1wj95Dxu4iVt98rahj3QEp73xLFlsAmr_lrjhbzU2jCQ/edit?usp=sharing) (full plenary, [ISLE demo](https://www.youtube.com/watch?v=F30M-x-O1kM), [ISLE brochure](https://drive.google.com/file/d/0BwWnQmDKeQGBUXg2RTFXdFZuUmM/view?usp=sharing))
+  * ["Islandora Enterprise (ISLE) MVP"](https://docs.google.com/presentation/d/1wj95Dxu4iVt98rahj3QEp73xLFlsAmr_lrjhbzU2jCQ/edit?usp=sharing) (full plenary, [ISLE demo](https://www.youtube.com/watch?v=F30M-x-O1kM), [ISLE brochure](https://drive.google.com/file/d/0BwWnQmDKeQGBUXg2RTFXdFZuUmM/view?usp=sharing))
   * ["Hack/Doc Partnerships for Islandora Projects"](https://docs.google.com/presentation/d/1s0foVJVtNUVb1HJWPhZitHPwzoLfY5fxYCAejLtNAhI/edit?usp=sharing) (full plenary)
-  * ["Islandora for Consortia"](https://docs.google.com/presentation/d/1h8e53VHPC6kb7NdBD-o2oz2V9B2sVb6s6FUD9hfUcn8/edit?usp=sharing) (workshop)
+  * ["Islandora for Consortia"](https://drive.google.com/file/d/1Y46EEhAm_eYfmSHY_uYs3kcSpEFNJ88k/view?usp=sharing) (workshop)
 * 2017 NERCOMP (annual conference), Providence, RI
   * ["Hack/Doc Partnerships for Organizational Projects"](https://events.educause.edu/nercomp-annual-conference/2017/agenda/hackdoc-partnerships-for-organizational-projects) (workshop)
 * 2016 DLF LAC (pre-conference), Milwaukee, WI
@@ -43,12 +43,15 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of lib
   * ["Making Islandora work at the LAC-level"](https://www.macalester.edu/library/oberlindsconference/schedule.html#) (workshop)
 * 2015 Islandoracon (biennial conference), Charlottetown, PEI, Canada
     * ["An Islandora Odyssey: The Liberal Arts Journey with Islandora (so far)"](https://islandora.ca/camps/conference2015/schedule) (workshop)
+* 2013 Open Repositories, UPEI, Prince Edward Island, Canada
+  * [iBrowse: An Islandora Repository Tool](https://or2013.net/program/session-schedule/), [slides](https://or2013.net/sites/or2013.net/files/slides/iBrowse-presentation2_0/index.pdf)
 
 ## Hack/Docs
-* [March 2018, METRO (New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/)
-* [May 2017, Williams College (Williamstown, MA)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
-* [September 2016, Wesleyan University (Middletown, CT)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
-* [March 2016, Vassar College (Poughkeepsie, NY)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/01_Vassar_2016.md)
+* [March 2018, ISLE Hack/Doc @ METRO (New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/)
+* [May 2017, ICG Hack/Doc @ Williams College (Williamstown, MA)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
+* May, 2017, Islandoracon 2017 Pre-conference Hack/Doc @ Hamilton, Ontario, Canada
+* [September 2016, ICG Hack/Doc @ Wesleyan University (Middletown, CT)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
+* [March 2016, ICG Hack/Doc @ Vassar College (Poughkeepsie, NY)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/01_Vassar_2016.md)
 
 ## Membership
 * Barnard College
