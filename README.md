@@ -21,7 +21,7 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of lib
 * [ISLE - Islandora Enterprise](https://github.com/Islandora-Collaboration-Group/ISLE)
 * [LASIR - Liberal Arts Sprint for IR development](https://github.com/Islandora-Collaboration-Group/LASIR)
 * [Islandora Sample Objects](https://github.com/Islandora-Collaboration-Group/islandora-sample-objects)
-* [ICG Islandora Webform module](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/how_to_documentation/help_with_icg_webform__index.md)
+* [ICG Islandora Webform module](https://github.com/Islandora-Collaboration-Group/islandora_webform)
 * [ICG Drush Sitespinner](https://github.com/Islandora-Collaboration-Group/drush-sitespinner)
 * [ICG Islandora Unit Tests](https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests)
 
