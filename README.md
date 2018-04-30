@@ -53,7 +53,7 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of lib
 * [September 2016, ICG Hack/Doc @ Wesleyan University (Middletown, CT)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
 * [March 2016, ICG Hack/Doc @ Vassar College (Poughkeepsie, NY)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/01_Vassar_2016.md)
 
-## Membership
+## ICG Steering Committee
 * Barnard College
   * [Benjamin Rosner](https://github.com/br2490) (Application Developer)
   * [Martha Tenney](https://github.com/MarthaTenney) (Digital Archivist)
@@ -65,14 +65,7 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of lib
   * [Mark McFate](https://github.com/McFateM) (Digital Library Applications Developer)
 * Hamilton College
   * Shay Foley (Director, Metadata and Digital Strategies)
-  * [Greg Lord](https://github.com/gplord) (DHI Lead Designer and Software Engineer)
-  * [Peter MacDonald](https://github.com/dhinitiative) (Library Information Systems Specialist)
-  * Lisa McFall (Metadata and Catalog Librarian)
-  * [Aaron Neslin](https://github.com/aneslin) (Discovery and Delivery Systems Analyst)
-  * Angel David Nieves (Co-Director, Digital Humanities Initiative)
   * Janet Simons (Co-Director, Digital Humanities Initiative)
-  * Gisella Stalloch (Cataloger)
-  * [Steve Young](https://github.com/hamhpc) (Unix/HPC System Administrator)
 * Hampshire College
   * [Abigail Baines](https://github.com/abigaildiscovers) (Systems and Discovery Librarian)
   * Bob Crowley (Director of Information Technology)
@@ -94,13 +87,9 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of lib
   * John Neyssen (UNIX Systems Administer)
   * Lori Stethers (Systems and Emerging Technologies Librarian)
 * Williams College
-  * [Karen Gorss Benko](https://github.com/kgb1420) (Catalogue Librarian)
-  * Lisa Conathan (Head of Special Collections)
-  * [Jessika Drmacich-Flach](https://github.com/jgd1) (Digital Resources Archivist)
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer)
   * [Jonathan Leamon](https://github.com/jmleamon) (Director of Instructional Technology)
 * Common Media Inc.
-  * [Patrick Dunlavey](https://github.com/patdunlavey) (Senior Drupal & Islandora Developer)
   * [Gavin Morris](https://github.com/g7morris) (Digital Repositories Team Lead, DevOps)
   * [Noah Smith](https://github.com/noahwsmith) (CEO)
 
