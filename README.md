@@ -1,7 +1,7 @@
 # Islandora Collaboration Group: Information
 
 ## About Us
-The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of primarily liberal arts colleges collaborating to support and extend the Islandora digital repository through direct development, resource pooling, and advocacy. The ICG holds monthly steering committee meetings to develop strategy and organization and plan progress. The ICG holds hack/doc meetings twice a year for code and documentation development, open to all members. Additionally, the ICG has project steering committees and working groups that are responsible for project oversight and success (current projects include ISLE and LASIR). General communication and meeting announcements happen via the islandora-consortium-group@googlegroups.com mailing list.
+The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of primarily liberal arts colleges collaborating to support and extend the Islandora digital repository through direct development, resource pooling, and advocacy. The ICG holds monthly steering committee meetings to develop strategy and organization and plan progress. The ICG holds hack/doc meetings twice a year for code and documentation development, open to all members. The ICG created the ISLE and LASIR projects, each of which has its own respective steering committee. General communication and meeting announcements happen via the islandora-consortium-group@googlegroups.com mailing list.
 
 ## Members
 * [Barnard College](http://digitalcollections.barnard.edu)
