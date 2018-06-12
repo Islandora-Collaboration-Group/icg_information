@@ -104,4 +104,4 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * [Islandora Interest Groups](https://github.com/islandora-interest-groups)
 
 ### Islandora Foundation Partner
-[logo]: https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/docs/Islandora-Foundation-Partner.png "Islandora Foundation Partner"
+![Islandora Foundation Partner](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/docs/Islandora-Foundation-Partner.png "Islandora Foundation Partner")
