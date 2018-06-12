@@ -1,7 +1,7 @@
 # Islandora Collaboration Group: Information
 
 ## About Us
-The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of liberal arts colleges collaborating together to support and extend the Islandora digital repository through direct development, resource pooling, and advocacy. The ICG holds monthly steering committee meetings to develop strategy and organization and plan progress. The ICG holds a face-to-face hack/doc meeting twice a year for code and documentation development, open to all members. Additionally, the ICG has working groups which meet electronically on specific topics (current topics include metadata and code sprints). General communication and meeting announcements happen via the islandora-consortium-group@googlegroups.com mailing list.
+The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of primarily liberal arts colleges collaborating to support and extend the Islandora digital repository through direct development, resource pooling, and advocacy. The ICG holds monthly steering committee meetings to develop strategy and organization and plan progress. The ICG holds hack/doc meetings twice a year for code and documentation development, open to all members. Additionally, the ICG has project steering committees and working groups that are responsible for project oversight and success (current projects include ISLE and LASIR). General communication and meeting announcements happen via the islandora-consortium-group@googlegroups.com mailing list.
 
 ## Members
 * [Barnard College](http://digitalcollections.barnard.edu)
@@ -53,57 +53,37 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of lib
 * [September 2016, ICG Hack/Doc @ Wesleyan University (Middletown, CT)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
 * [March 2016, ICG Hack/Doc @ Vassar College (Poughkeepsie, NY)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/01_Vassar_2016.md)
 
-## Membership
+## ICG Steering Committee
 * Barnard College
-  * [Benjamin Rosner](https://github.com/br2490) (Application Developer)
+  * [Benjamin Rosner](https://github.com/br2490) (Senior Instructional Academic Developer)
   * [Martha Tenney](https://github.com/MarthaTenney) (Digital Archivist)
 * Colgate University
   * Cindy Li (Associate Director of Library Technology and Digital Initiatives)
   * [Mark Sandford](https://github.com/marksandford) (Systems Librarian)
+* Five College Compass: Digital Collections
+  * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator) (Smith College)
+  * [Sarah Goldstein](https://github.com/sgoldste) (Associate Director of Discovery and Access) (Mount Holyoke College)
 * Grinnell College
-  * Rebecca Ciota (Discovery and Systems Librarian)
+  * Mark Christel (Samuel R. and Marie-Louise Rosenthal Librarian of the College)
   * [Mark McFate](https://github.com/McFateM) (Digital Library Applications Developer)
 * Hamilton College
   * Shay Foley (Director, Metadata and Digital Strategies)
-  * [Greg Lord](https://github.com/gplord) (DHI Lead Designer and Software Engineer)
-  * [Peter MacDonald](https://github.com/dhinitiative) (Library Information Systems Specialist)
-  * Lisa McFall (Metadata and Catalog Librarian)
-  * [Aaron Neslin](https://github.com/aneslin) (Discovery and Delivery Systems Analyst)
-  * Angel David Nieves (Co-Director, Digital Humanities Initiative)
   * Janet Simons (Co-Director, Digital Humanities Initiative)
-  * Gisella Stalloch (Cataloger)
-  * [Steve Young](https://github.com/hamhpc) (Unix/HPC System Administrator)
-* Hampshire College
-  * [Abigail Baines](https://github.com/abigaildiscovers) (Systems and Discovery Librarian)
-  * Bob Crowley (Director of Information Technology)
-* Mount Holyoke College
-  * [Sarah Goldstein](https://github.com/sgoldste) (Associate Director of Discovery and Access)
-  * [Shaun Trujillo](https://github.com/shauntru) (Digital Library Applications Manager)
 * Rensselaer Polytechnic Institute
   * [Andrea Kathleen Byrne](andreakb) (Technology and Metadata Librarian)
   * Jenifer Monger (Assistant Institute Archivist)
-* Smith College
-  * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator)
-  * Elisa Lanzi (Director of Digital Strategies and Services)
 * Vassar College
   * [Joanna DiPasquale](https://github.com/jjdipasquale) (Head of Digital Scholarship and Technology Services)
   * [Carolyn Moritz](https://github.com/exsilica) (Digital Technologies Librarian)
-  * Arianna Schlegel (Metadata and Systems Librarian)
 * Wesleyan University
   * [Francesca Livermore](https://github.com/bookishgirl) (Digital Projects Librarian)
   * John Neyssen (UNIX Systems Administer)
-  * Lori Stethers (Systems and Emerging Technologies Librarian)
 * Williams College
-  * [Karen Gorss Benko](https://github.com/kgb1420) (Catalogue Librarian)
-  * Lisa Conathan (Head of Special Collections)
-  * [Jessika Drmacich-Flach](https://github.com/jgd1) (Digital Resources Archivist)
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer)
   * [Jonathan Leamon](https://github.com/jmleamon) (Director of Instructional Technology)
 * Common Media Inc.
-  * [Patrick Dunlavey](https://github.com/patdunlavey) (Senior Drupal & Islandora Developer)
-  * [Gavin Morris](https://github.com/g7morris) (Digital Repositories Team Lead, DevOps)
-  * [Noah Smith](https://github.com/noahwsmith) (CEO)
-
+  * [Derek Merleaux](https://github.com/dmer) (Team Lead and Project Manager)
+  * [Noah Smith](https://github.com/noahwsmith) (Founder and CEO)
 
 ## How to Participate
 * Send a request to the ICG (islandora-consortium-group@googlegroups.com)
@@ -119,8 +99,9 @@ The Islandora Collaboration Group (ICG), founded in 2011, is a consortium of lib
 
 ### Github Repos
 * [Islandora Collaboration Group](https://github.com/Islandora-Collaboration-Group)
-* [Awesome Islandora](https://github.com/Islandora-Labs/islandora_awesome)
+* [Islandora](https://github.com/Islandora)
+* [Islandora-Labs: Awesome Islandora](https://github.com/Islandora-Labs/islandora_awesome)
 * [Islandora Interest Groups](https://github.com/islandora-interest-groups)
 
-### Repository Utilities
-* [eulfedora - is an extensible library for creating and managing digital objects in a Fedora Commons repository.](http://eulfedora.readthedocs.io/en/1.7.2/)
+### Islandora Foundation Partner
+[logo]: https://github.com/Islandora-Collaboration-Group/icg_information/docs/Islandora-Foundation-Partner.png "Islandora Foundation Partner"
