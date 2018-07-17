@@ -77,7 +77,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [Carolyn Moritz](https://github.com/exsilica) (Digital Technologies Librarian)
 * Wesleyan University
   * [Francesca Livermore](https://github.com/bookishgirl) (Digital Projects Librarian)
-  * Nathan Mealey (Associate University Librarian for Technical & Digital Services)
+  * [Nathan Mealey](https://github.com/nmealey-wesleyan) (Associate University Librarian for Technical & Digital Services)
 * Williams College
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer)
   * [Jonathan Leamon](https://github.com/jmleamon) (Director of Instructional Technology)
