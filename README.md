@@ -11,7 +11,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [Mount Holyoke College](https://compass.fivecolleges.edu/institution/mount-holyoke-college)
   * [Smith College](https://compass.fivecolleges.edu/institution/smith-college)
 * [Grinnell College](https://digital.grinnell.edu/)
-* [Hamilton College](http://dhinitiative.org)
+* [Hamilton College](http://wwww.dhinitiative.org)
 * Rensselaer Polytechnic Institute
 * [Vassar College](https://digitallibrary.vassar.edu)
 * [Wesleyan University](https://digitalcollections.wesleyan.edu/)
