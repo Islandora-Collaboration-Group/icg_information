@@ -5,7 +5,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 
 ## Members
 * [Barnard College](http://digitalcollections.barnard.edu)
-* Colgate University
+* [Colgate University](https://digitalcollections.colgate.edu/)
 * [Five College Compass: Digital Collections](https://compass.fivecolleges.edu/)
   * [Hampshire College](https://compass.fivecolleges.edu/institution/hampshire-college)
   * [Mount Holyoke College](https://compass.fivecolleges.edu/institution/mount-holyoke-college)
@@ -13,6 +13,10 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * [Grinnell College](https://digital.grinnell.edu/)
 * [Hamilton College](http://wwww.dhinitiative.org)
 * Rensselaer Polytechnic Institute
+* Tri-College Libraries Consortium
+  * Bryn Mawr College
+  * Haverford College
+  * Swarthmore College
 * [Vassar College](https://digitallibrary.vassar.edu)
 * [Wesleyan University](https://digitalcollections.wesleyan.edu/)
 * [Williams College](https://unbound.williams.edu)
@@ -72,6 +76,9 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * Rensselaer Polytechnic Institute
   * [Andrea Kathleen Byrne](andreakb) (Technology and Metadata Librarian)
   * Jenifer Monger (Assistant Institute Archivist)
+* Tri-College Libraries Consortium
+  * Tom Hutchinson (TriCollege Libraries Web Developer) (Swarthmore College)
+  * Krista Oldham (College Archivist/Records Manager) (Haverford College)
 * Vassar College
   * [Joanna DiPasquale](https://github.com/jjdipasquale) (Head of Digital Scholarship and Technology Services)
   * [Carolyn Moritz](https://github.com/exsilica) (Digital Technologies Librarian)
