@@ -74,11 +74,11 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Shay Foley (Director, Metadata and Digital Strategies)
   * Janet Simons (Co-Director, Digital Humanities Initiative)
 * Rensselaer Polytechnic Institute
-  * [Andrea Kathleen Byrne](andreakb) (Technology and Metadata Librarian)
+  * [Andrea Kathleen Byrne](https://github.com/andreakb) (Technology and Metadata Librarian)
   * Jenifer Monger (Assistant Institute Archivist)
 * Tri-College Libraries Consortium
   * Tom Hutchinson (TriCollege Libraries Web Developer) (Swarthmore College)
-  * Krista Oldham (College Archivist/Records Manager) (Haverford College)
+  * [Krista Oldham](https://github.com/koldham) (College Archivist/Records Manager) (Haverford College)
 * Vassar College
   * [Joanna DiPasquale](https://github.com/jjdipasquale) (Head of Digital Scholarship and Technology Services)
   * [Carolyn Moritz](https://github.com/exsilica) (Digital Technologies Librarian)
