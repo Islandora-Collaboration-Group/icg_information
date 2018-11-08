@@ -31,6 +31,8 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * [ICG Islandora Unit Tests](https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests)
 
 ## ICG Conference Presentations @ Islandora
+* 2018 DLF (annual conference), Las Vegas, NV
+  * ["Islandora for All: Adding Digital Scholarship Tools and IR Experience with LASIR Phase II"](https://dlfforum2018.sched.com/event/FVCs/t6d-platform-updates) ([slides](https://osf.io/dbjzw/))
 * 2018 Code4Lib preconference (annual conference), Washington, DC
   * ["ISLE: Islandora Installation Simplified"](https://2018.code4lib.org/workshops/isle-islandora-installation-simplified) ([3-hour presentation](https://drive.google.com/file/d/1mmQh4ZxsQGgEgPwP46MsY8RX4I0fRb9j/view?usp=sharing) + [hands-on workshop](https://drive.google.com/file/d/1zpB5PyEV-PHkV-OmU9FbNjlwCpLRkre2/view?usp=sharing))
 * 2017 DLF (annual conference), Pittsburgh, PA
