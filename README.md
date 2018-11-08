@@ -60,8 +60,8 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 
 ## ICG Steering Committee
 * Amherst College
-  * pending
-  * pending
+  * Este Pope (Head of Digital Programs)
+  * Sarah Walden McGowan (Digital Collections and Preservation Librarian)
 * Barnard College
   * [Benjamin Rosner](https://github.com/br2490) (Senior Instructional Academic Developer)
   * [Martha Tenney](https://github.com/MarthaTenney) (Digital Archivist)
