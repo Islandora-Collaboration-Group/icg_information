@@ -74,7 +74,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator) (Smith College)
   * [Sarah Goldstein](https://github.com/sgoldste) (Associate Director of Discovery and Access) (Mount Holyoke College)
 * Grinnell College
-  * Mark Christel (Samuel R. and Marie-Louise Rosenthal Librarian of the College)
+  * Rebecca Ciota (Discovery and Integrated Services Librarian)
   * [Mark McFate](https://github.com/McFateM) (Digital Library Applications Developer)
 * Hamilton College
   * Shay Foley (Director, Metadata and Digital Strategies)
