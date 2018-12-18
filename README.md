@@ -11,6 +11,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [Hampshire College](https://compass.fivecolleges.edu/institution/hampshire-college)
   * [Mount Holyoke College](https://compass.fivecolleges.edu/institution/mount-holyoke-college)
   * [Smith College](https://compass.fivecolleges.edu/institution/smith-college)
+* Franklin & Marshall College
 * [Grinnell College](https://digital.grinnell.edu/)
 * [Hamilton College](http://wwww.dhinitiative.org)
 * Rensselaer Polytechnic Institute
@@ -20,6 +21,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Swarthmore College
 * [Vassar College](https://digitallibrary.vassar.edu)
 * [Wesleyan University](https://digitalcollections.wesleyan.edu/)
+* Whitman College
 * [Williams College](https://unbound.williams.edu)
 
 ## Highlighted ICG Projects
@@ -55,6 +57,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [iBrowse: An Islandora Repository Tool](https://or2013.net/program/session-schedule/), [slides](https://or2013.net/sites/or2013.net/files/slides/iBrowse-presentation2_0/index.pdf)
 
 ## Hack/Docs
+* Upcoming ISLE Workshop! NERCOMP Regional Meeting on May 22, 2019 at Union College in Schenectady, NY
 * [March 2018, ISLE Hack/Doc @ METRO (New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/)
 * [May 2017, ICG Hack/Doc @ Williams College (Williamstown, MA)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
 * May, 2017, Islandoracon 2017 Pre-conference Hack/Doc @ Hamilton, Ontario, Canada
@@ -74,6 +77,9 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * Five College Compass: Digital Collections
   * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator) (Smith College)
   * [Sarah Goldstein](https://github.com/sgoldste) (Associate Director of Discovery and Access) (Mount Holyoke College)
+* Franklin & Marshall College
+  * Brianna Gormly (Digital Initiatives Librarian)
+	 * TBD (Scholarly Communications Librarian)
 * Grinnell College
   * Rebecca Ciota (Discovery and Integrated Services Librarian)
   * [Mark McFate](https://github.com/McFateM) (Digital Library Applications Developer)
@@ -87,11 +93,14 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [Tom Hutchinson](https://github.com/th5) (TriCollege Libraries Web Developer) (Swarthmore College)
   * [Krista Oldham](https://github.com/koldham) (College Archivist/Records Manager) (Haverford College)
 * Vassar College
-  * [Joanna DiPasquale](https://github.com/jjdipasquale) (Head of Digital Scholarship and Technology Services)
   * [Carolyn Moritz](https://github.com/exsilica) (Digital Technologies Librarian)
+  * Arianna Schlegel (Metadata & Systems Librarian)
 * Wesleyan University
   * [Francesca Livermore](https://github.com/bookishgirl) (Digital Projects Librarian)
   * [Nathan Mealey](https://github.com/nmealey-wesleyan) (Associate University Librarian for Technical & Digital Services)
+* Whitman College
+  * Amy Blau (Scholarly Communications Librarian)
+  * Kun Lin (Systems & Applications Librarian)
 * Williams College
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer)
   * [Jonathan Leamon](https://github.com/jmleamon) (Director of Instructional Technology)
