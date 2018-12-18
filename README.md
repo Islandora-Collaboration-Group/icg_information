@@ -34,6 +34,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * [ICG Islandora Unit Tests](https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests)
 
 ## ICG Conference Presentations @ Islandora
+* Upcoming ISLE Workshop! NERCOMP Regional Meeting on May 22, 2019 at Union College in Schenectady, NY
 * 2018 DLF (annual conference), Las Vegas, NV
   * ["Islandora for All: Adding Digital Scholarship Tools and IR Experience with LASIR Phase II"](https://dlfforum2018.sched.com/event/FVCs/t6d-platform-updates) ([slides](https://osf.io/dbjzw/))
 * 2018 Code4Lib preconference (annual conference), Washington, DC
@@ -57,7 +58,6 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [iBrowse: An Islandora Repository Tool](https://or2013.net/program/session-schedule/), [slides](https://or2013.net/sites/or2013.net/files/slides/iBrowse-presentation2_0/index.pdf)
 
 ## Hack/Docs
-* Upcoming ISLE Workshop! NERCOMP Regional Meeting on May 22, 2019 at Union College in Schenectady, NY
 * [March 2018, ISLE Hack/Doc @ METRO (New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/)
 * [May 2017, ICG Hack/Doc @ Williams College (Williamstown, MA)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
 * May, 2017, Islandoracon 2017 Pre-conference Hack/Doc @ Hamilton, Ontario, Canada
