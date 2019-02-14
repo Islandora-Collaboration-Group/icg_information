@@ -35,6 +35,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 
 ## ICG Conference Presentations @ Islandora
 * Upcoming ISLE Workshop! NERCOMP Regional Meeting on May 22, 2019 at Union College in Schenectady, NY
+* Upcoming ISLE Workshop! 2019 Code4Lib (annual conference), Las Vegas, NV
 * 2018 DLF (annual conference), Las Vegas, NV
   * ["Islandora for All: Adding Digital Scholarship Tools and IR Experience with LASIR Phase II"](https://dlfforum2018.sched.com/event/FVCs/t6d-platform-updates) ([slides](https://osf.io/dbjzw/))
 * 2018 Code4Lib preconference (annual conference), Washington, DC
@@ -58,6 +59,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [iBrowse: An Islandora Repository Tool](https://or2013.net/program/session-schedule/), [slides](https://or2013.net/sites/or2013.net/files/slides/iBrowse-presentation2_0/index.pdf)
 
 ## Hack/Docs
+* [May 2019, ISLE Hack/Doc @ RPI (Troy, New York, NY)]()
 * [March 2018, ISLE Hack/Doc @ METRO (New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/)
 * [May 2017, ICG Hack/Doc @ Williams College (Williamstown, MA)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
 * May, 2017, Islandoracon 2017 Pre-conference Hack/Doc @ Hamilton, Ontario, Canada
@@ -78,14 +80,14 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator) (Smith College)
   * [Sarah Goldstein](https://github.com/sgoldste) (Associate Director of Discovery and Access) (Mount Holyoke College)
 * Franklin & Marshall College
+  * Chris Barnes (Scholarly Communications Librarian)
   * Brianna Gormly (Digital Initiatives Librarian)
-	 * TBD (Scholarly Communications Librarian)
 * Grinnell College
   * Rebecca Ciota (Discovery and Integrated Services Librarian)
   * [Mark McFate](https://github.com/McFateM) (Digital Library Applications Developer)
 * Hamilton College
   * Shay Foley (Director, Metadata and Digital Strategies)
-  * Janet Simons (Co-Director, Digital Humanities Initiative)
+  * Lisa McFall (Metadata and Digital Initiative Librarian)
 * Rensselaer Polytechnic Institute
   * [Andrea Kathleen Byrne](https://github.com/andreakb) (Technology and Metadata Librarian)
   * Jenifer Monger (Assistant Institute Archivist)
