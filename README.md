@@ -34,8 +34,10 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * [ICG Islandora Unit Tests](https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests)
 
 ## ICG Conference Presentations @ Islandora
-* Upcoming ISLE Workshop! NERCOMP Regional Meeting on May 22, 2019 at Union College in Schenectady, NY
-* Upcoming ISLE Workshop! 2019 Code4Lib (annual conference), Las Vegas, NV
+* Upcoming [Islandora for All: ISLE Workshop!](https://islandora.ca/camps/islandoracon2019) Islandoracon 2019 on October 7 in Vancouver, British Columbia, Canada
+* Upcoming [Islandora for All: ISLE Workshop!](https://or2019.blogs.uni-hamburg.de/) OPEN REPOSITORIES 2019 on June 10 in Hamburg, Germany
+* Upcoming [Islandora for All: ISLE Workshop!](https://nercomp.org/forms/meeting/Microsite/Islandora) NERCOMP Regional Meeting on May 22, 2019 at Union College in Schenectady, NY
+* Upcoming [Islandora for All: ISLEWorkshop!](https://2019.code4lib.org/workshops/ISLE-Islandora-for-All) 2019 Code4Lib (annual conference), San Jose, CA
 * 2018 DLF (annual conference), Las Vegas, NV
   * ["Islandora for All: Adding Digital Scholarship Tools and IR Experience with LASIR Phase II"](https://dlfforum2018.sched.com/event/FVCs/t6d-platform-updates) ([slides](https://osf.io/dbjzw/))
 * 2018 Code4Lib preconference (annual conference), Washington, DC
