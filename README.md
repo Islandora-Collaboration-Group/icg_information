@@ -39,8 +39,9 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * Upcoming [Islandora for All: ISLE Workshop!](https://nercomp.org/forms/meeting/Microsite/Islandora) NERCOMP Regional Meeting on May 22, 2019 at Union College in Schenectady, NY
 * 2019 Code4Lib (annual conference), San José, CA
   * [Islandora for All: ISLE Workshop](https://2019.code4lib.org/workshops/ISLE-Islandora-for-All), ([slides: 3-hour workshop](https://osf.io/w3hnv/))
-  * [Earnest if Not Agile: Community ownership of open source software solutions](https://2019.code4lib.org/posters/Earnest-if-Not-Agile-Community-ownership-of-open-source-software-solutions), ([poster](https://osf.io/nbwc6/))
-  * [2019 Code4Lib Lightning Talk Islandora for All](https://wiki.code4lib.org/Code4Lib2019_Lightning_Talks), ([slides](https://osf.io/fby9s/)), ([YouTube](https://youtu.be/uXYIjJrfqnI?t=70))
+  * [Poster Session: Earnest if Not Agile: Community ownership of open source software solutions](https://2019.code4lib.org/posters/Earnest-if-Not-Agile-Community-ownership-of-open-source-software-solutions), ([poster](https://osf.io/nbwc6/))
+  * [Lightning Talk: Islandora for All](https://wiki.code4lib.org/Code4Lib2019_Lightning_Talks), ([slides](https://osf.io/fby9s/)), ([YouTube](https://youtu.be/uXYIjJrfqnI?t=70))
+  * [Breakout Session: Islandora](https://wiki.code4lib.org/Code4Lib2019_Breakout_Sessions)
 * 2018 CNI (annual conference), Washington, DC
   * [Centering the community in liberal arts open source: reports on work of the Islandora Collaboration Group and the Five College Consortium](https://www.cni.org/topics/economic-models/centering-the-community-in-liberal-arts-open-source-reports-on-work-of-the-islandora-collaboration-group-and-the-five-college-consortium)
 * 2018 DLF (annual conference), Las Vegas, NV
