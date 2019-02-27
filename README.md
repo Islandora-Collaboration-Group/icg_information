@@ -37,7 +37,12 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * Upcoming [Islandora for All: ISLE Workshop!](https://islandora.ca/camps/islandoracon2019) Islandoracon 2019 on October 7 in Vancouver, British Columbia, Canada
 * Upcoming [Islandora for All: ISLE Workshop!](https://or2019.blogs.uni-hamburg.de/) OPEN REPOSITORIES 2019 on June 10 in Hamburg, Germany
 * Upcoming [Islandora for All: ISLE Workshop!](https://nercomp.org/forms/meeting/Microsite/Islandora) NERCOMP Regional Meeting on May 22, 2019 at Union College in Schenectady, NY
-* Upcoming [Islandora for All: ISLEWorkshop!](https://2019.code4lib.org/workshops/ISLE-Islandora-for-All) 2019 Code4Lib (annual conference), San Jose, CA
+* 2019 Code4Lib (annual conference), San José, CA
+  * [Islandora for All: ISLE Workshop](https://2019.code4lib.org/workshops/ISLE-Islandora-for-All), ([slides: 3-hour workshop](https://osf.io/w3hnv/))
+  * [Earnest if Not Agile: Community ownership of open source software solutions](https://2019.code4lib.org/posters/Earnest-if-Not-Agile-Community-ownership-of-open-source-software-solutions), ([poster](https://osf.io/nbwc6/))
+  * [2019 Code4Lib Lightning Talk Islandora for All](https://wiki.code4lib.org/Code4Lib2019_Lightning_Talks), ([slides](https://osf.io/fby9s/)), ([YouTube](https://youtu.be/uXYIjJrfqnI?t=70))
+* 2018 CNI (annual conference), Washington, DC
+  * [Centering the community in liberal arts open source: reports on work of the Islandora Collaboration Group and the Five College Consortium](https://www.cni.org/topics/economic-models/centering-the-community-in-liberal-arts-open-source-reports-on-work-of-the-islandora-collaboration-group-and-the-five-college-consortium)
 * 2018 DLF (annual conference), Las Vegas, NV
   * ["Islandora for All: Adding Digital Scholarship Tools and IR Experience with LASIR Phase II"](https://dlfforum2018.sched.com/event/FVCs/t6d-platform-updates) ([slides](https://osf.io/dbjzw/))
 * 2018 Code4Lib preconference (annual conference), Washington, DC
