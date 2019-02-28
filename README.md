@@ -113,7 +113,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Kun Lin (Systems & Applications Librarian)
 * Williams College
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer)
-  * Walter Komorowski (Head of Library Systems)
+  * [Walter Komorowski](https://github.com/wkomorow) (Head of Library Systems)
 * Common Media Inc.
   * [Derek Merleaux](https://github.com/dmer) (Team Lead and Project Manager)
   * [Noah Smith](https://github.com/noahwsmith) (Founder and CEO)
