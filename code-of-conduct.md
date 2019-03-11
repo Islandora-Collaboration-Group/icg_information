@@ -1,4 +1,4 @@
-# Islandora Collaboration Group Code of Conduct
+# Islandora Collaboration Group: Code of Conduct
 
 ## Introduction, values, and scope
 This set of principles articulates the values of the [Islandora Collaboration Group](https://github.com/Islandora-Collaboration-Group/icg_information) (ICG) and lays out the ways that we want to treat each other. This evolving document not only expresses expectations for our interactions, systems of accountability, and means of care; it is also a space for us to aspire to make our small part of the digital library, higher ed, and tech worlds more equitable, just, and inclusive.
