@@ -17,7 +17,7 @@ The ICG conducts a great deal of its work via online spaces (including Slack, em
 -   avoid and interrupt microaggressions
 -   ensure that our online and physical meeting spaces, activities, and shared content are universally accessible (rooms, audio/video setups, presentation material, publications)
 -   document meetings and decisions thoroughly and communicate decisions in a timely manner
--   pay attention to time zones when scheduling events
+-   pay attention to time zones and religious observances when scheduling events
 -   give preference to partners and vendors that have existing codes of conduct consistent with the ICG’s CoC or have made tangible commitments to doing this work
 
 Harassment of any kind within an ICG activity space (virtual or physical) is forbidden; harassment can include “unwelcome or offensive verbal comments (including jokes) or nonverbal expressions related to: age; appearance or body size; employment or military status; ethnicity; gender identity or expression; individual lifestyles; marital status; national origin; physical or cognitive ability; political affiliation; sexual orientation; race; or religion. Harassment can also include use of sexual and/or discriminatory images in public spaces (including online); deliberate intimidation; stalking; following; harassing photography or recording; sustained disruption of talks or other events; bullying behavior; inappropriate physical contact; and unwelcome sexual attention.” (DLF Code of Conduct, [https://www.diglib.org/about/code-of-conduct/](https://www.diglib.org/about/code-of-conduct/))
