@@ -34,9 +34,13 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * [ICG Islandora Unit Tests](https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests)
 
 ## ICG Conference Presentations @ Islandora
-* Upcoming [Islandora for All: ISLE Workshop!](https://islandora.ca/camps/islandoracon2019) Islandoracon 2019 on October 7 in Vancouver, British Columbia, Canada
-* Upcoming [Islandora for All: ISLE Workshop!](https://or2019.blogs.uni-hamburg.de/) OPEN REPOSITORIES 2019 on June 10 in Hamburg, Germany
-* Upcoming [Islandora for All: ISLE Workshop!](https://nercomp.org/forms/meeting/Microsite/Islandora) NERCOMP Regional Meeting on May 22, 2019 at Union College in Schenectady, NY
+* Upcoming [Islandora for All: ISLE Workshop](https://islandora.ca/camps/islandoracon2019) Islandoracon 2019 on October 7 in Vancouver, British Columbia, Canada
+* Upcoming [Islandora for All: Community Sustainability and Lessons Learned](https://or2019.blogs.uni-hamburg.de/) OPEN REPOSITORIES 2019 on June 10 in Hamburg, Germany
+* Upcoming [Islandora for All: ISLE Workshop](https://or2019.blogs.uni-hamburg.de/) OPEN REPOSITORIES 2019 on June 10 in Hamburg, Germany
+* Upcoming Hack/Doc @ RPI
+* Upcoming [Islandora for All: ISLE Workshop](https://nercomp.org/forms/meeting/Microsite/Islandora) NERCOMP Regional Meeting on May 22, 2019 at Union College in Schenectady, NY
+* NECode4lib Spring 2019 at Smith College (regional conference), Northampton, MA, United States
+  * [Islandora for All: ISLE Workshop](https://wiki.code4lib.org/NECode4lib_Spring_2019), ([workshop slides](https://drive.google.com/file/d/1jbee3uHL1BUwT6Et2vQ9PPZpC3XmqV_n/view?usp=sharing))
 * 2019 Code4Lib (annual conference), San José, CA
   * [Islandora for All: ISLE Workshop](https://2019.code4lib.org/workshops/ISLE-Islandora-for-All), ([slides: 3-hour workshop](https://osf.io/w3hnv/))
   * [Poster Session: Earnest if Not Agile: Community ownership of open source software solutions](https://2019.code4lib.org/posters/Earnest-if-Not-Agile-Community-ownership-of-open-source-software-solutions), ([poster](https://osf.io/nbwc6/))
