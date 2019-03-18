@@ -48,7 +48,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [Lightning Talk: Islandora for All](https://wiki.code4lib.org/Code4Lib2019_Lightning_Talks), ([slides](https://osf.io/fby9s/)), ([YouTube](https://youtu.be/uXYIjJrfqnI?t=70))
   * [Breakout Session: Islandora](https://wiki.code4lib.org/Code4Lib2019_Breakout_Sessions)
 * 2018 CNI (annual conference), Washington, DC
-  * [Centering the community in liberal arts open source: reports on work of the Islandora Collaboration Group and the Five College Consortium](https://www.cni.org/topics/economic-models/centering-the-community-in-liberal-arts-open-source-reports-on-work-of-the-islandora-collaboration-group-and-the-five-college-consortium)
+  * [Centering the community in liberal arts open source: reports on work of the Islandora Collaboration Group and the Five College Consortium](https://www.cni.org/topics/economic-models/centering-the-community-in-liberal-arts-open-source-reports-on-work-of-the-islandora-collaboration-group-and-the-five-college-consortium), ([slides](https://osf.io/rka78/))
 * 2018 DLF (annual conference), Las Vegas, NV
   * ["Islandora for All: Adding Digital Scholarship Tools and IR Experience with LASIR Phase II"](https://dlfforum2018.sched.com/event/FVCs/t6d-platform-updates) ([slides](https://osf.io/dbjzw/))
 * 2018 Code4Lib preconference (annual conference), Washington, DC
