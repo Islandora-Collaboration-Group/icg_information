@@ -17,5 +17,6 @@ Discussions are an important by-product of working together.
 * [02_Wesleyan_2016](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
 * [03_Williams_2017](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
 * [04_ISLE_at_METRO_2018](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/04_METRO_2018.md)
+* [05 RPI 2019](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/05_RPI_2019.md)
 
 
