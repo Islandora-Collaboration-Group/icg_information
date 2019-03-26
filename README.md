@@ -72,7 +72,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [iBrowse: An Islandora Repository Tool](https://or2013.net/program/session-schedule/), [slides](https://or2013.net/sites/or2013.net/files/slides/iBrowse-presentation2_0/index.pdf)
 
 ## Hack/Docs
-* [May 2019, ISLE Hack/Doc @ RPI (Troy, New York, NY)]()
+* [May 2019, ISLE Hack/Doc @ RPI (Troy, New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/RPI/)
 * [March 2018, ISLE Hack/Doc @ METRO (New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/)
 * [May 2017, ICG Hack/Doc @ Williams College (Williamstown, MA)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
 * May, 2017, Islandoracon 2017 Pre-conference Hack/Doc @ Hamilton, Ontario, Canada
