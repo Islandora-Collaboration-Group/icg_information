@@ -103,7 +103,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Lisa McFall (Metadata and Digital Initiative Librarian)
 * Rensselaer Polytechnic Institute
   * Tammy Gobert (Automation Archivist)
-  * Jenifer Monger (Assistant Institute Archivist)
+  * [Jenifer Monger](https://github.com/jenj118) (Assistant Institute Archivist)
 * Tri-College Libraries Consortium
   * [Tom Hutchinson](https://github.com/th5) (TriCollege Libraries Web Developer) (Swarthmore College)
   * [Krista Oldham](https://github.com/koldham) (College Archivist/Records Manager) (Haverford College)
