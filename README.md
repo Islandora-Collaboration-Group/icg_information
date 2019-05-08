@@ -105,8 +105,8 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Tammy Gobert (Automation Archivist)
   * [Jenifer Monger](https://github.com/jenj118) (Assistant Institute Archivist)
 * Tri-College Libraries Consortium
-  * [Tom Hutchinson](https://github.com/th5) (TriCollege Libraries Web Developer) (Swarthmore College)
-  * [Krista Oldham](https://github.com/koldham) (College Archivist/Records Manager) (Haverford College)
+  * [Natalie Shilstut](https://github.com/nshilstut) (Digital Collections and Metadata Librarian) (Bryn Mawr College)
+  * [TBD] (TBD) (TBD)
 * Vassar College
   * [Carolyn Moritz](https://github.com/exsilica) (Digital Technologies Librarian)
   * Arianna Schlegel (Metadata & Systems Librarian)
