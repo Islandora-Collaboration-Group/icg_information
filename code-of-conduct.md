@@ -36,7 +36,7 @@ The ICG Code of Conduct Subcommittee has drafted and will maintain methods of ac
 
 -   You can expect these responses from the ICG Code of Conduct Subcommittee:
 	-   The subcommittee will investigate and determine severity (severity of individual action, system of actions / repeat)
-	-   The ICG Code of Conduct Subcommittee will document action and will protect confidentiality as much as possible (acknowledging that in some cases or depending upon how we have to report on the incident, this may not always be possible).
+	-   The ICG Code of Conduct Subcommittee will document action and protect confidentiality as much as possible. However, depending upon the type and severity of the incident, we may not be able to keep confidentiality (such as in cases where a threat was made or a situation that involved violence); the Code of Conduct Subcommittee will determine this on a case-by-case basis.
 	-   Depending on severity, the ICG Code of Conduct Subcommittee will decide on course of action. Actions may include asking/warning harassers to stop behavior or removing them from the setting in which they are harassing (which may be an in-person event or virtual meeting, a subcommittee, or the ICG as a whole). The subcommittee will investigate/discuss and bring to the ICG Steering Committee if needed (particularly in more egregious cases, when the response may include removing someone from the ICG).
 	-   In all cases, the subcommittee will work to ensure a timely process.
 	-   In all cases, the subcommittee will report back to the ICG Steering Committee each month with actions taken.
