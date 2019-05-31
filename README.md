@@ -112,7 +112,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Arianna Schlegel (Metadata & Systems Librarian)
 * Wesleyan University
   * [Francesca Livermore](https://github.com/bookishgirl) (Digital Projects Librarian)
-  * [Nathan Mealey](https://github.com/nmealey-wesleyan) (Associate University Librarian for Technical & Digital Services)
+  * Amanda Nelson (University Archivist)
 * Whitman College
   * Amy Blau (Scholarly Communications Librarian)
   * Kun Lin (Systems & Applications Librarian)
