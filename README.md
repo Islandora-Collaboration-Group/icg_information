@@ -1,5 +1,8 @@
 # Islandora Collaboration Group
 
+## Mission Statement
+The Islandora Collaboration Group (ICG) is an inclusive community of practice committed to helping our members make Islandora a sustainable long-term solution for the preservation and access of a wide array of cultural heritage and scholarly materials.
+
 ## About Us
 The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of primarily liberal arts colleges collaborating to support and extend the Islandora digital repository through direct development, resource pooling, and advocacy. The ICG holds monthly steering committee meetings to develop strategy and organization and plan progress. The ICG has a [Code of Conduct](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/code-of-conduct.md), has created the *Islandora for All* [ISLE](https://github.com/Islandora-Collaboration-Group/ISLE) and [LASIR](https://github.com/Islandora-Collaboration-Group/LASIR) projects, holds friendly hack/doc meetings twice a year for code and documentation development (open to all members), and is developing an annual summit meeting. General communication and meeting announcements happen via the islandora-consortium-group@googlegroups.com mailing list.
 
