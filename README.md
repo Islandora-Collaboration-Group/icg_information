@@ -38,11 +38,11 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 
 ## ICG Conference Presentations @ Islandora
 * Upcoming - [Islandora for All: ISLE Workshop](https://islandora.ca/camps/islandoracon2019) Islandoracon 2019, October 7 in Vancouver, British Columbia, Canada
-* Upcoming - OPEN REPOSITORIES 2019, June 10 in Hamburg, Germany
+* OPEN REPOSITORIES 2019, June 10 in Hamburg, Germany
   * [Islandora for All: Community Sustainability and Lessons Learned](https://or2019.blogs.uni-hamburg.de/) 
   * [Islandora for All: ISLE Workshop](https://or2019.blogs.uni-hamburg.de/)
-* Upcoming - Hack/Doc @ Rensselaer Polytechnic Institute (RPI) on May 23-24, 2019
-* Upcoming [Islandora for All: ISLE Workshop](https://nercomp.org/forms/meeting/Microsite/Islandora) NERCOMP, May 22, 2019 at Union College in Schenectady, NY
+* Hack/Doc @ Rensselaer Polytechnic Institute (RPI) on May 23-24, 2019
+* [Islandora for All: ISLE Workshop](https://nercomp.org/forms/meeting/Microsite/Islandora) NERCOMP, May 22, 2019 at Union College in Schenectady, NY
 * NECode4lib Spring 2019 at Smith College (regional conference), Northampton, MA, United States
   * [Islandora for All: ISLE Workshop](https://wiki.code4lib.org/NECode4lib_Spring_2019), ([workshop slides](https://drive.google.com/file/d/1jbee3uHL1BUwT6Et2vQ9PPZpC3XmqV_n/view?usp=sharing))
 * 2019 Code4Lib (annual conference), San José, CA
@@ -109,7 +109,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [Jenifer Monger](https://github.com/jenj118) (Assistant Institute Archivist)
 * Tri-College Libraries Consortium
   * [Natalie Shilstut](https://github.com/nshilstut) (Digital Collections and Metadata Librarian) (Bryn Mawr College)
-  * [TBD] (TBD) (TBD)
+  * Howard Ding (TriCo Digital Library Developer) (Bryn Mawr College)
 * Vassar College
   * [Carolyn Moritz](https://github.com/exsilica) (Digital Technologies Librarian)
   * Arianna Schlegel (Metadata & Systems Librarian)
@@ -122,7 +122,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * Williams College
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer)
   * [Walter Komorowski](https://github.com/wkomorow) (Head of Library Systems)
-* Common Media Inc.
+* Born Digital Inc.
   * [Derek Merleaux](https://github.com/dmer) (Team Lead and Project Manager)
   * [Noah Smith](https://github.com/noahwsmith) (Founder and CEO)
 
