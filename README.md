@@ -39,7 +39,13 @@ Interested in joining the ICG? Read our [ICG: Membership Benefits and Responsibi
 * [ICG Islandora Unit Tests](https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests)
 
 ## ICG Conference Presentations @ Islandora
-* Upcoming - [Islandora for All: ISLE Workshop](https://islandora.ca/camps/islandoracon2019) Islandoracon 2019, October 7 in Vancouver, British Columbia, Canada
+* Islandoracon 2019, October 7-12 in Vancouver, British Columbia, Canada
+  * [ISLE: Installing and Managing Islandora with Docker](https://sched.co/Q0Pj)
+  * [ISLE and Dockerizing Islandora 8](https://sched.co/QPyu)
+  * [Planning and Executing Migrations to Islandora](https://sched.co/QPyi)
+  * [Islandora as a Full-Featured Institutional Repository](https://sched.co/QPyx)
+  * [Bulk Ingest Tools](https://sched.co/QQBI)
+  * [Islandora IR Interest Group Meet-Up](https://sched.co/VWuN)
 * OPEN REPOSITORIES 2019, June 10 in Hamburg, Germany
   * [Islandora for All: Community Sustainability and Lessons Learned](https://or2019.blogs.uni-hamburg.de/) 
   * [Islandora for All: ISLE Workshop](https://or2019.blogs.uni-hamburg.de/)
