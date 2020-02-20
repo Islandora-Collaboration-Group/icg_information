@@ -6,7 +6,7 @@ The Islandora Collaboration Group (ICG) is an inclusive community of practice co
 ## About Us
 The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of primarily liberal arts colleges collaborating to support and extend the Islandora digital repository through direct development, resource pooling, and advocacy. The ICG holds monthly steering committee meetings to develop strategy and organization and plan progress. The ICG has a [Code of Conduct](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/code-of-conduct.md), has created the *Islandora for All* [ISLE](https://github.com/Islandora-Collaboration-Group/ISLE) and [LASIR](https://github.com/Islandora-Collaboration-Group/LASIR) projects, holds friendly hack/doc meetings twice a year for code and documentation development (open to all members), and is developing an annual summit meeting. General communication and meeting announcements happen via the islandora-consortium-group@googlegroups.com mailing list.
 
-Interested in joining the ICG? Read our [ICG: Membership Benefits and Responsibilities](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/membership-benefits-and-responsibilities.md).
+**Interested in joining the ICG?** Read our [ICG: Membership Benefits and Responsibilities](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/membership-benefits-and-responsibilities.md).
 
 ## Members
 * Amherst College
@@ -36,30 +36,31 @@ Interested in joining the ICG? Read our [ICG: Membership Benefits and Responsibi
 * [Islandora Sample Objects](https://github.com/Islandora-Collaboration-Group/islandora-sample-objects)
 * [ICG Islandora Webform module](https://github.com/Islandora-Collaboration-Group/islandora_webform)
 * [ICG Drush Sitespinner](https://github.com/Islandora-Collaboration-Group/drush-sitespinner)
-* [ICG Islandora Unit Tests](https://github.com/Islandora-Collaboration-Group/icg_islandora_unit_tests)
 
 ## ICG Conference Presentations @ Islandora
-* Islandoracon 2019, October 7-12 in Vancouver, British Columbia, Canada
-  * [ISLE: Installing and Managing Islandora with Docker](https://sched.co/Q0Pj)
-  * [ISLE and Dockerizing Islandora 8](https://sched.co/QPyu)
-  * [Planning and Executing Migrations to Islandora](https://sched.co/QPyi)
-  * [Islandora as a Full-Featured Institutional Repository](https://sched.co/QPyx)
+* Islandoracon 2019, October 7-12, Vancouver, British Columbia, Canada
+  * [SLE Workshop: Installing and Managing Islandora with Docker](https://islandoracon2019.sched.com/event/Q0Pj), ([slides](https://docs.google.com/presentation/d/1RJ9iwDANeCQ9JgnKEGShZB9hP2GY4RswDBI6f0Ufiz0/edit?usp=sharing): 3-hour workshop)
+  * [ISLE and Dockerizing Islandora 8](https://islandoracon2019.sched.com/event/QPyu), ([slides](https://docs.google.com/presentation/d/1aLLxt65wNnLNmBLutCE7ZhtliD0KR_3YwhUwQS8uR-c/edit?usp=sharing))
+  * [Islandora as a Full-Featured Institutional Repository](https://islandoracon2019.sched.com/event/QPyx/islandora-as-a-full-featured-institutional-repository), ([slides](https://docs.google.com/presentation/d/1utqdN-9dUYPAArz_zGcPj-k_CsFtfwEJgyQvH577bog/edit#slide=id.p))
+  * [Planning and Executing Migrations to Islandora](https://islandoracon2019.sched.com/event/QPyi/planning-and-executing-migrations-to-islandora), ([slides](https://docs.google.com/presentation/d/1PYo_EjQbT3YHMVNld6uOUVD0QT2eHSxGXb1HS0m0x0o/edit#slide=id.p1))
   * [Bulk Ingest Tools](https://sched.co/QQBI)
-  * [Islandora IR Interest Group Meet-Up](https://sched.co/VWuN)
-* OPEN REPOSITORIES 2019, June 10 in Hamburg, Germany
-  * [Islandora for All: Community Sustainability and Lessons Learned](https://or2019.blogs.uni-hamburg.de/) 
-  * [Islandora for All: ISLE Workshop](https://or2019.blogs.uni-hamburg.de/)
-* Hack/Doc @ Rensselaer Polytechnic Institute (RPI) on May 23-24, 2019
-* [Islandora for All: ISLE Workshop](https://nercomp.org/forms/meeting/Microsite/Islandora) NERCOMP, May 22, 2019 at Union College in Schenectady, NY
-* NECode4lib Spring 2019 at Smith College (regional conference), Northampton, MA, United States
-  * [Islandora for All: ISLE Workshop](https://wiki.code4lib.org/NECode4lib_Spring_2019), ([workshop slides](https://drive.google.com/file/d/1jbee3uHL1BUwT6Et2vQ9PPZpC3XmqV_n/view?usp=sharing))
+  * [Islandora IR Interest Group Meet-Up](https://islandoracon2019.sched.com/event/VWuN/islandora-ir-interest-group-meet-up)
+* OPEN REPOSITORIES 2019, June 10, Hamburg, Germany
+  * [Islandora for All: Community Sustainability and Lessons Learned](https://www.conftool.net/or2019/index.php?page=browseSessions&form_date=2019-06-12), ([slides](https://drive.google.com/file/d/1bGmZq8d9jBZ9_vSQBLiTdUgEITvUTHev/view?usp=sharing)), ([recorded video](https://lecture2go.uni-hamburg.de/l2go/-/get/v/24827))
+  * [Islandora for All: ISLE Workshop](http://archiv.gwin.gwiss.uni-hamburg.de/or2019/workshops/), ([slides](https://drive.google.com/file/d/1NI_oip-BPFHpDYeOXeuboC6rzyMrQT0z/view?usp=sharing): 3.5-hour workshop)
+* Northeast Institutional Repository Day 2019, June 18, Boston, MA
+  * [Collaborative Repository Transformation and the Work of Building a Sustainable Islandora for All](https://escholarship.umassmed.edu/neirug/2019/program/9/), ([slides](https://drive.google.com/file/d/1gk7Rb6rN9YOB1_24xKr-0_NFddEl8_hq/view?usp=sharing))
+* NERCOMP Regional Meeting, May 22, Union College, Schenectady, NY
+  * [Islandora for All: ISLE Workshop](https://nercomp.org/forms/meeting/Microsite/Islandora), ([slides](https://drive.google.com/file/d/1OgE4L0qyui_N5SctymwqL2ei89hRpJyF/view?usp=sharing): 6-hour workshop)
+* NECode4lib Spring 2019 Conference, March 15, Smith College, Northampton, MA
+  * [Islandora for All: ISLE Workshop](https://wiki.code4lib.org/NECode4lib_Spring_2019), ([workshop slides: 3-hour workshop](https://drive.google.com/file/d/1jbee3uHL1BUwT6Et2vQ9PPZpC3XmqV_n/view?usp=sharing))
 * 2019 Code4Lib (annual conference), San José, CA
   * [Islandora for All: ISLE Workshop](https://2019.code4lib.org/workshops/ISLE-Islandora-for-All), ([slides: 3-hour workshop](https://osf.io/w3hnv/))
-  * [Poster Session: Earnest if Not Agile: Community ownership of open source software solutions](https://2019.code4lib.org/posters/Earnest-if-Not-Agile-Community-ownership-of-open-source-software-solutions), ([poster](https://osf.io/nbwc6/))
   * [Lightning Talk: Islandora for All](https://wiki.code4lib.org/Code4Lib2019_Lightning_Talks), ([slides](https://osf.io/fby9s/)), ([YouTube](https://youtu.be/uXYIjJrfqnI?t=70))
+  * [Poster Session: Earnest if Not Agile: Community ownership of open source software solutions](https://2019.code4lib.org/posters/Earnest-if-Not-Agile-Community-ownership-of-open-source-software-solutions), ([poster](https://osf.io/nbwc6/))
   * [Breakout Session: Islandora](https://wiki.code4lib.org/Code4Lib2019_Breakout_Sessions)
 * 2018 CNI (annual conference), Washington, DC
-  * [Centering the community in liberal arts open source: reports on work of the Islandora Collaboration Group and the Five College Consortium](https://www.cni.org/topics/economic-models/centering-the-community-in-liberal-arts-open-source-reports-on-work-of-the-islandora-collaboration-group-and-the-five-college-consortium), ([slides](https://osf.io/rka78/))
+  * [Centering the Community in Liberal Arts Open Source: Reports on Work of the Islandora Collaboration Group and the Five College Consortium](https://www.cni.org/topics/economic-models/centering-the-community-in-liberal-arts-open-source-reports-on-work-of-the-islandora-collaboration-group-and-the-five-college-consortium), ([slides](https://osf.io/rka78/))
 * 2018 DLF (annual conference), Las Vegas, NV
   * ["Islandora for All: Adding Digital Scholarship Tools and IR Experience with LASIR Phase II"](https://dlfforum2018.sched.com/event/FVCs/t6d-platform-updates) ([slides](https://osf.io/dbjzw/))
 * 2018 Code4Lib preconference (annual conference), Washington, DC
@@ -83,10 +84,10 @@ Interested in joining the ICG? Read our [ICG: Membership Benefits and Responsibi
   * [iBrowse: An Islandora Repository Tool](https://or2013.net/program/session-schedule/), [slides](https://or2013.net/sites/or2013.net/files/slides/iBrowse-presentation2_0/index.pdf)
 
 ## Hack/Docs
-* [May 2019, ISLE Hack/Doc @ RPI (Troy, New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/RPI/)
-* [March 2018, ISLE Hack/Doc @ METRO (New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/)
+* [May 2019, ICG Hack/Doc @ Rensselaer Polytechnic Institute (Troy, New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/RPI/)
+* [March 2018, ICG Hack/Doc @ METRO (New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/)
 * [May 2017, ICG Hack/Doc @ Williams College (Williamstown, MA)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
-* May, 2017, Islandoracon 2017 Pre-conference Hack/Doc @ Hamilton, Ontario, Canada
+* [May, 2017, Islandoracon 2017 Pre-conference Hack/Doc Fest @ Hamilton, Ontario, Canada](https://islandora.ca/content/islandoracon-2017-hackfest)
 * [September 2016, ICG Hack/Doc @ Wesleyan University (Middletown, CT)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
 * [March 2016, ICG Hack/Doc @ Vassar College (Poughkeepsie, NY)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/01_Vassar_2016.md)
 
@@ -141,10 +142,8 @@ Interested in joining the ICG? Read our [ICG: Membership Benefits and Responsibi
 
 ### Islandora Support
 * [Islandora website](https://islandora.ca)
-* [Islandora: Wiki](https://github.com/islandora/islandora/wiki)
-* [Islandora: CLAW - next generation of Islandora](https://islandora.ca/CLAW)
-* [Islandora: Developers](https://islandora.ca/developers)
-* [Islandora: Resources](https://islandora.ca/resources) (modules, forms, logos, tools, beta, etc.)
+* [Islandora: 8](https://islandora.ca/islandora8)
+* [Islandora: 7](https://wiki.lyrasis.org/display/ISLANDORA/Start)
 
 ### Github Repos
 * [Islandora Collaboration Group](https://github.com/Islandora-Collaboration-Group)
