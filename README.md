@@ -87,7 +87,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * [May 2019, ICG Hack/Doc @ Rensselaer Polytechnic Institute (Troy, New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/RPI/)
 * [March 2018, ICG Hack/Doc @ METRO (New York, NY)](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/)
 * [May 2017, ICG Hack/Doc @ Williams College (Williamstown, MA)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md)
-* [May, 2017, Islandoracon 2017 Pre-conference Hack/Doc Fest @ Hamilton, Ontario, Canada](https://islandora.ca/content/islandoracon-2017-hackfest)
+* [May 2017, Islandoracon 2017 Pre-conference Hack/Doc Fest @ Hamilton, Ontario, Canada](https://islandora.ca/content/islandoracon-2017-hackfest)
 * [September 2016, ICG Hack/Doc @ Wesleyan University (Middletown, CT)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/02_Wesleyan_2016.md)
 * [March 2016, ICG Hack/Doc @ Vassar College (Poughkeepsie, NY)](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/01_Vassar_2016.md)
 
