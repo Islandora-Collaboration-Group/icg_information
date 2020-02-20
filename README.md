@@ -39,7 +39,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 
 ## ICG Conference Presentations @ Islandora
 * Islandoracon 2019, October 7-12, Vancouver, British Columbia, Canada
-  * [SLE Workshop: Installing and Managing Islandora with Docker](https://islandoracon2019.sched.com/event/Q0Pj), ([slides](https://docs.google.com/presentation/d/1RJ9iwDANeCQ9JgnKEGShZB9hP2GY4RswDBI6f0Ufiz0/edit?usp=sharing): 3-hour workshop)
+  * [ISLE Workshop: Installing and Managing Islandora with Docker](https://islandoracon2019.sched.com/event/Q0Pj), ([slides](https://docs.google.com/presentation/d/1RJ9iwDANeCQ9JgnKEGShZB9hP2GY4RswDBI6f0Ufiz0/edit?usp=sharing): 3-hour workshop)
   * [ISLE and Dockerizing Islandora 8](https://islandoracon2019.sched.com/event/QPyu), ([slides](https://docs.google.com/presentation/d/1aLLxt65wNnLNmBLutCE7ZhtliD0KR_3YwhUwQS8uR-c/edit?usp=sharing))
   * [Islandora as a Full-Featured Institutional Repository](https://islandoracon2019.sched.com/event/QPyx/islandora-as-a-full-featured-institutional-repository), ([slides](https://docs.google.com/presentation/d/1utqdN-9dUYPAArz_zGcPj-k_CsFtfwEJgyQvH577bog/edit#slide=id.p))
   * [Planning and Executing Migrations to Islandora](https://islandoracon2019.sched.com/event/QPyi/planning-and-executing-migrations-to-islandora), ([slides](https://docs.google.com/presentation/d/1PYo_EjQbT3YHMVNld6uOUVD0QT2eHSxGXb1HS0m0x0o/edit#slide=id.p1))
