@@ -15,12 +15,15 @@ permalink: /hack_docs/brynmawr/
 
 **Address:** 
 
+
 ## Accessibility
 **Campus:** 
+
+
 **Room:**
 
 ## Virtual Attendance
-Info TK
+
 
 ## RSVP
 
@@ -44,7 +47,7 @@ See our [ICG Code of Conduct here](https://github.com/Islandora-Collaboration-Gr
 ## Schedule & Community Notes
 
 ### What is a hack/doc and who should attend?
-A hack/doc combines the form of a hackathon–bringing coders together to work on a predetermined problem in a large block of time–with a substantial documentation and testing component. Attendees with a wide variety of skill sets will be welcomed and supported in hands-on work with ISLE. Anyone who works with installation or maintenance of Islandora (e.g. developers, DevOps folks), people from small institutions with Islandora repositories, and folks interested in migrating to Islandora are especially encouraged to attend.
+A hack/doc combines the form of a hackathon–bringing coders together to work on a predetermined problem in a large block of time–with a substantial documentation and testing component. Attendees with a wide variety of skill sets will be welcomed and supported in hands-on work. 
  
 ### What will we be doing?
  
