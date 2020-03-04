@@ -25,6 +25,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Haverford College
   * Swarthmore College
 * [Vassar College](https://digitallibrary.vassar.edu)
+* Wellesley College
 * [Wesleyan University](https://digitalcollections.wesleyan.edu/)
 * [Whitman College](https://arminda.whitman.edu)
 * [Williams College](https://unbound.williams.edu)
