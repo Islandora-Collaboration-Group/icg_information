@@ -15,6 +15,9 @@ permalink: /hack_docs/brynmawr/
 
 **Address:** 
 
+**RSVP**
+[RSVP form](https://docs.google.com/forms/d/e/1FAIpQLScXkclFN-E_RDUjT9EqPe0NWD5hCm8guyV99bvRXxjRMWyx3w/viewform)
+
 
 ## Accessibility
 **Campus:** 
@@ -50,4 +53,7 @@ See our [ICG Code of Conduct here](https://github.com/Islandora-Collaboration-Gr
 A hack/doc combines the form of a hackathon–bringing coders together to work on a predetermined problem in a large block of time–with a substantial documentation and testing component. Attendees with a wide variety of skill sets will be welcomed and supported in hands-on work. 
  
 ### What will we be doing?
+
+This hack/doc will be centered on further developing migration paths to Islandora 8, including tools for metadata migration. We may cover other topics as well; please voice your preferences on the [RSVP form](https://docs.google.com/forms/d/e/1FAIpQLScXkclFN-E_RDUjT9EqPe0NWD5hCm8guyV99bvRXxjRMWyx3w/viewform) and note if you are able to help lead any sessions.
+
  
