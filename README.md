@@ -29,6 +29,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * [Wesleyan University](https://digitalcollections.wesleyan.edu/)
 * [Whitman College](https://arminda.whitman.edu)
 * [Williams College](https://unbound.williams.edu)
+* Yeshiva University
 
 ## Highlighted ICG Projects
 * *Islandora for All*
@@ -98,9 +99,8 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Sarah Walden McGowan (Digital Collections and Preservation Librarian)
 * Barnard College
   * [Benjamin Rosner](https://github.com/br2490) (Senior Instructional Academic Developer)
-  * [Martha Tenney](https://github.com/MarthaTenney) (Digital Archivist)
+  * [Martha Tenney](https://github.com/MarthaTenney) (Director, Barnard Archives and Special Collections)
 * Colgate University
-  * Cindy Li (Associate Director of Library Technology and Digital Initiatives)
   * [Mark Sandford](https://github.com/marksandford) (Systems Librarian)
 * Five College Compass: Digital Collections
   * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator) (Smith College)
@@ -113,7 +113,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [Mark McFate](https://github.com/McFateM) (Digital Library Applications Developer)
 * Hamilton College
   * Shay Foley (Director, Metadata and Digital Strategies)
-  * Lisa McFall (Metadata and Digital Initiative Librarian)
+  * Lisa McFall (Associate Director for Metadata and Digital Initiatives)
 * Rensselaer Polytechnic Institute
   * Tammy Gobert (Automation Archivist)
   * [Jenifer Monger](https://github.com/jenj118) (Assistant Institute Archivist)
@@ -121,8 +121,11 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [Natalie Shilstut](https://github.com/nshilstut) (Digital Collections and Metadata Librarian) (Bryn Mawr College)
   * Howard Ding (TriCo Digital Library Developer) (Bryn Mawr College)
 * Vassar College
-  * [Carolyn Moritz](https://github.com/exsilica) (Digital Technologies Librarian)
+  * Nicole H. Scalessa (Head of Digital Scholarship and Technology Services)
   * Arianna Schlegel (Metadata & Systems Librarian)
+* Wellesley College
+  * Marci Hahn-Fabris (Digital Collections Librarian)
+  * Kara Hart (Systems Librarian)
 * Wesleyan University
   * [Francesca Baird](https://github.com/bookishgirl) (Digital Projects Librarian)
   * Amanda Nelson (University Archivist)
@@ -132,6 +135,9 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * Williams College
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer)
   * [Walter Komorowski](https://github.com/wkomorow) (Head of Library Systems)
+* Yeshiva University
+  * Deena Schwimmer (Archivist)
+  * Hao Zeng (Head of Library Web and Digital Services)
 * Born Digital Inc.
   * [Derek Merleaux](https://github.com/dmer) (Team Lead and Project Manager)
   * [Noah Smith](https://github.com/noahwsmith) (Founder and CEO)
