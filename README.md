@@ -101,7 +101,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Sarah Walden McGowan (Digital Collections and Preservation Librarian)
 * Barnard College
   * [Benjamin Rosner](https://github.com/br2490) (Senior Instructional Academic Developer)
-  * [Martha Tenney](https://github.com/MarthaTenney) (Director, Barnard Archives and Special Collections), Hack/Doc Coordinator, Islandora Coordinating Committee Representative
+  * [Martha Tenney](https://github.com/MarthaTenney) (Director, Barnard Archives and Special Collections), __Hack/Doc Coordinator, Islandora Coordinating Committee Representative__
 * Colgate University
   * [Mark Sandford](https://github.com/marksandford) (Systems Librarian)
 * Connecticut Digital Archive
@@ -109,24 +109,24 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Michael Kemezis (Repository Manager, University of Connecticut)
 * Five College Compass: Digital Collections
   * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator) (Smith College)
-  * [Sarah Goldstein](https://github.com/sgoldste) (Associate Director of Discovery and Access) (Mount Holyoke College), Treasurer
+  * [Sarah Goldstein](https://github.com/sgoldste) (Associate Director of Discovery and Access) (Mount Holyoke College), __Treasurer__
 * Franklin & Marshall College
   * Chris Barnes (Scholarly Communications Librarian)
-  * Brianna Gormly (Digital Initiatives Librarian), Membership Coordinator
+  * Brianna Gormly (Digital Initiatives Librarian), __Membership Coordinator__
 * Grinnell College
   * Rebecca Ciota (Discovery and Integrated Services Librarian)
   * [Mark McFate](https://github.com/McFateM) (Digital Library Applications Developer)
 * Hamilton College
   * Shay Foley (Director, Metadata and Digital Strategies)
-  * Lisa McFall (Associate Director for Metadata and Digital Initiatives), Metadata Working Group Coordinator
+  * Lisa McFall (Associate Director for Metadata and Digital Initiatives), __Metadata Working Group Coordinator__
 * Iowa State University
   * Hannah Scates Kettler (Head, Digital Scholarship & Initiatives)
   * Lisa Smith (Director of Library IT)
 * Rensselaer Polytechnic Institute
   * Tammy Gobert (Automation Archivist)
-  * [Jenifer Monger](https://github.com/jenj118) (Assistant Institute Archivist), Membership Coordinator
+  * [Jenifer Monger](https://github.com/jenj118) (Assistant Institute Archivist), __Membership Coordinator__
 * Tri-College Libraries Consortium
-  * [Natalie Shilstut](https://github.com/nshilstut) (Digital Collections and Metadata Librarian) (Bryn Mawr College), Co-chair
+  * [Natalie Shilstut](https://github.com/nshilstut) (Digital Collections and Metadata Librarian) (Bryn Mawr College), __Co-chair__
   * Howard Ding (TriCo Digital Library Developer) (Bryn Mawr College)
 * Vassar College
   * Nicole H. Scalessa (Head of Digital Scholarship and Technology Services)
@@ -135,13 +135,13 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Marci Hahn-Fabris (Digital Collections Librarian)
   * Kara Hart (Systems Librarian)
 * Wesleyan University
-  * [Francesca Baird](https://github.com/bookishgirl) (Digital Projects Librarian), Co-chair
+  * [Francesca Baird](https://github.com/bookishgirl) (Digital Projects Librarian), __Co-chair__
   * Amanda Nelson (University Archivist)
 * Whitman College
   * Amy Blau (Scholarly Communications Librarian)
   * Kun Lin (Systems & Applications Librarian)
 * Williams College
-  * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer), Islandora Board of Directors Representative
+  * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer), __Islandora Board of Directors Representative__
   * [Walter Komorowski](https://github.com/wkomorow) (Head of Library Systems)
 * Yeshiva University
   * Deena Schwimmer (Archivist)
