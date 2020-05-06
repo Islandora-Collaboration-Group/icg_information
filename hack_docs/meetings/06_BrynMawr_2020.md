@@ -6,18 +6,17 @@ permalink: /hack_docs/brynmawr/
 ---
 
 
-# ICG Hack/Doc Summer 2020 @ Bryn Mawr College
+# ICG Hack/Doc Summer 2020 hosted by Bryn Mawr College and ICG
 
 ## Dates and Locations of the Hack/Doc
-**Dates:** June 25-26, 2020 (both days: 9:00AM - 5:00PM)
+**Dates:** Dates TBD
 
-**Location:** Bryn Mawr College
+**Location:** Online/Zoom
 
 **Address:** 
 
 **RSVP**
-[RSVP form](https://docs.google.com/forms/d/e/1FAIpQLScXkclFN-E_RDUjT9EqPe0NWD5hCm8guyV99bvRXxjRMWyx3w/viewform)
-
+TBD
 
 ## Accessibility
 **Campus:** 
@@ -29,18 +28,6 @@ permalink: /hack_docs/brynmawr/
 
 
 ## RSVP
-
-## Lodging
-
-## Transportation
-
-## Maps
-
-## Parking
-
-## Food
-
-## WiFi and Remote Attendance
 
 ## Code of Conduct
 See our [ICG Code of Conduct here](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/code-of-conduct.md).
@@ -54,6 +41,6 @@ A hack/doc combines the form of a hackathon–bringing coders together to work o
  
 ### What will we be doing?
 
-This hack/doc will be centered on further developing migration paths to Islandora 8, including tools for metadata migration. We may cover other topics as well; please voice your preferences on the [RSVP form](https://docs.google.com/forms/d/e/1FAIpQLScXkclFN-E_RDUjT9EqPe0NWD5hCm8guyV99bvRXxjRMWyx3w/viewform) and note if you are able to help lead any sessions.
+This hack/doc will be centered on further developing migration paths to Islandora 8, including tools for metadata migration. We may cover other topics as well.
 
  
