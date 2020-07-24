@@ -101,7 +101,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Sarah Walden McGowan (Digital Collections and Preservation Librarian)
 * Barnard College
   * [Benjamin Rosner](https://github.com/br2490) (Senior Instructional Academic Developer)
-  * [Martha Tenney](https://github.com/MarthaTenney) (Director, Barnard Archives and Special Collections), __Hack/Doc Coordinator, Islandora Coordinating Committee Representative__
+  * [Martha Tenney](https://github.com/MarthaTenney) (Director, Barnard Archives and Special Collections), __Hack/Doc Coordinator__
 * Colgate University
   * [Mark Sandford](https://github.com/marksandford) (Systems Librarian)
 * Connecticut Digital Archive
@@ -128,6 +128,8 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * Tri-College Libraries Consortium
   * [Natalie Shilstut](https://github.com/nshilstut) (Digital Collections and Metadata Librarian) (Bryn Mawr College), __Co-chair__
   * Howard Ding (TriCo Digital Library Developer) (Bryn Mawr College)
+* Union College
+  * Joanna DiPasquale (Director of Content & Digital Library Systems)
 * Vassar College
   * Nicole H. Scalessa (Head of Digital Scholarship and Technology Services)
   * Arianna Schlegel (Metadata & Systems Librarian)
@@ -138,7 +140,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [Francesca Baird](https://github.com/bookishgirl) (Digital Projects Librarian), __Co-chair__
   * Amanda Nelson (University Archivist)
 * Whitman College
-  * Amy Blau (Scholarly Communications Librarian)
+  * Amy Blau (Scholarly Communications Librarian), __Islandora Coordinating Committee Representative__
   * Kun Lin (Systems & Applications Librarian)
 * Williams College
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer), __Islandora Board of Directors Representative__
