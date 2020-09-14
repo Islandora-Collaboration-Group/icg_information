@@ -115,8 +115,8 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Chris Barnes (Scholarly Communications Librarian)
   * Brianna Gormly (Digital Initiatives Librarian), __Membership Coordinator__
 * Grinnell College
-  * Rebecca Ciota (Discovery and Integrated Services Librarian)
   * [Mark McFate](https://github.com/McFateM) (Digital Library Applications Developer)
+  * Liz Rodrigues (Assistant Professor, Humanities & Digital Scholarship Librarian)
 * Hamilton College
   * Shay Foley (Director, Metadata and Digital Strategies)
   * Lisa McFall (Associate Director for Metadata and Digital Initiatives), __Metadata Working Group Coordinator__
