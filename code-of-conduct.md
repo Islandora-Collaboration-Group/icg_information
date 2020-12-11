@@ -32,7 +32,7 @@ The ICG Code of Conduct Subcommittee has drafted and will maintain methods of ac
  -   We are all (everyone in ICG, working with ICG, or attending one of our events) responsible for upholding the Code of Conduct and interrupting abuse, microaggressions, harassment, and other violations of the Code. In many cases we can shift behaviors in this way, and victims may not feel the need to raise a formal complaint (although you are always welcome to do so). You can always ask anyone in the ICG to support you in shifting the behaviors of colleagues and interrupting harassment.
  -   If you do want to submit a formal complaint to the Code of Conduct Subcommittee, you can do so in one of two ways:
 		-	[Form with anonymous option](https://docs.google.com/forms/d/e/1FAIpQLSfPVshgNRNpv1QWhc448RMp6XHGBkJIz926i8M3tpMU8UHqVw/viewform) 
-		-   Or email to subcommittee members (Martha Tenney <mtenney@barnard.edu>, Sarah Goldstein <sgoldste@mtholyoke.edu>, and and/or Walter Komorowski <wkomorow@williams.edu>--you can email any or all of us)
+		-   Or email to subcommittee members (Martha Tenney <mtenney@barnard.edu>, Sarah Goldstein <sgoldste@mtholyoke.edu>, and and/or Sarah Walden McGowan <swaldenmcgowan@amherst.edu>--you can email any or all of us)
 
 -   You can expect these responses from the ICG Code of Conduct Subcommittee:
 	-   The subcommittee will investigate and determine severity (severity of individual action, system of actions / repeat)
