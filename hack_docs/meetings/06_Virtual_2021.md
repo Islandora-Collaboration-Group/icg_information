@@ -16,8 +16,8 @@ Thursday January 14, 12-3 pm EST (9-12 PST)
 **Location:** 
 Please register to receive the Zoom link closer to the date of the hack/doc.
 
-## Registration
-Link TK
+**Registration**
+Please register by January 8. [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSfOXNoGJOcy1SE6QQiKG2iqDnpVhu8By_OGHGn5l6R0somspQ/viewform)
 
 ## Code of Conduct
 See our [ICG Code of Conduct here](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/code-of-conduct.md).
@@ -26,9 +26,6 @@ See our [ICG Code of Conduct here](https://github.com/Islandora-Collaboration-Gr
 This virtual event will be held via Zoom. For more information regarding Zoom accessibility features please visit [Zoom's accessibility FAQ page](https://zoom.us/accessibility/faq).
 
 If you require assistance or accommodations please contact Martha Tenney, <mtenney@barnard.edu>. 
-
-## Contact
-Please contact Martha Tenney, <mtenney@barnard.edu> with any questions about the event.
 
 ## Schedule & Community Notes
 A tentative schedule [can be found here](https://docs.google.com/document/d/1heqxrDg2VpMuly5I1vW2WozupD5NkqpkAc4qSnb4Hzc/edit).
@@ -40,3 +37,6 @@ A hack/doc combines the form of a hackathon–bringing coders together to work o
  
 ## What will we be doing?
 This year the Islandora Collaboration Group’s hack/doc will focus on metadata and migration. Our goal is to create useful documentation for our members and other members of the Islandora community as we face the task of migrating out of Islandora 7x. To see more information on past hack/docs, visit our [Github site](https://islandora-collaboration-group.github.io/icg_information/hack_docs/).
+
+## Contact
+Please contact Martha Tenney, <mtenney@barnard.edu> with any questions about the event.
