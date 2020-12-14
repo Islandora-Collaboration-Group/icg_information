@@ -25,10 +25,10 @@ See our [ICG Code of Conduct here](https://github.com/Islandora-Collaboration-Gr
 ## Accessibility
 This virtual event will be held via Zoom. For more information regarding Zoom accessibility features please visit [Zoom's accessibility FAQ page](https://zoom.us/accessibility/faq).
 
-If you require assistance or accommodations please contact Martha Tenney, mtenney@barnard.edu. 
+If you require assistance or accommodations please contact Martha Tenney, <mtenney@barnard.edu>. 
 
 ## Contact
-Please contact Martha Tenney (mtenney@barnard.edu) with any questions about the event.
+Please contact Martha Tenney, <mtenney@barnard.edu> with any questions about the event.
 
 ## Schedule & Community Notes
 A tentative schedule [can be found here](https://docs.google.com/document/d/1heqxrDg2VpMuly5I1vW2WozupD5NkqpkAc4qSnb4Hzc/edit).
