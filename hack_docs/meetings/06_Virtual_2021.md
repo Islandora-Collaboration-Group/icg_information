@@ -21,7 +21,7 @@ This virtual event will be held via Zoom. For more information regarding Zoom ac
 
 If you require assistance or accommodations please contact Martha Tenney, mtenney@barnard.edu. 
 
-## RSVP
+## Registration
 Link TK
 
 ## Code of Conduct
@@ -40,5 +40,3 @@ A hack/doc combines the form of a hackathon–bringing coders together to work o
  
 ### What will we be doing?
 This year the Islandora Collaboration Group’s hack/doc will focus on metadata and migration. Our goal is to create useful documentation for our members and other members of the Islandora community as we face the task of migrating out of Islandora 7x. To see more information on past hack/docs, visit our [Github site](https://islandora-collaboration-group.github.io/icg_information/hack_docs/).
-
- 
