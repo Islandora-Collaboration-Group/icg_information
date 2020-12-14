@@ -8,7 +8,7 @@ permalink: /hack_docs/metadatamigration/
 
 # ICG Metadata and Migration Hack/Doc - Virtual, January 2021 
 
-## Dates and Locations of the Hack/Doc
+## Dates, Location, and Registration
 **Dates:** 
 Wednesday January 13, 12-3pm EST (9-12 PST)
 Thursday January 14, 12-3 pm EST (9-12 PST)
