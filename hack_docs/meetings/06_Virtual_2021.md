@@ -28,7 +28,16 @@ This virtual event will be held via Zoom. For more information regarding Zoom ac
 If you require assistance or accommodations please contact Martha Tenney, <mtenney@barnard.edu>. 
 
 ## Schedule & Community Notes
-A tentative schedule [can be found here](https://docs.google.com/document/d/1heqxrDg2VpMuly5I1vW2WozupD5NkqpkAc4qSnb4Hzc/edit).
+
+Overview of schedule:
+
+**Wednesday January 13, 12-3pm EST (9-12 PST)**
+The first day will be single-track and consist of presentations/introductions to various sessions and group discussion/unconference style conversation. At the moment, the three planned sessions are: migrate 7x tool installation workshop and documentation, metadata tools lightning round (1st day) and metadata clinic (2nd day), and migration project management.
+
+**Thursday January 14, 12-3 pm EST (9-12 PST)**
+The second day will consist of deeper dives and co-working in breakout groups on one of the three topics presented on the first day. Additional co-working times as needed (to complete documentation, for example) can be scheduled on Thursday.
+
+A more detailed and up-to-date schedule [can be found here](https://docs.google.com/document/d/1heqxrDg2VpMuly5I1vW2WozupD5NkqpkAc4qSnb4Hzc/edit). (Please request access to the Google doc schedule if you want to see it before registering. It will be shared with all registrants.)
 
 Community notes docs can be found in [this folder](https://drive.google.com/drive/folders/1c92PEqwHRATRpuPvN4tl95c5MIDQ402i). 
 
