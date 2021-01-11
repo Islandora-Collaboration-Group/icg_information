@@ -17,7 +17,7 @@ Thursday January 14, 12-3 pm EST (9-12 PST)
 Please register to receive the Zoom link closer to the date of the hack/doc.
 
 **Registration:** 
-Please register by January 8: [a registration form can be found here.](https://docs.google.com/forms/d/e/1FAIpQLSfOXNoGJOcy1SE6QQiKG2iqDnpVhu8By_OGHGn5l6R0somspQ/viewform)
+Registration is now closed.
 
 ## Code of Conduct
 See our [ICG Code of Conduct here](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/code-of-conduct.md). You can submit a pull request or email members of the Code of Conduct Subcommittee to suggest changes.
