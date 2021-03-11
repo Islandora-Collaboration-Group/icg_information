@@ -163,7 +163,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 
 ### Islandora Support
 * [Islandora website](https://islandora.ca)
-* [Islandora: 8](https://islandora.ca/islandora8)
+* [Islandora: 8](https://islandora.ca/download)
 * [Islandora: 7](https://wiki.lyrasis.org/display/ISLANDORA/Start)
 
 ### Github Repos
