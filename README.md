@@ -152,7 +152,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Kun Lin (Systems & Applications Librarian)
 * Williams College
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer), __Islandora Board of Directors Representative__
-  * [Walter Komorowski](https://github.com/wkomorow) (Head of Library Systems)
+  * [TBD](https://github.com/) (Systems Librian)
 * Yeshiva University
   * Deena Schwimmer (Archivist)
   * Hao Zeng (Head of Library Web and Digital Services)
