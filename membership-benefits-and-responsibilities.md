@@ -84,9 +84,11 @@ The ICG is governed by the ICG Governance Group, with input from the ICG Member 
 
 * **Hack/Doc Coordinator**: Martha Tenney (Barnard)
 
+* **Islandora Technical Advisory Group (TAG) Member**: Joanna DiPasquale (Union)
+
 * **Islandora Foundation Coordinating Committee Member**: Amy Blau (Whitman)
 
-* **Islandora Technical Advisory Group (TAG) Member**: Joanna DiPasquale (Union)
+* **Islandora Board of Directors**: David Keiser-Clark (Williams)
 
 * **Membership Coordinators**: Jenifer Monger (Rensselaer Polytechnic Institute) and Brianna Gormley (Franklin & Marshall)
 
@@ -153,11 +155,11 @@ As a member of the ICG, there are many opportunities and projects to participate
 
 **ISLE (Islandora Enterprise)**
 
-The [ISLE](https://github.com/Islandora-Collaboration-Group/ISLE) project relies on both a Committers group and a Steering Committee. We are especially seeking volunteers to test ISLE periodically and help review documentation. While some familiarity with Github is helpful, anyone can participate in the ISLE project! If you would like more information about supporting ISLE, please contact [Bethany Seeger](mailto:bseeger@amherst.edu), ISLE Release Manager, or [David Keiser-Clark](mailto:dwk2@williams.edu), ISLE project manager. 
+The [ISLE](https://github.com/Islandora-Collaboration-Group/ISLE) project was created and shepherded by our ICG. It has been successfully handed off to the Islandora Foundation where it is now being supported by the larger Islandora community.
 
 **LASIR (Liberal Arts Sprint for Institutional Repository)**
 
-Like ISLE, the [LASIR](https://github.com/Islandora-Collaboration-Group/LASIR) project has a Steering Committee and we are always happy for help with testing new features. The LASIR Steering Committee collaborates with the Islandora IR Interest Group. Contact [David Keiser-Clark](mailto:dwk2@williams.edu) for more info. 
+Like ISLE, the [LASIR](https://github.com/Islandora-Collaboration-Group/LASIR) project was created and shepherded by our ICG. We're hopeful that our work will be picked up by the larger community and refactored into the current release of Islandora. 
 
 **Hack/Doc Events**
 
@@ -195,4 +197,4 @@ The ICG supports and contributes to the larger Islandora Foundation (IF) and com
 
 4. [Islandora Coordinating Committee](https://github.com/Islandora/islandora/wiki): [Amy Blau]
 
-5. [Islandora Board of Directors](https://islandora.ca/if/board): [David Keiser-Clark]
+5. [Islandora Board of Directors](https://islandora.ca/if/committees): [David Keiser-Clark]
