@@ -8,6 +8,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 
 **Interested in joining the ICG?** Read our [ICG: Membership Benefits and Responsibilities](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/membership-benefits-and-responsibilities.md) and complete this short [Google Form](https://forms.gle/PnQbSBeE9PD8J4YU6).
 
+
 ## Members
 * Amherst College
 * [Barnard College](http://digitalcollections.barnard.edu)
@@ -23,7 +24,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * Iowa State University
 * [Middlebury College](https://repository.middlebury.edu/)
 * Rensselaer Polytechnic Institute
-* Tri-College Libraries Consortium
+* [Tri-College Libraries Consortium](https://digitalcollections.tricolib.brynmawr.edu/)
   * Bryn Mawr College
   * Haverford College
   * Swarthmore College
@@ -44,6 +45,8 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * [ICG Drush Sitespinner](https://github.com/Islandora-Collaboration-Group/drush-sitespinner)
 
 ## ICG Conference Presentations @ Islandora
+* [Islandora Online 2020, July 21-August 11](https://islandora.ca/events/islandora-online-2020)
+  * Panel: What Comes Next?, ([slides](https://docs.google.com/presentation/d/1PWK1Sp11qpHYcDtA1Ahstdf7LZN2hJuslN4nMltHoas/edit?usp=sharing))
 * Islandoracon 2019, October 7-12, Vancouver, British Columbia, Canada
   * [ISLE Workshop: Installing and Managing Islandora with Docker](https://islandoracon2019.sched.com/event/Q0Pj), ([slides](https://docs.google.com/presentation/d/1RJ9iwDANeCQ9JgnKEGShZB9hP2GY4RswDBI6f0Ufiz0/edit?usp=sharing): 3-hour workshop)
   * [ISLE and Dockerizing Islandora 8](https://islandoracon2019.sched.com/event/QPyu), ([slides](https://docs.google.com/presentation/d/1aLLxt65wNnLNmBLutCE7ZhtliD0KR_3YwhUwQS8uR-c/edit?usp=sharing))
@@ -90,6 +93,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * [iBrowse: An Islandora Repository Tool](https://or2013.net/program/session-schedule/), [slides](https://or2013.net/sites/or2013.net/files/slides/iBrowse-presentation2_0/index.pdf)
 
 ## Hack/Docs
+* January 2020, [ICG Metadata and Migration Hack/Doc](https://islandora-collaboration-group.github.io/icg_information/hack_docs/metadatamigration/) (Virtual)
 * May 2019, [ICG Hack/Doc @ Rensselaer Polytechnic Institute](https://islandora-collaboration-group.github.io/icg_information/hack_docs/RPI/) (Troy, New York, NY)
 * March 2018, [ICG Hack/Doc @ METRO](https://islandora-collaboration-group.github.io/icg_information/hack_docs/METRO/) (New York, NY)
 * May 2017, [ICG Hack/Doc @ Williams College](https://github.com/Islandora-Collaboration-Group/icg_information/blob/master/hack_docs/meetings/03_Williams_2017.md) (Williamstown, MA)
