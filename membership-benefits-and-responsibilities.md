@@ -138,7 +138,7 @@ A hack/doc is a special type of open hackathon in which members meet face to fac
 
 * [ICG Governance Group](mailto:icg-governance@googlegroups.com), https://groups.google.com/forum/#!forum/icg-governance: used for communications with and between Governance Group members
 
-**[Slack](icg-chat.slack.com)**: used for general communication across the ICG as well as for communication related to specific topics, working groups, and events
+**[Slack](https://icg-chat.slack.com/)**: used for general communication across the ICG as well as for communication related to specific topics, working groups, and events
 
 **Google Drive**: used for meeting minutes and other shared internal documentation
 
