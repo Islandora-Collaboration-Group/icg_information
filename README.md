@@ -113,9 +113,9 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * Connecticut Digital Archive
   * Parker Fruehan (Systems Librarian, Southern Connecticut University)
   * Michael Kemezis (Repository Manager, University of Connecticut)
+  * [Sarah Goldstein](https://github.com/sgoldste) (Head of Digital Infrastructure Services, University of Connecticut), __Treasurer__
 * Five College Compass: Digital Collections
   * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator) (Smith College)
-  * [Sarah Goldstein](https://github.com/sgoldste) (Associate Director of Discovery and Access) (Mount Holyoke College), __Treasurer__
 * Franklin & Marshall College
   * Chris Barnes (Scholarly Communications Librarian)
   * Brianna Gormly (Digital Initiatives Librarian), __Membership Coordinator__
@@ -151,7 +151,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Amy Blau (Scholarly Communications Librarian), __Islandora Coordinating Committee Representative__
   * Kun Lin (Systems & Applications Librarian)
 * Williams College
-  * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer), __Islandora Board of Directors Representative__
+  * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer), __Islandora Leadership Group Representative__
   * [TBD](https://github.com/) (Systems Librian)
 * Yeshiva University
   * Deena Schwimmer (Archivist)
