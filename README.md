@@ -126,10 +126,11 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Shay Foley (Director, Metadata and Digital Strategies)
   * Lisa McFall (Associate Director for Metadata and Digital Initiatives), __Metadata Working Group Coordinator__
 * Iowa State University
-  * Hannah Scates Kettler (Head, Digital Scholarship & Initiatives)
+  * Laura Sullivan (Digital Initiatives Archivist)
   * Lisa Smith (Director of Library IT)
 * Middlebury College
   * Wendy Shook (Science Data Librarian)
+  * Jonathan Kemp (Telescope and Scientific Computing Specialist)
 * Rensselaer Polytechnic Institute
   * Tammy Gobert (Automation Archivist)
   * [Jenifer Monger](https://github.com/jenj118) (Assistant Institute Archivist), __Membership Coordinator__
