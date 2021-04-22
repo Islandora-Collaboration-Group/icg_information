@@ -114,8 +114,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Parker Fruehan (Systems Librarian, Southern Connecticut University)
   * Michael Kemezis (Repository Manager, University of Connecticut)
 * Five College Compass: Digital Collections
-  * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator) (Smith College)
-  * [Sarah Goldstein](https://github.com/sgoldste) (Associate Director of Discovery and Access) (Mount Holyoke College), __Treasurer__
+  * Sadie Menchen (Digital Strategist) (Smith College)
 * Franklin & Marshall College
   * Chris Barnes (Scholarly Communications Librarian)
   * Brianna Gormly (Digital Initiatives Librarian), __Membership Coordinator__
@@ -126,17 +125,17 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Shay Foley (Director, Metadata and Digital Strategies)
   * Lisa McFall (Associate Director for Metadata and Digital Initiatives), __Metadata Working Group Coordinator__
 * Iowa State University
-  * Laura Sullivan (Digital Initiatives Archivist)
   * Lisa Smith (Director of Library IT)
+  * Laura Sullivan (Digital Initiatives Archivist)
 * Middlebury College
-  * Wendy Shook (Science Data Librarian)
   * Jonathan Kemp (Telescope and Scientific Computing Specialist)
+  * Wendy Shook (Science Data Librarian)
 * Rensselaer Polytechnic Institute
   * Tammy Gobert (Automation Archivist)
   * [Jenifer Monger](https://github.com/jenj118) (Assistant Institute Archivist), __Membership Coordinator__
 * Tri-College Libraries Consortium
-  * [Natalie Shilstut](https://github.com/nshilstut) (Digital Collections and Metadata Librarian) (Bryn Mawr College), __Co-chair__
   * Howard Ding (TriCo Digital Library Developer) (Bryn Mawr College)
+  * [Natalie Shilstut](https://github.com/nshilstut) (Digital Collections and Metadata Librarian) (Bryn Mawr College), __Co-chair__
 * Union College
   * Joanna DiPasquale (Director of Content & Digital Library Systems)
 * Vassar College
@@ -152,8 +151,8 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Amy Blau (Scholarly Communications Librarian), __Islandora Coordinating Committee Representative__
   * Kun Lin (Systems & Applications Librarian)
 * Williams College
+  * Lisa Conathan (Head of Special Collections)
   * [David Keiser-Clark](https://github.com/dwk2) (Academic Application Developer), __Islandora Board of Directors Representative__
-  * [TBD](https://github.com/) (Systems Librian)
 * Yeshiva University
   * Deena Schwimmer (Archivist)
   * Hao Zeng (Head of Library Web and Digital Services)
