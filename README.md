@@ -115,7 +115,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Michael Kemezis (Repository Manager, University of Connecticut)
   * [Sarah Goldstein](https://github.com/sgoldste) (Head of Digital Infrastructure Services, University of Connecticut), __Treasurer__
 * Five College Compass: Digital Collections
-  * [Tristan Chambers](https://github.com/TristanSmithlib) (Digital Library Applications Administrator) (Smith College)
+  * Sadie Menchen (Digital Strategist) (Smith College)
 * Franklin & Marshall College
   * Chris Barnes (Scholarly Communications Librarian)
   * Brianna Gormly (Digital Initiatives Librarian), __Membership Coordinator__
@@ -126,16 +126,17 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
   * Shay Foley (Director, Metadata and Digital Strategies)
   * Lisa McFall (Associate Director for Metadata and Digital Initiatives), __Metadata Working Group Coordinator__
 * Iowa State University
-  * Hannah Scates Kettler (Head, Digital Scholarship & Initiatives)
   * Lisa Smith (Director of Library IT)
+  * Laura Sullivan (Digital Initiatives Archivist)
 * Middlebury College
+  * Jonathan Kemp (Telescope and Scientific Computing Specialist)
   * Wendy Shook (Science Data Librarian)
 * Rensselaer Polytechnic Institute
   * Tammy Gobert (Automation Archivist)
   * [Jenifer Monger](https://github.com/jenj118) (Assistant Institute Archivist), __Membership Coordinator__
 * Tri-College Libraries Consortium
-  * [Natalie Shilstut](https://github.com/nshilstut) (Digital Collections and Metadata Librarian) (Bryn Mawr College), __Co-chair__
   * Howard Ding (TriCo Digital Library Developer) (Bryn Mawr College)
+  * [Natalie Shilstut](https://github.com/nshilstut) (Digital Collections and Metadata Librarian) (Bryn Mawr College), __Co-chair__
 * Union College
   * Joanna DiPasquale (Director of Content & Digital Library Systems)
 * Vassar College
