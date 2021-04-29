@@ -44,7 +44,7 @@ The [Islandora Collaboration Group (ICG)](https://islandora-collaboration-group.
 
 4. Opportunities for professional development through ICG activities, governance, presentations, and interacting with the larger Islandora community
 
-5. Input into the Board of Directors and Islandora Coordinating Committee through our membership in the [Islandora Foundation](http://islandora.ca/if)
+5. Input into the Islandora Leadership Group and Islandora Coordinating Committee through our membership in the [Islandora Foundation](http://islandora.ca/if)
 
 ---
 
@@ -88,7 +88,7 @@ The ICG is governed by the ICG Governance Group, with input from the ICG Member 
 
 * **Islandora Foundation Coordinating Committee Member**: Amy Blau (Whitman)
 
-* **Islandora Board of Directors**: David Keiser-Clark (Williams)
+* **Islandora Leadership Group Representative**: David Keiser-Clark (Williams)
 
 * **Membership Coordinators**: Jenifer Monger (Rensselaer Polytechnic Institute) and Brianna Gormley (Franklin & Marshall)
 
@@ -169,7 +169,7 @@ A [hack/doc](https://github.com/Islandora-Collaboration-Group/icg_information/tr
 
 ## Participating in the Broader Islandora Community
 
-The ICG supports and contributes to the larger Islandora Foundation (IF) and community in many capacities. ICG members participate in interest groups (IG) and advisory groups, sit on the IF board, and have contributed to release testing. As we begin to plan for migration to Islandora 8, it’s especially important to join in on community conversations. Some specific areas and groups are listed below; **ICG members are strongly encouraged to add their voices**, especially from content experts like librarians, archivists, and metadata specialists.
+The ICG supports and contributes to the larger Islandora Foundation (IF) and community in many capacities. ICG members participate in interest groups (IG) and advisory groups, sit on the Islandora Leadership Group, and have contributed to release testing. As we begin to plan for migration to Islandora 8, it’s especially important to join in on community conversations. Some specific areas and groups are listed below; **ICG members are strongly encouraged to add their voices**, especially from content experts like librarians, archivists, and metadata specialists.
 
 **ICG Participation within Islandora Community**
 
@@ -197,4 +197,4 @@ The ICG supports and contributes to the larger Islandora Foundation (IF) and com
 
 4. [Islandora Coordinating Committee](https://github.com/Islandora/islandora/wiki): [Amy Blau]
 
-5. [Islandora Board of Directors](https://islandora.ca/if/committees): [David Keiser-Clark]
+5. [Islandora Leadership Group](https://islandora.ca/if/committees): [David Keiser-Clark]
