@@ -12,6 +12,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 ## Members
 * Amherst College
 * [Barnard College](http://digitalcollections.barnard.edu)
+* Born Digital Inc.
 * [Colgate University](https://digitalcollections.colgate.edu/)
 * [Connecticut Digital Archive](https://ctdigitalarchive.org/)
 * [Five College Compass: Digital Collections](https://compass.fivecolleges.edu/)
@@ -21,6 +22,7 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * [Franklin & Marshall College](https://digital.fandm.edu/)
 * [Grinnell College](https://digital.grinnell.edu/)
 * [Hamilton College](http://www.dhinitiative.org)
+* Hosting Solutions & Library Consulting (HSLC)
 * Iowa State University
 * [Middlebury College](https://repository.middlebury.edu/)
 * Rensselaer Polytechnic Institute
@@ -108,6 +110,9 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * Barnard College
   * [Benjamin Rosner](https://github.com/br2490) (Senior Instructional Academic Developer)
   * [Martha Tenney](https://github.com/MarthaTenney) (Director, Barnard Archives and Special Collections), __Hack/Doc Coordinator__
+* Born Digital Inc.
+  * [Derek Merleaux](https://github.com/dmer) (Team Lead and Project Manager)
+  * [Noah Smith](https://github.com/noahwsmith) (Founder and CEO)
 * Colgate University
   * [Mark Sandford](https://github.com/marksandford) (Systems Librarian)
 * Connecticut Digital Archive
@@ -125,6 +130,9 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * Hamilton College
   * Shay Foley (Director, Metadata and Digital Strategies)
   * Lisa McFall (Associate Director for Metadata and Digital Initiatives), __Metadata Working Group Coordinator__
+* Hosting Solutions & Library Consulting (HSLC)
+  * Nicole Joniec (Digitization Specialist)
+  * Daniel Sanford (Systems Engineer)
 * Iowa State University
   * Lisa Smith (Director of Library IT)
   * Laura Sullivan (Digital Initiatives Archivist)
@@ -157,9 +165,6 @@ The Islandora Collaboration Group (ICG), founded in 2012, is a consortium of pri
 * Yeshiva University
   * Deena Schwimmer (Archivist)
   * Hao Zeng (Head of Library Web and Digital Services)
-* Born Digital Inc.
-  * [Derek Merleaux](https://github.com/dmer) (Team Lead and Project Manager)
-  * [Noah Smith](https://github.com/noahwsmith) (Founder and CEO)
 
 ## How to Participate
 * Send a request to the ICG (icg-information@googlegroups.com)
